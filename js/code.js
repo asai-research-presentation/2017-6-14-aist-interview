@@ -331,7 +331,6 @@ keystrokeManager.__defineGetter__(
 
 
 function available_p(e){
-    return true;
     return (32 <= e.charCode && e.charCode <= 126)}
 function backspace_p(e){ return (e.keyCode == 8)}
 function enter_p(e){ return (e.keyCode == 13)}
@@ -382,24 +381,30 @@ function printHandler(next){
 
 function dispatchHandler(next){
     return function(e){
+        var handler;
         if (available_p(e)){
             keystrokeManager.push(String.fromCharCode(e.charCode));
-            var handler = keyManager[keystrokeManager.stroke];
-            if (typeof handler == "function"){
-                console.log("Handler function "
-                            + keystrokeManager.stroke +" found");
-                try{
-                    if (!handler(e)){
-                        console.log(
-                            "Handler function returned a false value.  Resetting the strokemanager state.");
-                        keystrokeManager.init();
-                    }else {
-                        console.log("Handler function returned!");
-                    }
-                } catch (x) {
-                    console.error(x);
+            handler = keyManager[keystrokeManager.stroke];
+        }else{
+            if (keystrokeManager.stroke == ""){
+                handler = keyManager[e.keyCode];
+            }
+        }
+        if (typeof handler == "function"){
+            e.preventDefault();
+            console.log("Handler function "
+                        + keystrokeManager.stroke +" found");
+            try{
+                if (!handler(e)){
+                    console.log(
+                        "Handler function returned a false value.  Resetting the strokemanager state.");
                     keystrokeManager.init();
+                }else {
+                    console.log("Handler function returned!");
                 }
+            } catch (x) {
+                console.error(x);
+                keystrokeManager.init();
             }
         } else return (next||identity)(e);
     };
@@ -453,7 +458,7 @@ window.onload = function(){
 // expand one element in the list in the current slide, or go to the next slide
 keyManager.n
     = keyManager[" "]
-    = keyManager[" "]
+    = keyManager[40]
     = function(){
     $(".title").hide();
     console.log(slide.level);
@@ -469,7 +474,7 @@ keyManager.n
 
 // expand all elements in the current slide
 keyManager.N
-    = keyManager[" "]
+    = keyManager[39]
     = function(){
     $(".title").hide();
     console.log(slide.level);
@@ -478,8 +483,7 @@ keyManager.N
 };
 
 keyManager.p
-    = keyManager[" "]
-    = keyManager[" "]
+    = keyManager[37]
     = function(){
     console.log(slide.level);
     try{
@@ -490,7 +494,10 @@ keyManager.p
     }
 };
 
-keyManager.u = keyManager["^"] = function(){
+keyManager.u
+    = keyManager["^"]
+    = keyManager[38]
+    = function(){
     console.log(slide.level);
     try{
         slide = slide.up();
@@ -531,7 +538,7 @@ function currentHashSimple(){
     return parseSectionHash(currentHash()).join("-");
 }
 
-keyManager.f = keyManager.fix = function(){
+keyManager.f = function(){
     console.log("fix to section:" + currentHashSimple());
     location.hash = "#"+ currentHashSimple();
 }
