@@ -330,7 +330,9 @@ keystrokeManager.__defineGetter__(
     });
 
 
-function available_p(e){ return (32 <= e.charCode && e.charCode <= 126)}
+function available_p(e){
+    return true;
+    return (32 <= e.charCode && e.charCode <= 126)}
 function backspace_p(e){ return (e.keyCode == 8)}
 function enter_p(e){ return (e.keyCode == 13)}
 function cancel_p(e){
@@ -449,7 +451,10 @@ window.onload = function(){
 //// keymanager functions
 
 // expand one element in the list in the current slide, or go to the next slide
-keyManager.n = keyManager[" "] = function(){
+keyManager.n
+    = keyManager[" "]
+    = keyManager[" "]
+    = function(){
     $(".title").hide();
     console.log(slide.level);
     try{
@@ -463,14 +468,19 @@ keyManager.n = keyManager[" "] = function(){
 };
 
 // expand all elements in the current slide
-keyManager.N = function(){
+keyManager.N
+    = keyManager[" "]
+    = function(){
     $(".title").hide();
     console.log(slide.level);
     if(expand().length==0){keyManager.n();}
     while (expand().length>0){}
 };
 
-keyManager.p = function(){
+keyManager.p
+    = keyManager[" "]
+    = keyManager[" "]
+    = function(){
     console.log(slide.level);
     try{
         slide = slide.prev();
