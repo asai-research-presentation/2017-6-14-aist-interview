@@ -14,14 +14,25 @@
 
 #+BEGIN_outline-text-1
 #+BEGIN_CENTER
-浅井 政太郎
-
-東京大学 総合文化研究科
-
-受付番号10073
-
-id 151260121349EY
+浅井 政太郎(受付番号10073) 東京大学 総合文化研究科
 #+END_CENTER
+
+*発表要旨*
+
+#+BEGIN_SMALLER
+1. *これまでの研究業績 : 査読付き学会論文*
+   1. _Asai, M._; Fukunaga, A: 2014. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of 23rd International Conference of POlanning and Scheduling, ICAPS2014/.
+      1. 未知の問題に隠れている1種類の繰り返し構造を検出 -> 工場での製造スケジューリング (x1000 高速化)
+   2. _Asai, M._; Fukunaga, A: 2014. Applying Problem Decomposition to Extremely Large Planning Domains. Knowledge Engineering for Planning and Scheduling (KEPS) Workshop (ICAPS2014).
+      1. 複数種類の繰り返し構造の検出
+   3. _Asai, M._; Fukunaga, A: 2015. Solving Large Scale Planning Problems with Component Macros. In /Proceedings of ... ICAPS2015/ pp.XXX.
+      1. 複数の繰り返し構造を組み合わせる手法 *ベンチマークセット全体で高速化* 
+   4. _Asai, M._; Fukunaga, A: 2016. Tiebreaking Strategies for Classical Planning Using A∗ Search. In /Proc...AAAI2016/.
+      1. XXXXXXX
+2. 今後の研究計画
+
+#+END_SMALLER
+
 #+END_outline-text-1
 
 # 次の事項について、ノートパソコンを用いてわかりやすく、簡潔・明瞭に説明してください。
@@ -32,25 +43,123 @@ id 151260121349EY
 # アラームが鳴ったら出来るだけ速やかに説明を終えてください。
 # (1)これまでの研究業績
 
-* これまでの研究業績
 
-+ /ICAPS-14/ (採択率 33%)
-+ /KEPS-14/ (査読つきワークショップ)
-+ /ICAPS-15/ (採択率 33%)
-+ *AAAI-16* 採択! (通知: 11/12) (採択率 26%)
+* プランニングとapplicationの話
 
-* AAAI, ICAPS とは?
+自動行動計画
 
-*AAAI* : 人工知能(AI)系で最も権威のある国際学会 AIの全分野から応募
+プランニングと探索
+プランニングだけではないことを強くアピール
+AAAI16
 
-[[png:aaai-microsoft]]
+いきなりicaps14ではなく
+
+わかりやすく
+かつ夢を売る
+
+DS1やxerox printer, cel-asembly, modular robot の画像などを散りばめる
+
+レスキューロボット 国策にあってる 画像
+
+*formalなものは付録スライド*
+
+* これまでの研究業績1 : 査読付き学会論文 ICAPS14
 
 
-* ICAPS とは?
 
 
+oiajdsonsa
+* これまでの研究業績2 : 査読付き学会論文 KEPS, ICAPS15
+
+pasjdsa
+
+* これまでの研究業績3 : 査読付き学会論文 AAAI16
+
+アプリケーションに関する話は
+スライドの中に留めるだけで口頭では説明しない
+
+グラフ探索でエッジコストが0の場合が多い時に問題
+
+-> そのような場合でも失敗しないアルゴリズムの開発
 
 
+行っていることと
+スライドで伝えたいことは異なる。
+ガイドロボットの例
++ いろんな人と共同研究していますよ
++ 実機を使った研究をできますよ
+
+スライドが聞かれる場合と
+読まれる場合と
+両方の場合で
+
+
+adojsaond
+# + /ICAPS-14/ 
+# + /KEPS-14/ (ICAPSの査読WS) : 
+# + /ICAPS-15/ : 
+# + *AAAI-16* : 別系列の研究
+
+# + /ICAPS-14/ (採択率 33%)
+# + /KEPS-14/ (査読つきワークショップ)
+# + /ICAPS-15/ (採択率 33%)
+# + *AAAI-16* 採択! (通知: 11/12) (採択率 26%)
+
+# * AAAI, ICAPS とは?
+# 
+# *AAAI* : 人工知能(AI)系で最も権威のある国際学会
+# 
+# [[png:aaai-microsoft]]
+# 
+# # 組織の名前でもあり会議の名前でもある
+# 
+# * AAAI の下部学会
+# 
+# [[png:aaai-conferences]]
+# 
+# * ICAPS とは？
+# # 人数と論文数が少ないので知名度は高くないが...
+# 
+# [[png:icaps-msai-core]]
+# 
+# CORE(ERA) ranking: オーストラリア/ニュージーランドの機関によるランキング
+# 
+# * プランニング
+# 
+# 時系列・因果関係を含む 組み合わせ最適化問題 (PSPACE困難)
+# 
+# 鍵をとって
+# 掃除機をとって
+# 部屋を掃除する
+# 
+# ** 研究内容
+# 
+# + /ICAPS-14/ : 未知の問題に隠れている1種類の繰り返し構造を検出 -> 工場での製造スケジューリング (x1000 高速化)
+# + /KEPS-14/ (ICAPSの査読WS) : 複数種類の繰り返し構造の検出
+# + /ICAPS-15/ : 複数の繰り返し構造を組み合わせる手法 *ベンチマークセット全体で高速化* 
+# + *AAAI-16* : 別系列の研究
+# 
+# ** 繰り返し構造 (ICAPS-14)
+# 
+# # 問題 - 手法 - 結果 の順にスライド
+# 
+# [[png:assemble-icaps14-1]]
+# 
+# *** 
+# 
+# [[png:assemble-icaps14-2]]
+# 
+# + 繰り返しの存在を自動で(*教えられることなく*)検出する手法を開発
+# 
+# ** 複数種類の構造の検出 (KEPS-14)
+# 
+# [[png:assemble-keps14]]
+# 
+# ** 複数種類の構造を利用して高速化 (ICAPS-15)
+# 
+# [[png:assemble-icaps15]]
+# 
+# 
 * 今後の研究計画
 
 
@@ -66,3 +175,57 @@ id 151260121349EY
 # 質疑応答の時間に限りがありますので、審査員の質問には出来るだけ簡潔に回答願います。
 # また、面接開始後9分が経過した時点でも終了時間の目安としてアラームが鳴ります。
 # 注) 採用申請書提出後の研究進捗状況や研究業績などについても、質問されることがあります。
+
+* まとめ
+
+#+BEGIN_SMALLER
+1. *これまでの研究業績 : 査読付き学会論文*
+   1. _Asai, M._; Fukunaga, A: 2014. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of 23rd International Conference of POlanning and Scheduling, ICAPS2014/.
+      1. 未知の問題に隠れている1種類の繰り返し構造を検出 -> 工場での製造スケジューリング (x1000 高速化)
+   2. _Asai, M._; Fukunaga, A: 2014. Applying Problem Decomposition to Extremely Large Planning Domains. Knowledge Engineering for Planning and Scheduling (KEPS) Workshop (ICAPS2014).
+      1. 複数種類の繰り返し構造の検出
+   3. _Asai, M._; Fukunaga, A: 2015. Solving Large Scale Planning Problems with Component Macros. In /Proceedings of ... ICAPS2015/ pp.XXX.
+      1. 複数の繰り返し構造を組み合わせる手法 *ベンチマークセット全体で高速化* 
+   4. _Asai, M._; Fukunaga, A: 2016. Tiebreaking Strategies for Classical Planning Using A∗ Search. In /Proc...AAAI2016/.
+      1. XXXXXXX
+2. 今後の研究計画
+   1. 
+#+END_SMALLER
+
+* 付録 自動行動計画とは
+
+
+どう面倒な質問が来るかを想定して予備スライド
+
+プランニングについて突っ込まれる
+こてん的プランニングであることが判明する
+
+すると、使えるのか？と聞かれる
+
+*なんで必要なのか？という話全般について答える*
+
+いくつかあるんだけど、DS1,XeroX
+
+transformation の話
+
+openstacks
+GED
+他の探索問題
+
+
+planning は actiuo と state を扱う 最小限の基板である
+SATは製薬充足の基板である
+
+conformant, contingent, softgoals, ...
+
+単純なモデルで実験する理由は
+差分が取りやすくなるから
+
+これらの技術は古典プランニングだけで有用なわけではない！
+と強く主張
+
+NTP コントローラを
+つくるのには向いてない
+
+
+
