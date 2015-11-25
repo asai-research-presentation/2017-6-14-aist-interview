@@ -6,43 +6,24 @@
 # 者で留学生の場合は、英語でも認められます。
 
 #+title: 研究課題名: 問題分割と対称性検知を用いた、高速なプランニングアルゴリズムの開発
-#+author: 
+#+author: 浅井 政太郎(受付番号10073) 東京大学 総合文化研究科
 #+include: "head.org"
 #+LINK: img file:img/%s
 #+LINK: png file:img/%s.png
 #+LINK: jpg file:img/%s.jpg
 
-#+BEGIN_outline-text-1
-#+BEGIN_CENTER
-浅井 政太郎(受付番号10073) 東京大学 総合文化研究科
-#+END_CENTER
-
 *発表要旨*
 
-#+BEGIN_SMALLER
-1. *これまでの研究業績 : 査読付き学会論文*
-   1. _Asai, M._; Fukunaga, A: 2014. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of 23rd International Conference of POlanning and Scheduling, ICAPS2014/.
+1. これまでの研究業績 : 査読付き学会論文
+   1. Asai, M.; Fukunaga, A: 2014. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of 23rd International Conference of POlanning and Scheduling, ICAPS2014/.
       1. 未知の問題に隠れている1種類の繰り返し構造を検出 -> 工場での製造スケジューリング (x1000 高速化)
-   2. _Asai, M._; Fukunaga, A: 2014. Applying Problem Decomposition to Extremely Large Planning Domains. Knowledge Engineering for Planning and Scheduling (KEPS) Workshop (ICAPS2014).
+   2. Asai, M.; Fukunaga, A: 2014. Applying Problem Decomposition to Extremely Large Planning Domains. Knowledge Engineering for Planning and Scheduling (KEPS) Workshop (ICAPS2014).
       1. 複数種類の繰り返し構造の検出
-   3. _Asai, M._; Fukunaga, A: 2015. Solving Large Scale Planning Problems with Component Macros. In /Proceedings of ... ICAPS2015/ pp.XXX.
-      1. 複数の繰り返し構造を組み合わせる手法 *ベンチマークセット全体で高速化* 
-   4. _Asai, M._; Fukunaga, A: 2016. Tiebreaking Strategies for Classical Planning Using A∗ Search. In /Proc...AAAI2016/.
+   3. Asai, M.; Fukunaga, A: 2015. Solving Large Scale Planning Problems with Component Macros. In /Proceedings of ... ICAPS2015/ pp.XXX.
+      1. 複数の繰り返し構造を組み合わせる手法 ベンチマークセット全体で高速化 
+   4. Asai, M.; Fukunaga, A: 2016. Tiebreaking Strategies for Classical Planning Using A∗ Search. In /Proc...AAAI2016/.
       1. XXXXXXX
 2. 今後の研究計画
-
-#+END_SMALLER
-
-#+END_outline-text-1
-
-# 次の事項について、ノートパソコンを用いてわかりやすく、簡潔・明瞭に説明してください。
-# 面接開始後4分が経過した時点でアラームが鳴ります。アラームが鳴ったら出来るだけ速やかに説明を終えてく
-# ださい。
-
-# 面接開始後4分が経過した時点でアラームが鳴ります。
-# アラームが鳴ったら出来るだけ速やかに説明を終えてください。
-# (1)これまでの研究業績
-
 
 * プランニングとapplicationの話
 
@@ -95,15 +76,6 @@ pasjdsa
 
 
 adojsaond
-# + /ICAPS-14/ 
-# + /KEPS-14/ (ICAPSの査読WS) : 
-# + /ICAPS-15/ : 
-# + *AAAI-16* : 別系列の研究
-
-# + /ICAPS-14/ (採択率 33%)
-# + /KEPS-14/ (査読つきワークショップ)
-# + /ICAPS-15/ (採択率 33%)
-# + *AAAI-16* 採択! (通知: 11/12) (採択率 26%)
 
 # * AAAI, ICAPS とは?
 # 
@@ -178,7 +150,7 @@ adojsaond
 
 * まとめ
 
-#+BEGIN_SMALLER
+
 1. *これまでの研究業績 : 査読付き学会論文*
    1. _Asai, M._; Fukunaga, A: 2014. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of 23rd International Conference of POlanning and Scheduling, ICAPS2014/.
       1. 未知の問題に隠れている1種類の繰り返し構造を検出 -> 工場での製造スケジューリング (x1000 高速化)
@@ -189,8 +161,7 @@ adojsaond
    4. _Asai, M._; Fukunaga, A: 2016. Tiebreaking Strategies for Classical Planning Using A∗ Search. In /Proc...AAAI2016/.
       1. XXXXXXX
 2. 今後の研究計画
-   1. 
-#+END_SMALLER
+
 
 * 付録 自動行動計画とは
 
