@@ -523,7 +523,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="544.23309"
-     inkscape:cy="312.66179"
+     inkscape:cy="152.66179"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -555,7 +555,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1667,7 +1667,7 @@
        xml:space="preserve"
        id="flowRoot9105"
        style="font-size:7.26514864px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       transform="matrix(2.2022949,0,0,2.2022949,-432.25015,-40.4763)"><flowRegion
+       transform="matrix(2.2022949,0,0,2.2022949,-434.25015,-52.4763)"><flowRegion
          id="flowRegion9107"><rect
            id="rect9109"
            width="408.52301"
@@ -1709,13 +1709,15 @@
        xml:space="preserve"
        id="flowRoot9105-2"
        style="font-size:7.26514864px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       transform="matrix(2.2022949,0,0,2.2022949,-433.25015,9.5237)"><flowRegion
+       transform="matrix(2.2022949,0,0,2.2022949,-435.25015,-2.4763)"><flowRegion
          id="flowRegion9107-3"><rect
            id="rect9109-3"
-           width="421.237"
-           height="23.479502"
+           width="405.34448"
+           height="29.836502"
            x="34.784142"
            y="233.51601"
            style="font-size:7.26514864px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
-         id="flowPara9113-0">Asai, M. and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS), Jerusalem, Israel, June 2015. (採択率33%)</flowPara></flowRoot>  </g>
+         id="flowPara9113-0">Asai, M. and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS), Jerusalem, Israel, June 2015. <flowSpan
+   style="font-weight:800;-inkscape-font-specification:'M+ 2c Ultra-Bold';font-style:normal;font-family:'M+ 2c';font-stretch:normal;font-variant:normal;font-size:8.17329232px"
+   id="flowSpan3886">(採択率33%, CORE(ERA) Conference Ranking: A*)</flowSpan></flowPara></flowRoot>  </g>
 </svg>
