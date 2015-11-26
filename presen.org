@@ -6,53 +6,46 @@
 # 者で留学生の場合は、英語でも認められます。
 
 #+title: 研究課題名: 問題分割と対称性検知を用いた、高速なプランニングアルゴリズムの開発
-#+author: 浅井 政太郎(受付番号10073) 東京大学 総合文化研究科
+#+author: 
 #+include: "head.org"
 #+LINK: img file:img/%s
 #+LINK: png file:img/%s.png
 #+LINK: jpg file:img/%s.jpg
 
+#+BEGIN_outline-text-1
+#+BEGIN_SMALLER
+浅井 政太郎(受付番号10073) 東京大学 総合文化研究科
+#+END_SMALLER
 *発表要旨*
 
+#+BEGIN_SMALLER
+#+BEGIN_EXPANDED
 1. これまでの研究業績 : 査読付き学会論文
-   1. Asai, M.; Fukunaga, A: 2014. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of 23rd International Conference of POlanning and Scheduling, ICAPS2014/.
-      1. 未知の問題に隠れている1種類の繰り返し構造を検出 -> 工場での製造スケジューリング (x1000 高速化)
-   2. Asai, M.; Fukunaga, A: 2014. Applying Problem Decomposition to Extremely Large Planning Domains. Knowledge Engineering for Planning and Scheduling (KEPS) Workshop (ICAPS2014).
+   1. _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS)/, Portsmouth, NH, June 2014. (採択率33%, 分野で最も権威ある学会)
+      1. 未知の問題に隠れている1種類の繰り返し構造を検出, 工場での製造スケジューリング (x1000 高速化)
+   2. _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS)/, Portsmouth, NH, June 2014.
       1. 複数種類の繰り返し構造の検出
-   3. Asai, M.; Fukunaga, A: 2015. Solving Large Scale Planning Problems with Component Macros. In /Proceedings of ... ICAPS2015/ pp.XXX.
-      1. 複数の繰り返し構造を組み合わせる手法 ベンチマークセット全体で高速化 
-   4. Asai, M.; Fukunaga, A: 2016. Tiebreaking Strategies for Classical Planning Using A∗ Search. In /Proc...AAAI2016/.
-      1. XXXXXXX
+   3. _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS)/, Jerusalem, Israel, June 2015. 
+      1. 検出した複数の繰り返し構造を組み合わせる手法, ベンチマークセット全体で高速化 
+   4. _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence/, Phoenix, Arizona, February 2016. (採択率26%, AI系で最も権威ある学会)
+      1. コストゼロのエッジがグラフ探索に引き起こす問題を解決, ベンチマークセット全体で高速化
 2. 今後の研究計画
+   1. ドメイン対称性の検知とその応用
+#+END_EXPANDED
+#+END_SMALLER
+#+END_outline-text-1
 
-* プランニングとapplicationの話
+* プランニングとは?
 
-自動行動計画
-
-プランニングと探索
-プランニングだけではないことを強くアピール
-AAAI16
-
-いきなりicaps14ではなく
-
-わかりやすく
-かつ夢を売る
-
-DS1やxerox printer, cel-asembly, modular robot の画像などを散りばめる
-
-レスキューロボット 国策にあってる 画像
-
-*formalなものは付録スライド*
+[[png:planning]]
 
 * これまでの研究業績1 : 査読付き学会論文 ICAPS14
 
+[[png:assemble-icaps14]]
 
-
-
-oiajdsonsa
 * これまでの研究業績2 : 査読付き学会論文 KEPS, ICAPS15
 
-pasjdsa
+[[png:assemble-keps14-icaps15]]
 
 * これまでの研究業績3 : 査読付き学会論文 AAAI16
 
@@ -150,53 +143,63 @@ adojsaond
 
 * まとめ
 
-
-1. *これまでの研究業績 : 査読付き学会論文*
-   1. _Asai, M._; Fukunaga, A: 2014. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of 23rd International Conference of POlanning and Scheduling, ICAPS2014/.
-      1. 未知の問題に隠れている1種類の繰り返し構造を検出 -> 工場での製造スケジューリング (x1000 高速化)
-   2. _Asai, M._; Fukunaga, A: 2014. Applying Problem Decomposition to Extremely Large Planning Domains. Knowledge Engineering for Planning and Scheduling (KEPS) Workshop (ICAPS2014).
+#+BEGIN_SMALLER
+1. これまでの研究業績 : 査読付き学会論文
+   1. _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS)/, Portsmouth, NH, June 2014. 
+      1. 未知の問題に隠れている1種類の繰り返し構造を検出
+      2. *工場での製造スケジューリング (x1000 高速化)*
+   2. _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS)/, Portsmouth, NH, June 2014.
       1. 複数種類の繰り返し構造の検出
-   3. _Asai, M._; Fukunaga, A: 2015. Solving Large Scale Planning Problems with Component Macros. In /Proceedings of ... ICAPS2015/ pp.XXX.
-      1. 複数の繰り返し構造を組み合わせる手法 *ベンチマークセット全体で高速化* 
-   4. _Asai, M._; Fukunaga, A: 2016. Tiebreaking Strategies for Classical Planning Using A∗ Search. In /Proc...AAAI2016/.
-      1. XXXXXXX
+   3. _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS)/, Jerusalem, Israel, June 2015. 
+      1. 複数の繰り返し構造を組み合わせる手法
+      2. *ベンチマークセット全体で高速化* 
+   4. _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence/, Phoenix, Arizona, February 2016.
+      1. コストゼロのエッジがグラフ探索に引き起こす問題を解決
+      2. *ベンチマークセット全体で高速化* 
 2. 今後の研究計画
-
+   1. 
+#+END_SMALLER
 
 * 付録 自動行動計画とは
 
 
-どう面倒な質問が来るかを想定して予備スライド
+# どう面倒な質問が来るかを想定して予備スライド
+# 
+# プランニングについて突っ込まれる
+# こてん的プランニングであることが判明する
+# 
 
-プランニングについて突っ込まれる
-こてん的プランニングであることが判明する
+* 付録 古典プランニングを研究する意義
 
-すると、使えるのか？と聞かれる
+# すると、使えるのか？と聞かれる
+# 
+# *なんで必要なのか？という話全般について答える*
+# 
+# いくつかあるんだけど、DS1,XeroX
+# 
+# transformation の話
+# 
+# openstacks
+# GED
+# 他の探索問題
+# 
+# 
+# planning は actiuo と state を扱う 最小限の基板である
+# SATは製薬充足の基板である
+# 
+# conformant, contingent, softgoals, ...
+# 
+# 単純なモデルで実験する理由は
+# 差分が取りやすくなるから
+# 
+# これらの技術は古典プランニングだけで有用なわけではない！
+# と強く主張
+# 
+# NTP コントローラを
+# つくるのには向いてない
 
-*なんで必要なのか？という話全般について答える*
-
-いくつかあるんだけど、DS1,XeroX
-
-transformation の話
-
-openstacks
-GED
-他の探索問題
+* 付録 AIの倫理について
 
 
-planning は actiuo と state を扱う 最小限の基板である
-SATは製薬充足の基板である
-
-conformant, contingent, softgoals, ...
-
-単純なモデルで実験する理由は
-差分が取りやすくなるから
-
-これらの技術は古典プランニングだけで有用なわけではない！
-と強く主張
-
-NTP コントローラを
-つくるのには向いてない
-
-
+* 付録 ディープラーニングとどう違うのか
 
