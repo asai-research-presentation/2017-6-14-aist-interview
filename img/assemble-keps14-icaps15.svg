@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="934.13379"
-   height="602.35651"
+   width="935.80121"
+   height="707.0083"
    id="svg3073"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -521,9 +521,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="544.23309"
-     inkscape:cy="152.66179"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="545.90047"
+     inkscape:cy="313.88213"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -531,10 +531,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1440"
-     inkscape:window-height="818"
-     inkscape:window-x="768"
-     inkscape:window-y="149"
+     inkscape:window-width="1024"
+     inkscape:window-height="738"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-global="false">
     <inkscape:grid
@@ -544,8 +544,8 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       originx="380.84041px"
-       originy="100.74879px" />
+       originx="382.50779px"
+       originy="205.40059px" />
   </sodipodi:namedview>
   <metadata
      id="metadata3078">
@@ -563,7 +563,7 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     transform="translate(380.84042,21.607717)">
+     transform="translate(382.5078,21.607717)">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 53,351.35651 21,26.5 -5.5,24.5 -38.5,-7.5 z"
@@ -1657,8 +1657,8 @@
     <rect
        style="color:#000000;fill:none;stroke:#000000;stroke-width:2.40054631;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect11899"
-       width="933.40063"
-       height="121.25125"
+       width="934.81482"
+       height="223.07463"
        x="-381.30753"
        y="458.29727"
        rx="13.824258"
@@ -1666,15 +1666,15 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot9105"
-       style="font-size:7.26514864px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:10.8977232px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        transform="matrix(2.2022949,0,0,2.2022949,-434.25015,-52.4763)"><flowRegion
          id="flowRegion9107"><rect
            id="rect9109"
            width="408.52301"
-           height="21.209137"
+           height="43.684544"
            x="34.784142"
            y="233.51601"
-           style="font-size:7.26514864px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
+           style="font-size:10.8977232px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
          id="flowPara9113">Asai, M. and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS), Portsmouth, NH, June 2014.</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
@@ -1708,16 +1708,16 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot9105-2"
-       style="font-size:7.26514864px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       transform="matrix(2.2022949,0,0,2.2022949,-435.25015,-2.4763)"><flowRegion
+       style="font-size:10.8977231px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       transform="matrix(2.2022949,0,0,2.2022949,-435.25015,43.5237)"><flowRegion
          id="flowRegion9107-3"><rect
            id="rect9109-3"
-           width="405.34448"
-           height="29.836502"
+           width="414.97681"
+           height="55.522678"
            x="34.784142"
            y="233.51601"
-           style="font-size:7.26514864px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
+           style="font-size:10.8977231px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
          id="flowPara9113-0">Asai, M. and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS), Jerusalem, Israel, June 2015. <flowSpan
-   style="font-weight:800;-inkscape-font-specification:'M+ 2c Ultra-Bold';font-style:normal;font-family:'M+ 2c';font-stretch:normal;font-variant:normal;font-size:8.17329232px"
-   id="flowSpan3886">(採択率33%, CORE(ERA) Conference Ranking: A*)</flowSpan></flowPara></flowRoot>  </g>
+   style="font-size:10.8977231px;font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Bold'"
+   id="flowSpan3886">(採択率33%, CORE(ERA) Ranking: A* : flagship conference, leading venue in a discipline area)</flowSpan></flowPara></flowRoot>  </g>
 </svg>

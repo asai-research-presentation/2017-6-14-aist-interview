@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="906.41406"
-   height="572.82599"
+   width="905.17175"
+   height="592.09985"
    id="svg3073"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -503,8 +503,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.80496456"
-     inkscape:cx="572.99862"
-     inkscape:cy="304.70237"
+     inkscape:cx="523.307"
+     inkscape:cy="127.0548"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -512,11 +512,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1440"
-     inkscape:window-height="818"
-     inkscape:window-x="768"
-     inkscape:window-y="149"
-     inkscape:window-maximized="1"
+     inkscape:window-width="709"
+     inkscape:window-height="452"
+     inkscape:window-x="148"
+     inkscape:window-y="134"
+     inkscape:window-maximized="0"
      inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
@@ -526,7 +526,7 @@
        enabled="true"
        snapvisiblegridlinesonly="true"
        originx="443.302px"
-       originy="221.71519px" />
+       originy="242.83413px" />
   </sodipodi:namedview>
   <metadata
      id="metadata3078">
@@ -544,7 +544,7 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     transform="translate(443.30201,-128.88918)">
+     transform="translate(443.30201,-130.73425)">
     <path
        id="path25345-9-0"
        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1142,7 +1142,7 @@
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5245-0"
-         x="-132.50636"
+         x="-132.50638"
          y="455.86295">繰り返しの存在を知らずに解こうとすると</tspan><tspan
          sodipodi:role="line"
          x="-132.50638"
@@ -1218,8 +1218,8 @@
     <rect
        style="color:#000000;fill:none;stroke:#000000;stroke-width:2.20229483;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect8139"
-       width="904.21179"
-       height="88.916466"
+       width="902.96948"
+       height="110.03539"
        x="-442.20087"
        y="611.69757"
        rx="5.7587967"
@@ -1227,18 +1227,18 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot9105"
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:9.98957951px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        transform="matrix(2.2022949,0,0,2.2022949,-516.06991,98.794405)"><flowRegion
          id="flowRegion9107"><rect
            id="rect9109"
-           width="407.16077"
-           height="36.647606"
+           width="408.28897"
+           height="63.159798"
            x="34.784142"
            y="233.51601"
-           style="font-size:9px;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
+           style="font-size:9.98957951px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
          id="flowPara9113">Asai, M. and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS), Portsmouth, NH, USA, June 21-26, 2014. <flowSpan
-   style="-inkscape-font-specification:'M+ 2c Bold';font-family:'M+ 2c';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:10.8977231px"
-   id="flowSpan4108">(採択率33%, CORE(ERA) Conference Ranking: A*)</flowSpan></flowPara></flowRoot>    <text
+   style="font-size:9.98957951px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+   id="flowSpan4108">(採択率33%, CORE(ERA) Conference Ranking: A* : flagship conference, leading venue in a discipline area)</flowSpan></flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:23.4499054px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        x="-411.9212"
