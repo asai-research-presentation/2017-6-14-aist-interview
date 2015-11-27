@@ -25,6 +25,18 @@
 # 読まれる場合と
 # 両方の場合で
 
+# 質問は補足を行う機会でもある
+
+# math
+# learning
+# robotics -- "general enough to be applicable/scalable in this area"
+# IHI case --- motivation is: theres a worry that the human programmer cannot catch up with the orders from the customer
+# 
+# humanity -- biology -- phisics
+# 
+# do not freeze --- ask the intention
+
+# *なんで必要なのか？という話全般について答える*
 
 #+BEGIN_outline-text-1
 #+BEGIN_SMALLER
@@ -36,13 +48,9 @@
 #+BEGIN_EXPANDED
 1. これまでの研究業績 : 査読付き学会論文
    1. _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2014.
-#      1. 未知の問題に隠れている1種類の繰り返し構造を検出, 工場での製造スケジューリング (x1000 高速化)
    2. _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS)/, June 2014.
-#      1. 複数種類の繰り返し構造の検出
    3. _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation.In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2015. 
-#      1. 検出した複数の繰り返し構造を組み合わせる手法, ベンチマークセット全体で高速化 
    4. _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence/, February 2016. 
-#      1. コストゼロのエッジがグラフ探索に引き起こす問題を解決, ベンチマークセット全体で高速化
 2. 今後の研究計画
    1. ドメイン対称性の検知とその応用
 #+END_EXPANDED
@@ -51,49 +59,48 @@
 
 * プランニングとは?
 
-MER rover
-
-引用 rover, ds1 
-ds1は英語で
-
-本質的に難しい問題であることを
-いくら解説し続けてもわからない人がいるので
-全部のスライドで 10^20 という話をする
-NP困難以上 PSPACEはわからない人が多い
-でも、がちの理論の人が出てきた時のために
-「NP困難以上」の意味を準備しておｋう
-家庭を加えてもNP困難
+# MER rover
+# 引用 rover, ds1 
+# ds1は英語で
+# 
+# 本質的に難しい問題であることを
+# いくら解説し続けてもわからない人がいるので
+# 全部のスライドで 10^20 という話をする
+# NP困難以上 PSPACEはわからない人が多い
+# でも、がちの理論の人が出てきた時のために
+# 「NP困難以上」の意味を準備しておｋう
+# 家庭を加えてもNP困難
 
 [[png:planning]]
 
 * 研究業績1 : 査読付き学会論文 ICAPS14
 
-ACP vs SCP の話
-simple loop ではだめ
-やったのはいかにしてスケジューリングでマージするか
+# ACP vs SCP の話
+# simple loop ではだめ
+# やったのはいかにしてスケジューリングでマージするか
 
 [[png:assemble-icaps14]]
 
 * 研究業績2,3 : 査読付き学会論文 KEPS14, ICAPS15
 
-一般に大きな問題が解けない+icaps14の課題
-
-もっと一般性を高めた話をする -将来はど羅右衛門
+# 一般に大きな問題が解けない+icaps14の課題
+# 
+# もっと一般性を高めた話をする -将来はど羅右衛門
 
 
 [[png:assemble-keps14-icaps15]]
 
 * 研究業績4 : 査読付き学会論文 AAAI16 (申請後に採択)
 
-万が一グラフ探索がわからない人のために
-経路探索,カーナビ
-プランニングでも内部で問題を解くのはこれをつかっている
-
-無関係なノード -> 同じコストの和のノ０−どの新たな分類方法を作った
-
-強調: 50年もののアルゴリズムの定説を覆した！
-
-結果: statelength による比較 + カバレッジ
+# 万が一グラフ探索がわからない人のために
+# 経路探索,カーナビ
+# プランニングでも内部で問題を解くのはこれをつかっている
+# 
+# 無関係なノード -> 同じコストの和のノ０−どの新たな分類方法を作った
+# 
+# 強調: 50年もののアルゴリズムの定説を覆した！
+# 
+# 結果: statelength による比較 + カバレッジ
 
 [[png:aaai16]]
 
@@ -138,71 +145,81 @@ simple loop ではだめ
 # プランニングについて突っ込まれる
 # こてん的プランニングであることが判明する
 
+
+
 * 付録 古典プランニングを研究する意義
 
-experiments are done in classical planning
+実用例の提示
 
-but
+DS1,XeroX
 
-すると、使えるのか？と聞かれる
+基礎研究の意義
 
-*なんで必要なのか？という話全般について答える*
++ 古典プランニングは 様々な拡張のベースとなる *最小限のフレームワーク*
++ そこでの技術は様々な拡張にキャリーオーバーされる
++ *実験は* 古典プランニングでやった というただそれだけ
+  + ← 古典プランニングでは評価がやりやすい
+  + 単純なモデル
+    + 詳細が調べつくされている
+    + 何が性能向上の理由なのか切り分けやすい(差分が取りやすい)
++ これらの技術は古典プランニング以外でも有用である!
+  + 適合プランニング、不完全情報プランニング、ソフトゴール、不確実プランニング
+  + 時間、資源などの追加制約がある場合のプランニング
 
-いくつかあるんだけど、DS1,XeroX
-
-transformation の話
-
-openstacks
-GED
-他の探索問題
-
-
-planning は actiuo と state を扱う 最小限の基板である
-SATは製薬充足の基板である
-
-conformant, contingent, softgoals, uncertainty ...
-
-temporal, resource...
-
-単純なモデルで実験する理由は
-差分が取りやすくなるから
-
-これらの技術は古典プランニングだけで有用なわけではない！
-と強く主張
-
-NTP コントローラを
-つくるのには向いてない
+# NTP コントローラを
+# つくるのには向いてない
 
 * 付録 AIの倫理について
 
 * 付録 ディープラーニングとどう違うのか
 
-学習しないの？
++ 機械学習を埋め込むことは可能だ
++ が、求められる推論の複雑さが根本的に違う → 独立した分野
 
-質問は補足を行う機会でもある
 
-かなり長い先の手順を考えるシステムを作っている
-状況に応じてパッと脊髄反射ではなく
+#+BEGIN_CONTAINER-FLUID
+#+BEGIN_ROW-FLUID
+#+BEGIN_SPAN6
+*ニューラルネット*, *DL*, *強化学習*
 
-Atari 一歩先のことを決めるような技術
++ 入力: 現在のデータ、過去の履歴、報酬 etc..
 
-10穂先
-100穂先
-自分のものは1000穂先
++ 出力:
+  + *次の1ステップ* のアクション選択ポリシー (強化学習)
+  + *固定長の分類結果* (画像認識)
+  + ある意味 状況に応じて脊髄反射 なエージェント
 
-独立した分野
+#+END_SPAN6
+#+BEGIN_SPAN6
+*プランニング*
 
-一方、機械学習を埋め込むことは可能で、・・・
+出力:
++ *10ステップ, 100ステップ先* の未来を *先読み* した行動計画
++ ICAPS14,15の手法を使えば *数千ステップ* 先の未来まで先読みすることが出来る
 
-* huroku 
+#+END_SPAN6
+#+END_ROW-FLUID
+#+END_CONTAINER-FLUID
 
-I know 5th
-I know whats wrong with 5th
-hardware
-software -- regression + blind search
-prolog --- overhead
+機械学習を埋め込むことは可能
 
-大子世代とどう違うの？と聞かれるかも!
+* 付録 第五世代コンピュータとの違いは?
+
+第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
+
+根本的なソフトウェア技術、 *探索技術* が未発達だった
+
+| 第五世代                  | 現在                                |
+|---------------------------+-------------------------------------|
+| 後方全探索+バックトラック | *前方ヒューリスティック探索*        |
+| Prologベース              | C/C++で高度に最適化されたプログラム |
+|                           | State packing, 決定木, mutex...     |
+
+今はベンチマーク問題 *1104問* のうち 5分で *800問* 前後解ける
+
+仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けないだろう*
+
+* 付録
 
 # * 付録 AAAI, ICAPS とは?
 # 
@@ -222,14 +239,4 @@ prolog --- overhead
 # [[png:icaps-msai-core]]
 # 
 # CORE(ERA) Conference Ranking: A* オーストラリア/ニュージーランドの機関によるランキング
-
-
-math
-learning
-robotics -- "general enough to be applicable/scalable in this area"
-IHI case --- motivation is: theres a worry that the human programmer cannot catch up with the orders from the customer
-
-humanity -- biology -- phisics
-
-do not freeze --- ask the intention
 
