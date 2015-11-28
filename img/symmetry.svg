@@ -218,16 +218,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7888755"
-     inkscape:cx="689.91518"
-     inkscape:cy="207.61425"
+     inkscape:zoom="0.89443775"
+     inkscape:cx="442.69282"
+     inkscape:cy="147.57396"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:window-width="1024"
-     inkscape:window-height="738"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="818"
+     inkscape:window-x="768"
+     inkscape:window-y="149"
      inkscape:window-maximized="1"
      inkscape:object-nodes="true"
      inkscape:snap-object-midpoints="true"
@@ -2601,7 +2601,7 @@
          id="tspan4250">対称性を破る + 小問題に分割する</tspan></text>
     <g
        id="g7098"
-       transform="matrix(0.89689877,0,0,0.89689877,75.599598,108.05374)">
+       transform="matrix(0.89689877,0,0,0.89689877,75.599598,140.05374)">
       <rect
          ry="8.2047672"
          rx="6.343308"
@@ -2752,7 +2752,9 @@
          sodipodi:role="line"
          x="326.96463"
          y="78.805931"
-         id="tspan6687">主題:独立で非対称な部分問題:問題分割</tspan></text>
+         id="tspan6687"><tspan
+   style="font-size:16px"
+   id="tspan8444">主題: </tspan>独立で非対称な部分問題:問題分割</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2871,24 +2873,24 @@
        xml:space="preserve"
        style="font-size:9.08038807px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="632.88092"
-       y="388.39819"
+       y="420.39819"
        id="text3612"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="632.88092"
-         y="388.39819"
+         y="420.39819"
          id="tspan3616">注: 巨大問題だけが重要だとは主張しない</tspan><tspan
          sodipodi:role="line"
          x="632.88092"
-         y="399.74869"
+         y="431.74869"
          id="tspan7061">　小規模な問題を高速に解く技術には</tspan><tspan
          sodipodi:role="line"
          x="632.88092"
-         y="411.09915"
+         y="443.09915"
          id="tspan7063">　　ロボティクスなどからの需要がある</tspan><tspan
          sodipodi:role="line"
          x="632.88092"
-         y="422.44965"
+         y="454.44965"
          id="tspan3618" /></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
@@ -2915,18 +2917,18 @@
     <text
        xml:space="preserve"
        style="font-size:13px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-25.371891"
+       x="-35.371891"
        y="556.16357"
        id="text4701"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-25.371891"
+         x="-35.371891"
          y="556.16357"
-         id="tspan6961">(物理学では「対称性の破れ」という現象が問題になるが</tspan><tspan
+         id="tspan6961">(物理学での「対称性の破れ」は「現象」だが</tspan><tspan
          sodipodi:role="line"
-         x="-25.371891"
+         x="-35.371891"
          y="572.41357"
-         id="tspan6965">ここでは対称性を意図的に破る/排除するための手法を指す)</tspan></text>
+         id="tspan6965">　ここでは対称性を意図的に破る/排除するための手法を指す)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
@@ -2946,11 +2948,11 @@
          sodipodi:role="line"
          x="330.91745"
          y="103.13632"
-         id="tspan6687-1">課題:問題分割に時間がかかりすぎてしまう</tspan><tspan
+         id="tspan6687-1">課題:問題分割と処理に時間がかかりすぎてしまう</tspan><tspan
          sodipodi:role="line"
          x="330.91745"
          y="120.63632"
-         id="tspan7200">　手法:ポートフォリオ戦略、リスタート</tspan></text>
+         id="tspan7200">　手法:ポートフォリオ戦略</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
@@ -2991,5 +2993,34 @@
          x="550.78131"
          y="179.23102"
          id="tspan7141">　　　　分割しやすい論理構造に変換</tspan></text>
+    <g
+       id="g9686">
+      <path
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+         d="m 300.02509,412.83333 -0.875,1.8125 c 25.89673,12.92831 42.2394,28.97552 58.09375,44.78125 15.85435,15.80573 31.19791,31.375 54.9375,42.96875 l 0.90625,-1.8125 c -23.41158,-11.43356 -38.5759,-26.74954 -54.4375,-42.5625 -15.8616,-15.81296 -32.43651,-32.11353 -58.625,-45.1875 z"
+         id="path8456"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:0.80000000000000004pt;fill:#ff0000"
+         d="m 306.7407,417.31298 5.36545,-1.79218 -14.3125,-2.67442 10.73923,9.83205 -1.79218,-5.36545 z"
+         id="path9692"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:0.80000000000000004pt;fill:#ff0000"
+         d="m 405.44461,497.98119 -5.34961,1.83893 14.33529,2.54942 -10.82461,-9.73796 1.83893,5.34961 z"
+         id="path9694"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'Times New Roman, Bold'"
+       x="605.73743"
+       y="332.0004"
+       id="text10919"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10921"
+         x="605.73743"
+         y="332.0004">将来のインパクト:</tspan></text>
   </g>
 </svg>
