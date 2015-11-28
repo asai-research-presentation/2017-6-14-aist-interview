@@ -70,7 +70,7 @@
    3. _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation.In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(*ICAPS*)/, June 2015. 
    4. _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence (*AAAI*)/, February 2016. 
 2. 今後の研究計画
-   1. ドメイン対称性の検知とその応用
+   1. 探索グラフの対称性の検知技術と、小問題分割技術の融合
 #+END_EXPANDED
 #+END_SMALLER
 #+END_outline-text-1
@@ -89,33 +89,11 @@
 # 「NP困難以上」の意味を準備しておｋう
 # 家庭を加えてもNP困難
 
-# 人によってはプラン=sequence が自明ではない
-# タスクリスト？ (あとで何をしよう、という漠然としたプラン)
-# プログラム?
-# はい、PDDLで記述したプログラムです。
-
 # T25とアトムの説明を合融
 
 [[png:planning]]
 
-* 他分野との関連性
-
-# 関連性を話す
-# OR
-# 理論
-# コンパイラ
-
-# controls theory
-# OR
-# robotics
-# AI
-# programming language (PDDL の先には何があるのか?)
-# algorithm
-# compiler
-
-# の交差部分にいる ベン図
-
-# IP solver etc と application の間にいる middleware
+* プランニングが用いる 他分野からの技術
 
 [[png:planning2]]
 
@@ -464,4 +442,19 @@ HTNは人間が問題分割を行う
 
 迷うことなくパッと答える
 
+
+
+* 付録 汎用性を失わずに解く?
+
+No Free Lunch 定理: 最適化アルゴリズムの性能は *全問題の平均を取れば* 全て同じ
+
+NFL定理のもとで「汎用性を失わずに高速に解く」というのは不可能ではないか?
+
+Q. NFL定理は確かにそのように主張するが、プランニング分野の意味する「汎用性」は
+
+*人間にとって有意義な問題の集合* における汎用性である。
+
+\[ \mbox{全プランニング問題} \supsetneq \mbox{人間にとって有意義な問題の集合} \]
+
+従って、 *全問題の平均を取れば* という前提が成り立たない。
 
