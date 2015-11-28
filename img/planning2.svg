@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1024px"
@@ -46,7 +45,7 @@
     </marker>
     <path
        style="color:#000000;fill:none;stroke:#000000;stroke-width:0.60360307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 0,0 263.67919,479.50049"
+       d="M 267.40281,604.12625 263.67916,479.50049"
        id="path5489"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -54,7 +53,7 @@
        inkscape:connection-start="#path4162-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.60360307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-       d="M 0,0 0,0"
+       d="m 263.27468,699.85127 3.82848,-70.86381"
        id="path4629"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -92,7 +91,7 @@
     </marker>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.60360307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-       d="M 0,0 0,0"
+       d="m 161.00746,621.82979 92.30273,82.17259"
        id="path4631"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -221,15 +220,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="1242.3244"
-     inkscape:cy="304.90085"
+     inkscape:cx="217.39019"
+     inkscape:cy="339.74069"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:window-width="1024"
-     inkscape:window-height="738"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="818"
+     inkscape:window-x="768"
+     inkscape:window-y="149"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:snap-center="true"
@@ -252,402 +251,114 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer">
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="48.502491"
-       y="560.59564"
-       id="text3248"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3250"
-         x="48.502491"
-         y="560.59564"
-         style="font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'">プランニングの主な手法:</tspan><tspan
-         sodipodi:role="line"
-         x="48.502491"
-         y="578.09564"
-         id="tspan3254">頂点ノードV:状態, 辺E:アクション</tspan><tspan
-         sodipodi:role="line"
-         x="48.502491"
-         y="595.59564"
-         id="tspan3264">である有向グラフ(V,E)の経路探索</tspan></text>
     <path
+       transform="matrix(0.90012751,0,0,0.90012751,31.670002,-99.03858)"
        sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path4162"
-       sodipodi:cx="70.710678"
-       sodipodi:cy="200.90036"
-       sodipodi:rx="22.627417"
-       sodipodi:ry="22.627417"
-       d="m 93.338095,200.90036 a 22.627417,22.627417 0 1 1 -45.254834,0 22.627417,22.627417 0 1 1 45.254834,0 z"
-       transform="matrix(0.54987394,0,0,0.54987394,110.43442,512.61142)" />
-    <path
-       transform="matrix(0.54987394,0,0,0.54987394,226.4946,515.61798)"
-       sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path4162-8"
-       sodipodi:cx="70.710678"
-       sodipodi:cy="200.90036"
-       sodipodi:rx="22.627417"
-       sodipodi:ry="22.627417"
-       d="m 93.338095,200.90036 a 22.627417,22.627417 0 1 1 -45.254834,0 22.627417,22.627417 0 1 1 45.254834,0 z" />
-    <path
-       transform="matrix(0.54987394,0,0,0.54987394,221.32364,611.33065)"
-       sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path4162-3"
-       sodipodi:cx="70.710678"
-       sodipodi:cy="200.90036"
-       sodipodi:rx="22.627417"
-       sodipodi:ry="22.627417"
-       d="m 93.338095,200.90036 a 22.627417,22.627417 0 1 1 -45.254834,0 22.627417,22.627417 0 1 1 45.254834,0 z" />
-    <path
-       transform="matrix(0.54987394,0,0,0.54987394,320.92405,602.93526)"
-       sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path4162-36"
-       sodipodi:cx="70.710678"
-       sodipodi:cy="200.90036"
-       sodipodi:rx="22.627417"
-       sodipodi:ry="22.627417"
-       d="m 93.338095,200.90036 a 22.627417,22.627417 0 1 1 -45.254834,0 22.627417,22.627417 0 1 1 45.254834,0 z" />
-    <path
-       transform="matrix(0.54987394,0,0,0.54987394,347.1946,530.15043)"
-       sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path4162-1"
-       sodipodi:cx="70.710678"
-       sodipodi:cy="200.90036"
-       sodipodi:rx="22.627417"
-       sodipodi:ry="22.627417"
-       d="m 93.338095,200.90036 a 22.627417,22.627417 0 1 1 -45.254834,0 22.627417,22.627417 0 1 1 45.254834,0 z" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-       d="m 161.75451,623.4035 91.18391,2.36214"
-       id="path4623"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#path4162"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path4162-8"
-       inkscape:connection-end-point="d4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-       d="m 260.87684,709.37609 3.82848,-70.86381"
-       id="path3238"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-end-point="d4"
-       inkscape:connection-end="#path4162-8"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-start="#path4162-3" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-       d="m 158.60962,631.35461 92.30273,82.17259"
-       id="path3240"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#path4162"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path4162-3"
-       inkscape:connection-end-point="d4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-       d="m 347.40705,714.45025 -74.8025,6.30516"
-       id="path4635"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#path4162-36"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path4162-3"
-       inkscape:connection-end-point="d4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-       d="m 381.32547,651.71975 -17.42,49.93431"
-       id="path4639"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-end="#path4162-36"
-       inkscape:connection-end-point="d4" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="13.317753"
-       y="654.00366"
-       id="text5549-9"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="13.317753"
-         y="654.00366"
-         id="tspan5550">at(key, 部屋C),</tspan><tspan
-         sodipodi:role="line"
-         x="13.317753"
-         y="671.50366"
-         id="tspan5652-7"> at(ドラえもん, <tspan
-   style="font-size:14px;font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'"
-   id="tspan5562">部屋B</tspan>),</tspan><tspan
-         sodipodi:role="line"
-         x="13.317753"
-         y="689.00366"
-         id="tspan5554">  ¬clean(部屋A),</tspan><tspan
-         sodipodi:role="line"
-         x="13.317753"
-         y="706.50366"
-         id="tspan5558">    ¬clean(部屋B)....</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18.15441513px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:end;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:end;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:0.64837199;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold Italic'"
-       x="124.43509"
-       y="628.99316"
-       id="text5412"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5414"
-         x="124.43509"
-         y="628.99316"
-         style="font-weight:bold;fill:#000000;stroke:none;-inkscape-font-specification:'M+ 2c Bold Italic'">初期状態</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="132.30855"
-       y="738.56549"
-       id="text5549-9-7"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5551-8-5"
-         x="132.30855"
-         y="738.56549">at(key, 部屋C),</tspan><tspan
-         sodipodi:role="line"
-         x="132.30855"
-         y="756.06549"
-         id="tspan5537"> at(ドラえもん, <tspan
-   style="font-size:14px;font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'"
-   id="tspan5560">部屋C</tspan>)...</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       id="text5453"
-       sodipodi:linespacing="125%"
-       x="608.04059"
-       y="367.34332"
-       transform="matrix(0.72867649,0.68485807,-0.68485807,0.72867649,0,0)"><tspan
-         id="tspan5455"
-         style="font-size:14px">move(部屋B,部屋C)</tspan></text>
-    <path
-       style="color:#000000;fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 274.51188,634.53512 76.15881,70.42274"
-       id="path5487"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#path4162-8"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path4162-36"
-       inkscape:connection-end-point="d4" />
-    <path
-       style="color:#000000;fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 277.73759,627.51712 95.32632,11.02229"
-       id="path3262"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-start="#path4162-8" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       id="text5514"
-       sodipodi:linespacing="125%"
-       transform="matrix(0.06401416,-0.99794899,0.99794899,0.06401416,0,0)"
-       x="-655.97559"
-       y="318.78455">pickup(key)</text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       id="text5521"
-       sodipodi:linespacing="125%"
-       x="398.80856"
-       y="577.7995"
-       transform="matrix(0.99325051,0.11598891,-0.11598891,0.99325051,0,0)"><tspan
-         id="tspan5523"
-         style="font-size:16px">cleanup(部屋B)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:15.94329262px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
-       x="31.750366"
-       y="141.53905"
-       id="text5601"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5603"
-         x="31.750366"
-         y="141.53905">プランニングの計算複雑性クラス:</tspan><tspan
-         sodipodi:role="line"
-         x="31.750366"
-         y="161.46817"
-         id="tspan5605">　仮定を加えてもNP困難</tspan></text>
-    <path
-       transform="matrix(0.90012751,0,0,0.90012751,-26.329998,-83.038583)"
-       sodipodi:type="arc"
-       style="color:#000000;fill:#adff2f;stroke:none;stroke-width:2.20229483000000004;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:0.82959640000000001"
+       style="color:#000000;fill:#adff2f;fill-opacity:0.82959643;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path3468-2-9"
        sodipodi:cx="464.56915"
        sodipodi:cy="342.32172"
-       sodipodi:rx="137.76807"
-       sodipodi:ry="137.76807"
-       d="m 602.33722,342.32172 a 137.76807,137.76807 0 1 1 -275.53613,0 137.76807,137.76807 0 1 1 275.53613,0 z" />
+       sodipodi:rx="110.27336"
+       sodipodi:ry="191.97191"
+       d="m 574.84251,342.32172 a 110.27336,191.97191 0 1 1 -220.54672,0 110.27336,191.97191 0 1 1 220.54672,0 z" />
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="378.70148"
-       y="167.97462"
+       x="448.70148"
+       y="134.97462"
        id="text3541"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="378.70148"
-         y="167.97462"
+         x="448.70148"
+         y="134.97462"
          id="tspan3545">計算量理論</tspan><tspan
          sodipodi:role="line"
-         x="378.70148"
-         y="197.97462"
+         x="448.70148"
+         y="164.97462"
          id="tspan3577">アルゴリズム論</tspan><tspan
          sodipodi:role="line"
-         x="378.70148"
-         y="227.97462"
+         x="448.70148"
+         y="194.97462"
          id="tspan3579">グラフ理論</tspan></text>
-    <path
-       transform="matrix(1.0173419,0,0,1.0173419,-153.69358,86.836391)"
-       sodipodi:type="arc"
-       style="color:#000000;fill:#f0e68c;stroke:none;stroke-width:2.20229483000000004;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:0.82959640000000001"
-       id="path3468-2-4"
-       sodipodi:cx="464.56915"
-       sodipodi:cy="342.32172"
-       sodipodi:rx="121.76807"
-       sodipodi:ry="121.76807"
-       d="m 586.33722,342.32172 a 121.76807,121.76807 0 1 1 -243.53613,0 121.76807,121.76807 0 1 1 243.53613,0 z" />
-    <g
-       id="g6088"
-       transform="translate(-205.47517,-140.10764)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text3533"
-         y="527.02667"
-         x="521.45624"
-         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-         xml:space="preserve"><tspan
-           id="tspan3575"
-           y="527.02667"
-           x="521.45624"
-           sodipodi:role="line">AI</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3583"
-         y="557.4115"
-         x="494.80835"
-         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-         xml:space="preserve"><tspan
-           y="557.4115"
-           x="494.80835"
-           sodipodi:role="line"
-           id="tspan5567">論理・知識表現</tspan><tspan
-           y="582.4115"
-           x="494.80835"
-           sodipodi:role="line"
-           id="tspan5176"> 進化計算 機械学習</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-         x="530.47516"
-         y="612.10767"
-         id="text3293"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3295"
-           x="530.47516"
-           y="612.10767">探索アルゴリズム(A*)</tspan></text>
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5543"
-       y="247.02737"
-       x="868.54028"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       xml:space="preserve"><tspan
-         y="247.02737"
-         x="868.54028"
-         id="tspan5545"
-         sodipodi:role="line">プランニングのモデル言語 PDDL</tspan><tspan
-         id="tspan5547"
-         y="267.02737"
-         x="868.54028"
-         sodipodi:role="line">の記述力は?</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5553"
-       y="720.89325"
-       x="809.68445"
-       style="font-size:28.40032195999999942px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20000004999999987;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       y="838.27295"
+       x="1208.4927"
+       style="font-size:28.40032196px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
        xml:space="preserve"><tspan
-         y="720.89325"
-         x="809.68445"
+         y="838.27295"
+         x="1208.4927"
          id="tspan5555"
          sodipodi:role="line">おそらくそれぞれの査読者は</tspan><tspan
          id="tspan5557"
-         y="756.39368"
-         x="809.68445"
+         y="873.77338"
+         x="1208.4927"
          sodipodi:role="line">自分の分野との関連を見るだろう</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5593"
-       y="151.49747"
-       x="837.97058"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       xml:space="preserve"><tspan
-         y="151.49747"
-         x="837.97058"
-         id="tspan5595"
-         sodipodi:role="line">コンパイル≒プランニング</tspan><tspan
-         id="tspan5597"
-         y="171.49747"
-         x="837.97058"
-         sodipodi:role="line">機械語1命令≒アクション</tspan></text>
     <path
-       transform="matrix(0.96250679,0,0,0.96250679,176.69052,-104.39236)"
+       transform="matrix(0.96250679,0,0,0.96250679,206.34738,-155.80658)"
        sodipodi:type="arc"
-       style="color:#000000;fill:#7fffd4;stroke:none;stroke-width:2.20229483000000004;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:0.82959640000000001"
+       style="color:#000000;fill:#7fffd4;fill-opacity:0.82959643;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path3468-2-1"
        sodipodi:cx="464.56915"
        sodipodi:cy="342.32172"
-       sodipodi:rx="128.76807"
-       sodipodi:ry="128.76807"
-       d="m 593.33722,342.32172 a 128.76807,128.76807 0 1 1 -257.53613,0 128.76807,128.76807 0 1 1 257.53613,0 z" />
+       sodipodi:rx="123.6255"
+       sodipodi:ry="97.912712"
+       d="m 588.19466,342.32172 a 123.6255,97.912712 0 1 1 -247.25101,0 123.6255,97.912712 0 1 1 247.25101,0 z" />
     <g
        id="g3642"
-       transform="translate(-48.254834,8.7573596)"
-       style="fill:#f4a460;fill-opacity:0.83408071;stroke:none">
+       transform="translate(12.745166,165.75736)"
+       style="fill:#f4a460;fill-opacity:0.83408071;stroke:#666666">
       <path
-         d="m 584.33722,342.32172 c 0,66.14607 -53.62199,119.76806 -119.76807,119.76806 -66.14607,0 -119.76806,-53.62199 -119.76806,-119.76806 0,-66.14608 53.62199,-119.76807 119.76806,-119.76807 66.14608,0 119.76807,53.62199 119.76807,119.76807 z"
-         sodipodi:ry="119.76807"
-         sodipodi:rx="119.76807"
+         d="m 728.41333,342.32172 c 0,80.03096 -118.12706,144.90887 -263.84418,144.90887 -145.71711,0 -263.84417,-64.87791 -263.84417,-144.90887 0,-80.03097 118.12706,-144.90888 263.84417,-144.90888 145.71712,0 263.84418,64.87791 263.84418,144.90888 z"
+         sodipodi:ry="144.90887"
+         sodipodi:rx="263.84418"
          sodipodi:cy="342.32172"
          sodipodi:cx="464.56915"
          id="path3468-2"
-         style="color:#000000;fill:#f4a460;fill-opacity:0.83408071;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="color:#000000;fill:#f4a460;fill-opacity:0.83408071;stroke:#666666;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc"
-         transform="matrix(1.0341757,0,0,1.0341757,-43.315328,132.84842)" />
+         transform="matrix(1.0341757,0,0,1.0341757,17.684672,-29.15158)" />
+    </g>
+    <g
+       id="g3642-63"
+       transform="translate(-180.1308,28.130779)"
+       style="color:#000000;fill:#f0e68c;fill-opacity:0.82959643;fill-rule:nonzero;stroke:#666666;stroke-width:2.24048686;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate">
+      <path
+         d="m 728.41333,342.32172 c 0,88.57549 -118.12706,160.38012 -263.84418,160.38012 -145.71711,0 -263.84417,-71.80463 -263.84417,-160.38012 0,-88.5755 118.12706,-160.38013 263.84417,-160.38013 145.71712,0 263.84418,71.80463 263.84418,160.38013 z"
+         sodipodi:ry="160.38013"
+         sodipodi:rx="263.84418"
+         sodipodi:cy="342.32172"
+         sodipodi:cx="464.56915"
+         id="path3468-2-8"
+         style="color:#000000;fill:#f0e68c;fill-opacity:0.82959643;fill-rule:nonzero;stroke:#666666;stroke-width:2.16644692;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         transform="matrix(1.0341757,0,0,1.0341757,37.684672,-9.1515803)" />
     </g>
     <path
        sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:0.77130043;stroke:#000000;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffffff;fill-opacity:0.54500002000000003;stroke:#000000;stroke-width:0.3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-miterlimit:4;stroke-dasharray:none"
        id="path3468"
        sodipodi:cx="464.56915"
        sodipodi:cy="342.32172"
-       sodipodi:rx="112.76807"
+       sodipodi:rx="206.76807"
        sodipodi:ry="112.76807"
-       d="m 577.33722,342.32172 a 112.76807,112.76807 0 1 1 -225.53613,0 112.76807,112.76807 0 1 1 225.53613,0 z"
-       transform="translate(9.4085145,38.972303)" />
+       d="m 671.33722,342.32172 a 206.76807,112.76807 0 1 1 -413.53613,0 206.76807,112.76807 0 1 1 413.53613,0 z"
+       transform="translate(55.408519,5.972303)" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="227.53133"
+       y="293.63223"
+       id="text3533"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="227.53133"
+         y="293.63223"
+         id="tspan3575">AI</tspan></text>
     <g
        id="g3599"
-       transform="translate(13.318733,-154.10338)">
+       transform="translate(37.339548,-178.99068)">
       <text
          sodipodi:linespacing="125%"
          id="text3555"
@@ -688,163 +399,88 @@
            sodipodi:role="line"
            id="tspan5184"
            x="-13.318733"
-           y="134.10338">プランニングで用いる技術の他分野との関わり</tspan></text>
-      <path
-         transform="matrix(2.0476191,0,0,1,-420.54488,93.999305)"
-         sodipodi:type="arc"
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.2190001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="path5186"
-         sodipodi:cx="384.66608"
-         sodipodi:cy="412.32529"
-         sodipodi:rx="29.698484"
-         sodipodi:ry="30.405592"
-         d="m 414.36456,412.32529 a 29.698484,30.405592 0 1 1 -59.39697,0 29.698484,30.405592 0 1 1 59.39697,0 z" />
+           y="134.10338" /></text>
     </g>
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="507.3028"
-       y="355.17453"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:2.20229483000000004;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="538.94806"
+       y="336.69284"
        id="text3470"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3472"
-         x="507.3028"
-         y="355.17453">プランニング</tspan><tspan
+         x="538.94806"
+         y="336.69284">プランニング</tspan><tspan
          sodipodi:role="line"
-         x="507.3028"
-         y="385.17453"
+         x="538.94806"
+         y="366.69284"
          id="tspan3765">スケジューリング</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:2.219;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow1Mend-1);marker-mid:none"
-       d="m 423.65541,271.9605 23.06343,29.60716"
-       id="path3767-8"
-       inkscape:connector-curvature="0"
-       inkscape:transform-center-x="69.947852"
-       inkscape:transform-center-y="-85.581202"
-       sodipodi:nodetypes="cc"
-       inkscape:tile-cx="437.4243"
-       inkscape:tile-cy="306.11988"
-       inkscape:tile-w="23.06343"
-       inkscape:tile-h="29.60716"
-       inkscape:tile-x0="355.94473"
-       inkscape:tile-y0="205.7351" />
-    <use
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#path3767-8"
-       xlink:href="#path3767-8"
-       transform="matrix(0.30901699,0.95105652,-0.95105652,0.30901699,714.1611,-220.12765)"
-       id="use5459"
-       inkscape:transform-center-x="-59.777478"
-       inkscape:transform-center-y="-92.970404"
-       width="1024"
-       height="768"
-       style="stroke-width:2.219;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="508.15344"
-       y="535.11462"
+       x="624.88849"
+       y="493.71765"
        id="text3547"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3549"
-         x="511.48157"
-         y="535.11462">OR </tspan><tspan
+         x="628.21661"
+         y="493.71765">OR </tspan><tspan
          sodipodi:role="line"
-         x="508.15344"
-         y="565.11462"
+         x="624.88849"
+         y="523.71765"
          id="tspan3553">(オペレーションズ</tspan><tspan
          sodipodi:role="line"
-         x="508.15344"
-         y="595.11462"
+         x="624.88849"
+         y="553.71765"
          id="tspan3551">リサーチ)</tspan></text>
-    <use
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#path3767-8"
-       xlink:href="#path3767-8"
-       transform="matrix(-0.80901699,-0.58778525,0.58778525,-0.80901699,693.93869,972.48984)"
-       id="use5463"
-       inkscape:transform-center-x="-6.2856287"
-       inkscape:transform-center-y="110.35096"
-       width="1024"
-       height="768"
-       style="stroke-width:2.21900001;stroke-miterlimit:4;stroke-dasharray:none" />
-    <use
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#path3767-8"
-       xlink:href="#path3767-8"
-       transform="matrix(0.30901699,-0.95105652,0.95105652,0.30901699,-10.081721,723.69617)"
-       id="use5465"
-       inkscape:transform-center-x="103.00764"
-       inkscape:transform-center-y="40.078308"
-       width="1024"
-       height="768"
-       style="stroke-width:2.219;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
-       sodipodi:linespacing="125%"
-       id="text5467"
-       y="186.77234"
-       x="155.88884"
-       style="font-size:19.62251472px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#1e90ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       xml:space="preserve"><tspan
-         y="186.77234"
-         x="155.88884"
-         id="tspan5469"
-         sodipodi:role="line">PLANSAT は PSPACE完全</tspan></text>
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="191.76822"
+       y="332.60895"
+       id="text3583"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5567"
+         sodipodi:role="line"
+         x="191.76822"
+         y="332.60895">論理・知識表現</tspan><tspan
+         id="tspan5176"
+         sodipodi:role="line"
+         x="191.76822"
+         y="357.60895"> 進化計算 機械学習</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="29.373459"
-       y="467.33597"
+       x="-383.5769"
+       y="447.53699"
        id="text5669"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5671"
-         x="29.373459"
-         y="467.33597">Plan Recognition</tspan><tspan
+         x="-383.5769"
+         y="447.53699">Plan Recognition</tspan><tspan
          sodipodi:role="line"
-         x="29.373459"
-         y="487.33597"
+         x="-383.5769"
+         y="467.53699"
          id="tspan6097"> (人の動作を観察し</tspan><tspan
          sodipodi:role="line"
-         x="29.373459"
-         y="507.33597"
+         x="-383.5769"
+         y="487.53699"
          id="tspan6099">　　　プランを推定)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14.41910362px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
-       x="-334.48639"
-       y="39.864887"
-       id="text5564"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5566"
-         x="-334.48639"
-         y="39.864887">ノードの数(空間のサイズ): 2<tspan
-   style="font-size:9.37254906px;baseline-shift:super"
-   id="tspan5570">(命題変数の数)</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14.41910362px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
-       x="-306.00485"
-       y="62.716904"
-       id="text5572"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5574"
-         x="-306.00485"
-         y="62.716904">100個の命題変数→|V|= 2<tspan
-   style="font-size:9.37254906px;baseline-shift:super"
-   id="tspan5599">100</tspan> = 10<tspan
-   style="font-size:9.37254906px;baseline-shift:super"
-   id="tspan5597-7">9</tspan></tspan></text>
     <g
        id="g4620"
-       transform="translate(-303.99999,27.999999)">
+       transform="translate(56.000011,39)">
+      <rect
+         ry="9.20786"
+         rx="7.1188231"
+         y="56.322147"
+         x="16.004562"
+         height="73.927399"
+         width="268.10388"
+         id="rect3222-2-1"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1.12225723;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <text
          sodipodi:linespacing="125%"
          id="text5564-9"
@@ -855,50 +491,34 @@
            y="73.110069"
            x="21.74338"
            id="tspan5566-8"
-           sodipodi:role="line">探索空間のサイズは指数: 2<tspan
+           sodipodi:role="line">探索空間のサイズは命題に対して指数:</tspan><tspan
+           y="91.346748"
+           x="21.74338"
+           sodipodi:role="line"
+           id="tspan11968">　探索グラフの頂点数 = 2<tspan
    id="tspan5570-0"
    style="font-size:9.48320675px;baseline-shift:super">(命題変数の数)</tspan></tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text5572-6"
-         y="95.959656"
+         y="119.95966"
          x="20.949045"
          style="font-size:17.35293388px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
          xml:space="preserve"><tspan
-           y="95.959656"
+           y="119.95966"
            x="20.949045"
            id="tspan5574-4"
            sodipodi:role="line">変数100個→ 2<tspan
    id="tspan4542"
    style="font-size:11.27956581px;baseline-shift:super">100</tspan></tspan></text>
-      <rect
-         ry="9.20786"
-         rx="7.1188231"
-         y="56.322147"
-         x="16.004562"
-         height="70.427391"
-         width="268.10391"
-         id="rect3222-2-1"
-         style="color:#000000;fill:none;stroke:#000000;stroke-width:1.12225723;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3327"
-         y="117.26315"
-         x="21.016541"
-         style="font-size:12.34482956px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
-         xml:space="preserve"><tspan
-           y="117.26315"
-           x="21.016541"
-           id="tspan3329"
-           sodipodi:role="line">問題が少し大きくなるだけで百万倍難しくなる</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text5572-8"
-         y="95.851402"
+         y="119.8514"
          x="174.63811"
          style="font-size:17.35293388px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
          xml:space="preserve"><tspan
-           y="95.851402"
+           y="119.8514"
            x="174.63811"
            id="tspan5574-3"
            sodipodi:role="line">120個→ 2<tspan
@@ -907,86 +527,56 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:18.15441513px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:0.64837199;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold Italic'"
-       x="379.758"
-       y="672.77222"
-       id="text5416"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5418"
-         x="379.758"
-         y="672.77222"
-         style="font-weight:bold;text-align:start;text-anchor:start;fill:#000000;stroke:none;-inkscape-font-specification:'M+ 2c Bold Italic'">ゴール</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.78271860000000004;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;color:#000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 124,607 16,8"
-       id="path5745"
-       inkscape:connector-curvature="0" />
-    <path
-       transform="matrix(0.54987394,0,0,0.54987394,347.1946,530.15043)"
-       sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path4162-1-1"
-       sodipodi:cx="70.710678"
-       sodipodi:cy="200.90036"
-       sodipodi:rx="16.418333"
-       sodipodi:ry="16.418333"
-       d="m 87.129011,200.90036 a 16.418333,16.418333 0 1 1 -32.836666,0 16.418333,16.418333 0 1 1 32.836666,0 z" />
-    <text
-       xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:0.7827186;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="572.55188"
-       y="608.95569"
+       x="461.52036"
+       y="577.16888"
        id="text5788"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="572.55188"
-         y="608.95569"
-         id="tspan5794">スケジューリング(応用より)</tspan><tspan
-         sodipodi:role="line"
-         x="572.55188"
-         y="628.95569"
+         x="461.52036"
+         y="577.16888"
          id="tspan6106">倉庫管理問題</tspan><tspan
          sodipodi:role="line"
-         x="572.55188"
-         y="648.95569"
+         x="461.52036"
+         y="597.16888"
          id="tspan6110">ロジスティクス問題</tspan><tspan
          sodipodi:role="line"
-         x="572.55188"
-         y="668.95569"
+         x="461.52036"
+         y="617.16888"
          id="tspan6114">電力網最適化</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart-2);marker-end:url(#Arrow1Mend-1)"
-       d="m 72.999998,59.000019 886.999972,0"
+       d="m 122.49747,-191.31578 886.99993,0"
        id="path4634"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="31.999998"
-       y="43.000019"
+       x="81.497475"
+       y="-207.31578"
        id="text5884"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5886"
-         x="31.999998"
-         y="43.000019">理論</tspan></text>
+         x="81.497475"
+         y="-207.31578">理論</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="933"
-       y="49.000019"
+       x="982.4975"
+       y="-201.31578"
        id="text5888"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5890"
-         x="933"
-         y="49.000019">実践</tspan></text>
+         x="982.4975"
+         y="-201.31578">実践</tspan></text>
     <g
        id="g6127"
        transform="matrix(1.0110078,0,0,1.0110078,20.205246,-1.1993576)" />
     <g
-       id="g6188">
+       id="g6188"
+       transform="translate(49.497475,-250.3158)">
       <path
          transform="matrix(0.47417662,0,0,0.47417662,82.756568,-109.36532)"
          sodipodi:type="arc"
@@ -996,10 +586,10 @@
          sodipodi:cy="342.32172"
          sodipodi:rx="215.18872"
          sodipodi:ry="120.28738"
-         d="m 679.75787,342.32172 a 215.18872,120.28738 0 1 1 -430.37744,0 215.18872,120.28738 0 1 1 430.37744,0 z" />
+         d="m 679.75787,342.32172 c 0,66.43288 -96.34327,120.28737 -215.18872,120.28737 -118.84545,0 -215.18872,-53.85449 -215.18872,-120.28737 0,-66.43289 96.34327,-120.28738 215.18872,-120.28738 118.84545,0 215.18872,53.85449 215.18872,120.28738 z" />
       <text
          xml:space="preserve"
-         style="font-size:9.89112090999999971px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483000000004;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+         style="font-size:9.89112091px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
          x="226.27463"
          y="39.11644"
          id="text3541-9"
@@ -1211,56 +801,56 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="402.39868"
-       y="509.92691"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="413.82901"
+       y="450.97305"
        id="text3202"
        sodipodi:linespacing="125%"
        transform="matrix(0.99995764,-0.00920387,0.00920387,0.99995764,0,0)"><tspan
          sodipodi:role="line"
-         x="402.39868"
-         y="509.92691"
+         x="413.82901"
+         y="450.97305"
          id="tspan3265">SAT, 制約充足</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="460"
-       y="466"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.202;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';stroke-miterlimit:4;stroke-dasharray:none"
+       x="523.85535"
+       y="462.06497"
        id="text3273"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3275"
-         x="460"
-         y="466">整数計画</tspan></text>
+         x="523.85535"
+         y="462.06497">整数計画</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="434.99203"
-       y="476.47095"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="650.7027"
+       y="444.60699"
        id="text5178"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5180"
-         x="434.99203"
-         y="476.47095">MDP, POMDP</tspan></text>
+         x="650.7027"
+         y="444.60699">MDP, POMDP</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="352.7666"
-       y="198.07193"
+       x="-243.32442"
+       y="301.30951"
        id="text5212"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5214"
-         x="352.7666"
-         y="198.07193">stoc,soda</tspan></text>
+         x="-243.32442"
+         y="301.30951">stoc,soda</tspan></text>
     <rect
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.21900010000000014;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.2190001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect5216"
-       width="330.92596"
-       height="219.20309"
-       x="736.80524"
-       y="339.49329"
+       width="344.96408"
+       height="181.59398"
+       x="670.52478"
+       y="239.47858"
        rx="6.4182005"
        ry="8.3016376" />
     <text
@@ -1288,19 +878,374 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot5280"
-       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       transform="translate(-65.78052,-113.51472)"><flowRegion
          id="flowRegion5282"><rect
            id="rect5284"
-           width="393.15134"
-           height="185.26199"
+           width="327.11829"
+           height="222.80716"
            x="748.11896"
            y="363.53491"
-           style="font-size:16px" /></flowRegion><flowPara
-         id="flowPara5286">プランニング分野のコミュニティ</flowPara><flowPara
-         id="flowPara5298">主要国際会議= International Conference on Automatd planning ans shceduling(ICAPS)(1994-), AAAI IJCAI</flowPara><flowPara
-         id="flowPara5302">主要研究グループ: MIT CSAIL, CMU, NASA/Caltech JPL, NASA Ames, 欧州宇宙機関(ESA)など</flowPara><flowPara
-         id="flowPara5290" /><flowPara
-         id="flowPara5292" /><flowPara
-         id="flowPara5294" /><flowPara
-         id="flowPara5296" /></flowRoot>  </g>
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'" /></flowRegion><flowPara
+         id="flowPara5298"><flowSpan
+   id="flowSpan11842"
+   style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'">プランニング分野の</flowSpan>主要国際会議:</flowPara><flowPara
+         id="flowPara11844">　International Conference on Automatd Planning and Scheduling (ICAPS) (1994-), </flowPara><flowPara
+         id="flowPara12797">　および AAAI, IJCAI</flowPara><flowPara
+         id="flowPara12799" /><flowPara
+         id="flowPara5294">主要研究グループ: MIT CSAIL, CMU, NASA/Caltech JPL, NASA Ames, 欧州宇宙機関(ESA)など</flowPara><flowPara
+         id="flowPara5296" /></flowRoot>    <text
+       sodipodi:linespacing="125%"
+       id="text5543"
+       y="148.15375"
+       x="872.47784"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       xml:space="preserve"><tspan
+         y="148.15375"
+         x="872.47784"
+         id="tspan5545"
+         sodipodi:role="line">プランニングのモデル言語 PDDL</tspan><tspan
+         id="tspan5547"
+         y="168.15375"
+         x="872.47784"
+         sodipodi:role="line">の記述力は?</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5593"
+       y="87.979187"
+       x="785.3396"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       xml:space="preserve"><tspan
+         y="87.979187"
+         x="785.3396"
+         id="tspan5595"
+         sodipodi:role="line">コンパイル≒プランニング</tspan><tspan
+         id="tspan5597"
+         y="107.97919"
+         x="785.3396"
+         sodipodi:role="line">機械語1命令≒アクション</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3293"
+       y="393.46451"
+       x="316.81369"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20229483;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       xml:space="preserve"><tspan
+         y="393.46451"
+         x="316.81369"
+         id="tspan3295"
+         sodipodi:role="line">探索アルゴリズム(A*)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.94329262px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="284.34329"
+       y="39.11264"
+       id="text5601"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5603"
+         x="284.34329"
+         y="39.11264">プランニングの計算複雑性クラス:</tspan><tspan
+         sodipodi:role="line"
+         x="284.34329"
+         y="59.041756"
+         id="tspan5605">　仮定を加えてもNP困難</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5467"
+       y="84.345932"
+       x="412.48175"
+       style="font-size:19.62251472px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.20000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       xml:space="preserve"><tspan
+         y="84.345932"
+         x="412.48175"
+         id="tspan5469"
+         sodipodi:role="line">PLANSAT は PSPACE完全</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend-1)"
+       d="m 293.5,346 43,-1.5"
+       id="path11990"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend-1)"
+       d="M 596,467.5 577,435"
+       id="path11992"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend-1)"
+       d="m 505.51472,207.23654 0,46.93503"
+       id="path12005"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend-1)"
+       d="m 632.37868,232.80761 -26.5,33"
+       id="path12007"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend-1)"
+       d="m 338.70101,430.72183 32.81371,-15.10051"
+       id="path12009"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g12819"
+       transform="translate(0,-66)">
+      <rect
+         ry="8.3016376"
+         rx="6.4182005"
+         y="531.203"
+         x="6.5179596"
+         height="224.59399"
+         width="400.96408"
+         id="rect5216-9"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.2190001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3248"
+         y="555.0708"
+         x="24.90033"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+         xml:space="preserve"><tspan
+           style="font-size:18px;font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'"
+           y="555.0708"
+           x="24.90033"
+           id="tspan3250"
+           sodipodi:role="line">プランニングの主な手法:</tspan><tspan
+           id="tspan3254"
+           y="573.95129"
+           x="24.90033"
+           sodipodi:role="line">頂点ノードV:状態, 辺E:アクション</tspan><tspan
+           id="tspan3264"
+           y="591.45129"
+           x="24.90033"
+           sodipodi:role="line">である有向グラフ(V,E)の経路探索</tspan></text>
+      <path
+         transform="matrix(0.54987394,0,0,0.54987394,112.83226,503.0866)"
+         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         sodipodi:ry="22.627417"
+         sodipodi:rx="22.627417"
+         sodipodi:cy="200.90036"
+         sodipodi:cx="70.710678"
+         id="path4162"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         sodipodi:ry="22.627417"
+         sodipodi:rx="22.627417"
+         sodipodi:cy="200.90036"
+         sodipodi:cx="70.710678"
+         id="path4162-8"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         transform="matrix(0.54987394,0,0,0.54987394,228.89244,506.09316)" />
+      <path
+         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         sodipodi:ry="22.627417"
+         sodipodi:rx="22.627417"
+         sodipodi:cy="200.90036"
+         sodipodi:cx="70.710678"
+         id="path4162-3"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         transform="matrix(0.54987394,0,0,0.54987394,223.72148,601.80583)" />
+      <path
+         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         sodipodi:ry="22.627417"
+         sodipodi:rx="22.627417"
+         sodipodi:cy="200.90036"
+         sodipodi:cx="70.710678"
+         id="path4162-36"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         transform="matrix(0.54987394,0,0,0.54987394,323.32189,593.41044)" />
+      <path
+         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         sodipodi:ry="22.627417"
+         sodipodi:rx="22.627417"
+         sodipodi:cy="200.90036"
+         sodipodi:cx="70.710678"
+         id="path4162-1"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         transform="matrix(0.54987394,0,0,0.54987394,349.59244,520.62561)" />
+      <path
+         inkscape:connection-end-point="d4"
+         inkscape:connection-end="#path4162-8"
+         inkscape:connection-start-point="d4"
+         inkscape:connection-start="#path4162"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path4623"
+         d="m 164.15235,613.87868 91.18391,2.36214"
+         style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+      <path
+         inkscape:connection-start="#path4162-3"
+         inkscape:connection-start-point="d4"
+         inkscape:connection-end="#path4162-8"
+         inkscape:connection-end-point="d4"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path3238"
+         d="m 263.27468,699.85127 3.82848,-70.86381"
+         style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+      <path
+         inkscape:connection-end-point="d4"
+         inkscape:connection-end="#path4162-3"
+         inkscape:connection-start-point="d4"
+         inkscape:connection-start="#path4162"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path3240"
+         d="m 161.00746,621.82979 92.30273,82.17259"
+         style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+      <path
+         inkscape:connection-end-point="d4"
+         inkscape:connection-end="#path4162-3"
+         inkscape:connection-start-point="d4"
+         inkscape:connection-start="#path4162-36"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path4635"
+         d="m 349.80489,704.92543 -74.8025,6.30516"
+         style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+      <path
+         inkscape:connection-end-point="d4"
+         inkscape:connection-end="#path4162-36"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path4639"
+         d="m 383.72331,642.19493 -17.42,49.93431"
+         style="fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5549-9"
+         y="644.47882"
+         x="15.715576"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+         xml:space="preserve"><tspan
+           id="tspan5550"
+           y="644.47882"
+           x="15.715576"
+           sodipodi:role="line">at(key, 部屋C),</tspan><tspan
+           id="tspan5652-7"
+           y="661.97882"
+           x="15.715576"
+           sodipodi:role="line"> at(ロボット, <tspan
+   id="tspan5562"
+   style="font-size:14px;font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'">部屋B</tspan>),</tspan><tspan
+           id="tspan5554"
+           y="679.47882"
+           x="15.715576"
+           sodipodi:role="line">  ¬clean(部屋A),</tspan><tspan
+           id="tspan5558"
+           y="696.97882"
+           x="15.715576"
+           sodipodi:role="line">    ¬clean(部屋B)....</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5412"
+         y="619.46832"
+         x="126.83292"
+         style="font-size:18.15441513px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:end;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:end;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:0.64837199;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold Italic'"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;fill:#000000;stroke:none;-inkscape-font-specification:'M+ 2c Bold Italic'"
+           y="619.46832"
+           x="126.83292"
+           id="tspan5414"
+           sodipodi:role="line">初期状態</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5549-9-7"
+         y="729.04065"
+         x="134.70639"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+         xml:space="preserve"><tspan
+           y="729.04065"
+           x="134.70639"
+           id="tspan5551-8-5"
+           sodipodi:role="line">at(key, 部屋C),</tspan><tspan
+           id="tspan5537"
+           y="746.54065"
+           x="134.70639"
+           sodipodi:role="line"> at(ロボット, <tspan
+   id="tspan5560"
+   style="font-size:14px;font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'">部屋C</tspan>)...</tspan></text>
+      <text
+         transform="matrix(0.72867649,0.68485807,-0.68485807,0.72867649,0,0)"
+         y="358.76062"
+         x="603.26465"
+         sodipodi:linespacing="125%"
+         id="text5453"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+         xml:space="preserve"><tspan
+           style="font-size:14px"
+           id="tspan5455">move(部屋B,部屋C)</tspan></text>
+      <path
+         inkscape:connection-end-point="d4"
+         inkscape:connection-end="#path4162-36"
+         inkscape:connection-start-point="d4"
+         inkscape:connection-start="#path4162-8"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path5487"
+         d="m 276.90972,625.0103 76.15881,70.42274"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connection-start="#path4162-8"
+         inkscape:connection-start-point="d4"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path3262"
+         d="m 280.13543,617.9923 95.32632,11.02229"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         y="320.56781"
+         x="-646.31671"
+         transform="matrix(0.06401416,-0.99794899,0.99794899,0.06401416,0,0)"
+         sodipodi:linespacing="125%"
+         id="text5514"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+         xml:space="preserve">pickup(key)</text>
+      <text
+         transform="matrix(0.99325051,0.11598891,-0.11598891,0.99325051,0,0)"
+         y="568.06073"
+         x="400.08548"
+         sodipodi:linespacing="125%"
+         id="text5521"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           id="tspan5523">cleanup(部屋B)</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5416"
+         y="656.24738"
+         x="324.15585"
+         style="font-size:18.15441513px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:0.64837199;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold Italic'"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;text-align:start;text-anchor:start;fill:#000000;stroke:none;-inkscape-font-specification:'M+ 2c Bold Italic'"
+           y="656.24738"
+           x="324.15585"
+           id="tspan5418"
+           sodipodi:role="line">ゴール</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path5745"
+         d="m 126.39784,597.47518 16,8"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:0.7827186;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         d="m 87.129011,200.90036 c 0,9.0676 -7.350738,16.41833 -16.418333,16.41833 -9.067595,0 -16.418333,-7.35073 -16.418333,-16.41833 0,-9.06759 7.350738,-16.41833 16.418333,-16.41833 9.067595,0 16.418333,7.35074 16.418333,16.41833 z"
+         sodipodi:ry="16.418333"
+         sodipodi:rx="16.418333"
+         sodipodi:cy="200.90036"
+         sodipodi:cx="70.710678"
+         id="path4162-1-1"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         transform="matrix(0.54987394,0,0,0.54987394,349.59244,520.62561)" />
+    </g>
+  </g>
 </svg>
