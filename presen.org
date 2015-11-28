@@ -76,7 +76,7 @@
 # プログラム?
 # はい、PDDLで記述したプログラムです。
 
-# T25とアトムの説明を融合
+# T25とアトムの説明を合融
 
 [[png:planning]]
 
@@ -98,6 +98,8 @@
 # の交差部分にいる ベン図
 
 # IP solver etc と application の間にいる middleware
+
+[[png:planning2]]
 
 * 研究業績1 : 査読付き学会論文 ICAPS14
 
@@ -396,7 +398,7 @@ explicit/implicit の違いがあります。
 # 
 # CORE(ERA) Conference Ranking: A* オーストラリア/ニュージーランドの機関によるランキング
 
-* 付録 
+* 付録 ディープラーニング関連
 
 DL でとても役に立つGPGPUのライブラリを作っています
 
