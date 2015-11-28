@@ -136,7 +136,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
      inkscape:cx="550.19908"
-     inkscape:cy="279.57958"
+     inkscape:cy="505.85375"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -781,24 +781,24 @@
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
        x="20.505875"
-       y="325.25394"
+       y="327.25394"
        id="text5221"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="20.505875"
-         y="325.25394"
+         y="327.25394"
          id="tspan5225">問題点: 重み0 の辺が大量にある場合、</tspan><tspan
          sodipodi:role="line"
          x="20.505875"
-         y="352.75394"
+         y="354.75394"
          id="tspan5357">　重みの和が同じノードが大量に存在し</tspan><tspan
          sodipodi:role="line"
          x="20.505875"
-         y="380.25394"
+         y="382.25394"
          id="tspan5229">　　探索を進める方向を見失う</tspan></text>
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 109.20101,331.7868 254,0"
+       d="m 109.20101,333.7868 254,0"
        id="path5363"
        inkscape:connector-curvature="0" />
     <g
@@ -861,11 +861,8 @@
          sodipodi:role="line"
          x="353.03003"
          y="164.76849"
-         id="tspan4523">最良優先探索, </tspan><tspan
-         sodipodi:role="line"
-         x="353.03003"
-         y="192.26849"
-         id="tspan4526">ダイクストラ(1959), <tspan
+         id="tspan6354"
+         style="font-size:22px"> Dijkstra法 (1959), <tspan
    style="font-weight:bold;fill:#ff0000;-inkscape-font-specification:'M+ 2c Bold'"
    id="tspan5215">A*(1968)</tspan></tspan></text>
     <text
@@ -897,7 +894,7 @@
          sodipodi:role="line"
          x="16.585785"
          y="424.47308"
-         id="tspan5964">オリジナリティ: A*で重みの和が同じノードについて</tspan></text>
+         id="tspan6364">オリジナリティ: A*(見積もり値を用いた最良優先探索(最良分枝限定法))にて</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
@@ -1035,13 +1032,13 @@
          sodipodi:role="line"
          x="27"
          y="456.71573"
-         id="tspan3186">1. 和が同じノードの扱い方に関する<tspan
+         id="tspan3186">1. 重み和が同じノードの扱い方に関する<tspan
    style="fill:#ff0000"
    id="tspan5213">70年代からの定説を覆した</tspan></tspan><tspan
          sodipodi:role="line"
          x="27"
          y="486.71573"
-         id="tspan3337">2. 和が同じノードを更に分類する新手法を提案し性能向上</tspan></text>
+         id="tspan3337">2. 重み和が同じノードを更に分類する新手法を提案し性能向上</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:28.29515839px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:end;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:end;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:2;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
@@ -1090,22 +1087,22 @@
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="726"
-       y="445.7868"
+       x="775.74011"
+       y="445.44366"
        id="text3192"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3194"
-         x="726"
-         y="445.7868">(A*のTiebreakingには</tspan><tspan
+         x="775.74011"
+         y="445.44366">(A*のTiebreakingには</tspan><tspan
          sodipodi:role="line"
-         x="726"
-         y="465.7868"
-         id="tspan3202">ヒューリスティック関数 h を</tspan><tspan
+         x="775.74011"
+         y="465.44366"
+         id="tspan4556">ゴールまでの距離の見積もり値 h を</tspan><tspan
          sodipodi:role="line"
-         x="726"
-         y="485.7868"
-         id="tspan4556">　用いるべきだとされてきた)</tspan></text>
+         x="775.74011"
+         y="485.44366"
+         id="tspan6370">　流用すべきだとされてきた)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1130,7 +1127,7 @@
            y="-110.59058"
            x="715.32343"
            id="tspan5984"
-           sodipodi:role="line">だが、本研究の対象は</tspan><tspan
+           sodipodi:role="line">但し、本研究の対象は</tspan><tspan
            id="tspan5217"
            y="-88.090584"
            x="715.32343"
@@ -1176,7 +1173,7 @@
            sodipodi:role="line"
            id="tspan4498"
            x="701"
-           y="-63"></tspan><tspan
+           y="-63" /><tspan
            sodipodi:role="line"
            x="701"
            y="-40.5"
@@ -1202,5 +1199,16 @@
          id="tspan4564"
          x="15.556349"
          y="620.92175">今後のインパクト: 重み0を持つ広範なグラフ探索問題に対して性能向上</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="33.941128"
+       y="-48.001228"
+       id="text6356"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6358"
+         x="33.941128"
+         y="-48.001228">Xヒューリスティック, X admissible -&gt; 下界</tspan></text>
   </g>
 </svg>

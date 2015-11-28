@@ -25,6 +25,24 @@
 # 読まれる場合と
 # 両方の場合で
 
+# 過去の研究とどう違うのか
+# 
+# ACP
+# 
+# + オリジナリティは idea について。 だからテクニカル
+# ループの概念を検出する
+# 
+# + インパクトは user の話について。 だからapplication
+# ループをけんすつしようという考え自体がプランニング業界で新た
+#   + 過去ー現在のインパクト
+#   + 未来のインパクト
+# 
+# インパクトはあるけどオリジナルではない
+# 
+# 質問: これまでどこまでやられているのか?
+# --- ある程度専門的に解説すべき
+
+
 # 質問は補足を行う機会でもある
 
 # math
@@ -47,10 +65,10 @@
 #+BEGIN_SMALLER
 #+BEGIN_EXPANDED
 1. これまでの研究業績 : 査読付き学会論文
-   1. _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2014.
-   2. _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS)/, June 2014.
-   3. _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation.In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2015. 
-   4. _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence/, February 2016. 
+   1. _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(*ICAPS*)/, June 2014.
+   2. _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(*KEPS*)/, June 2014.
+   3. _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation.In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(*ICAPS*)/, June 2015. 
+   4. _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence (*AAAI*)/, February 2016. 
 2. 今後の研究計画
    1. ドメイン対称性の検知とその応用
 #+END_EXPANDED
@@ -120,7 +138,7 @@
 
 [[png:assemble-keps14-icaps15]]
 
-* 研究業績4 : 査読付き学会論文 AAAI16 (申請後に採択)
+* 研究業績4 : 査読付き学会論文 AAAI16 (申請後に採択<<赤>>)
 
 # 万が一グラフ探索がわからない人のために
 # 経路探索,カーナビ
@@ -132,34 +150,10 @@
 # 
 # 結果: statelength による比較 + カバレッジ
 
-# なぜ「以前」の数字がスライドによって変わるの?
-# A. 論文の中で使った実験設定が異なるからです。
 
 [[png:aaai16]]
 
 * 今後の研究計画
-
-問題意識、課題、モチベーションを説明できていない
-ストーリーがない
-
-過去の研究とどう違うのか
-
-ACP
-
-+ オリジナリティは idea について。 だからテクニカル
-ループの概念を検出する
-
-+ インパクトは user の話について。 だからapplication
-ループをけんすつしようという考え自体がプランニング業界で新た
-  + 過去ー現在のインパクト
-  + 未来のインパクト
-
-インパクトはあるけどオリジナルではない
-
-質問: これまでどこまでやられているのか?
---- ある程度専門的に解説すべき
-
-# 巨大>大規模 超巨大>巨大
 
  [[png:symmetry]]
 
@@ -179,15 +173,15 @@ ACP
 
 #+BEGIN_SMALLER
 1. これまでの研究業績 : 査読付き学会論文
-   1. _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2014. 
+   1. *難関国際会議* _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2014. *採択率33%*
       1. 未知の問題に隠れている1種類の繰り返し構造を検出
       2. *工場での製造スケジューリング (x1000 高速化)*
-   2. _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS)/, June 2014.
+   2. *査読付きワークショップ* _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS)/, June 2014.
       1. 複数種類の繰り返し構造の検出
-   3. _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2015. 
+   3. *難関国際会議* _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2015.  *採択率33%*
       1. 複数の繰り返し構造を組み合わせる手法
       2. *ベンチマークセット全体で高速化* 
-   4. _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence/, February 2016.
+   4. *難関国際会議* _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence/, February 2016. *採択率26%*
       1. コストゼロのエッジがグラフ探索に引き起こす問題を解決
       2. *ベンチマークセット全体で高速化* 
 2. 今後の研究計画
@@ -260,10 +254,21 @@ DS1,XeroX
 #+END_ROW-FLUID
 #+END_CONTAINER-FLUID
 
-機械学習を埋め込むことは可能
+ただしプランニングに学習機を埋め込むことは *可能* (実例複数あり)
 
-DL絡みてプランニングはアプリケーション
-機会がアレばやってみたいと思っています。
+DLから見て、プランニングは *アプリケーション*
+
+プランニングから見て、DLは *ツール*
+
+両者の組み合わせは機会があればやってみたい
+
+** 付録 ディープラーニング関連
+
+趣味の一環で、Common Lisp から直接使えるGPGPUのライブラリを作成中 (DLを作ってみるため)
+
++ OpenCLベース
++ Lisp の文法を直接 OpenCL C に変換し実行するトランスレータ
++ OpenCLのメモリ管理を Lisp GC に埋め込み
 
 * 付録 第五世代コンピュータとの違いは?
 
@@ -283,8 +288,12 @@ DL絡みてプランニングはアプリケーション
 
 * 付録 似たような研究は誰がやっていますか どこでやられていますか
 
-いろんなバリエーションがある
-自分の研究分野のことをどれぐらいわかっているのか
+# いろんなバリエーションがある
+# 自分の研究分野のことをどれぐらいわかっているのか
+
+国内ですか、国外ですか？ YES NO
+
+過去の業績のことですか、研究計画のことですか? 過去、未来
 
 (研究計画で) あなたの研究と似ている研究は誰がやっているか?
 
@@ -300,11 +309,9 @@ erez karpas
 今までのインパクトを聞かれているのか
 確認すること
 
-** その研究はどれくらいの重要度があると思いますか
+* 付録 その研究はどれくらいの重要度があると思いますか?
 
-ICAPSで
-
-** ICAPS14の評判は? -> 
+** ICAPS14での評判は? -> 
 一二年の成果なのでまだ引用はありませんが
 その分野の研究者が集まる採択率33の場ではっぴょうしてきました 
 口頭での会話でも上場で、
@@ -312,9 +319,10 @@ ICAPSで
 しています etc.
 
 ** 今までの研究の評価は？
+
 まとめページに行って同様に採択率の話をする
 
-** 特定過去
+** 特定の過去の論文
 
 バリエーション1
 
@@ -366,18 +374,58 @@ explicit/implicit の違いがあります。
 瓦林先生
 秋葉さん
 
+Katsutoshi Hirayama, Kobe university  (constraint optimization, CSP, distributed CSP)
 
-* 付録 web explicit graph との違い
+Toru Ishida (Kyoto U. stopped working in search a long time ago, but for a while, he was the leader in A*-related search methods in Japan; coauthored some papers with Korf).
 
-メモリに入る
-メモリに入らなくては解けない
+* 付録 Explicit Graph と Implicit Graph との違い
 
-メモリに入らない
+
+#+BEGIN_CONTAINER-FLUID
+#+BEGIN_ROW-FLUID
+#+BEGIN_SPAN6
+*カーナビ、ソーシャルグラフなど* : Explicit Graph Search
+
+グラフ全体がメモリ(〜64GB)または二次記憶(〜1EB)に収まる
+
+グラフ全体の情報が既知
+
+AI and Web の分野など
+#+END_SPAN6
+#+BEGIN_SPAN6
+*プランニングにおける探索グラフ* : Implicit Graph Search
+
+地球に存在する全計算資源を集めても二次記憶に入らない
+
+グラフのノード数は状態変数に対して *指数的に増加* (cf. 1EiB = 2^63B: 命題変数63個)
+
 動的に必要なぶんだけメモリに確保して行かないと問題が解けない
-秋葉さんのボスがいるかもしれない
 
+例:
+3x3x3のルービックキューブの探索空間: XXX
+
+4x4x4のルービックキューブの探索空間: XXX
+
+5x5x5のルービックキューブの探索空間: XXX
+#+END_SPAN6
+#+END_ROW-FLUID
+#+END_CONTAINER-FLUID
+
+# 秋葉さんのボスがいるかもしれない
+
+* 付録 日本にプランニングの研究室がない = プランニングはマイナーで大したことのない分野?
+
+ICAPS, SoCS : 例年150人-200人の参加者を集めており大変盛況, 
+
+AAAI, IJCAI : プランニングに関する論文は例年数十本採択され、Proceedingsの一つの章をなす
+
+JAIR, AIJ : 論文誌ではXXX
+
+There are major groups at MIT (Brian Williams), Carnegie-Mellon, NASA  (over 20 people each at NASA Ames and at NASA/Caltech JPL)
 
 * 付録 学会論文の位置づけ
+
+
 
 # * 付録 AAAI, ICAPS とは?
 # 
@@ -398,16 +446,22 @@ explicit/implicit の違いがあります。
 # 
 # CORE(ERA) Conference Ranking: A* オーストラリア/ニュージーランドの機関によるランキング
 
-* 付録 ディープラーニング関連
+* HTN と ICAPS-15 の違い
 
-DL でとても役に立つGPGPUのライブラリを作っています
+HTNは人間が問題分割を行う
+人件費を考えると非常にコストパフォーマンスが悪い
+→ 自動で問題分割
 
-ライブラリトランスレータ
+* 付録 Q&A
 
-GCの話, 言語系
++ Q. 探索空間の比較について、なぜ「以前」の数字がスライドによって変わるの?
++ A. 論文の中で使った実験設定が異なるからです。
 
-アピールできる機会
+* 付録 今後のキャリアパスは？
 
-* 付録 
+研究者押しで押しまくる
+大学あるいは企業の研究者
+
+迷うことなくパッと答える
 
 

@@ -502,9 +502,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.84132234"
-     inkscape:cx="507.82533"
-     inkscape:cy="293.38036"
+     inkscape:zoom="0.92168331"
+     inkscape:cx="397.01419"
+     inkscape:cy="344.51058"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -512,10 +512,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1440"
-     inkscape:window-height="818"
-     inkscape:window-x="768"
-     inkscape:window-y="149"
+     inkscape:window-width="1024"
+     inkscape:window-height="738"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-global="false">
     <inkscape:grid
@@ -894,7 +894,7 @@
     </g>
     <g
        id="g4253"
-       transform="matrix(0.8358352,0,0,0.8358352,107.91758,-5.958907)">
+       transform="matrix(0.8358352,0,0,0.8358352,103.91758,6.041093)">
       <rect
          ry="8.2047672"
          rx="6.343308"
@@ -1096,85 +1096,97 @@
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
        x="-334.5665"
-       y="348.97821"
+       y="354.97821"
        id="text5337"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5339"
          x="-334.5665"
-         y="348.97821">物の数が多くなる(n&gt;4)時</tspan></text>
+         y="354.97821">扱う対象の数が多くなる場合 (製品が4個程度以上の時)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
        x="-436.36633"
-       y="348.49402"
+       y="354.49402"
        id="text7095"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7097"
          x="-436.36633"
-         y="348.49402">問題点:</tspan></text>
+         y="354.49402">問題点:</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="-397.83228"
-       y="473.68985"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+       x="-358.77332"
+       y="469.01007"
        id="text7099"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-397.83228"
-         y="473.68985"
-         id="tspan7113">1. 繰り返し構造を (人間の手なしで) 問題の論理構造から自動検出</tspan></text>
+         x="-358.77332"
+         y="469.01007"
+         id="tspan6306">1. 問題中の繰り返し構造を「工場, セル生産, 製品」など特定の前提なしに</tspan><tspan
+         sodipodi:role="line"
+         x="-358.77332"
+         y="486.51007"
+         id="tspan6304"><tspan
+   style="font-size:14px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold Italic'"
+   id="tspan6310">　　任意のプランニング問題</tspan>の論理構造から自動検出する手法</tspan><tspan
+         sodipodi:role="line"
+         x="-358.77332"
+         y="504.01007"
+         id="tspan6292">2. 検出した繰り返し構造から効率よい (生産時間の短い) 並列プランを生成する手法</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:30.83212852px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
        x="-438.03311"
-       y="443.45227"
+       y="447.45227"
        id="text7109"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7111"
          x="-438.03311"
-         y="443.45227">提案手法:</tspan></text>
+         y="447.45227">提案手法:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="-366.80109"
-       y="540.46771"
+       x="-438.80109"
+       y="534.46771"
        id="text8125"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-366.80109"
-         y="540.46771"
-         id="tspan4288">結果: 1000倍以上巨大な問題を解けた</tspan><tspan
+         x="-438.80109"
+         y="534.46771"
+         id="tspan4288">結果: 1000台以上の製品を組み立てる問題を解けた</tspan><tspan
          sodipodi:role="line"
-         x="-366.80109"
-         y="570.46771"
-         id="tspan4306">　+ 生産時間を最大3割短縮(単純並べと比較)</tspan></text>
+         x="-438.80109"
+         y="564.46771"
+         id="tspan6257">　+ 生産時間を最大3割短縮(後処理最適化と比較)</tspan></text>
     <rect
        style="color:#000000;fill:none;stroke:#000000;stroke-width:2.20229483;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect8139"
        width="918.93842"
-       height="119.28058"
+       height="83.476547"
        x="-449.76511"
-       y="611.69757"
+       y="647.50159"
        rx="5.7587967"
        ry="7.4487295" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot9105"
-       style="font-size:9.9895792px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       transform="matrix(2.2022949,0,0,2.2022949,-516.06991,98.794405)"><flowRegion
+       style="font-size:9.08143616px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       transform="matrix(2.2022949,0,0,2.2022949,-512.815,137.81406)"><flowRegion
          id="flowRegion9107"><rect
            id="rect9109"
            width="409.43387"
            height="54.382221"
            x="34.784142"
            y="233.51601"
-           style="font-size:9.9895792px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
-         id="flowPara9113">Asai, M. and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS), Portsmouth, NH, USA, June 21-26, 2014.<flowSpan
-   style="font-size:9.9895792px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-   id="flowSpan4108">(採択率33%, CORE(ERA) Conference Ranking: A* : flagship conference, leading venue in a discipline area) </flowSpan></flowPara></flowRoot>    <text
+           style="font-size:9.08143616px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
+         id="flowPara9113">Asai, M. and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS), Portsmouth, NH, USA, June 21-26, 2014. <flowSpan
+   style="font-size:9.08143616px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+   id="flowSpan4108">(<flowSpan
+   style="font-size:9.08143616px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c'"
+   id="flowSpan6243">採択率33%</flowSpan>) </flowSpan></flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
        x="-433.9212"
@@ -1190,7 +1202,7 @@
          sodipodi:role="line"
          x="-433.9212"
          y="191.25032"
-         id="tspan9284">　小さなブースでロボットアームを用いて製造</tspan></text>
+         id="tspan9284">　ロボットアームなどを含む小規模セルが複数協調して製造</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
@@ -1233,14 +1245,14 @@
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
-       x="-436.97195"
-       y="603.89417"
+       x="-442.39679"
+       y="640.50867"
        id="text3202"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3204"
-         x="-436.97195"
-         y="603.89417">株式会社IHIと共同研究(システムの先行評価として)</tspan></text>
+         x="-442.39679"
+         y="640.50867">株式会社IHIと共同研究(システムの先行評価として)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
@@ -1265,45 +1277,45 @@
          y="224.73795">目的:</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ff0000;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
-       x="-382.51331"
-       y="287.29251"
+       style="font-size:17.20135307px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ff0000;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="-384.91422"
+       y="299.51355"
        id="text4184"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4186"
-         x="-382.51331"
-         y="287.29251">✘アクチュエータの角度制御 (例: θ: 0deg→30deg, 1deg/sec)</tspan><tspan
+         x="-384.91422"
+         y="299.51355">✘アクチュエータの角度制御 (例: θ: 0deg→30deg, 1deg/sec)</tspan><tspan
          sodipodi:role="line"
-         x="-382.51331"
-         y="313.302"
+         x="-384.91422"
+         y="324.36902"
          id="tspan4188">◎行為の計画(例: 部品2をアーム1で塗装, ネジ3を締結 etc.)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
-       x="-437.15298"
-       y="279.5239"
+       style="font-size:21.02387619px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="-437.12955"
+       y="278.71078"
        id="text4190"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4192"
-         x="-437.15298"
-         y="279.5239">注意!</tspan></text>
+         x="-437.12955"
+         y="278.71078">研究の対象</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="-425.5033"
-       y="380.99036"
+       x="-429.5033"
+       y="386.99036"
        id="text5243-6-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-425.5033"
-         y="380.99036"
-         id="tspan5247-7-6">繰り返しを用いずに並列最適に解く→✘探索空間が広大で探索不可</tspan><tspan
+         x="-429.5033"
+         y="386.99036"
+         id="tspan5247-7-6">最適解を返すソルバで直接解く→✘探索空間が広大で探索不可</tspan><tspan
          sodipodi:role="line"
-         x="-425.5033"
-         y="403.49036"
-         id="tspan4223">１つ分製造の動作列を単純に並べて詰める→✘並列に動かず非効率</tspan></text>
+         x="-429.5033"
+         y="409.49036"
+         id="tspan4223">１つ分の製造手順を複数つなげて後処理最適化→✘生産時間が長い</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot4225"
@@ -1326,26 +1338,26 @@
        ry="8.2047672" />
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="-397.98343"
-       y="503.48181"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="-358.92447"
+       y="498.80203"
        id="text4282"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4284"
-         x="-397.98343"
-         y="503.48181">2. 検出した繰り返し構造から効率よい並列プランを生成する手法</tspan></text>
+         x="-358.92447"
+         y="498.80203" /></text>
     <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
        x="157.33096"
-       y="596.82452"
+       y="604.82452"
        id="text4308"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4310"
          x="157.33096"
-         y="596.82452"><tspan
+         y="604.82452"><tspan
    style="font-size:16px"
    id="tspan4387">以前:</tspan>10<tspan
    style="font-size:22px;baseline-shift:super"
@@ -1450,5 +1462,46 @@
    id="tspan4542-4"
    style="font-size:10.80320549px;baseline-shift:super">120</tspan></tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-34.665333"
+       y="426.59988"
+       id="text6237"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6239"
+         x="-34.665333"
+         y="426.59988">(makespan)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+       x="-438.14716"
+       y="591.03302"
+       id="text6261"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6263"
+         x="-438.14716"
+         y="591.03302">新規性: 繰り返し構造を自動で抽出するというアイディア+抽出技術</tspan><tspan
+         sodipodi:role="line"
+         x="-438.14716"
+         y="613.53302"
+         id="tspan6284">インパクト: 大きな高速化, プランニングの適用規模を広げた</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-179.6234"
+       y="88.626907"
+       id="text5568"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5571"
+         x="-179.6234"
+         y="88.626907">本当はもっと特殊な製品(原発の特注部品1000個など)</tspan><tspan
+         sodipodi:role="line"
+         x="-179.6234"
+         y="116.12691"
+         id="tspan5573">を扱います。自動車を用いたのはわかりやすさのため</tspan></text>
   </g>
 </svg>
