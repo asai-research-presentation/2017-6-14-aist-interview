@@ -1,0 +1,44 @@
+
+あまり有名ではない先生を上げても意味がないのか？
+
++ 石田とおる@京都大
+  + 引退済み
+  + 日本でA*系の探索をするグループのリーダーだった
+  + Richard Korf先生と共著あり
+    + Moving Target Search
+    + Tiebreakを含むので、改変などを含む何らかの形でAAAI16の手法を使える可能
+      性あり
+  + Real-time bidirectional search
++ 井上かつみ先生@NII
+  + 推論系の研究者
+  + 制約充足問題CSP+プランニングで @ ICAPS 論文あり
++ 横尾誠先生@九州大学
+  + マルチエージェント、CSPも研究されていた
++ 田沼先生@神戸大学
+  + SATソルバ
++ 田中哲郎先生@東京大学
+  + SATソルバ
++ 岸本先生@元東工大
+  + 日本人ですが今はアイルランドダブリンにいる
++ 瓦林先生
+  + ERATOの人
++ 平山勝俊@神戸大学
+  + CSP
+  + COP Constraint Optimization
++ 梅本先生は？
++ 自分の指導教官:
+  + アメリカから飛んできた研究者
+  + もともと日本にいなかった
+
+
+M Nagata
+A stochastic Japanese morphological analyzer using a forward-DP backward-A* N-best search algorithm
+COLING '94
+
+CR Reeves, T Yamada - Evolutionary computation
+
+Application of Parallelized DP and A Algorithm to Multiple Sequence Alignment
+
+Shiho ARAKI, Masahiro GOSHIMA1), Shin-ichiro MORI1), Hiroshi NAKASHIMA1), Shinji TOMITA1), Yutaka AKIYAMA2), Minoru KANEHISA2)
+MSA
+Tomita, Shinji
