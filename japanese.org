@@ -14,14 +14,14 @@
   + 制約充足問題CSP+プランニングで @ ICAPS 論文あり
 + 横尾誠先生@九州大学
   + マルチエージェント、CSPも研究されていた
++ 瓦林先生
+  + ERATOの人
 + 田沼先生@神戸大学
   + SATソルバ
 + 田中哲郎先生@東京大学
   + SATソルバ
 + 岸本先生@元東工大
   + 日本人ですが今はアイルランドダブリンにいる
-+ 瓦林先生
-  + ERATOの人
 + 平山勝俊@神戸大学
   + CSP
   + COP Constraint Optimization
@@ -29,7 +29,7 @@
 + 自分の指導教官:
   + アメリカから飛んできた研究者
   + もともと日本にいなかった
-
+h
 
 M Nagata
 A stochastic Japanese morphological analyzer using a forward-DP backward-A* N-best search algorithm
@@ -42,3 +42,23 @@ Application of Parallelized DP and A Algorithm to Multiple Sequence Alignment
 Shiho ARAKI, Masahiro GOSHIMA1), Shin-ichiro MORI1), Hiroshi NAKASHIMA1), Shinji TOMITA1), Yutaka AKIYAMA2), Minoru KANEHISA2)
 MSA
 Tomita, Shinji
+
+
+
+cell-assembly もでるを見せる
+制約式を書くよりも
+モデリングの自然さがより高い
+
+そういう言語で記述したものを
+
+
+
+裏ではいろんな方法で解くが
+
+
+PDDL を別のモデルに変換して得事自体も
+一つの研究課題ではある
+
+
+
+core: じょうほうせきゅりてぃｇあいｓや　

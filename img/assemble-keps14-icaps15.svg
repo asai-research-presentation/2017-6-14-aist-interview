@@ -600,8 +600,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="492.72102"
-     inkscape:cy="283.57603"
+     inkscape:cx="499.2387"
+     inkscape:cy="203.57603"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -609,10 +609,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1440"
-     inkscape:window-height="818"
-     inkscape:window-x="768"
-     inkscape:window-y="149"
+     inkscape:window-width="1024"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-global="false">
     <inkscape:grid
@@ -1723,7 +1723,9 @@
          sodipodi:role="line"
          id="tspan11897"
          x="114.92441"
-         y="317.23999">結果: 広範な問題ドメインで</tspan><tspan
+         y="317.23999">結果: <tspan
+   style="font-weight:bold;fill:#ff0000;-inkscape-font-specification:'M+ 2c Bold'"
+   id="tspan4307">広い問題種別で</tspan></tspan><tspan
          sodipodi:role="line"
          x="114.92441"
          y="356.82611"
@@ -1793,7 +1795,9 @@
            style="font-size:10.8977232px;text-align:start;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
          id="flowPara9113-0">Asai, M. and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS), Jerusalem, Israel, June 2015. (<flowSpan
    style="font-size:10.8977232px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-   id="flowSpan3886">採択率33%) </flowSpan></flowPara></flowRoot>    <text
+   id="flowSpan3886"><flowSpan
+   style="fill:#ff0000"
+   id="flowSpan5474">採択率33%</flowSpan>) </flowSpan></flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
        x="-379.50781"
@@ -1859,7 +1863,7 @@
            height="164"
            x="583"
            y="161.0083" /></flowRegion><flowPara
-         id="flowPara3750"></flowPara></flowRoot>    <text
+         id="flowPara3750" /></flowRoot>    <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
        x="-299.33472"
@@ -1907,7 +1911,7 @@
          sodipodi:role="line"
          id="tspan3853"
          x="-850.26324"
-         y="247.98636"></tspan><tspan
+         y="247.98636" /><tspan
          sodipodi:role="line"
          x="-850.26324"
          y="265.48636"
