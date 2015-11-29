@@ -99,35 +99,13 @@
 
 * 研究業績1 : 査読付き学会論文 ICAPS14
 
-  # セル生産の説明
-
-# ACP vs SCP の話
-# simple loop ではだめ
-# やったのはいかにしてスケジューリングでマージするか
-
 [[png:assemble-icaps14]]
 
 * 研究業績2,3 : 査読付き学会論文 KEPS14, ICAPS15
 
-# 一般に大きな問題が解けない+icaps14の課題
-# 
-# もっと一般性を高めた話をする -将来はど羅右衛門
-
-
 [[png:assemble-keps14-icaps15]]
 
-* 研究業績4 : 査読付き学会論文 AAAI16 (申請後に採択<<赤>>)
-
-# 万が一グラフ探索がわからない人のために
-# 経路探索,カーナビ
-# プランニングでも内部で問題を解くのはこれをつかっている
-# 
-# 無関係なノード -> 同じコストの和のノ０−どの新たな分類方法を作った
-# 
-# 強調: 50年もののアルゴリズムの定説を覆した！
-# 
-# 結果: statelength による比較 + カバレッジ
-
+* 研究業績4 : 査読付き学会論文 AAAI16 ( *申請後に採択* )
 
 [[png:aaai16]]
 
@@ -152,16 +130,16 @@
 #+BEGIN_SMALLER
 1. これまでの研究業績 : 査読付き学会論文
    1. *難関国際会議* _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2014. *採択率33%*
-      1. 未知の問題に隠れている1種類の繰り返し構造を検出
+      1. 任意の問題から1種類の繰り返し構造を自動で検出
       2. *工場での製造スケジューリング (x1000 高速化)*
    2. *査読付きワークショップ* _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS)/, June 2014.
       1. 複数種類の繰り返し構造の検出
    3. *難関国際会議* _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS)/, June 2015.  *採択率33%*
-      1. 複数の繰り返し構造を組み合わせる手法
+      1. 複数の繰り返し構造をより柔軟・汎用に組み合わせる手法
       2. *ベンチマークセット全体で高速化* 
    4. *難関国際会議* _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence/, February 2016. *採択率26%*
-      1. コストゼロのエッジがグラフ探索に引き起こす問題を解決
-      2. *ベンチマークセット全体で高速化* 
+      1. コストゼロの辺がグラフ探索に引き起こす問題を解決
+      2. *ベンチマークセット全体で高速化* , *コストゼロの辺を含むグラフ探索全てに影響*
 2. 今後の研究計画
    1. 探索グラフの対称性の検知技術と、小問題分割技術の融合
 #+END_SMALLER

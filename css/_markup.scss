@@ -18,6 +18,14 @@ code {
     padding: 0.12em;
 }
 
+h1, h2, h3 {
+    b {
+        color : red;
+        font-style : italic;
+        text-decoration : none;
+    }
+}
+
 /* notes */
 
 @import "_colors";

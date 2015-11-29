@@ -219,6 +219,11 @@ pre {
 code {
   padding: 0.12em; }
 
+h1 b, h2 b, h3 b {
+  color: red;
+  font-style: italic;
+  text-decoration: none; }
+
 /* notes */
 /* lighten($text,4); */
 /* .resume { */
