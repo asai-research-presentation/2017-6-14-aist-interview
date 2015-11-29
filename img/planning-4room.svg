@@ -159,7 +159,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.995"
      inkscape:cx="391.83921"
-     inkscape:cy="249.61831"
+     inkscape:cy="490.82434"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -198,37 +198,15 @@
        transform="translate(352.21558,-129.83525)" />
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Italic'"
-       x="10.623066"
-       y="-24.977554"
-       id="text3375"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="10.623066"
-         y="-24.977554"
-         id="tspan3379">プランニング</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-size:36px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Italic'"
-       x="583.76825"
-       y="-31.655228"
+       x="361.80844"
+       y="-29.625076"
        id="text3392"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="583.76825"
-         y="-31.655228"
+         x="361.80844"
+         y="-29.625076"
          id="tspan3402">行動を扱う汎用組み合わせ最適化問題</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:36px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Italic'"
-       x="256.50735"
-       y="-34.768711"
-       id="text3408"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3410"
-         x="256.50735"
-         y="-34.768711">=</tspan></text>
     <rect
        style="color:#000000;fill:none;stroke:#000000;stroke-width:6.01396561;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect5162"
@@ -600,17 +578,6 @@
          x="573.00079"
          y="490.65863"
          id="tspan6362" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Italic'"
-       x="126.37569"
-       y="-58.152458"
-       id="text6448"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan6450"
-         x="126.37569"
-         y="-58.152458">自動行動計画</tspan></text>
     <image
        y="265.52762"
        x="-258.69345"
@@ -1138,5 +1105,16 @@
          id="tspan3738-6"
          x="303.07825"
          y="222.27545">4部屋のインスタンス</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Italic'"
+       x="295.94977"
+       y="-70.351753"
+       id="text4213"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4215"
+         x="295.94977"
+         y="-70.351753">知的な自律ロボットにいかに賢く行動させるか?</tspan></text>
   </g>
 </svg>
