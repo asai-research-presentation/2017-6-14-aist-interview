@@ -218,9 +218,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.89443775"
-     inkscape:cx="422.97274"
-     inkscape:cy="294.24522"
+     inkscape:zoom="1.264926"
+     inkscape:cx="450.58053"
+     inkscape:cy="219.69642"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -329,9 +329,7 @@
          sodipodi:role="line"
          id="tspan3233"
          x="-86.281265"
-         y="243.95671"><tspan
-   style="font-size:13px"
-   id="tspan6951">主題:</tspan>探索空間の対称性</tspan></text>
+         y="243.95671">課題:探索空間の対称性</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:15.63308334px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
@@ -363,18 +361,20 @@
          x="-91.90139"
          y="269.58008"
          style="font-size:16.45054054px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-         id="tspan4452">・類似した対象の存在が対称性を引き起こす</tspan><tspan
+         id="tspan4452">・<tspan
+   style="fill:#696969"
+   id="tspan6470">問題を著しく困難にする</tspan></tspan><tspan
          sodipodi:role="line"
          x="-91.90139"
          y="290.14325"
          style="font-size:16.45054054px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
          id="tspan6448">・<tspan
-   style="font-style:italic;font-weight:bold;-inkscape-font-specification:'M+ 2c Bold Italic'"
-   id="tspan6469">対称性は探索空間の指数的増大を招く</tspan></tspan><tspan
+   style="fill:#696969"
+   id="tspan6436">対称性は探索空間の指数的増大を招く</tspan></tspan><tspan
          sodipodi:role="line"
          x="-91.90139"
          y="310.70642"
-         style="font-size:16.45054054px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+         style="font-size:16.45054054px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;text-anchor:start;fill:#696969;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
          id="tspan5056">・高次元空間の対称性の判定はむずかしい</tspan></text>
     <g
        id="g6299"
@@ -670,7 +670,7 @@
          id="text4552"
          y="333.59863"
          x="-540.39954"
-         style="font-size:13.50402927px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+         style="font-size:13.50402927000000020px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;fill:#696969;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
          xml:space="preserve"><tspan
            y="333.59863"
            x="-540.39954"
@@ -2598,7 +2598,7 @@
          sodipodi:role="line"
          x="339.84494"
          y="296.37488"
-         id="tspan4250">対称性を破る + 小問題に分割する</tspan></text>
+         id="tspan4250">対称性の検知 + 小問題に分割する</tspan></text>
     <g
        id="g7098"
        transform="matrix(0.89689877,0,0,0.89689877,75.599598,140.05374)">
@@ -2636,7 +2636,7 @@
          sodipodi:role="line"
          id="tspan6332"
          x="-86.283554"
-         y="454.57553">手法: 対称性を破ってノードを枝刈り</tspan></text>
+         y="454.57553">手法: 対称性の検知</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14.88847351px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
@@ -2665,7 +2665,7 @@
          sodipodi:role="line"
          x="-86.282555"
          y="48.666218"
-         id="tspan6450">目的: 類似した対象が大量に存在する大規模問題を解く</tspan></text>
+         id="tspan6450">目的: より大規模な問題を解く</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14.96996689px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
@@ -2752,9 +2752,7 @@
          sodipodi:role="line"
          x="326.96463"
          y="78.805931"
-         id="tspan6687"><tspan
-   style="font-size:16px"
-   id="tspan8444">主題: </tspan>独立で非対称な部分問題:問題分割</tspan></text>
+         id="tspan6687">課題:非対称な問題 手法:問題分割</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2851,7 +2849,7 @@
        id="text5139-1"
        y="323.68323"
        x="221.34181"
-       style="font-size:9.41185379px;font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Italic'"
+       style="font-size:9.41185379000000033px;font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#696969;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Italic'"
        xml:space="preserve"><tspan
          id="tspan5143-4"
          y="323.68323"
@@ -2916,7 +2914,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:13px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans"
        x="-35.371891"
        y="556.16357"
        id="text4701"
@@ -2941,57 +2939,57 @@
          y="159.03133" /></text>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="330.91745"
-       y="103.13632"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#696969;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="330.12689"
+       y="101.5552"
        id="text3231-1-6"><tspan
          sodipodi:role="line"
-         x="330.91745"
-         y="103.13632"
+         x="330.12689"
+         y="101.5552"
          id="tspan6687-1">課題:問題分割と処理に時間がかかりすぎてしまう</tspan><tspan
          sodipodi:role="line"
-         x="330.91745"
-         y="120.63632"
+         x="330.12689"
+         y="119.0552"
          id="tspan7200">　手法:ポートフォリオ戦略</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="332.03305"
-       y="151.46471"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#696969;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="408.90921"
+       y="161.98999"
        id="text3231-1-6-3"><tspan
          sodipodi:role="line"
-         x="332.03305"
-         y="151.46471"
+         x="408.90921"
+         y="161.98999"
          id="tspan6687-1-7">課題:分割して解いた結果を</tspan><tspan
          sodipodi:role="line"
-         x="332.03305"
-         y="168.96471"
+         x="408.90921"
+         y="179.48999"
          id="tspan7196">　再統合できない場合がある</tspan><tspan
          sodipodi:role="line"
-         x="332.03305"
-         y="186.46471"
+         x="408.90921"
+         y="196.98999"
          id="tspan7115">　手法: 解いた結果の正しさを保ったまま</tspan><tspan
          sodipodi:role="line"
-         x="332.03305"
-         y="203.96471"
+         x="408.90921"
+         y="214.48999"
          id="tspan7198">　　　　　再統合を妨げる要素を削除</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="550.78131"
-       y="144.23102"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#696969;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="539.31335"
+       y="119.99493"
        id="text3231-1-6-3-8"><tspan
          sodipodi:role="line"
-         x="550.78131"
-         y="144.23102"
+         x="539.31335"
+         y="119.99493"
          id="tspan6687-1-7-4">課題:問題によっては分割が困難</tspan><tspan
          sodipodi:role="line"
-         x="550.78131"
-         y="161.73102"
+         x="539.31335"
+         y="137.49493"
          id="tspan7115-5">　手法: 本質的な構造は変えずに、</tspan><tspan
          sodipodi:role="line"
-         x="550.78131"
-         y="179.23102"
+         x="539.31335"
+         y="154.99493"
          id="tspan7141">　　　　分割しやすい論理構造に変換</tspan></text>
     <g
        id="g9686">
@@ -3022,5 +3020,35 @@
          id="tspan10921"
          x="605.73743"
          y="332.0004">将来のインパクト:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="335.16443"
+       y="163.58913"
+       id="text6438"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6440"
+         x="335.16443"
+         y="163.58913">個別の</tspan><tspan
+         sodipodi:role="line"
+         x="335.16443"
+         y="188.58913"
+         id="tspan6442">改善</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="216.26683"
+       y="265.84094"
+       id="text6438-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6440-1"
+         x="216.26683"
+         y="265.84094">個別の</tspan><tspan
+         sodipodi:role="line"
+         x="216.26683"
+         y="290.84094"
+         id="tspan6442-3">改善</tspan></text>
   </g>
 </svg>
