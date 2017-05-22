@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="934.21539"
-   height="670.19104"
+   width="931.125"
+   height="551.17133"
    id="svg3073"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -600,8 +600,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="512.42135"
-     inkscape:cy="299.63807"
+     inkscape:cx="473.35892"
+     inkscape:cy="215.97372"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -622,8 +622,8 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       originx="382.50779"
-       originy="170.04531" />
+       originx="379.5078"
+       originy="51.025624" />
   </sodipodi:namedview>
   <metadata
      id="metadata3078">
@@ -641,7 +641,7 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     transform="translate(382.5078,20.145719)">
+     transform="translate(379.50781,20.145719)">
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.25;marker:none;enable-background:accumulate"
        id="rect6673-4"
@@ -1730,15 +1730,6 @@
          x="114.92441"
          y="356.82611"
          id="tspan12255">3-4倍変数の多い問題を解けた</tspan></text>
-    <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2.40054631;marker:none;enable-background:accumulate"
-       id="rect11899"
-       width="931.81482"
-       height="111.0503"
-       x="-381.30753"
-       y="537.79474"
-       rx="13.824258"
-       ry="17.881021" />
     <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:31.66889572px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;enable-background:accumulate"
@@ -1769,19 +1760,7 @@
    id="tspan12220"> 提案手法</tspan>:~10<tspan
    style="font-size:65.00091553%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c';baseline-shift:super"
    id="tspan12218">28</tspan></tspan></text>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot9105-2"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10.8977232px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
-       transform="matrix(2.2022949,0,0,2.2022949,-445.25015,32.5237)"><flowRegion
-         id="flowRegion9107-3"><rect
-           id="rect9109-3"
-           width="419.51752"
-           height="54.614548"
-           x="34.784142"
-           y="233.51601"
-           style="color:#000000;font-size:10.8977232px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman';text-align:start;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate" /></flowRegion><flowPara
-         id="flowPara9113-0">Asai, M. and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In Proceedings of the 25th International Conference of Automated Planning and Scheduling(ICAPS), Jerusalem, Israel, June 2015.</flowPara></flowRoot>    <text
+    <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:22px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;enable-background:accumulate"
        x="-379.50781"
