@@ -49,9 +49,11 @@
 2. 今後の研究計画 : */Neural-Symbolic Hybrid System による 次世代AIシステムの研究開発/*
 #+END_EXPANDED
 
+#+BEGIN_SMALLER
 ※1 Masataro Asai, Alex Fukunaga
 
 ※2 Masataro Asai, Akihiro Kishimoto, Adi Botea, Radu Marinescu, Elizabeth Daly M, and Spyros Kotoulas
+#+END_SMALLER
 #+END_outline-text-1
 
 * 研究テーマ: プランニング(自動行動計画)とは?
