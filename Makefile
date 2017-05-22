@@ -12,10 +12,11 @@ ncpu       = $(shell grep "processor" /proc/cpuinfo | wc -l)
 .PHONY: auto all img scripts clean allclean html pdf resume index css deploy
 .SECONDLY: *.elc *.org.*
 
-all: index
+default: index
+all: index pdf nokey resume
 html: img css presen.org.html MathJax
-pdf: img presen.pdf
-nokey: img presen-nokey.pdf
+pdf:    img key.pdf
+nokey:  img nokey.pdf
 resume: img resume.pdf
 
 deploy: index
@@ -44,22 +45,25 @@ img:
 css:
 	$(MAKE) -C css
 
-presen.dvi: presen.org.tex
-resume.dvi: presen.org.tex
-presen-nokey.dvi: presen.org.tex
 presen.org: head.org
 	touch presen.org
+
+%.pdf : %.dvi
+	dvipdfmx -f ipa.map -o $@ $*
+
+key.tex: presen.org.tex
+nokey.tex: presen.org.tex
+resume.tex: presen.org.tex
+
+%.dvi: %.tex img $(styles)
+	@echo "tex"
+	$(TEX) $<
 
 %.org.tex: %.org scripts org-mode
 	scripts/org-latex.sh $< $@
 
 %.org.html: %.org scripts org-mode
 	scripts/org-html.sh $< $@
-
-%.dvi: %.tex img $(styles)
-
-%.pdf : %.dvi
-	nohup bash -c "nohup dvipdfmx -f ipa.map -o $@ $* > /dev/null ; cp $@ ~/Dropbox/repos/presentations/$(shell basename $(CURDIR))-$@" &
 
 clean:
 	-rm *~ *.org.* *.pdf \
