@@ -4,7 +4,7 @@ latexmk    = latexmk/latexmk.pl
 GH_USER    = guicho271828
 EMACS      = emacs
 EMACSFLAGS =
-styles     = anorg.sty user.sty
+styles     = sty/anorg.sty sty/user.sty
 
 ncpu       = $(shell grep "processor" /proc/cpuinfo | wc -l)
 

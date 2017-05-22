@@ -24,3 +24,5 @@
 /htmlize/
 /index.html
 *.pdf
+*.fdb_latexmk
+*.fls
