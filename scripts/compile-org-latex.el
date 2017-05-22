@@ -1,12 +1,15 @@
 
-(add-to-list 'load-path (concat default-directory "org-mode/lisp/"))
+(add-to-list 'load-path (concat default-directory "../org-mode/lisp/"))
 (defun compile-org (in out)
   (require 'ox-latex)
   (require 'org-table)
   (find-file in)
-  (setf org-latex-image-default-width "\\defaultimagewidth"
+  (setf org-latex-image-default-width ""
         ;; org-latex-image-default-height "\\defaultimageheight"
         )
+  ;; (setf org-latex-image-default-width "\\defaultimagewidth"
+  ;;       ;; org-latex-image-default-height "\\defaultimageheight"
+  ;;       )
   ;; (setf org-latex-image-default-width "\\maxwidth{\\defaultimagewidth}"
   ;;       ;; org-latex-image-default-height "\\defaultimageheight"
   ;;       )
