@@ -153,6 +153,8 @@
 
 [[png:keps17-2]]
 
+** SAE のもっとちゃんとした解説
+
 ** 研究業績7 : 査読付きワークショップ KEPS (採択率60%)
 
 [[png:keps17-3]]
@@ -191,6 +193,14 @@
    Knowledge Engineering for Planning and Scheduling (KEPS) Workshop
    1. 画像から命題を自動生成して記号的AIで組合せ最適化問題を解き、画像で出力するシステム
 #+END_SMALLER
+
+* NeuroSolver との違い
+
+* neural heuristic との違い
+
+* LfO との違い
+
+* プランの評価手法
 
 * 付録 古典プランニング問題とは (定義)
 
@@ -318,7 +328,6 @@ AI and Web の分野など
 #+BEGIN_NOTE
 Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
 #+END_NOTE
-
 
 * 付録 似たような研究は誰がやっていますか どこでやられていますか
 
