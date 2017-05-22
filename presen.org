@@ -1,11 +1,4 @@
-# 1.名前を呼ばれたら、1人ずつ面接会場にお入りください。その際、荷物は持って入室し、指定された台の上に置い
-# てください。(印刷資料は入室直前に係員にお渡しください。係員が配布します。)
-# 2.面接時間は、1人につき10分以内です。(発表4分、質疑応答6分以内)
-# 3.面接会場に入ったら本会職員の指示に従って準備を行い、1審査員の前で氏名(登録名)を名乗り、2申請書に
-# 記載した研究課題名を述べてから、説明を始めてください。発表は原則として日本語とします。ただし、DC申請
-# 者で留学生の場合は、英語でも認められます。
-
-#+title: 問題分割と対称性検知を用いた、 高速なプランニングアルゴリズムの開発
+#+title: 
 #+author: 
 #+include: "head.org"
 #+LINK: img file:img/%s
@@ -38,28 +31,27 @@
 # *なんで必要なのか？という話全般について答える*
 
 #+BEGIN_outline-text-1
-#+BEGIN_SMALLER
 #+BEGIN_CENTER
-浅井 政太郎(受付番号10073) 東京大学 総合文化研究科
+浅井 政太郎 東京大学 総合文化研究科
 #+END_CENTER
-#+END_SMALLER
+
 *発表要旨*
 
-#+BEGIN_SMALLER
 #+BEGIN_EXPANDED
-1. これまでの研究業績 : 査読付き学会論文
-   1. _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(*ICAPS*)/, June 2014.
-   2. _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(*KEPS*)/, June 2014.
-   3. _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation.In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(*ICAPS*)/, June 2015. 
-   4. _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence (*AAAI*)/, February 2016. 
-2. 今後の研究計画
-   1. 探索グラフの対称性の検知技術と、小問題分割技術の融合
+1. これまでの研究業績
+   1. "Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains"※1. In ICAPS2014.
+   2. "Solving Large-Scale Planning Problems by Decomposition and Macro Generation"※1. In ICAPS2015.
+   3. "Tiebreaking Strategies for A* Search: How to Explore the Final Frontier"※1. In AAAI-2016. (JSAI 学生奨励賞)
+   4. "Tie-Breaking Strategies for Cost-Optimal Best First Search"※1. Journal of Artificial Intelligence Research 58 (2017): 67-121.
+   5. "Exploration Among and Within Plateaus in Greedy Best-First Search"※1. In ICAPS2017.
+   6. "Efficient Optimal Search under Expensive Edge Cost Computation"※2. In IJCAI-2017.
+   7. "Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back)"※1. In KEPS17.
+2. 今後の研究計画 : */Neural-Symbolic Hybrid System による 次世代AIシステムの研究開発/*
 #+END_EXPANDED
-#+END_SMALLER
 
-#+BEGIN_RESUME
-東京大学博士一年の浅井政太郎と申します。発表を始めます。
-#+END_RESUME
+※1 Masataro Asai, Alex Fukunaga
+
+※2 Masataro Asai, Akihiro Kishimoto, Adi Botea, Radu Marinescu, Elizabeth Daly M, and Spyros Kotoulas
 #+END_outline-text-1
 
 * 研究テーマ: プランニング(自動行動計画)とは?
@@ -80,64 +72,6 @@
 
 [[png:planning]]
 
-#+BEGIN_RESUME
-研究テーマのプランニングは、ロボットに、人間の助けを借りず、いかに自律して行動させるかを扱います。
-賢いロボットは、自分の行動の結果をよく先読みして行動する必要があります。
-
-これをモデル化したプランニング問題は、具体的な行動の列、手順を求める 組合せ最適化問題です。
-
-
-たとえば、自動プランニング機能付きのレスキューロボットというものを考えましょう。
-プランニング問題のソルバは、ロボットが被災者を助ける正しい手順を出力します。
-
-
-プランニングは、様々な問題を状態遷移規則を用いて柔軟に表現できます。例えば、
-
-現実の応用例では「宇宙探査機運行問題」や「企業ネットワーク脆弱性問題」も表現できます。
-
-このように、プランニングは、難しい問題を汎用性を失わずに解くことを目指します。
-
-仮に将来、写真のような救助ロボットにプランニングソルバを組み込めば、
-被災者を発見した時に適切な行動を自ら選択できるようになるかもしれません。
-
-#+END_RESUME
-
-# 自動運転事故:
-# ポリシーが決まっていないならそういうものは作るべきではない
-# 危険だ
-
-# しかし自動運転は自分の扱うプランニングとは違うので実は困らない
-
-# ゴール設定は人間がやればいい
-# ターゲットを決めた上で
-# 全力で考えるのがプランニングの技術
-# 効用関数を決めるのは人間
-# いかにそれを実現するか
-# あくまで命令に従うロボットであることを強調
-
-# ドメインは消す
-# アプリケーション
-# 
-# coreまでは実例
-# 災害援助は将来
-# 完全に分離
-# 
-# 掃除ドメインをメインに
-
-# ** プランニングとは?
-# 
-# [[png:planning-4room]]
-
-# #+BEGIN_RESUME
-# 同じ掃除ドメインの4部屋インスタンスも表現できますし、
-# 現実の応用例では「宇宙探査ドメイン」も表現できます。
-# 
-# このように、プランニングは、難しい問題を汎用性を失わずに解くことを目指します。
-# 
-# 仮に将来、写真のような救助ロボットにプランニングソルバを組み込めば、
-# 被災者を発見した時に適切な行動を自ら選択できるようになるかもしれません。
-# #+END_RESUME
-
 * プランニング(自動行動計画)分野の位置づけ
 
 #+BEGIN_RESUME
@@ -149,7 +83,7 @@
 
 [[png:planning2]]
 
-* 研究業績1 : 査読付き学会論文 ICAPS14
+* 研究業績1 : 査読付き学会論文 ICAPS14 */(採択率33%)/*
 
 #+BEGIN_RESUME
 研究業績に移ります。
@@ -164,7 +98,7 @@
 
 [[png:assemble-icaps14]]
 
-* 研究業績2,3 : 査読付き学会論文 KEPS14, ICAPS15
+* 研究業績2 : 査読付き学会論文 ICAPS15 */(採択率33%)/*
 
 #+BEGIN_RESUME
 続いて二、三本目の業績は、
@@ -175,7 +109,7 @@
 
 [[png:assemble-keps14-icaps15]]
 
-* 研究業績4 : 査読付き学会論文 AAAI16 ( */申請後に採択/* )
+* 研究業績3 : 査読付き学会論文 AAAI16 */(採択率26%)/*
 
 #+BEGIN_RESUME
 最後に、申請後に行った研究が、難関国際学会 AAAI に採択されました。
@@ -184,6 +118,27 @@
 #+END_RESUME
 
 [[png:aaai16]]
+
+* 研究業績4 : 査読付き論文誌 JAIR */(採択率12%)/*
+
+#+BEGIN_RESUME
+#+END_RESUME
+
+[[png:jair17]]
+
+* 研究業績5 : 査読付き学会論文 IJCAI17 */(採択率25%)/*
+
+#+BEGIN_RESUME
+#+END_RESUME
+
+[[png:jair17]]
+
+* 研究業績6 : 査読付きワークショップ KEPS (採択率60%)
+
+#+BEGIN_RESUME
+#+END_RESUME
+
+[[png:jair17]]
 
 * 今後の研究計画
 
@@ -205,18 +160,6 @@
 
  [[png:symmetry]]
 
-# (2)今後の研究計画は以下の点を踏まえ、研究目的及び研究の特色を具体的に述べてください。
-# 1 所属研究室(または研究グループ)の研究と、申請者自身が取り組む研究との関係・分担について明らか
-# にしてください。共同研究を行う場合も同様に説明してください。
-# 2 申請者自身のアイデアやオリジナリティーについて述べてください。
-# 3 研究の課題(問題点)及び解決方法について説明してください。
-# 4 申請の際に提出された「受入研究室選定理由書(特例措置希望者)」の内容についても説明してください。
-# (※やむを得ない事由があるとは十分に認められなかった者のみ)
-# (3)審査員との質疑応答(6分以内)
-# 質疑応答の時間に限りがありますので、審査員の質問には出来るだけ簡潔に回答願います。
-# また、面接開始後9分が経過した時点でも終了時間の目安としてアラームが鳴ります。
-# 注) 採用申請書提出後の研究進捗状況や研究業績などについても、質問されることがあります。
-
 * まとめ
 
 #+BEGIN_RESUME
@@ -224,20 +167,26 @@
 #+END_RESUME
 
 #+BEGIN_SMALLER
-1. これまでの研究業績 : 査読付き学会論文
-   1. *難関国際会議* _Asai, M._ and Fukunaga, A. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In /Proceedings of the 24th International Conference of Automated Planning and Scheduling(*ICAPS*)/, June 2014. */採択率33%/*
-      1. 任意の問題から1種類の繰り返し構造を自動で検出
-      2. *工場での製造スケジューリング (x1000 高速化, 探索空間 10^6 → 10^{274})*
-   2. *査読付きワークショップ* _Asai, M._ and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In /Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(*KEPS*)/, June 2014.
-      1. 複数種類の繰り返し構造の検出
-   3. *難関国際会議* _Asai, M._ and Fukunaga, A. Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In /Proceedings of the 25th International Conference of Automated Planning and Scheduling(*ICAPS*)/, June 2015.  */採択率33%/*
-      1. 複数の繰り返し構造をより柔軟・汎用に組み合わせる手法
-      2. *ベンチマークセット全体で高速化 (x3-4 高速化, 探索空間 10^7 → 10^{28})* 
-   4. *難関国際会議* _Asai, M._ and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In /Proceedings of the 30th AAAI Conference on Artificial Intelligence(*AAAI*)/, February 2016. */採択率26%/*
-      1. コストゼロの辺がグラフ探索に引き起こす問題を解決
-      2. *コストゼロの辺を含むグラフ探索全てに影響 (探索空間 10^6 → 10^{88})* 
-2. 今後の研究計画
-   1. 探索グラフの対称性の検知技術と、小問題分割技術の融合
+1. *難関国際会議(33%)* "Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains". In ICAPS2014.
+   1. 任意の問題から1種類の繰り返し構造を自動で検出
+   2. *工場での製造スケジューリング (x1000 高速化, 探索空間 10^6 → 10^{274})*
+2. *難関国際会議(33%)* "Solving Large-Scale Planning Problems by Decomposition and Macro Generation". In ICAPS2015.
+   1. 複数の繰り返し構造をより柔軟・汎用に組み合わせる手法
+   2. *ベンチマークセット全体で高速化 (x3-4 高速化, 探索空間 10^7 → 10^{28})* 
+3. *難関国際会議(26%)* "Tiebreaking Strategies for A* Search: How to Explore the Final Frontier". In AAAI-2016. (JSAI 学生奨励賞)
+   1. コストゼロの辺がグラフ探索に引き起こす問題を解決
+   2. *コストゼロの辺を含むグラフ探索全てに影響 (探索空間 10^6 → 10^{88})* 
+4. *難関論文誌(12%)*   "Tie-Breaking Strategies for Cost-Optimal Best First Search". Journal of Artificial Intelligence Research 58 (2017): 67-121.
+   1. (3.) に加え タイブレーキング と 非最適コスト探索の関連性を指摘
+   2. さらに性能向上
+5. *難関国際会議(33%)* "Exploration Among and Within Plateaus in Greedy Best-First Search". In ICAPS2017.
+   1. 非最適コスト探索をフラクタルを用いて改善
+   2. プラトー内均一化とプラトー間均一化の直交性を実証
+6. *難関国際会議(25%)* "Efficient Optimal Search under Expensive Edge Cost Computation". In IJCAI-2017.
+   1. 辺コストの動的計算が必要な問題に対して高速な最適アルゴリズムDEA*
+7. *国際ワークショップ(60%)* "Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back)".
+   Knowledge Engineering for Planning and Scheduling (KEPS) Workshop
+   1. 画像から命題を自動生成して記号的AIで組合せ最適化問題を解き、画像で出力するシステム
 #+END_SMALLER
 
 * 付録 古典プランニング問題とは (定義)
