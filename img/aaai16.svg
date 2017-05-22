@@ -13,7 +13,7 @@
    height="768px"
    id="svg2985"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="aaai16.svg">
   <defs
      id="defs2987">
@@ -134,16 +134,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="529.33912"
-     inkscape:cy="157.20873"
+     inkscape:zoom="1"
+     inkscape:cx="606.94894"
+     inkscape:cy="460.68841"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:window-width="1024"
-     inkscape:window-height="713"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="817"
+     inkscape:window-x="768"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:object-nodes="true"
@@ -395,7 +395,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot9105"
-       style="font-size:11.5424633px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.5424633px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
        transform="matrix(2.4258253,0,0,2.4258253,-68.360798,69.691278)"><flowRegion
          id="flowRegion9107"><rect
            id="rect9109"
@@ -403,14 +403,10 @@
            height="60.132622"
            x="32.493641"
            y="236.40163"
-           style="font-size:11.5424633px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
+           style="font-size:11.5424633px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman';text-align:start;text-anchor:start" /></flowRegion><flowPara
          id="flowPara6016">Asai, M. and Fukunaga, A. Tiebreaking Strategies for Classical Planning Using A* Search. In Proceedings of the 30th <flowSpan
    style="font-weight:bold;-inkscape-font-specification:'Times New Roman, Bold'"
-   id="flowSpan7185">AAAI</flowSpan> Conference on Artificial Intelligence, Phoenix, Arizona, February 2016. <flowSpan
-   style="font-size:11.5424633px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-   id="flowSpan4108">(<flowSpan
-   style="fill:#ff0000"
-   id="flowSpan5472">採択率26%</flowSpan>)</flowSpan></flowPara></flowRoot>    <text
+   id="flowSpan7185">AAAI</flowSpan> Conference on Artificial Intelligence, Phoenix, Arizona, February 2016.</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:18.59663582px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
        x="732.87531"
@@ -511,26 +507,24 @@
          y="153.20966">3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-       x="21.505867"
-       y="329.25394"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;enable-background:accumulate"
+       x="17.505867"
+       y="339.25394"
        id="text5221"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="21.505867"
-         y="329.25394"
-         id="tspan5225">問題点: 重み0 の辺が大量にある場合、</tspan><tspan
+         x="17.505867"
+         y="339.25394"
+         id="tspan5229">問題点: 重みの和が同じノードが大量に存在</tspan><tspan
          sodipodi:role="line"
-         x="21.505867"
-         y="356.75394"
-         id="tspan5229">　　重みの和が同じノードが大量に存在し</tspan><tspan
-         sodipodi:role="line"
-         x="21.505867"
-         y="384.25394"
-         id="tspan7183">　　　　探索を進める方向を見失う</tspan></text>
+         x="17.505867"
+         y="366.75394"
+         id="tspan7183">　　探索を進める方向を見失う → <tspan
+   style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Bold';fill:#ff0000"
+   id="tspan8590">タイブレーク</tspan>の影響大</tspan></text>
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 110.20101,335.7868 254,0"
+       d="m 110.20101,345.7868 254,0"
        id="path5363"
        inkscape:connector-curvature="0" />
     <g
@@ -619,7 +613,7 @@
          style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <path
          transform="matrix(0.58937637,0,0,0.58937637,621.15648,228.77689)"
-         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         d="M 93.338095,200.90036 A 22.627417,22.627417 0 0 1 70.710678,223.52778 22.627417,22.627417 0 0 1 48.083261,200.90036 22.627417,22.627417 0 0 1 70.710678,178.27294 22.627417,22.627417 0 0 1 93.338095,200.90036 Z"
          sodipodi:ry="22.627417"
          sodipodi:rx="22.627417"
          sodipodi:cy="200.90036"
@@ -628,7 +622,7 @@
          style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
-         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         d="M 93.338095,200.90036 A 22.627417,22.627417 0 0 1 70.710678,223.52778 22.627417,22.627417 0 0 1 48.083261,200.90036 22.627417,22.627417 0 0 1 70.710678,178.27294 22.627417,22.627417 0 0 1 93.338095,200.90036 Z"
          sodipodi:ry="22.627417"
          sodipodi:rx="22.627417"
          sodipodi:cy="200.90036"
@@ -638,7 +632,7 @@
          sodipodi:type="arc"
          transform="matrix(0.58937637,0,0,0.58937637,692.00433,197.10374)" />
       <path
-         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         d="M 93.338095,200.90036 A 22.627417,22.627417 0 0 1 70.710678,223.52778 22.627417,22.627417 0 0 1 48.083261,200.90036 22.627417,22.627417 0 0 1 70.710678,178.27294 22.627417,22.627417 0 0 1 93.338095,200.90036 Z"
          sodipodi:ry="22.627417"
          sodipodi:rx="22.627417"
          sodipodi:cy="200.90036"
@@ -648,7 +642,7 @@
          sodipodi:type="arc"
          transform="matrix(0.58937637,0,0,0.58937637,701.17287,272.95261)" />
       <path
-         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         d="M 93.338095,200.90036 A 22.627417,22.627417 0 0 1 70.710678,223.52778 22.627417,22.627417 0 0 1 48.083261,200.90036 22.627417,22.627417 0 0 1 70.710678,178.27294 22.627417,22.627417 0 0 1 93.338095,200.90036 Z"
          sodipodi:ry="22.627417"
          sodipodi:rx="22.627417"
          sodipodi:cy="200.90036"
@@ -658,7 +652,7 @@
          sodipodi:type="arc"
          transform="matrix(0.58937637,0,0,0.58937637,777.85525,178.76665)" />
       <path
-         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         d="M 93.338095,200.90036 A 22.627417,22.627417 0 0 1 70.710678,223.52778 22.627417,22.627417 0 0 1 48.083261,200.90036 22.627417,22.627417 0 0 1 70.710678,178.27294 22.627417,22.627417 0 0 1 93.338095,200.90036 Z"
          sodipodi:ry="22.627417"
          sodipodi:rx="22.627417"
          sodipodi:cy="200.90036"
@@ -668,7 +662,7 @@
          sodipodi:type="arc"
          transform="matrix(0.58937637,0,0,0.58937637,822.86446,277.12013)" />
       <path
-         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         d="M 93.338095,200.90036 A 22.627417,22.627417 0 0 1 70.710678,223.52778 22.627417,22.627417 0 0 1 48.083261,200.90036 22.627417,22.627417 0 0 1 70.710678,178.27294 22.627417,22.627417 0 0 1 93.338095,200.90036 Z"
          sodipodi:ry="22.627417"
          sodipodi:rx="22.627417"
          sodipodi:cy="200.90036"
@@ -678,7 +672,7 @@
          sodipodi:type="arc"
          transform="matrix(0.58937637,0,0,0.58937637,858.70514,213.77381)" />
       <path
-         d="m 93.338095,200.90036 c 0,12.49678 -10.13064,22.62742 -22.627417,22.62742 -12.496777,0 -22.627417,-10.13064 -22.627417,-22.62742 0,-12.49678 10.13064,-22.62742 22.627417,-22.62742 12.496777,0 22.627417,10.13064 22.627417,22.62742 z"
+         d="M 93.338095,200.90036 A 22.627417,22.627417 0 0 1 70.710678,223.52778 22.627417,22.627417 0 0 1 48.083261,200.90036 22.627417,22.627417 0 0 1 70.710678,178.27294 22.627417,22.627417 0 0 1 93.338095,200.90036 Z"
          sodipodi:ry="22.627417"
          sodipodi:rx="22.627417"
          sodipodi:cy="200.90036"
@@ -1021,18 +1015,18 @@
          y="265" /></text>
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
-       x="547.57361"
-       y="229.51472"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;enable-background:accumulate"
+       x="529.57361"
+       y="224.51472"
        id="text3325"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3327"
-         x="547.57361"
-         y="229.51472">大量=指数的に多い</tspan></text>
+         x="529.57361"
+         y="224.51472">(指数的に多い)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;enable-background:accumulate"
        x="27"
        y="456.71573"
        id="text3333"
@@ -1040,13 +1034,13 @@
          sodipodi:role="line"
          x="27"
          y="456.71573"
-         id="tspan3186">1. 重み和が同じノードの扱い方に関する<tspan
+         id="tspan3186">1. タイブレークに関する<tspan
    style="fill:#ff0000"
    id="tspan5213">70年代からの定説を覆した</tspan></tspan><tspan
          sodipodi:role="line"
          x="27"
          y="486.71573"
-         id="tspan3337">2. 重み和が同じノードを更に分類する新手法を提案し性能向上</tspan></text>
+         id="tspan3337">2. タイブレークの新手法を提案し性能向上</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:28.29515839px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:end;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:end;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:2;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
