@@ -1,23 +1,36 @@
 
+latexmk    = latexmk/latexmk.pl
+
 GH_USER    = guicho271828
 EMACS      = emacs
 EMACSFLAGS =
 styles     = anorg.sty user.sty
-# latex      = pdflatex
-# latex      = platex
-TEX 	   = platex
 
 ncpu       = $(shell grep "processor" /proc/cpuinfo | wc -l)
 
 .PHONY: auto all img scripts clean allclean html pdf resume index css deploy
 .SECONDLY: *.elc *.org.*
 
+key.pdf: key.tex presen.org.tex img $(styles)
+%.pdf: %.tex presen.org.tex img $(styles)
+	$(latexmk) -r latexmk/rc_ja.pl \
+		   -latexoption="-halt-on-error" \
+		   -pdfdvi \
+		   -bibtex \
+		   $<
+
+%.org.tex: %.org scripts org-mode
+	scripts/org-latex.sh $< $@
+
+%.org.html: %.org scripts org-mode
+	scripts/org-html.sh $< $@
+
 default: index
 all: index pdf nokey resume
 html: img css presen.org.html MathJax
-pdf:    img key.pdf
-nokey:  img nokey.pdf
-resume: img resume.pdf
+pdf:    key.pdf
+nokey:  nokey.pdf
+resume: resume.pdf
 
 deploy: index
 	+scripts/deploy.sh git@github.com:$(GH_USER)/$$(basename $$(readlink -ef .)).git
@@ -47,23 +60,6 @@ css:
 
 presen.org: head.org
 	touch presen.org
-
-%.pdf : %.dvi
-	dvipdfmx -f ipa.map -o $@ $*
-
-key.tex: presen.org.tex
-nokey.tex: presen.org.tex
-resume.tex: presen.org.tex
-
-%.dvi: %.tex img $(styles)
-	@echo "tex"
-	$(TEX) $<
-
-%.org.tex: %.org scripts org-mode
-	scripts/org-latex.sh $< $@
-
-%.org.html: %.org scripts org-mode
-	scripts/org-html.sh $< $@
 
 clean:
 	-rm *~ *.org.* *.pdf \
