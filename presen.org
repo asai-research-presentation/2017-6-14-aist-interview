@@ -390,13 +390,20 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
  [[png:keps17]]
 
-*** Gumbel-Softmax
-
- [[png:sae/state-ae]]
-
 *** 研究業績7 : 査読付きワークショップ KEPS
 
  [[png:keps17-2]]
+
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)
+
+  #+BEGIN_RESUME
+  #+END_RESUME
+
+  [[png:keps17]]
+
+*** Gumbel-Softmax
+
+ [[png:sae/state-ae]]
 
 *** 研究業績7 : 査読付きワークショップ KEPS
 
