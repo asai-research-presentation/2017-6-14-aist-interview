@@ -31,9 +31,9 @@
 # *なんで必要なのか？という話全般について答える*
 
 #+BEGIN_outline-text-1
-#+BEGIN_CENTER
+#+BEGIN_center
 浅井 政太郎 東京大学 総合文化研究科 学振DC2
-#+END_CENTER
+#+END_center
 
 *発表要旨*
 
@@ -55,140 +55,140 @@
 
 今後の研究計画, 研究成果の産業応用への抱負
 
-#+BEGIN_SMALLER
+#+BEGIN_smaller
 ※1 Masataro Asai, Alex Fukunaga
 
 ※2 Masataro Asai, Akihiro Kishimoto, Adi Botea, Radu Marinescu, Elizabeth Daly M, and Spyros Kotoulas
-#+END_SMALLER
+#+END_smaller
 #+END_outline-text-1
 
 * 背景 -- AIプランニング
 
- #+BEGIN_CONTAINER-FLUID
- #+BEGIN_ROW-FLUID
- #+BEGIN_SPAN6
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span6
  [[png:astro/1]]
- #+END_SPAN6
- #+BEGIN_SPAN6
+ #+END_span6
+ #+BEGIN_span6
  [[png:rescue/1]]
- #+END_SPAN6
- #+END_ROW-FLUID
- #+END_CONTAINER-FLUID
+ #+END_span6
+ #+END_row-fluid
+ #+END_container-fluid
 
 ** 誰?
 
- #+BEGIN_CONTAINER-FLUID
- #+BEGIN_ROW-FLUID
- #+BEGIN_SPAN6
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span6
  [[png:astro/1]]
- #+END_SPAN6
- #+BEGIN_SPAN6
+ #+END_span6
+ #+BEGIN_span6
  [[png:rescue/1]]
- #+END_SPAN6
- #+END_ROW-FLUID
- #+END_CONTAINER-FLUID
+ #+END_span6
+ #+END_row-fluid
+ #+END_container-fluid
 
-  #+BEGIN_RESUME
+  #+BEGIN_resume
   And let me introduce these robots.
   The guy in the left is Astro boy.
-  #+END_RESUME
+  #+END_resume
 
 *** 誰?
 
- #+BEGIN_CONTAINER-FLUID
- #+BEGIN_ROW-FLUID
- #+BEGIN_SPAN6
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span6
  [[png:astro/2]]
- #+END_SPAN6
- #+BEGIN_SPAN6
+ #+END_span6
+ #+BEGIN_span6
  [[png:rescue/1]]
- #+END_SPAN6
- #+END_ROW-FLUID
- #+END_CONTAINER-FLUID
+ #+END_span6
+ #+END_row-fluid
+ #+END_container-fluid
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  As you know, he is a famous manga superhero invented by Tezuka Osamu in 50s,
- #+END_RESUME
+ #+END_resume
 
 *** 誰?
 
-  #+BEGIN_CONTAINER-FLUID
-  #+BEGIN_ROW-FLUID
-  #+BEGIN_SPAN6
+  #+BEGIN_container-fluid
+  #+BEGIN_row-fluid
+  #+BEGIN_span6
   [[png:astro/final]]
-  #+END_SPAN6
-  #+BEGIN_SPAN6
+  #+END_span6
+  #+BEGIN_span6
   [[png:rescue/1]]
-  #+END_SPAN6
-  #+END_ROW-FLUID
-  #+END_CONTAINER-FLUID
+  #+END_span6
+  #+END_row-fluid
+  #+END_container-fluid
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  and he can think, hear, speak, act. he also has emotions.
- #+END_RESUME
+ #+END_resume
 
 *** 誰?
 
-  #+BEGIN_CONTAINER-FLUID
-  #+BEGIN_ROW-FLUID
-  #+BEGIN_SPAN6
+  #+BEGIN_container-fluid
+  #+BEGIN_row-fluid
+  #+BEGIN_span6
   [[png:astro/final]]
-  #+END_SPAN6
-  #+BEGIN_SPAN6
+  #+END_span6
+  #+BEGIN_span6
   [[png:rescue/2]]
-  #+END_SPAN6
-  #+END_ROW-FLUID
-  #+END_CONTAINER-FLUID
+  #+END_span6
+  #+END_row-fluid
+  #+END_container-fluid
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
   In contrast, the guy in the right is a real robot that is actually in use @ fukuoka prefecture for the rescue purpose..
   His name is T-52 Enryu, developped by a Japanese company Temzak.
   He is huge and powerful -- about 4 meters in height and can carry things which is as heavy as 500kg.
   Well, so, in a sense, he is also a superhero in the real disastrous situation.
- #+END_RESUME
+ #+END_resume
 
 *** 誰?
 
-  #+BEGIN_CONTAINER-FLUID
-  #+BEGIN_ROW-FLUID
-  #+BEGIN_SPAN6
+  #+BEGIN_container-fluid
+  #+BEGIN_row-fluid
+  #+BEGIN_span6
   [[png:astro/final]]
-  #+END_SPAN6
-  #+BEGIN_SPAN6
+  #+END_span6
+  #+BEGIN_span6
   [[png:rescue/3]]
-  #+END_SPAN6
-  #+END_ROW-FLUID
-  #+END_CONTAINER-FLUID
+  #+END_span6
+  #+END_row-fluid
+  #+END_container-fluid
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  But does he have feelings or can he think? Can he even move around by his own?
- #+END_RESUME
+ #+END_resume
 
 *** 誰?
 
-  #+BEGIN_CONTAINER-FLUID
-  #+BEGIN_ROW-FLUID
-  #+BEGIN_SPAN6
+  #+BEGIN_container-fluid
+  #+BEGIN_row-fluid
+  #+BEGIN_span6
   [[png:astro/final]]
-  #+END_SPAN6
-  #+BEGIN_SPAN6
+  #+END_span6
+  #+BEGIN_span6
   [[png:rescue/final]]
-  #+END_SPAN6
-  #+END_ROW-FLUID
-  #+END_CONTAINER-FLUID
+  #+END_span6
+  #+END_row-fluid
+  #+END_container-fluid
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  No. It requires full human intervention --- it is indeed operated by a
  driver who gets in or by a remote control. It is more like a
  super-sophisticated shovel car.
- #+END_RESUME
+ #+END_resume
 
 
 ** 自律行動のための自動プランナ (≠ モータ制御)
 
  [[png:planning/1]]
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  研究テーマのプランニングは、ロボットに、人間の助けを借りず、いかに自律して行動させるかを扱います。
  これをモデル化したプランニング問題は、具体的な行動の列を求める 組合せ最適化問題です。
 
@@ -197,42 +197,42 @@
 
  たとえば、この図では男性が瓦礫に埋まって助けを求めています。
  プランニング機能のあるロボットは、コレに対して「男性を助けよ」という大まかな指示を受けます。
- #+END_RESUME
+ #+END_resume
 
 ** 自律行動のための自動プランナ (≠ モータ制御)
 
  [[png:planning/2]]
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  指示の内容には、図のように初期状態とゴール、許可された行動のリストが入っています。
  ロボットは、自動プランニングにより、人間の代わりに適切な行動を組み立てて、ゴールを自動で達成します。
- #+END_RESUME
+ #+END_resume
 
 ** 自律行動のための自動プランナ (≠ モータ制御)
 
  [[png:planning/final]]
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  プランニングは汎用な枠組みなので、災害救助以外にも様々な問題に適用することができます。
  現実の応用例では「宇宙探査機運行問題」や「企業ネットワーク脆弱性問題」も表現できます。
 
  このように、プランニングは、難しい問題を汎用性を失わずに解くことを目指します。
- #+END_RESUME
+ #+END_resume
 
 ** プランニング(自動行動計画)分野の位置づけ
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  プランニング分野は、人工知能の専門分野という位置づけで、
  隣接するオペレーションズ・リサーチや
  アルゴリズム論などの分野の技術を利用しています。
  特に、プランニング問題を解くのにはグラフ探索の技術が用いられます。
- #+END_RESUME
+ #+END_resume
 
  [[png:planning2]]
 
 ** 業績1: 査読付き国際学会 ICAPS14 */(採択率33%)/*
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  研究業績に移ります。
  ここでは、大規模なプランニング問題を解くために
  問題設定・ドメインによらず汎用に繰り返し構造を抽出する方法を開発しました。
@@ -241,75 +241,75 @@
 
  大切なのは汎用性です。
  生産問題に限らず、掃除にも宇宙船にも同じ実行バイナリが使えます。
- #+END_RESUME
+ #+END_resume
 
  [[png:assemble-icaps14]]
 
 ** 業績2: 査読付き国際学会 ICAPS15 */(採択率33%)/*
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  続いて二、三本目の業績は、
  先ほどの手法で得られるのは1種類の小問題だけでしたが、これを複数種類の小問題に拡張しました。
  結果、より様々な問題で高速化を達成しました。
  ここまで汎用に小問題分割を適用した研究は、分野では始めてです。
- #+END_RESUME
+ #+END_resume
 
  [[png:assemble-keps14-icaps15]]
 
 ** 業績3: 査読付き国際学会 AAAI16 */(採択率26%)/*
 
- #+BEGIN_RESUME
+ #+BEGIN_resume
  最後に、申請後に行った研究が、難関国際学会 AAAI に採択されました。
  研究内容は、コスト0の辺を含むグラフを扱うグラフ探索アルゴリズム一般に適用できる内容で、
  非常に大きなインパクトを持つことが考えられます。
- #+END_RESUME
+ #+END_resume
 
  [[png:aaai16]]
 
 ** 業績4: 査読付き論文誌 JAIR */(採択率12%)/*                      :スキップ予定:
 
- #+BEGIN_RESUME
- #+END_RESUME
+ #+BEGIN_resume
+ #+END_resume
 
  [[png:jair17]]
 
 ** 業績5: 査読付き国際学会 ICAPS17 */(採択率33%)/*                 :スキップ予定:
 
- #+BEGIN_RESUME
- #+END_RESUME
+ #+BEGIN_resume
+ #+END_resume
 
  [[png:icaps17]]
 
 ** 業績6: 査読付き国際学会 IJCAI17 */(採択率25%)/*
 
- #+BEGIN_RESUME
- #+END_RESUME
+ #+BEGIN_resume
+ #+END_resume
 
  [[png:ijcai17]]
 
 
 * 産業技術総合研究所で行いたい研究
 
-#+BEGIN_XLARGE
+#+BEGIN_xlarge
 Neural-Symbolic複合システム
-#+END_XLARGE
+#+END_xlarge
 による
-#+BEGIN_XLARGE
-#+BEGIN_CENTER
+#+BEGIN_xlarge
+#+BEGIN_center
 次世代AIシステム
-#+END_CENTER
-#+BEGIN_ALIGNRIGHT
+#+END_center
+#+BEGIN_alignright
 の研究
-#+END_ALIGNRIGHT
-#+END_XLARGE
+#+END_alignright
+#+END_xlarge
 
 ** Q. いま */はやり/* のDeep Learningとの違いは?
 
  A. レイヤが違う
 
- #+BEGIN_CONTAINER-FLUID
- #+BEGIN_ROW-FLUID
- #+BEGIN_SPAN6
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span6
  *機械学習・Neural Networks* == 関数近似
  
  for *認識・反射*
@@ -319,7 +319,7 @@ Neural-Symbolic複合システム
  + *感覚的知能*:
    
    　 */反応/, /直後/ の行動の決定*
-   #+BEGIN_SMALLER
+   #+BEGIN_smaller
    *パブロフの犬* : 餌を認知→よだれ
 
    *自動運転* : 赤信号,人 → 止まる.
@@ -327,14 +327,14 @@ Neural-Symbolic複合システム
    *翻訳* : 文章 → 文章
 
    *囲碁局面の評価関数* : 局面 → 勝率
-   #+END_SMALLER
-   #+BEGIN_LARGER
+   #+END_smaller
+   #+BEGIN_larger
    ☺ 効率よく 1-to-1 mapping
    
    ☹ 単純作業
-   #+END_LARGER
- #+END_SPAN6
- #+BEGIN_SPAN6
+   #+END_larger
+ #+END_span6
+ #+BEGIN_span6
  *推論・探索*
 
  for *プランニング・ゲーム・定理証明*
@@ -346,7 +346,7 @@ Neural-Symbolic複合システム
    　 */未来に渡る/ 戦略の決定*
    
    　 (戦略 = 行動の *列や木*)
-   #+BEGIN_SMALLER
+   #+BEGIN_smaller
    *レスキューロボ* : ゴール = 被災者生存
 
    *証明器* : ゴール = QED
@@ -354,13 +354,13 @@ Neural-Symbolic複合システム
    *コンパイラ* : 命令列の生成
    
    *囲碁,将棋* : ゴール = 勝利
-   #+END_SMALLER
-   #+BEGIN_LARGER
+   #+END_smaller
+   #+BEGIN_larger
    ☺ 順序制約+複雑な作業
-   #+END_LARGER
- #+END_SPAN6
- #+END_ROW-FLUID
- #+END_CONTAINER-FLUID
+   #+END_larger
+ #+END_span6
+ #+END_row-fluid
+ #+END_container-fluid
 
 + AlphaGo = Subsymbolic (DLNNによる評価関数) + Symbolic (MCTSによる探索)
 
@@ -385,8 +385,8 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 ** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
- #+BEGIN_RESUME
- #+END_RESUME
+ #+BEGIN_resume
+ #+END_resume
 
  [[png:keps17]]
 
@@ -396,8 +396,8 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 *** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
-  #+BEGIN_RESUME
-  #+END_RESUME
+  #+BEGIN_resume
+  #+END_resume
 
   [[png:keps17]]
 
@@ -415,13 +415,13 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 * 研究成果の産業応用
 
-#+BEGIN_CENTER
+#+BEGIN_center
 *記号的推論により様々な分野にブレークスルーをもたらす*
-#+END_CENTER
+#+END_center
 
-#+BEGIN_CONTAINER-FLUID
-#+BEGIN_ROW-FLUID
-#+BEGIN_SPAN6
+#+BEGIN_container-fluid
+#+BEGIN_row-fluid
+#+BEGIN_span6
 *ピックアップロボ以上の産業用ロボ*
 
  --- 画像 → 論理表現 → 記号的推論 → 行動決定
@@ -431,21 +431,21 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 *人工無能以上のチャットボット*
 
  --- テキスト → 論理表現 → 記号的推論 → 意図推定 → 返答
-#+END_SPAN6
-#+BEGIN_SPAN6
+#+END_span6
+#+BEGIN_span6
 [[sjpg:hal-speaking]]
-#+END_SPAN6
-#+END_ROW-FLUID
-#+END_CONTAINER-FLUID
+#+END_span6
+#+END_row-fluid
+#+END_container-fluid
 
 
 * まとめ
 
-#+BEGIN_RESUME
+#+BEGIN_resume
 以上です、ありがとうございました。
-#+END_RESUME
+#+END_resume
 
-#+BEGIN_SMALLER
+#+BEGIN_smaller
 1. *難関国際会議(33%)* Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In ICAPS2014.
    1. 任意の問題から1種類の繰り返し構造を自動で検出
    2. *工場での製造スケジューリング (x1000 高速化, 探索空間 10^6 → 10^{274})*
@@ -464,9 +464,14 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 7. *国際ワークショップ(60%)* Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back).
    Knowledge Engineering for Planning and Scheduling (KEPS) Workshop
    1. 画像から命題を自動生成して記号的AIで組合せ最適化問題を解き、画像で出力するシステム
-#+END_SMALLER
+#+END_smaller
 
 * 付録
+
+# #+BEGIN_expanded
+#+TOC: headlines 1 local
+# #+END_expanded
+
 ** 既存システムとの違い (追加)
 
 /NNで 直接問題を解くシステム/
@@ -497,10 +502,10 @@ Action Segmentation problem がある
 
 ** AIプランニングの */Killer App/*
 
-#+BEGIN_CONTAINER-FLUID
-#+BEGIN_ROW-FLUID
-#+BEGIN_SPAN7
-#+BEGIN_LARGER
+#+BEGIN_container-fluid
+#+BEGIN_row-fluid
+#+BEGIN_span7
+#+BEGIN_larger
 + 人が高価or不可能な作業 :: 原発, 宇宙空間, 火星, 深海
 + 正しさと最適性の理論保証が必要なミッションクリティカルシステム :: 
      製造システム、運送 (時間=お金)
@@ -510,18 +515,18 @@ Action Segmentation problem がある
      間違った解は許されない
 + 思考過程を説明可能なシステム :: 
      レスキュー・宇宙船 (人間の安全がかかっている)
-#+END_LARGER
+#+END_larger
 
 # [[sjpg:martian]]
 
-#+END_SPAN7
-#+BEGIN_SPAN5
+#+END_span7
+#+BEGIN_span5
 
 [[sjpg:gravity-m]]
 
-#+END_SPAN5
-#+END_ROW-FLUID
-#+END_CONTAINER-FLUID
+#+END_span5
+#+END_row-fluid
+#+END_container-fluid
 
 
 
@@ -532,31 +537,31 @@ Action Segmentation problem がある
  #+LaTeX: \includegraphics{img/plan.png}
  #+HTML: <embed src="img/plan.svg" type="image/svg+xml"  />
 
- #+BEGIN_LARGER
+ #+BEGIN_larger
  非古典的なさまざまな拡張
- #+BEGIN_ALIGNRIGHT
+ #+BEGIN_alignright
  (並列アクション,POMDP,HTN... どのAIの教科書にものっている)
- #+END_ALIGNRIGHT
- #+END_LARGER
+ #+END_alignright
+ #+END_larger
 
 *** アクション = 条件付き状態遷移
 
- #+BEGIN_CENTER
- #+BEGIN_XLARGE
+ #+BEGIN_center
+ #+BEGIN_xlarge
  アクション (move ?X ?Y)
- #+END_XLARGE
- #+END_CENTER
+ #+END_xlarge
+ #+END_center
 
- #+BEGIN_CENTER
+ #+BEGIN_center
  *?X*, *?Y* : 変数。 値 *BLOCK-A*, *BLOCK-B* などを適用して使う
 
  *条件* と *効果* で構成される
- #+END_CENTER
+ #+END_center
 
 
- #+BEGIN_CONTAINER-FLUID
- #+BEGIN_ROW-FLUID
- #+BEGIN_SPAN7
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span7
  #+BEGIN_QUOTE
  *条件* : 実行に必要な条件を表す命題
 
@@ -570,8 +575,8 @@ Action Segmentation problem がある
 
  　(clear *?Y*) を *削除*
  #+END_QUOTE
- #+END_SPAN7
- #+BEGIN_SPAN5
+ #+END_span7
+ #+BEGIN_span5
  #+BEGIN_SRC lisp
  (:action move
   :parameters (?X ?Y)
@@ -584,25 +589,25 @@ Action Segmentation problem がある
          (not         ; (4)
           (clear ?Y))))
  #+END_SRC
- #+BEGIN_ALIGNRIGHT
- #+BEGIN_LARGER
+ #+BEGIN_alignright
+ #+BEGIN_larger
  モデリング言語 *PDDL* で記述
- #+END_LARGER
- #+END_ALIGNRIGHT
- #+END_SPAN5
- #+END_ROW-FLUID
- #+END_CONTAINER-FLUID
+ #+END_larger
+ #+END_alignright
+ #+END_span5
+ #+END_row-fluid
+ #+END_container-fluid
 
 *** *PDDL* : Planning Domain Description Language                  :noexport:
 
  International Planning Competition で使われている入力形式
 
- #+BEGIN_CONTAINER-FLUID
- #+BEGIN_ROW-FLUID
- #+BEGIN_SPAN2
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span2
 
- #+END_SPAN2
- #+BEGIN_SPAN8
+ #+END_span2
+ #+BEGIN_span8
  #+BEGIN_SRC lisp
  (:action move
   :parameters (?X ?Y)
@@ -615,12 +620,12 @@ Action Segmentation problem がある
          (not         ; (4)
           (clear ?Y))))
  #+END_SRC
- #+END_SPAN8
- #+BEGIN_SPAN2
+ #+END_span8
+ #+BEGIN_span2
 
- #+END_SPAN2
- #+END_ROW-FLUID
- #+END_CONTAINER-FLUID
+ #+END_span2
+ #+END_row-fluid
+ #+END_container-fluid
 
 *** プランニング = グラフ探索
 
@@ -630,17 +635,17 @@ Action Segmentation problem がある
 
  [[png:graph]]
 
- # #+BEGIN_CONTAINER-FLUID
- # #+BEGIN_ROW-FLUID
- # #+BEGIN_SPAN6
+ # #+BEGIN_container-fluid
+ # #+BEGIN_row-fluid
+ # #+BEGIN_span6
  # # + ヒューリスティック探索 A*
  # # + State-of-the-Art *1
- # #+END_SPAN6
- # #+BEGIN_SPAN6
+ # #+END_span6
+ # #+BEGIN_span6
  # # #+attr_html: :width 50%
- # #+END_SPAN6
- # #+END_ROW-FLUID
- # #+END_CONTAINER-FLUID
+ # #+END_span6
+ # #+END_row-fluid
+ # #+END_container-fluid
 
  #+BEGIN_NOTE
  *1 [Helmert, 2006] [Richter, 2010]
@@ -708,9 +713,9 @@ Keras + TensorFlow
 ** Explicit Graph と Implicit Graph との違い
 
 
- #+BEGIN_CONTAINER-FLUID
- #+BEGIN_ROW-FLUID
- #+BEGIN_SPAN4
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span4
  *カーナビ、ソーシャルグラフなど* : Explicit Graph Search
 
  グラフ全体がメモリ(〜数ペタバイト)または二次記憶(〜数ゼタバイト)に収まる
@@ -718,8 +723,8 @@ Keras + TensorFlow
  参考: 2012年の全世界のデジタルデータ: 数ゼタバイト (1ZB = 10^21 バイト)
 
  AI and Web の分野, Social graph の解析など
- #+END_SPAN4
- #+BEGIN_SPAN8
+ #+END_span4
+ #+BEGIN_span8
  *プランニングにおける探索グラフ* : Implicit Graph Search
 
  地球に存在する全計算資源を集めても二次記憶に入らない
@@ -735,9 +740,9 @@ Keras + TensorFlow
  4x4x4のルービックキューブ: 7.40 x 10^45 > 10^24 ゼタバイト
 
  5x5x5のルービックキューブ: 2.83 x 10^74
- #+END_SPAN8
- #+END_ROW-FLUID
- #+END_CONTAINER-FLUID
+ #+END_span8
+ #+END_row-fluid
+ #+END_container-fluid
 
  # 秋葉さんのボスがいるかもしれない
 
@@ -807,9 +812,9 @@ Richard Korf --- Alex Fukunaga --- 浅井 政太郎
 
  *実問題(人間にとって有意義な問題の集合)* における汎用性である。
 
- #+BEGIN_CENTER
+ #+BEGIN_center
  全プランニング問題の集合 ⊇ 人間にとって有意義な問題の集合
- #+END_CENTER
+ #+END_center
 
  従って、 *全問題の平均を取れば* という前提が成り立たない。
 

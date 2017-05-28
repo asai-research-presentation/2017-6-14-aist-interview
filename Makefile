@@ -26,7 +26,7 @@ key.pdf: key.tex presen.org.tex img $(styles)
 	scripts/org-html.sh $< $@
 
 default: index
-all: index pdf nokey resume
+all: index
 html: img css presen.org.html MathJax
 pdf:    key.pdf
 nokey:  nokey.pdf
@@ -44,7 +44,7 @@ MathJax:
 	$(call get-archive, https://github.com/mathjax/MathJax/archive/2.6.1.tar.gz, MathJax-2.6.1, $@)
 
 org-mode:
-	$(call get-archive, http://orgmode.org/org-8.2.10.tar.gz, org-8.2.10, $@)
+	$(call get-archive, http://orgmode.org/org-8.3.6.tar.gz, org-8.3.6, $@)
 	$(MAKE) -C $@ compile
 
 scripts:
