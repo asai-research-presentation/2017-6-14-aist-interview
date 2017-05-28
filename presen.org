@@ -468,9 +468,9 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 * 付録
 
-# #+BEGIN_expanded
+#+BEGIN_expanded
 #+TOC: headlines 1 local
-# #+END_expanded
+#+END_expanded
 
 ** 既存システムとの違い (追加)
 
