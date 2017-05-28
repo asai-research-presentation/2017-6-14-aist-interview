@@ -291,7 +291,10 @@
 * 産業技術総合研究所で行いたい研究
 
 #+BEGIN_XLARGE
-Neural-Symbolic複合システムによる
+Neural-Symbolic複合システム
+#+END_XLARGE
+による
+#+BEGIN_XLARGE
 #+BEGIN_CENTER
 次世代AIシステム
 #+END_CENTER
@@ -387,35 +390,27 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
  [[png:keps17]]
 
-*** 研究業績7 : 査読付きワークショップ KEPS (採択率60%)
-
- [[png:keps17-2]]
-
-*** SAE のもっとちゃんとした解説
+*** Gumbel-Softmax
 
  [[png:sae/state-ae]]
 
- [[png:sae/gumbel]]
+*** 研究業績7 : 査読付きワークショップ KEPS
 
-*** 研究業績7 : 査読付きワークショップ KEPS (採択率60%)
+ [[png:keps17-2]]
+
+*** 研究業績7 : 査読付きワークショップ KEPS
 
  [[png:keps17-3]]
 
+* 今後の研究計画
 
-** 今後の研究計画
-
- #+BEGIN_RESUME
-
- #+END_RESUME
-
- [[png:keps17-4]]
+[[png:keps17-4]]
 
 * 研究成果の産業応用
 
 #+BEGIN_CENTER
-*記号的推論によりブレークスルーをもたらしうる*
+*記号的推論により様々な分野にブレークスルーをもたらす*
 #+END_CENTER
-
 
 #+BEGIN_CONTAINER-FLUID
 #+BEGIN_ROW-FLUID
