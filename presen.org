@@ -1,4 +1,4 @@
-#+title: 
+#+title: 研究テーマ: Neural-Symbolic複合システムによる 次世代AIシステムの研究
 #+author: 
 #+include: "head.org"
 #+LINK: img file:img/%s
@@ -32,22 +32,28 @@
 
 #+BEGIN_outline-text-1
 #+BEGIN_CENTER
-浅井 政太郎 東京大学 総合文化研究科
+浅井 政太郎 東京大学 総合文化研究科 学振DC2
 #+END_CENTER
 
 *発表要旨*
 
-#+BEGIN_EXPANDED
-1. これまでの研究業績
-   1. Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains※1. In ICAPS14.
-   2. Solving Large-Scale Planning Problems by Decomposition and Macro Generation※1. In ICAPS15.
-   3. Tiebreaking Strategies for A* Search: How to Explore the Final Frontier※1. In AAAI16. */(JSAI 学生奨励賞)/*
-   4. Tie-Breaking Strategies for Cost-Optimal Best First Search※1. Journal of Artificial Intelligence Research 58 (2017): 67-121.
-   5. Exploration Among and Within Plateaus in Greedy Best-First Search※1. In ICAPS17.
-   6. Efficient Optimal Search under Expensive Edge Cost Computation※2. In IJCAI17.
-   7. Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back)※1. In KEPS17.
-2. 今後の研究計画 : */Neural-Symbolic Hybrid System による 次世代AIシステムの研究開発/*
-#+END_EXPANDED
+これまでの研究業績
+
+　Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains※1. *ICAPS14*.
+
+　Solving Large-Scale Planning Problems by Decomposition and Macro Generation※1. *ICAPS15*.
+
+　Tiebreaking Strategies for A* Search: How to Explore the Final Frontier※1. *AAAI16*. */(JSAI 学生奨励賞)/*
+
+　Tie-Breaking Strategies for Cost-Optimal Best First Search※1. *JAIR 58 (2017): 67-121*.
+
+　Exploration Among and Within Plateaus in Greedy Best-First Search※1. *ICAPS17*.
+
+　Efficient Optimal Search under Expensive Edge Cost Computation※2. *IJCAI17*.
+
+　Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back)※1. *KEPS17*.
+
+今後の研究計画, 研究成果の産業応用への抱負
 
 #+BEGIN_SMALLER
 ※1 Masataro Asai, Alex Fukunaga
@@ -56,116 +62,380 @@
 #+END_SMALLER
 #+END_outline-text-1
 
-* 研究テーマ: プランニング(自動行動計画)とは?
+* 背景 -- AIプランニング
 
-# MER rover
-# 引用 rover, ds1 
-# ds1は英語で
-# 
-# 本質的に難しい問題であることを
-# いくら解説し続けてもわからない人がいるので
-# 全部のスライドで 10^20 という話をする
-# NP困難以上 PSPACEはわからない人が多い
-# でも、がちの理論の人が出てきた時のために
-# 「NP困難以上」の意味を準備しておｋう
-# 家庭を加えてもNP困難
+ #+BEGIN_CONTAINER-FLUID
+ #+BEGIN_ROW-FLUID
+ #+BEGIN_SPAN6
+ [[png:astro/1]]
+ #+END_SPAN6
+ #+BEGIN_SPAN6
+ [[png:rescue/1]]
+ #+END_SPAN6
+ #+END_ROW-FLUID
+ #+END_CONTAINER-FLUID
 
-# T25とアトムの説明を合融
+** 誰?
 
-[[png:planning]]
+ #+BEGIN_CONTAINER-FLUID
+ #+BEGIN_ROW-FLUID
+ #+BEGIN_SPAN6
+ [[png:astro/1]]
+ #+END_SPAN6
+ #+BEGIN_SPAN6
+ [[png:rescue/1]]
+ #+END_SPAN6
+ #+END_ROW-FLUID
+ #+END_CONTAINER-FLUID
 
-* プランニング(自動行動計画)分野の位置づけ
+  #+BEGIN_RESUME
+  And let me introduce these robots.
+  The guy in the left is Astro boy.
+  #+END_RESUME
 
-#+BEGIN_RESUME
-プランニング分野は、人工知能の専門分野という位置づけで、
-隣接するオペレーションズ・リサーチや
-アルゴリズム論などの分野の技術を利用しています。
-特に、プランニング問題を解くのにはグラフ探索の技術が用いられます。
-#+END_RESUME
+*** 誰?
 
-[[png:planning2]]
+ #+BEGIN_CONTAINER-FLUID
+ #+BEGIN_ROW-FLUID
+ #+BEGIN_SPAN6
+ [[png:astro/2]]
+ #+END_SPAN6
+ #+BEGIN_SPAN6
+ [[png:rescue/1]]
+ #+END_SPAN6
+ #+END_ROW-FLUID
+ #+END_CONTAINER-FLUID
 
-* 研究業績1 : 査読付き学会論文 ICAPS14 */(採択率33%)/*
+ #+BEGIN_RESUME
+ As you know, he is a famous manga superhero invented by Tezuka Osamu in 50s,
+ #+END_RESUME
 
-#+BEGIN_RESUME
-研究業績に移ります。
-ここでは、大規模なプランニング問題を解くために
-問題設定・ドメインによらず汎用に繰り返し構造を抽出する方法を開発しました。
-元の問題を繰り返し一周分の小問題に分割して解くことで、
-高速化と3割の生産時間短縮を達成しました。
+*** 誰?
 
-大切なのは汎用性です。
-生産問題に限らず、掃除にも宇宙船にも同じ実行バイナリが使えます。
-#+END_RESUME
+  #+BEGIN_CONTAINER-FLUID
+  #+BEGIN_ROW-FLUID
+  #+BEGIN_SPAN6
+  [[png:astro/final]]
+  #+END_SPAN6
+  #+BEGIN_SPAN6
+  [[png:rescue/1]]
+  #+END_SPAN6
+  #+END_ROW-FLUID
+  #+END_CONTAINER-FLUID
 
-[[png:assemble-icaps14]]
+ #+BEGIN_RESUME
+ and he can think, hear, speak, act. he also has emotions.
+ #+END_RESUME
 
-* 研究業績2 : 査読付き学会論文 ICAPS15 */(採択率33%)/*
+*** 誰?
 
-#+BEGIN_RESUME
-続いて二、三本目の業績は、
-先ほどの手法で得られるのは1種類の小問題だけでしたが、これを複数種類の小問題に拡張しました。
-結果、より様々な問題で高速化を達成しました。
-ここまで汎用に小問題分割を適用した研究は、分野では始めてです。
-#+END_RESUME
+  #+BEGIN_CONTAINER-FLUID
+  #+BEGIN_ROW-FLUID
+  #+BEGIN_SPAN6
+  [[png:astro/final]]
+  #+END_SPAN6
+  #+BEGIN_SPAN6
+  [[png:rescue/2]]
+  #+END_SPAN6
+  #+END_ROW-FLUID
+  #+END_CONTAINER-FLUID
 
-[[png:assemble-keps14-icaps15]]
+ #+BEGIN_RESUME
+  In contrast, the guy in the right is a real robot that is actually in use @ fukuoka prefecture for the rescue purpose..
+  His name is T-52 Enryu, developped by a Japanese company Temzak.
+  He is huge and powerful -- about 4 meters in height and can carry things which is as heavy as 500kg.
+  Well, so, in a sense, he is also a superhero in the real disastrous situation.
+ #+END_RESUME
 
-* 研究業績3 : 査読付き学会論文 AAAI16 */(採択率26%)/*
+*** 誰?
 
-#+BEGIN_RESUME
-最後に、申請後に行った研究が、難関国際学会 AAAI に採択されました。
-研究内容は、コスト0の辺を含むグラフを扱うグラフ探索アルゴリズム一般に適用できる内容で、
-非常に大きなインパクトを持つことが考えられます。
-#+END_RESUME
+  #+BEGIN_CONTAINER-FLUID
+  #+BEGIN_ROW-FLUID
+  #+BEGIN_SPAN6
+  [[png:astro/final]]
+  #+END_SPAN6
+  #+BEGIN_SPAN6
+  [[png:rescue/3]]
+  #+END_SPAN6
+  #+END_ROW-FLUID
+  #+END_CONTAINER-FLUID
 
-[[png:aaai16]]
+ #+BEGIN_RESUME
+ But does he have feelings or can he think? Can he even move around by his own?
+ #+END_RESUME
 
-* 研究業績4 : 査読付き論文誌 JAIR */(採択率12%)/*
+*** 誰?
 
-#+BEGIN_RESUME
-#+END_RESUME
+  #+BEGIN_CONTAINER-FLUID
+  #+BEGIN_ROW-FLUID
+  #+BEGIN_SPAN6
+  [[png:astro/final]]
+  #+END_SPAN6
+  #+BEGIN_SPAN6
+  [[png:rescue/final]]
+  #+END_SPAN6
+  #+END_ROW-FLUID
+  #+END_CONTAINER-FLUID
 
-[[png:jair17]]
+ #+BEGIN_RESUME
+ No. It requires full human intervention --- it is indeed operated by a
+ driver who gets in or by a remote control. It is more like a
+ super-sophisticated shovel car.
+ #+END_RESUME
 
-* 研究業績5 : 学会論文 ICAPS17 */(採択率33%)/*
 
-#+BEGIN_RESUME
-#+END_RESUME
+** 自律行動のための自動プランナ (≠ モータ制御)
 
-[[png:icaps17]]
+ [[png:planning/1]]
 
-* 研究業績6 : 査読付き学会論文 IJCAI17 */(採択率25%)/*
+ #+BEGIN_RESUME
+ 研究テーマのプランニングは、ロボットに、人間の助けを借りず、いかに自律して行動させるかを扱います。
+ これをモデル化したプランニング問題は、具体的な行動の列を求める 組合せ最適化問題です。
 
-#+BEGIN_RESUME
-#+END_RESUME
+ プランニング問題のタスクは、
+ センサーから初期状態とゴールを受け取って、被災者を助ける正しい手順を出力することです。
 
-[[png:ijcai17]]
+ たとえば、この図では男性が瓦礫に埋まって助けを求めています。
+ プランニング機能のあるロボットは、コレに対して「男性を助けよ」という大まかな指示を受けます。
+ #+END_RESUME
 
-* 研究業績7 : 査読付きワークショップ KEPS (採択率60%)
+** 自律行動のための自動プランナ (≠ モータ制御)
 
-#+BEGIN_RESUME
-#+END_RESUME
+ [[png:planning/2]]
 
-[[png:keps17]]
+ #+BEGIN_RESUME
+ 指示の内容には、図のように初期状態とゴール、許可された行動のリストが入っています。
+ ロボットは、自動プランニングにより、人間の代わりに適切な行動を組み立てて、ゴールを自動で達成します。
+ #+END_RESUME
 
-** 研究業績7 : 査読付きワークショップ KEPS (採択率60%)
+** 自律行動のための自動プランナ (≠ モータ制御)
 
-[[png:keps17-2]]
+ [[png:planning/final]]
 
-** SAE のもっとちゃんとした解説
+ #+BEGIN_RESUME
+ プランニングは汎用な枠組みなので、災害救助以外にも様々な問題に適用することができます。
+ 現実の応用例では「宇宙探査機運行問題」や「企業ネットワーク脆弱性問題」も表現できます。
 
-** 研究業績7 : 査読付きワークショップ KEPS (採択率60%)
+ このように、プランニングは、難しい問題を汎用性を失わずに解くことを目指します。
+ #+END_RESUME
 
-[[png:keps17-3]]
+** プランニング(自動行動計画)分野の位置づけ
 
-* 今後の研究計画
+ #+BEGIN_RESUME
+ プランニング分野は、人工知能の専門分野という位置づけで、
+ 隣接するオペレーションズ・リサーチや
+ アルゴリズム論などの分野の技術を利用しています。
+ 特に、プランニング問題を解くのにはグラフ探索の技術が用いられます。
+ #+END_RESUME
 
-#+BEGIN_RESUME
+ [[png:planning2]]
 
-#+END_RESUME
+** 業績1: 査読付き国際学会 ICAPS14 */(採択率33%)/*
 
-[[png:keps17-4]]
+ #+BEGIN_RESUME
+ 研究業績に移ります。
+ ここでは、大規模なプランニング問題を解くために
+ 問題設定・ドメインによらず汎用に繰り返し構造を抽出する方法を開発しました。
+ 元の問題を繰り返し一周分の小問題に分割して解くことで、
+ 高速化と3割の生産時間短縮を達成しました。
+
+ 大切なのは汎用性です。
+ 生産問題に限らず、掃除にも宇宙船にも同じ実行バイナリが使えます。
+ #+END_RESUME
+
+ [[png:assemble-icaps14]]
+
+** 業績2: 査読付き国際学会 ICAPS15 */(採択率33%)/*
+
+ #+BEGIN_RESUME
+ 続いて二、三本目の業績は、
+ 先ほどの手法で得られるのは1種類の小問題だけでしたが、これを複数種類の小問題に拡張しました。
+ 結果、より様々な問題で高速化を達成しました。
+ ここまで汎用に小問題分割を適用した研究は、分野では始めてです。
+ #+END_RESUME
+
+ [[png:assemble-keps14-icaps15]]
+
+** 業績3: 査読付き国際学会 AAAI16 */(採択率26%)/*
+
+ #+BEGIN_RESUME
+ 最後に、申請後に行った研究が、難関国際学会 AAAI に採択されました。
+ 研究内容は、コスト0の辺を含むグラフを扱うグラフ探索アルゴリズム一般に適用できる内容で、
+ 非常に大きなインパクトを持つことが考えられます。
+ #+END_RESUME
+
+ [[png:aaai16]]
+
+** 業績4: 査読付き論文誌 JAIR */(採択率12%)/*                      :スキップ予定:
+
+ #+BEGIN_RESUME
+ #+END_RESUME
+
+ [[png:jair17]]
+
+** 業績5: 査読付き国際学会 ICAPS17 */(採択率33%)/*                 :スキップ予定:
+
+ #+BEGIN_RESUME
+ #+END_RESUME
+
+ [[png:icaps17]]
+
+** 業績6: 査読付き国際学会 IJCAI17 */(採択率25%)/*
+
+ #+BEGIN_RESUME
+ #+END_RESUME
+
+ [[png:ijcai17]]
+
+
+* 産業技術総合研究所で行いたい研究
+
+#+BEGIN_XLARGE
+Neural-Symbolic複合システムによる
+#+BEGIN_CENTER
+次世代AIシステム
+#+END_CENTER
+#+BEGIN_ALIGNRIGHT
+の研究
+#+END_ALIGNRIGHT
+#+END_XLARGE
+
+** Q. いま */はやり/* のDeep Learningとの違いは?
+
+ A. レイヤが違う
+
+ #+BEGIN_CONTAINER-FLUID
+ #+BEGIN_ROW-FLUID
+ #+BEGIN_SPAN6
+ *機械学習・Neural Networks* == 関数近似
+ 
+ for *認識・反射*
+ + 入力 は *Subsymbolic* (連続値)
+   
+   画像、音声、非構造化テキスト: 
+ + *感覚的知能*:
+   
+   　 */反応/, /直後/ の行動の決定*
+   #+BEGIN_SMALLER
+   *パブロフの犬* : 餌を認知→よだれ
+
+   *自動運転* : 赤信号,人 → 止まる.
+
+   *翻訳* : 文章 → 文章
+
+   *囲碁局面の評価関数* : 局面 → 勝率
+   #+END_SMALLER
+   #+BEGIN_LARGER
+   ☺ 効率よく 1-to-1 mapping
+   
+   ☹ 単純作業
+   #+END_LARGER
+ #+END_SPAN6
+ #+BEGIN_SPAN6
+ *推論・探索*
+
+ for *プランニング・ゲーム・定理証明*
+ + 入出力は *Symbolic*
+   
+   論理 オブジェクト ルール
+ + *論理・推論による知能:*
+
+   　 */未来に渡る/ 戦略の決定*
+   
+   　 (戦略 = 行動の *列や木*)
+   #+BEGIN_SMALLER
+   *レスキューロボ* : ゴール = 被災者生存
+
+   *証明器* : ゴール = QED
+
+   *コンパイラ* : 命令列の生成
+   
+   *囲碁,将棋* : ゴール = 勝利
+   #+END_SMALLER
+   #+BEGIN_LARGER
+   ☺ 順序制約+複雑な作業
+   #+END_LARGER
+ #+END_SPAN6
+ #+END_ROW-FLUID
+ #+END_CONTAINER-FLUID
+
++ AlphaGo = Subsymbolic (DLNNによる評価関数) + Symbolic (MCTSによる探索)
+
+** 既存の有名システム
+
+AlphaGo = Subsymbolic (NNによる評価関数) + Symbolic (MCTSによる探索)
++ ただし *ドメイン依存* -- 囲碁に特化, "マス目"や"石"といった概念をハードコード
++ *膨大な棋譜が必要* --- 運用データがない環境(e.g.火星)には適用不能
++ */人って模範解答がないと行動できませんか?/* *真の自律機械は前例無しでも行動可能*
+
+DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
+
+様々な Atari Game につかえる汎用フレームワーク (Invader, Packman…) だが
++ RLのActing: 学習したpolicyに従ってgreedyに行動
++ Atariゲームは *脊髄反射で生き残ることが可能* → *複雑な論理思考はいらない!*
+  
+# 実際 *Sokoban など論理思考ゲームでは性能が悪い* ↔ 倉庫番ソルバ
+
+** 記号的AIによる論理推論の重要性
+
+ [[png:lecun]]
+
+** 業績7: 査読付きワークショップ KEPS (採択率60%)
+
+ #+BEGIN_RESUME
+ #+END_RESUME
+
+ [[png:keps17]]
+
+*** 研究業績7 : 査読付きワークショップ KEPS (採択率60%)
+
+ [[png:keps17-2]]
+
+*** SAE のもっとちゃんとした解説
+
+ [[png:sae/state-ae]]
+
+ [[png:sae/gumbel]]
+
+*** 研究業績7 : 査読付きワークショップ KEPS (採択率60%)
+
+ [[png:keps17-3]]
+
+
+** 今後の研究計画
+
+ #+BEGIN_RESUME
+
+ #+END_RESUME
+
+ [[png:keps17-4]]
+
+* 研究成果の産業応用
+
+#+BEGIN_CENTER
+*記号的推論によりブレークスルーをもたらしうる*
+#+END_CENTER
+
+
+#+BEGIN_CONTAINER-FLUID
+#+BEGIN_ROW-FLUID
+#+BEGIN_SPAN6
+*ピックアップロボ以上の産業用ロボ*
+
+ --- 画像 → 論理表現 → 記号的推論 → 行動決定
+
+ --- 動的な環境や目標に自動で対応できる
+
+*人工無能以上のチャットボット*
+
+ --- テキスト → 論理表現 → 記号的推論 → 意図推定 → 返答
+#+END_SPAN6
+#+BEGIN_SPAN6
+[[sjpg:hal-speaking]]
+#+END_SPAN6
+#+END_ROW-FLUID
+#+END_CONTAINER-FLUID
+
 
 * まとめ
 
@@ -194,76 +464,77 @@
    1. 画像から命題を自動生成して記号的AIで組合せ最適化問題を解き、画像で出力するシステム
 #+END_SMALLER
 
-* NeuroSolver との違い
+* 付録
+** NeuroSolver との違い
 
-* neural heuristic との違い
+** neural heuristic との違い
 
-* LfO との違い
+** LfO との違い
 
-* プランの評価手法
+** プランの評価手法
 
-* 付録 古典プランニング問題とは (定義)
+** 付録 古典プランニング問題とは (定義)
 
-アクション集合 A, オブジェクト集合 O, 初期状態 I, ゴールG
+ アクション集合 A, オブジェクト集合 O, 初期状態 I, ゴールG
 
-*状態* := 真である命題の集合
+ *状態* := 真である命題の集合
 
-*アクションa∈A* : < pre(a), add(a), del(a), cost(a) >
+ *アクションa∈A* : < pre(a), add(a), del(a), cost(a) >
 
-ただし、 pre(a): 前提条件, add(a): 追加効果, del(a): 削除効果, cost(a): アクションの適用コスト
+ ただし、 pre(a): 前提条件, add(a): 追加効果, del(a): 削除効果, cost(a): アクションの適用コスト
 
-*状態sに対するアクションaの適用:* pre(a) ⊆ s の時に適用可能で、
+ *状態sに対するアクションaの適用:* pre(a) ⊆ s の時に適用可能で、
 
-　a(s) = ( s ∪ add(a) ) / del(a)
+ 　a(s) = ( s ∪ add(a) ) / del(a)
 
-*終了判定*: s ⊇ G ならば ゴール達成
+ *終了判定*: s ⊇ G ならば ゴール達成
 
-# どう面倒な質問が来るかを想定して予備スライド
-# プランニングについて突っ込まれる
-# こてん的プランニングであることが判明する
+ # どう面倒な質問が来るかを想定して予備スライド
+ # プランニングについて突っ込まれる
+ # こてん的プランニングであることが判明する
 
-* 付録 古典プランニングを研究する意義は?
+** 付録 古典プランニングを研究する意義は?
 
-[[png:classical-meaning]]
+ [[png:classical-meaning]]
 
-* 付録 AIの倫理について
+** 付録 AIの倫理について
   
-+ 研究内容は 漠然とした「AI」のうち *グラフ探索* の研究
-+ 善悪の判断はそれ自体は行わない
-+ 価値判断は与えられる入力の中にある = 使用者の価値観を反映する
-+ 悪用の問題はある。しかし、自分としては、災害救助ロボットなど、人道的な応用を目指している
+ + 研究内容は 漠然とした「AI」のうち *グラフ探索* の研究
+ + 善悪の判断はそれ自体は行わない
+ + 価値判断は与えられる入力の中にある = 使用者の価値観を反映する
+ + 悪用の問題はある。しかし、自分としては、災害救助ロボットなど、人道的な応用を目指している
 
-* 付録 ディープラーニングとどう違うのか
+** 付録 ディープラーニングとどう違うのか
 
-+ 機械学習を埋め込むことは可能だ
-+ が、求められる推論の複雑さが根本的に違う → 独立した分野
+ + 機械学習を埋め込むことは可能だ
+ + が、求められる推論の複雑さが根本的に違う → 独立した分野
 
-#+BEGIN_CONTAINER-FLUID
-#+BEGIN_ROW-FLUID
-#+BEGIN_SPAN7
-*ニューラルネット*, *DL*, *強化学習*
-+ 入力: 現在のデータ、過去の履歴、報酬 etc..
-+ 出力:
-  + *次の1ステップ* のアクション選択ポリシー (強化学習)
-  + *固定長の分類結果* (画像認識)
-  + ある意味 状況に応じて脊髄反射 なエージェント
-#+END_SPAN7
-#+BEGIN_SPAN5
-*プランニング*
-出力:
-+ *10ステップ, 100ステップ先* の未来を *先読み* した行動計画
-+ ICAPS14,15の手法を使えば *数千ステップ* 先の未来まで先読みすることが出来る
-#+END_SPAN5
-#+END_ROW-FLUID
-#+END_CONTAINER-FLUID
+ #+BEGIN_CONTAINER-FLUID
+ #+BEGIN_ROW-FLUID
+ #+BEGIN_SPAN7
+ *ニューラルネット*, *DL*, *強化学習*
+ + 入力: 現在のデータ、過去の履歴、報酬 etc..
+ + 出力:
+   + *次の1ステップ* のアクション選択ポリシー (強化学習)
+   + *固定長の分類結果* (画像認識)
+   + ある意味 状況に応じて脊髄反射 なエージェント
+ #+END_SPAN7
+ #+BEGIN_SPAN5
+ *プランニング*
+ 出力:
+ + *10ステップ, 100ステップ先* の未来を *先読み* した行動計画
+ + ICAPS14,15の手法を使えば *数千ステップ* 先の未来まで先読みすることが出来る
+ #+END_SPAN5
+ #+END_ROW-FLUID
+ #+END_CONTAINER-FLUID
 
-ただしプランニングに学習機を埋め込むことは *可能* (実例複数あり)
+ ただしプランニングに学習機を埋め込むことは *可能* (実例複数あり)
 
-DLから見て、プランニングは *アプリケーション*
+ DLから見て、プランニングは *アプリケーション*
 
-プランニングから見て、DLは *ツール*
+ プランニングから見て、DLは *ツール*
 
-両者の組み合わせは機会があればやってみたい
+ 両者の組み合わせは機会があればやってみたい
 
 ** 付録 ディープラーニング関連
 
@@ -273,198 +544,198 @@ DLから見て、プランニングは *アプリケーション*
 + Lisp の文法を直接 OpenCL C に変換し実行するトランスレータ
 + OpenCLのメモリ管理を Lisp GC に埋め込み
 
-* 付録 第五世代コンピュータとの違いは?
+** 付録 第五世代コンピュータとの違いは?
 
-第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
+ 第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
 
-根本的なソフトウェア技術、 *探索技術* が未発達だった
+ 根本的なソフトウェア技術、 *探索技術* が未発達だった
 
-| 第五世代                  | 現在                                |
-|---------------------------+-------------------------------------|
-| 後方全探索+バックトラック | *前方ヒューリスティック探索*        |
-| Prologベース              | C/C++で高度に最適化されたプログラム |
-|                           | State packing, 決定木, mutex...     |
+ | 第五世代                  | 現在                                |
+ |---------------------------+-------------------------------------|
+ | 後方全探索+バックトラック | *前方ヒューリスティック探索*        |
+ | Prologベース              | C/C++で高度に最適化されたプログラム |
+ |                           | State packing, 決定木, mutex...     |
 
-今はベンチマーク問題 *1104問* のうち 5分で *800問* 前後解ける
+ 今はベンチマーク問題 *1104問* のうち 5分で *800問* 前後解ける
 
-仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けないだろう*
+ 仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けないだろう*
 
-* 付録 Explicit Graph と Implicit Graph との違い
-
-
-#+BEGIN_CONTAINER-FLUID
-#+BEGIN_ROW-FLUID
-#+BEGIN_SPAN4
-*カーナビ、ソーシャルグラフなど* : Explicit Graph Search
-
-グラフ全体がメモリ(〜数ペタバイト)または二次記憶(〜数ゼタバイト)に収まる
-
-参考: 2012年の全世界のデジタルデータ: 数ゼタバイト (1ZB = 10^21 バイト)
-
-AI and Web の分野など
-#+END_SPAN4
-#+BEGIN_SPAN8
-*プランニングにおける探索グラフ* : Implicit Graph Search
-
-地球に存在する全計算資源を集めても二次記憶に入らない
-
-グラフのノード数は状態変数に対して *指数的に増加*
-
-動的に必要な量のみメモリ確保をしないと問題が解けない
-
-探索空間サイズの例:
-
-3x3x3のルービックキューブ: 4.32 x 10^19 = 4 エクサバイト
-
-4x4x4のルービックキューブ: 7.40 x 10^45 > 10^24 ゼタバイト
-
-5x5x5のルービックキューブ: 2.83 x 10^74
-#+END_SPAN8
-#+END_ROW-FLUID
-#+END_CONTAINER-FLUID
-
-# 秋葉さんのボスがいるかもしれない
-
-#+BEGIN_NOTE
-Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
-#+END_NOTE
-
-* 付録 似たような研究は誰がやっていますか どこでやられていますか
-
-# いろんなバリエーションがある
-# 自分の研究分野のことをどれぐらいわかっているのか
-
-#+BEGIN_XLARGE
-国内ですか、国外ですか？
-#+BEGIN_CENTER
-YES NO
-#+END_CENTER
-#+END_XLARGE
-
-# ** 国内
-# 
-# 過去の業績のことですか、研究計画のことですか? 過去、未来
-# 
-# (研究計画で) あなたの研究と似ている研究は誰がやっているか?
-# symmetry
-
-# Nir Potcher,
-# Carmel Domshrak,
-# Erez Karpas,
-# Maria Fox
-# Malte Helmert
-
-# (過去の業績で) あなたの研究と似ている研究は誰がやっているか?
-# 
-# Eyal Amir,
-# Raz Nissim,
-# Ronen Brafman,
-# Anders Jonsson,
-# Lukas Chrpa
-
-# 今後のインパクトを聞かれているのか、
-# 今までのインパクトを聞かれているのか
-# 確認すること
-
-* 付録 プランニングはマイナーで大したことのない分野?
-
-日本にプランニングの研究室がない ≠ 世界で研究室がない
-
-*ICAPS*, *SoCS* : 例年150人-200人の参加者を集めており大変盛況, 
-
-*AAAI*, *IJCAI* : プランニングに関する論文は例年数十本採択 Proceedingsの一つの章をなす
-
-*JAIR*, *AIJ* : 論文誌でもプランニングの論文は多い (JAIR Volume 54: 12本中 2本 がプランニング論文)
-
-*主な研究室*:
-
-MIT CSAIL (Brian Williams), Carnegie-Mellon, 
-
-NASA (NASA Ames および NASA/Caltech JPL のそれぞれに20名以上の研究者), 欧州宇宙機関(ESA)
-
-指導教員は NASA JPL AI Lab の元メンバー
-
-* 付録 汎用性を失わずに解く?
-
-*No Free Lunch 定理*: 最適化アルゴリズムの性能は *全問題の平均を取れば* 全て同じ
-
-Q. NFL定理のもとで「汎用性を失わずに高速に解く」というのは不可能?
-
-A. NFL定理は確かにそのように主張するが、プランニング分野の意味する「汎用性」は
-
-*人間にとって有意義な問題の集合* における汎用性である。
-
-#+BEGIN_CENTER
-全プランニング問題の集合 ⊇ 人間にとって有意義な問題の集合
-#+END_CENTER
-
-従って、 *全問題の平均を取れば* という前提が成り立たない。
-
-* TODO 付録 その研究は...
-
-# + オリジナリティは idea について。 だからテクニカル
-# ループの概念を検出する
-# 
-# + インパクトは user の話について。 だからapplication
-# ループをけんすつしようという考え自体がプランニング業界で新た
-#   + 過去ー現在のインパクト
-#   + 未来のインパクト
+** 付録 Explicit Graph と Implicit Graph との違い
 
 
-|          | 重要度 | 評価                     | オリジナリティ         | 過去のインパクト              | 未来のインパクト     | 動機                             |
-|----------+--------+--------------------------+------------------------+-------------------------------+----------------------+----------------------------------|
-| ACP      |        | 発表した                 | ループの概念を検出     | はるかに巨大な問題            | 産業応用             | 人間プログラマでは追いつかない   |
-|          |        | 難関学会                 |                        |                               | 大規模問題           |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-| CAP      |        | 難関学会                 | 問題分割手法           | 大規模な問題                  | 産業応用             |                                  |
-|          |        | 発表した                 | 柔軟な統合手法         | それまでの分割系の手法より    | 混ざった問題         |                                  |
-|          |        | いくつか質問された       |                        | 広範囲に分割                  |                      |                                  |
-|          |        | メールやり取り           |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|----------+--------+--------------------------+------------------------+-------------------------------+----------------------+----------------------------------|
-| AAAI16   |        | 三人中                   | 同コストのノードの分類 | 70年代からの定説を覆す        | 広範なグラフ探索問題 | 下界以外で改善したかった         |
-|          |        | 二人の査読者に絶賛された |                        | 通常と異なる方法で性能改善    | 基礎技術             |                                  |
-|          |        |                          |                        | コスト0は実応用によく使われる |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|----------+--------+--------------------------+------------------------+-------------------------------+----------------------+----------------------------------|
-| 過去全体 |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-| 未来全体 |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-| 過去未来 |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      | グラフ探索の下界関数             |
-|          |        | どちらも                 |                        |                               |                      |                                  |
-| 対称性   |        | underinvestigated,       |                        |                               | 産業応用             | これの改善では改善に限界がある   |
-|          |        | もっとしらべるべき       |                        |                               |                      | ことがわかっている               |
-| 問題分割 |        | とされている             |                        |                               |                      | どちらも綺麗なアイディアではない |
-|          |        |                          |                        |                               |                      | 産業応用                         |
-| 融合     |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
+ #+BEGIN_CONTAINER-FLUID
+ #+BEGIN_ROW-FLUID
+ #+BEGIN_SPAN4
+ *カーナビ、ソーシャルグラフなど* : Explicit Graph Search
 
-# 一二年の成果なのでまだ引用はありませんが
-# その分野の研究者が集まる採択率33の場で発表してきました 
-# 口頭での会話でも上場で、いまもメールで交流をしています etc.
-# 
-# 評価は? : この論文は、採択率の厳しい難関国際学会に採択されました。
-# このことだけでも、研究内容の正しさと重要さを認められたと考えています。
+ グラフ全体がメモリ(〜数ペタバイト)または二次記憶(〜数ゼタバイト)に収まる
 
-# ** 未来全体
-# 
-# 未来の事ならば、業績に関連するスライドに戻る。
-# それのおかげで何ができるかを話す。
+ 参考: 2012年の全世界のデジタルデータ: 数ゼタバイト (1ZB = 10^21 バイト)
 
-# math
-# learning
-# robotics -- "general enough to be applicable/scalable in this area"
+ AI and Web の分野など
+ #+END_SPAN4
+ #+BEGIN_SPAN8
+ *プランニングにおける探索グラフ* : Implicit Graph Search
 
-# 対称性 --- 
-# 
-# プランニングの表現力の中で表現できるすべての問題の中で適用できる
-# 対称性検知手法を制作する。
+ 地球に存在する全計算資源を集めても二次記憶に入らない
+
+ グラフのノード数は状態変数に対して *指数的に増加*
+
+ 動的に必要な量のみメモリ確保をしないと問題が解けない
+
+ 探索空間サイズの例:
+
+ 3x3x3のルービックキューブ: 4.32 x 10^19 = 4 エクサバイト
+
+ 4x4x4のルービックキューブ: 7.40 x 10^45 > 10^24 ゼタバイト
+
+ 5x5x5のルービックキューブ: 2.83 x 10^74
+ #+END_SPAN8
+ #+END_ROW-FLUID
+ #+END_CONTAINER-FLUID
+
+ # 秋葉さんのボスがいるかもしれない
+
+ #+BEGIN_NOTE
+ Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
+ #+END_NOTE
+
+** 付録 似たような研究は誰がやっていますか どこでやられていますか
+
+ # いろんなバリエーションがある
+ # 自分の研究分野のことをどれぐらいわかっているのか
+
+ #+BEGIN_XLARGE
+ 国内ですか、国外ですか？
+ #+BEGIN_CENTER
+ YES NO
+ #+END_CENTER
+ #+END_XLARGE
+
+ # ** 国内
+ # 
+ # 過去の業績のことですか、研究計画のことですか? 過去、未来
+ # 
+ # (研究計画で) あなたの研究と似ている研究は誰がやっているか?
+ # symmetry
+
+ # Nir Potcher,
+ # Carmel Domshrak,
+ # Erez Karpas,
+ # Maria Fox
+ # Malte Helmert
+
+ # (過去の業績で) あなたの研究と似ている研究は誰がやっているか?
+ # 
+ # Eyal Amir,
+ # Raz Nissim,
+ # Ronen Brafman,
+ # Anders Jonsson,
+ # Lukas Chrpa
+
+ # 今後のインパクトを聞かれているのか、
+ # 今までのインパクトを聞かれているのか
+ # 確認すること
+
+** 付録 プランニングはマイナーで大したことのない分野?
+
+ 日本にプランニングの研究室がない ≠ 世界で研究室がない
+
+ *ICAPS*, *SoCS* : 例年150人-200人の参加者を集めており大変盛況, 
+
+ *AAAI*, *IJCAI* : プランニングに関する論文は例年数十本採択 Proceedingsの一つの章をなす
+
+ *JAIR*, *AIJ* : 論文誌でもプランニングの論文は多い (JAIR Volume 54: 12本中 2本 がプランニング論文)
+
+ *主な研究室*:
+
+ MIT CSAIL (Brian Williams), Carnegie-Mellon, 
+
+ NASA (NASA Ames および NASA/Caltech JPL のそれぞれに20名以上の研究者), 欧州宇宙機関(ESA)
+
+ 指導教員は NASA JPL AI Lab の元メンバー
+
+** 付録 汎用性を失わずに解く?
+
+ *No Free Lunch 定理*: 最適化アルゴリズムの性能は *全問題の平均を取れば* 全て同じ
+
+ Q. NFL定理のもとで「汎用性を失わずに高速に解く」というのは不可能?
+
+ A. NFL定理は確かにそのように主張するが、プランニング分野の意味する「汎用性」は
+
+ *人間にとって有意義な問題の集合* における汎用性である。
+
+ #+BEGIN_CENTER
+ 全プランニング問題の集合 ⊇ 人間にとって有意義な問題の集合
+ #+END_CENTER
+
+ 従って、 *全問題の平均を取れば* という前提が成り立たない。
+
+** TODO 付録 その研究は...
+
+ # + オリジナリティは idea について。 だからテクニカル
+ # ループの概念を検出する
+ # 
+ # + インパクトは user の話について。 だからapplication
+ # ループをけんすつしようという考え自体がプランニング業界で新た
+ #   + 過去ー現在のインパクト
+ #   + 未来のインパクト
+
+
+ |          | 重要度 | 評価                     | オリジナリティ         | 過去のインパクト              | 未来のインパクト     | 動機                             |
+ |----------+--------+--------------------------+------------------------+-------------------------------+----------------------+----------------------------------|
+ | ACP      |        | 発表した                 | ループの概念を検出     | はるかに巨大な問題            | 産業応用             | 人間プログラマでは追いつかない   |
+ |          |        | 難関学会                 |                        |                               | 大規模問題           |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+ | CAP      |        | 難関学会                 | 問題分割手法           | 大規模な問題                  | 産業応用             |                                  |
+ |          |        | 発表した                 | 柔軟な統合手法         | それまでの分割系の手法より    | 混ざった問題         |                                  |
+ |          |        | いくつか質問された       |                        | 広範囲に分割                  |                      |                                  |
+ |          |        | メールやり取り           |                        |                               |                      |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+ |----------+--------+--------------------------+------------------------+-------------------------------+----------------------+----------------------------------|
+ | AAAI16   |        | 三人中                   | 同コストのノードの分類 | 70年代からの定説を覆す        | 広範なグラフ探索問題 | 下界以外で改善したかった         |
+ |          |        | 二人の査読者に絶賛された |                        | 通常と異なる方法で性能改善    | 基礎技術             |                                  |
+ |          |        |                          |                        | コスト0は実応用によく使われる |                      |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+ |----------+--------+--------------------------+------------------------+-------------------------------+----------------------+----------------------------------|
+ | 過去全体 |        |                          |                        |                               |                      |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+ | 未来全体 |        |                          |                        |                               |                      |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+ | 過去未来 |        |                          |                        |                               |                      |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+ |          |        |                          |                        |                               |                      | グラフ探索の下界関数             |
+ |          |        | どちらも                 |                        |                               |                      |                                  |
+ | 対称性   |        | underinvestigated,       |                        |                               | 産業応用             | これの改善では改善に限界がある   |
+ |          |        | もっとしらべるべき       |                        |                               |                      | ことがわかっている               |
+ | 問題分割 |        | とされている             |                        |                               |                      | どちらも綺麗なアイディアではない |
+ |          |        |                          |                        |                               |                      | 産業応用                         |
+ | 融合     |        |                          |                        |                               |                      |                                  |
+ |          |        |                          |                        |                               |                      |                                  |
+
+ # 一二年の成果なのでまだ引用はありませんが
+ # その分野の研究者が集まる採択率33の場で発表してきました 
+ # 口頭での会話でも上場で、いまもメールで交流をしています etc.
+ # 
+ # 評価は? : この論文は、採択率の厳しい難関国際学会に採択されました。
+ # このことだけでも、研究内容の正しさと重要さを認められたと考えています。
+
+ # ** 未来全体
+ # 
+ # 未来の事ならば、業績に関連するスライドに戻る。
+ # それのおかげで何ができるかを話す。
+
+ # math
+ # learning
+ # robotics -- "general enough to be applicable/scalable in this area"
+
+ # 対称性 --- 
+ # 
+ # プランニングの表現力の中で表現できるすべての問題の中で適用できる
+ # 対称性検知手法を制作する。
 
 ** 国内で誰が似たようなことをやっているか
 
@@ -497,73 +768,70 @@ Katsutoshi Hirayama, Kobe university  (constraint optimization, CSP, distributed
 
 Toru Ishida (Kyoto U. stopped working in search a long time ago, but for a while, he was the leader in A*-related search methods in Japan; coauthored some papers with Korf).
 
-* 付録 学会論文の位置づけ
+** 付録 学会論文の位置づけ
 
-# * 付録 AAAI, ICAPS とは?
-# 
-# *AAAI* : 人工知能(AI)系で最も権威のある国際学会
-# 
-# [[png:aaai-microsoft]]
-# 
-# # 組織の名前でもあり会議の名前でもある
-# 
-# * AAAI の下部学会
-# 
-# [[png:aaai-conferences]]
-# 
-# * ICAPS とは？
-# # 人数と論文数が少ないので知名度は高くないが...
-# 
-# [[png:icaps-msai-core]]
-# 
-# CORE(ERA) Conference Ranking: A* オーストラリア/ニュージーランドの機関によるランキング
+ # * 付録 AAAI, ICAPS とは?
+ # 
+ # *AAAI* : 人工知能(AI)系で最も権威のある国際学会
+ # 
+ # [[png:aaai-microsoft]]
+ # 
+ # # 組織の名前でもあり会議の名前でもある
+ # 
+ # * AAAI の下部学会
+ # 
+ # [[png:aaai-conferences]]
+ # 
+ # * ICAPS とは？
+ # # 人数と論文数が少ないので知名度は高くないが...
+ # 
+ # [[png:icaps-msai-core]]
+ # 
+ # CORE(ERA) Conference Ranking: A* オーストラリア/ニュージーランドの機関によるランキング
 
-* HTN と ICAPS-15 の違い
+** HTN と ICAPS-15 の違い
 
-HTNは人間が問題分割を行う
-人件費を考えると非常にコストパフォーマンスが悪い
-→ 自動で問題分割
+ HTNは人間が問題分割を行う
+ 人件費を考えると非常にコストパフォーマンスが悪い
+ → 自動で問題分割
 
-* 付録 Q&A
+** 付録 Q&A
 
-+ Q. 探索空間の比較について、なぜ「以前」の数字がスライドによって変わるの?
-+ A. 論文の中で使った実験設定が異なるからです。
+ + Q. 探索空間の比較について、なぜ「以前」の数字がスライドによって変わるの?
+ + A. 論文の中で使った実験設定が異なるからです。
 
-* 付録 今後のキャリアパスは？
+** 付録 今後のキャリアパスは？
 
-研究者押しで押しまくる
-大学あるいは企業の研究者
-迷うことなくパッと答える
+ 研究者押しで押しまくる
+ 大学あるいは企業の研究者
+ 迷うことなくパッと答える
 
-* 付録 今後の研究計画が、インパクトの少ない今までの延長のように見えるんだけど・・・
+** 付録 今後の研究計画が、インパクトの少ない今までの延長のように見えるんだけど・・・
 
+** 付録 アドホックな解法に見えるんだけど・・・
 
-* 付録 アドホックな解法に見えるんだけど・・・
+** 付録 失敗しそうなんだけど・・・
 
+** 付録?? とにかくまとはずれな質問
 
-* 付録 失敗しそうなんだけど・・・
-
-
-* 付録?? とにかくまとはずれな質問
-
-引き出しを探るタイプの質問
+ 引き出しを探るタイプの質問
 
 
 
-上席研究員
-主任研究員
+ 上席研究員
+ 主任研究員
 
-senior engineer
+ senior engineer
 
-4段階
+ 4段階
 
-下
-associate
-XX
-senior
-principal
-上
+ 下
+ associate
+ XX
+ senior
+ principal
+ 上
 
-PI principal investigator
+ PI principal investigator
 
-time sink
+ time sink
