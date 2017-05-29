@@ -11,7 +11,6 @@ ncpu       = $(shell grep "processor" /proc/cpuinfo | wc -l)
 .PHONY: auto all img scripts clean allclean html pdf resume index css deploy
 .SECONDLY: *.elc *.org.*
 
-key.pdf: key.tex presen.org.tex img $(styles)
 %.pdf: %.tex presen.org.tex img $(styles)
 	$(latexmk) -r latexmk/rc_ja.pl \
 		   -latexoption="-halt-on-error" \
@@ -25,7 +24,6 @@ key.pdf: key.tex presen.org.tex img $(styles)
 %.org.html: %.org scripts org-mode
 	scripts/org-html.sh $< $@
 
-default: index
 all: index
 html: img css presen.org.html MathJax
 pdf:    key.pdf
