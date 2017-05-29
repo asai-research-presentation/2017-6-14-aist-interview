@@ -385,19 +385,21 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 ** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
- #+BEGIN_resume
- #+END_resume
+ [[png:keps17-1a]]
+
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)
+
+ [[png:keps17-1b]]
+
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
  [[png:keps17]]
 
-*** 研究業績7 : 査読付きワークショップ KEPS
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
  [[png:keps17-2]]
 
 *** 業績7: 査読付きワークショップ KEPS (採択率60%)
-
-  #+BEGIN_resume
-  #+END_resume
 
   [[png:keps17]]
 
@@ -405,7 +407,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
  [[png:sae/state-ae]]
 
-*** 研究業績7 : 査読付きワークショップ KEPS
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
  [[png:keps17-3]]
 
