@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="695.94513"
-   height="320.36945"
-   viewBox="0 0 695.94514 320.36944"
+   width="1000.0001"
+   height="461.97745"
+   viewBox="0 0 1000.0001 461.97744"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="dl-nlp-task.svg">
+   sodipodi:docname="nlp-task.svg">
   <defs
      id="defs4">
     <clipPath
@@ -39,8 +39,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="317.09381"
-     inkscape:cy="140.80603"
+     inkscape:cx="318.52238"
+     inkscape:cy="140.80604"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -50,7 +50,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1440"
-     inkscape:window-height="819"
+     inkscape:window-height="817"
      inkscape:window-x="768"
      inkscape:window-y="25"
      inkscape:window-maximized="1" />
@@ -62,7 +62,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -70,67 +70,70 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-64.075874,-513.20865)">
+     transform="translate(-64.075874,-371.60068)">
     <image
+       sodipodi:absref="/home/guicho/repos/presentations/2017-6-14-aist-interview/img/deeplearning/../static/prediction.png"
        xlink:href="../static/prediction.png"
-       width="223.71072"
-       height="113.14285"
-       preserveAspectRatio="none"
+       y="671.00372"
+       x="144.54453"
        id="image4827"
-       x="120.07764"
-       y="720.43524" />
+       preserveAspectRatio="none"
+       height="162.57439"
+       width="321.44879" />
     <image
+       sodipodi:absref="/home/guicho/repos/presentations/2017-6-14-aist-interview/img/deeplearning/../static/translate.png"
        xlink:href="../static/translate.png"
-       width="353.66925"
-       height="145.45682"
-       preserveAspectRatio="none"
-       id="image4210"
+       y="438.37085"
        x="64.075874"
-       y="558.53552" />
-    <image
-       xlink:href="../static/youtube.png"
-       y="606.13525"
-       x="391.21875"
-       id="image4434"
+       id="image4210"
        preserveAspectRatio="none"
-       height="209.28572"
-       width="368.80228" />
+       height="209.00615"
+       width="508.18552" />
+    <image
+       sodipodi:absref="/home/guicho/repos/presentations/2017-6-14-aist-interview/img/deeplearning/../static/youtube.png"
+       xlink:href="../static/youtube.png"
+       width="529.93011"
+       height="300.72156"
+       preserveAspectRatio="none"
+       id="image4434"
+       x="534.14581"
+       y="506.76666" />
     <text
        xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:38.31105042px;line-height:121.00000381%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.29593024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="133.32132"
-       y="544.0899"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:55.0489502px;line-height:121.00000381%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.42522064;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="163.5743"
+       y="417.61401"
        id="text4329"
        sodipodi:linespacing="121%"><tspan
          sodipodi:role="line"
          id="tspan4331"
-         x="133.32132"
-         y="544.0899"
-         style="stroke-width:0.29593024">自然言語/Seq-to-Seq/時系列解析</tspan></text>
+         x="163.5743"
+         y="417.61401"
+         style="stroke-width:0.42522064">自然言語/Seq-to-Seq/時系列解析</tspan></text>
     <rect
-       ry="9.3713465"
-       rx="9.3713465"
-       y="561.44781"
-       x="159.63235"
-       height="54.905617"
-       width="147.04613"
+       ry="13.465639"
+       rx="13.465639"
+       y="442.55551"
+       x="201.38049"
+       height="78.8936"
+       width="211.28983"
        id="rect4219-7-9-0"
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.17790103;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.1294148;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     <text
        xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:31.23782349px;line-height:121.00000381%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.24129373;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="168.78326"
-       y="600.26038"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.88546753px;line-height:121.00000381%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.34671372;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="214.52939"
+       y="498.32507"
        id="text4213"
        sodipodi:linespacing="121%"><tspan
          sodipodi:role="line"
          id="tspan4215"
-         x="168.78326"
-         y="600.26038"
-         style="stroke-width:0.24129373">自動翻訳</tspan></text>
+         x="214.52939"
+         y="498.32507"
+         style="stroke-width:0.34671372">自動翻訳</tspan></text>
     <g
        id="g4742"
-       transform="translate(-53.101761,-0.51427496)">
+       transform="matrix(1.4368948,0,0,1.4368948,-104.29607,-364.92493)">
       <rect
          style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.17790103;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          id="rect4219-7-9-0-3"
@@ -153,24 +156,25 @@
            sodipodi:role="line">音声書き起こし</tspan></text>
     </g>
     <rect
-       ry="9.3713465"
-       rx="9.3713465"
-       y="675.98236"
-       x="101.76711"
-       height="47.048523"
-       width="260.61752"
+       ry="13.465639"
+       rx="13.465639"
+       y="607.12958"
+       x="118.23422"
+       height="67.603783"
+       width="374.47998"
        id="rect4219-7-9-0-3-6"
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.17790103;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.1294148;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     <text
        xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:35px;line-height:121.00000381%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.38622046;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="111.43301"
-       y="712.72089"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50.2913208px;line-height:121.00000381%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.55495816;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="132.12309"
+       y="659.91901"
        id="text4411-7"
        sodipodi:linespacing="121%"><tspan
          sodipodi:role="line"
          id="tspan4413-5"
-         x="111.43301"
-         y="712.72089">動画の未来予測</tspan></text>
+         x="132.12309"
+         y="659.91901"
+         style="stroke-width:0.55495816">動画の未来予測</tspan></text>
   </g>
 </svg>

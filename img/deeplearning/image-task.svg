@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="500"
-   height="400"
-   viewBox="0 0 500.00001 399.99999"
+   width="1000"
+   height="600"
+   viewBox="0 0 1000 599.99998"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="dl-image-task.svg">
+   sodipodi:docname="image-task.svg">
   <defs
      id="defs4">
     <clipPath
@@ -38,9 +38,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="362.89273"
-     inkscape:cy="187.09469"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="114.60757"
+     inkscape:cy="85.54146"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -50,7 +50,7 @@
      fit-margin-right="20"
      fit-margin-bottom="0"
      inkscape:window-width="1440"
-     inkscape:window-height="819"
+     inkscape:window-height="817"
      inkscape:window-x="768"
      inkscape:window-y="25"
      inkscape:window-maximized="1" />
@@ -70,18 +70,19 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-62.877479,-438.62816)">
+     transform="translate(-62.877479,-238.62816)">
     <g
        id="g4290"
-       transform="matrix(0.5945183,0,0,0.5945183,108.27631,240.01729)">
+       transform="matrix(1.0348711,0,0,1.0348711,192.50197,-138.79736)">
       <image
+         sodipodi:absref="/home/guicho/repos/presentations/2017-6-14-aist-interview/img/deeplearning/../static/mnist.png"
          xlink:href="../static/mnist.png"
-         width="220.97455"
-         height="165.73091"
-         preserveAspectRatio="none"
-         id="image4199"
+         y="534.12097"
          x="86.492477"
-         y="534.12097" />
+         id="image4199"
+         preserveAspectRatio="none"
+         height="165.73091"
+         width="220.97455" />
       <g
          transform="translate(0,13.131983)"
          id="g4236">
@@ -109,18 +110,19 @@
     </g>
     <text
        xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:121.00000381%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.38622046;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="239.69368"
-       y="495.18744"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:87.0344162px;line-height:121.00000381%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.67228943;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="427.31955"
+       y="331.63834"
        id="text4329"
        sodipodi:linespacing="121%"><tspan
          sodipodi:role="line"
          id="tspan4331"
-         x="239.69368"
-         y="495.18744">画像系</tspan></text>
+         x="427.31955"
+         y="331.63834"
+         style="stroke-width:0.67228943">画像系</tspan></text>
     <g
        id="g4282"
-       transform="matrix(0.5945183,0,0,0.5945183,305.87765,87.91668)">
+       transform="matrix(1.0348711,0,0,1.0348711,536.46431,-403.55711)">
       <image
          width="250.72287"
          height="198.48894"
@@ -160,17 +162,18 @@
     </g>
     <g
        id="g4297"
-       transform="matrix(0.5945183,0,0,0.5945183,-38.872295,356.24051)">
+       transform="matrix(1.0348711,0,0,1.0348711,-63.637889,63.511046)">
       <image
+         sodipodi:absref="/home/guicho/repos/presentations/2017-6-14-aist-interview/img/deeplearning/../static/ilsvrc.png"
          xlink:href="../static/ilsvrc.png"
-         transform="matrix(0.75496301,0,0,0.75496301,-126.23278,132.68814)"
-         clip-path="url(#clipPath3353)"
-         width="1168.75"
-         height="705"
-         preserveAspectRatio="none"
-         id="image3344"
+         y="461.29077"
          x="52.767857"
-         y="461.29077" />
+         id="image3344"
+         preserveAspectRatio="none"
+         height="705"
+         width="1168.75"
+         clip-path="url(#clipPath3353)"
+         transform="matrix(0.75496301,0,0,0.75496301,-126.23278,132.68814)" />
       <g
          transform="translate(-5.0507627,20.203051)"
          id="g4241">
