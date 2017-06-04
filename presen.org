@@ -73,6 +73,13 @@
  [[png:rescue/1]]
  #+END_span6
  #+END_row-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span12
+ #+begin_xlarge
+ 　
+ #+end_xlarge
+ #+END_span12
+ #+END_row-fluid
  #+END_container-fluid
 
 ** 誰?
@@ -85,6 +92,13 @@
  #+BEGIN_span6
  [[png:rescue/1]]
  #+END_span6
+ #+END_row-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span12
+ #+begin_xlarge
+ 　
+ #+end_xlarge
+ #+END_span12
  #+END_row-fluid
  #+END_container-fluid
 
@@ -99,6 +113,13 @@
  [[png:rescue/1]]
  #+END_span6
  #+END_row-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span12
+ #+begin_xlarge
+ 　
+ #+end_xlarge
+ #+END_span12
+ #+END_row-fluid
  #+END_container-fluid
 
 *** 誰?
@@ -112,6 +133,13 @@
   [[png:rescue/1]]
   #+END_span6
   #+END_row-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span12
+ #+begin_xlarge
+ 　
+ #+end_xlarge
+ #+END_span12
+ #+END_row-fluid
   #+END_container-fluid
 
 *** 誰?
@@ -125,6 +153,13 @@
   [[png:rescue/2]]
   #+END_span6
   #+END_row-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span12
+ #+begin_xlarge
+ 　
+ #+end_xlarge
+ #+END_span12
+ #+END_row-fluid
   #+END_container-fluid
 
 *** 誰?
@@ -138,6 +173,13 @@
   [[png:rescue/3]]
   #+END_span6
   #+END_row-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span12
+ #+begin_xlarge
+ 　
+ #+end_xlarge
+ #+END_span12
+ #+END_row-fluid
   #+END_container-fluid
 
 *** 誰?
@@ -150,6 +192,53 @@
   #+BEGIN_span6
   [[png:rescue/final]]
   #+END_span6
+  #+END_row-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span12
+ #+begin_xlarge
+ 　
+ #+end_xlarge
+ #+END_span12
+ #+END_row-fluid
+  #+END_container-fluid
+
+*** 誰?
+
+  #+BEGIN_container-fluid
+  #+BEGIN_row-fluid
+  #+BEGIN_span6
+  [[png:astro/final]]
+  #+END_span6
+  #+BEGIN_span6
+  [[png:rescue/final]]
+  #+END_span6
+  #+END_row-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span12
+ #+begin_xlarge
+ *AI研究者の夢=*
+ #+end_xlarge
+ #+END_span12
+ #+END_row-fluid
+  #+END_container-fluid
+
+*** 誰?
+
+  #+BEGIN_container-fluid
+  #+BEGIN_row-fluid
+  #+BEGIN_span6
+  [[png:rescue/final2]]
+  #+END_span6
+  #+BEGIN_span6
+  [[png:rescue/final3]]
+  #+END_span6
+  #+END_row-fluid
+  #+BEGIN_row-fluid
+ #+BEGIN_span12
+ #+begin_xlarge
+ *AI研究者の夢=* */自律行動機械/*
+ #+end_xlarge
+ #+END_span12
   #+END_row-fluid
   #+END_container-fluid
 
