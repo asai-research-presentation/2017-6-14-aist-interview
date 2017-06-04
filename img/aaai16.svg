@@ -137,9 +137,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="675.20677"
-     inkscape:cy="176.61326"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="460.32484"
+     inkscape:cy="345.87306"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -167,7 +167,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -796,20 +796,23 @@
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
        x="353.03003"
-       y="149.26849"
+       y="137.95479"
        id="text5908"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="353.03003"
-         y="149.26849"
+         y="137.95479"
          id="tspan5912">著名なグラフ探索アルゴリズム:</tspan><tspan
          sodipodi:role="line"
          x="353.03003"
-         y="176.76849"
+         y="165.45479"
          id="tspan6354"
-         style="font-size:22px"> Dijkstra法 (1959), <tspan
-   style="font-weight:bold;-inkscape-font-specification:'M+ 2c Bold';fill:#ff0000"
-   id="tspan5215">A*(1968)</tspan></tspan></text>
+         style="font-size:22px"> Dijkstra法 (1959),</tspan><tspan
+         sodipodi:role="line"
+         x="353.03003"
+         y="192.95479"
+         style="font-size:22px"
+         id="tspan4378">最良優先分枝限定法</tspan></text>
     <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
@@ -820,7 +823,9 @@
          sodipodi:role="line"
          id="tspan5940"
          x="21.384777"
-         y="238.7868">複雑/実用的な探索問題には重み0の辺が大量にある</tspan><tspan
+         y="238.7868">複雑/実用的な探索問題には<tspan
+   style="fill:#ff0000"
+   id="tspan4380">重み0の辺が大量にある</tspan></tspan><tspan
          sodipodi:role="line"
          x="21.384777"
          y="266.2868"
@@ -1066,8 +1071,8 @@
        rx="5.5719781"
        y="111.55602"
        x="347.41409"
-       height="91.06633"
-       width="326.40051"
+       height="91.066322"
+       width="341.90048"
        id="rect3222-2-0"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.87840259;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate" />
     <text
@@ -1081,5 +1086,27 @@
          id="tspan4564"
          x="15.556349"
          y="620.92175">今後のインパクト: 重み0の辺を持つ広範なグラフ探索問題に対して性能向上</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:70px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:tb-rl;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="554.5058"
+       y="195.28214"
+       id="text4370"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4372"
+         x="554.5058"
+         y="195.28214">A*</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:25px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:tb-rl;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="600.46777"
+       y="194.57504"
+       id="text4374"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4376"
+         x="600.46777"
+         y="194.57504">(1968)</tspan></text>
   </g>
 </svg>

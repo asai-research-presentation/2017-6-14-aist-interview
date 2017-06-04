@@ -6,6 +6,7 @@
 #+LINK: jpg file:img/%s.jpg
 #+LINK: spng file:img/static/%s.png
 #+LINK: sjpg file:img/static/%s.jpg
+#+LINK: sgif file:img/static/%s.gif
 
 # #+HTML: <script type="text/javascript" src="js/mathjaxconf.js"></script>
 
@@ -242,6 +243,66 @@
   #+END_row-fluid
   #+END_container-fluid
 
+** なぜ自律機械? 社会的意義 --- 例えば、操縦士が足りない!
+
+ #+begin_container-fluid
+ #+begin_row-fluid
+ #+begin_span2
+ [[png:rescue]]
+ [[png:rescue]]
+ [[png:rescue]]
+ [[png:silent]]
+ #+end_span2
+ #+begin_span10
+ [[jpg:static/tsunami]]
+ #+end_span10
+ #+end_row-fluid
+ #+end_container-fluid
+
+ #+begin_larger
+ #+begin_alignright
+ + そのままでは役に立たない!
+ #+end_alignright
+ #+end_larger
+
+*** 「人」は簡単に増やせない -- Human Resource and Training
+
+ #+begin_container-fluid
+ #+begin_row-fluid
+ #+begin_span4
+  [[png:rescue/1]]
+ #+end_span4
+ #+begin_span8
+
+   + ✘ /時間/ がかかる :: 訓練に ＞100時間, *必要な時だけ増やす* のは不可能
+   + ✘ /￥￥￥￥/ がかかる :: 訓練官、訓練場所、訓練用具
+   + ✘ 技術は /維持が重要/ :: 定期的な再訓練、長期的コスト、さらなるマニー
+   + ✘ 平時は /無駄/ な技術 :: 普段は意味がない -- 無駄なマニー!
+ #+end_span8
+ #+end_row-fluid
+ #+end_container-fluid
+
+** 知的機械の「クラス」
+
+[[png:machines/1]]
+
+*** 知的機械の「クラス」
+
+[[png:machines/2]]
+
+*** 目的達成型機械
+
++ 反射的に動くロボットでは *複雑なゴールを設定できない*
++ 目的達成型の知能が必要
+
+#+begin_quote
+*瓦礫* に埋もれた *骨折・出血* している被災者を *なるべく早く* 病院に運ぶ。
+
+*救急車* を先に呼んでおき、 *患者を傷つけない* ように, *素早く* , *瓦礫* を *崩
+れないよう* に *どけて*, *止血* し, *当て木* し, *担架に乗せ* て, ちょうどきた
+*救急車* に *隊員と協力* して運び入れる。
+#+end_quote
+
 ** 自律行動のための自動プランナ (≠ モータ制御)
 
  [[png:planning/1]]
@@ -258,7 +319,29 @@
 
  [[png:planning2]]
 
-** 業績1: 査読付き国際学会 ICAPS14 */(採択率33%)/*
+* 査読論文実績
+
+#+begin_center
+*/AAAI/*, */IJCAI/*: AI一般の1st-tier, _/ICAPS/_: プランニング専門の1st-tier, *JAIR*: トップジャーナル
+#+end_center
+
+--------
+
+_/ICAPS14/_ */(採択率33%)/* *(IHI共同研究)* Fully Automated Cyclic Planning for ...
+
+_/ICAPS15/_ */(採択率33%)/* Solving Large-Scale Planning Problems by Decomposition ...
+
+*/AAAI16/* */(採択率26%)/* */(JSAI 学生奨励賞)/* Tiebreaking Strategies for A* Search: ...
+
+*JAIR17* */(採択率12%)/* Tie-Breaking Strategies for Cost-Optimal Best First Search. 
+
+_/ICAPS17/_ */(採択率33%)/* Exploration Among and Within Plateaus in Greedy Best-First Search. 
+
+*/IJCAI17/* */(採択率25%)/* *(IBM Research 応用研究)* Efficient Optimal Search under ...
+
+*KEPS17* *(採択率60%)* Classical Planning in Deep Latent Space: From Unlabeled Images ...
+
+** 業績1: 査読付き国際学会 ICAPS14 */(採択率33%)/* *(IHI共同研究)*
 
  [[png:assemble-icaps14]]
 
@@ -298,7 +381,70 @@ Neural-Symbolic複合システム
 #+END_alignright
 #+END_xlarge
 
-** Q. いま */はやり/* のDeep Learningとの違いは?
+* 深層学習
+
+とてもはやっている
+
+　
+
+　
+
+[[png:deeplearning/1]]
+
+** 深層学習                                            :noexport:
+
+とてもはやっている
+
+ベクトル (データ) と 行列W (重み) の掛け算 
+
+　
+
+[[png:deeplearning/2]]
+
+** 深層学習                                            :noexport:
+
+とてもはやっている
+
+ベクトル (データ) と 行列W (重み) の掛け算 
+
+→ 出力の誤差=微分を使ってWを更新 → 学習完了
+
+[[png:deeplearning/3]]
+
+
+** 認知タスクで人間に匹敵する精度
+
+[[png:deeplearning/image-task]]
+
+** 認知タスクで人間に匹敵する精度
+
+[[png:deeplearning/nlp-task]]
+
+** ニューラルネットの役割
+
+#+begin_center
+「直感的な」問題を解く *関数* を学習すること
+#+end_center
+
++ 求めるべき関数 $y^*=f^*(x)$
+  
+  | タスク   | 入力x      | 出力y                      |
+  |----------+------------+----------------------------|
+  | 画像分類 | 画像       | ラベル(車、ネコ、猿・・・) |
+  | 翻訳     | 文章(日)   | 文章(英)                   |
+  | 未来予測 | フレーム列 | 次のフレーム               |
+
++ NNが表す関数　 $y=f(x)$
+
++ 学習 ≡ 誤差 $||y-y^*||$ を最小化する最適化問題
+
+  + 一言で言えば *関数近似機* (*銀の弾ではない*)
+
+** 知的機械を作る上で深層学習の果たす役割
+
+[[png:machines/3]]
+
+** Q. 深層学習と 記号的AI はどう違う?
 
  A. レイヤが違う
 
@@ -394,11 +540,11 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
  [[png:keps17-2]]
 
-*** 業績7: 査読付きワークショップ KEPS (採択率60%)
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)                 :noexport:
 
   [[png:keps17]]
 
-*** Gumbel-Softmax
+*** Gumbel-Softmax                                                 :noexport:
 
  [[png:sae/state-ae]]
 
@@ -410,31 +556,49 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 [[png:keps17-4]]
 
-* 研究成果の産業応用
+* 産業応用: *記号的推論により様々な分野にブレークスルーをもたらす*
 
-#+BEGIN_center
-*記号的推論により様々な分野にブレークスルーをもたらす*
-#+END_center
+#+begin_xlarge
+ピックアップロボ以上の産業用ロボ
+#+end_xlarge
 
 #+BEGIN_container-fluid
 #+BEGIN_row-fluid
 #+BEGIN_span6
-*ピックアップロボ以上の産業用ロボ*
++ 画像 → 論理表現 → 記号的推論 → 行動
 
- --- 画像 → 論理表現 → 記号的推論 → 行動決定
++ 動的な環境や故障、命令にも *ラインを停止させず* 自動対応
 
- --- 動的な環境や目標に自動で対応できる
+  + 自律性のないロボには不可能
+#+END_span6
+#+BEGIN_span6
+[[sgif:dummy]]
+#+END_span6
+#+END_row-fluid
+#+END_container-fluid
 
-*人工無能以上のチャットボット*
+* 産業応用: *記号的推論により様々な分野にブレークスルーをもたらす*
 
- --- テキスト → 論理表現 → 記号的推論 → 意図推定 → 返答
+#+begin_xlarge
+人工無能以上のチャットボット
+#+end_xlarge
+
+#+BEGIN_container-fluid
+#+BEGIN_row-fluid
+#+BEGIN_span6
++ 従来型チャットボット: 人工無能
+
+  + (ニューラルであれルールベースであれ) 反射的応答 = 論理を持たない
+
++ テキスト → 論理表現 → 記号的推論 → 返答
+  + 論理に基づき *思考する* ボット
+
 #+END_span6
 #+BEGIN_span6
 [[sjpg:hal-speaking]]
 #+END_span6
 #+END_row-fluid
 #+END_container-fluid
-
 
 * まとめ
 
