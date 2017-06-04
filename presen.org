@@ -1013,26 +1013,18 @@ Keras + TensorFlow
 
 石田 亨先生 (京都大学) --- 以前は日本のA*系の探索手法の代表者, Richard Korf と共著, いまはやっていない
 
+岸本先生 (探索) (東工大 → IBM Research Ireland)
+
 少し離れているが似ている研究というと
 
-SATソルバ, ASP(解集合)ソルバ, CPソルバ系
-推論系 -- logic and reasoning
-
-+ 田中 哲朗先生 (総合文化研究科), 鍋島英知先生 (山梨大), 田村直之先生, 平山勝利先生 (神戸大), 田沼先生 (東工大)
++ SATソルバ, ASP(解集合)ソルバ, CPソルバ系, 推論系 -- logic and reasoning :
+  田中 哲朗先生 (総合文化研究科), 鍋島英知先生 (山梨大), 田村直之先生, 平山勝利先生 (神戸大), 田沼先生 (東工大)
 + 井上克己先生 (NII) --- Lemma Reusing for SAT based Planning and Scheduling (ICAPS10)
++ AAMAS マルチエージェント, CSP : 九大 横尾誠先生
++ ERATO (同じくグラフ探索をやっているが、explicit graph) : 河原林健一先生 (NII), 秋葉先生
++ ゲーム系 金子先生 (総合文化研究科)
 
-AAMAS マルチエージェント, CSP
-+ 九大 横尾誠先生
-
-ERATO: 同じくグラフ探索をやっているが、explicit graph
-+ 河原林健一先生 (NII), 秋葉先生
-
-ゲーム系
-+ 岸本先生 (探索), 金子先生 (ゲーム)
-
-----
-
-事情: 自分の指導教官(Alex Fukunaga)がアメリカから飛んできた、もともと日本にいなかった研究者だった
+事情: 自分の指導教官(Alex Fukunaga)がアメリカから飛んできた、もともと日本にいなかった
 
 Richard Korf --- Alex Fukunaga --- 浅井 政太郎
 
