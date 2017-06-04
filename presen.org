@@ -8,8 +8,6 @@
 #+LINK: sjpg file:img/static/%s.jpg
 #+LINK: sgif file:img/static/%s.gif
 
-# #+HTML: <script type="text/javascript" src="js/mathjaxconf.js"></script>
-
 # アプリケーションに関する話は
 # スライドの中に留めるだけで口頭では説明しない
 # 
@@ -32,6 +30,7 @@
 # *なんで必要なのか？という話全般について答える*
 
 #+BEGIN_outline-text-1
+
 #+BEGIN_center
 浅井 政太郎 東京大学 総合文化研究科 */学振DC2/*
 #+END_center
