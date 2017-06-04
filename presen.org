@@ -88,11 +88,6 @@
  #+END_row-fluid
  #+END_container-fluid
 
-  #+BEGIN_resume
-  And let me introduce these robots.
-  The guy in the left is Astro boy.
-  #+END_resume
-
 *** 誰?
 
  #+BEGIN_container-fluid
@@ -105,10 +100,6 @@
  #+END_span6
  #+END_row-fluid
  #+END_container-fluid
-
- #+BEGIN_resume
- As you know, he is a famous manga superhero invented by Tezuka Osamu in 50s,
- #+END_resume
 
 *** 誰?
 
@@ -123,10 +114,6 @@
   #+END_row-fluid
   #+END_container-fluid
 
- #+BEGIN_resume
- and he can think, hear, speak, act. he also has emotions.
- #+END_resume
-
 *** 誰?
 
   #+BEGIN_container-fluid
@@ -139,13 +126,6 @@
   #+END_span6
   #+END_row-fluid
   #+END_container-fluid
-
- #+BEGIN_resume
-  In contrast, the guy in the right is a real robot that is actually in use @ fukuoka prefecture for the rescue purpose..
-  His name is T-52 Enryu, developped by a Japanese company Temzak.
-  He is huge and powerful -- about 4 meters in height and can carry things which is as heavy as 500kg.
-  Well, so, in a sense, he is also a superhero in the real disastrous situation.
- #+END_resume
 
 *** 誰?
 
@@ -160,10 +140,6 @@
   #+END_row-fluid
   #+END_container-fluid
 
- #+BEGIN_resume
- But does he have feelings or can he think? Can he even move around by his own?
- #+END_resume
-
 *** 誰?
 
   #+BEGIN_container-fluid
@@ -177,113 +153,43 @@
   #+END_row-fluid
   #+END_container-fluid
 
- #+BEGIN_resume
- No. It requires full human intervention --- it is indeed operated by a
- driver who gets in or by a remote control. It is more like a
- super-sophisticated shovel car.
- #+END_resume
-
-
 ** 自律行動のための自動プランナ (≠ モータ制御)
 
  [[png:planning/1]]
-
- #+BEGIN_resume
- 研究テーマのプランニングは、ロボットに、人間の助けを借りず、いかに自律して行動させるかを扱います。
- これをモデル化したプランニング問題は、具体的な行動の列を求める 組合せ最適化問題です。
-
- プランニング問題のタスクは、
- センサーから初期状態とゴールを受け取って、被災者を助ける正しい手順を出力することです。
-
- たとえば、この図では男性が瓦礫に埋まって助けを求めています。
- プランニング機能のあるロボットは、コレに対して「男性を助けよ」という大まかな指示を受けます。
- #+END_resume
 
 ** 自律行動のための自動プランナ (≠ モータ制御)
 
  [[png:planning/2]]
 
- #+BEGIN_resume
- 指示の内容には、図のように初期状態とゴール、許可された行動のリストが入っています。
- ロボットは、自動プランニングにより、人間の代わりに適切な行動を組み立てて、ゴールを自動で達成します。
- #+END_resume
-
 ** 自律行動のための自動プランナ (≠ モータ制御)
 
  [[png:planning/final]]
 
- #+BEGIN_resume
- プランニングは汎用な枠組みなので、災害救助以外にも様々な問題に適用することができます。
- 現実の応用例では「宇宙探査機運行問題」や「企業ネットワーク脆弱性問題」も表現できます。
-
- このように、プランニングは、難しい問題を汎用性を失わずに解くことを目指します。
- #+END_resume
-
 ** プランニング(自動行動計画)分野の位置づけ
-
- #+BEGIN_resume
- プランニング分野は、人工知能の専門分野という位置づけで、
- 隣接するオペレーションズ・リサーチや
- アルゴリズム論などの分野の技術を利用しています。
- 特に、プランニング問題を解くのにはグラフ探索の技術が用いられます。
- #+END_resume
 
  [[png:planning2]]
 
 ** 業績1: 査読付き国際学会 ICAPS14 */(採択率33%)/*
 
- #+BEGIN_resume
- 研究業績に移ります。
- ここでは、大規模なプランニング問題を解くために
- 問題設定・ドメインによらず汎用に繰り返し構造を抽出する方法を開発しました。
- 元の問題を繰り返し一周分の小問題に分割して解くことで、
- 高速化と3割の生産時間短縮を達成しました。
-
- 大切なのは汎用性です。
- 生産問題に限らず、掃除にも宇宙船にも同じ実行バイナリが使えます。
- #+END_resume
-
  [[png:assemble-icaps14]]
 
 ** 業績2: 査読付き国際学会 ICAPS15 */(採択率33%)/*
-
- #+BEGIN_resume
- 続いて二、三本目の業績は、
- 先ほどの手法で得られるのは1種類の小問題だけでしたが、これを複数種類の小問題に拡張しました。
- 結果、より様々な問題で高速化を達成しました。
- ここまで汎用に小問題分割を適用した研究は、分野では始めてです。
- #+END_resume
 
  [[png:assemble-keps14-icaps15]]
 
 ** 業績3: 査読付き国際学会 AAAI16 */(採択率26%)/*
 
- #+BEGIN_resume
- 最後に、申請後に行った研究が、難関国際学会 AAAI に採択されました。
- 研究内容は、コスト0の辺を含むグラフを扱うグラフ探索アルゴリズム一般に適用できる内容で、
- 非常に大きなインパクトを持つことが考えられます。
- #+END_resume
-
  [[png:aaai16]]
 
 ** 業績4: 査読付き論文誌 JAIR */(採択率12%)/*                      :スキップ予定:
-
- #+BEGIN_resume
- #+END_resume
 
  [[png:jair17]]
 
 ** 業績5: 査読付き国際学会 ICAPS17 */(採択率33%)/*                 :スキップ予定:
 
- #+BEGIN_resume
- #+END_resume
-
  [[png:icaps17]]
 
 ** 業績6: 査読付き国際学会 IJCAI17 */(採択率25%)/*
-
- #+BEGIN_resume
- #+END_resume
 
  [[png:ijcai17]]
 
@@ -442,10 +348,6 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 
 * まとめ
-
-#+BEGIN_resume
-以上です、ありがとうございました。
-#+END_resume
 
 #+BEGIN_smaller
 1. *難関国際会議(33%)* Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In ICAPS2014.
