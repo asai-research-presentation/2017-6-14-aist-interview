@@ -33,7 +33,7 @@
 
 #+BEGIN_outline-text-1
 #+BEGIN_center
-浅井 政太郎 東京大学 総合文化研究科 学振DC2
+浅井 政太郎 東京大学 総合文化研究科 */学振DC2/*
 #+END_center
 
 *発表要旨*
@@ -63,7 +63,7 @@
 #+END_smaller
 #+END_outline-text-1
 
-* 背景 -- AIプランニング
+* 背景 -- 自律機械とは?
 
  #+BEGIN_container-fluid
  #+BEGIN_row-fluid
@@ -284,6 +284,8 @@
 
 ** 知的機械の「クラス」
 
+*** 知的機械の「クラス」
+
 [[png:machines/1]]
 
 *** 知的機械の「クラス」
@@ -292,34 +294,40 @@
 
 *** 目的達成型機械
 
-+ 反射的に動くロボットでは *複雑なゴールを設定できない*
-+ 目的達成型の知能が必要
+反射的に動くロボットでは *複雑なゴールを設定できない*
 
 #+begin_quote
 *瓦礫* に埋もれた *骨折・出血* している被災者を *なるべく早く* 病院に運ぶ。
-
+#+end_quote
+#+begin_quote
 *救急車* を先に呼んでおき、 *患者を傷つけない* ように, *素早く* , *瓦礫* を *崩
 れないよう* に *どけて*, *止血* し, *当て木* し, *担架に乗せ* て, ちょうどきた
 *救急車* に *隊員と協力* して運び入れる。
 #+end_quote
 
-** 自律行動のための自動プランナ (≠ モータ制御)
+#+begin_alignright
+#+begin_xlarge
++ → 目的達成型の知能が必要
+#+end_xlarge
+#+end_alignright
+
+** 目的達成型知能のための自動プランナ (≠ モータ制御)
 
  [[png:planning/1]]
 
-** 自律行動のための自動プランナ (≠ モータ制御)
+*** 目的達成型知能のための自動プランナ (≠ モータ制御)
 
- [[png:planning/2]]
+  [[png:planning/2]]
 
-** 自律行動のための自動プランナ (≠ モータ制御)
+*** 目的達成型知能のための自動プランナ (≠ モータ制御)
 
- [[png:planning/final]]
+  [[png:planning/final]]
 
 ** プランニング(自動行動計画)分野の位置づけ
 
  [[png:planning2]]
 
-* 査読論文実績
+* 査読論文実績 (抜粋)
 
 #+begin_center
 */AAAI/*, */IJCAI/*: AI一般の1st-tier, _/ICAPS/_: プランニング専門の1st-tier, *JAIR*: トップジャーナル
@@ -331,7 +339,7 @@ _/ICAPS14/_ */(採択率33%)/* *(IHI共同研究)* Fully Automated Cyclic Planni
 
 _/ICAPS15/_ */(採択率33%)/* Solving Large-Scale Planning Problems by Decomposition ...
 
-*/AAAI16/* */(採択率26%)/* */(JSAI 学生奨励賞)/* Tiebreaking Strategies for A* Search: ...
+*/AAAI16/* */(採択率26%)/* *(JSAI 学生奨励賞)* Tiebreaking Strategies for A* Search: ...
 
 *JAIR17* */(採択率12%)/* Tie-Breaking Strategies for Cost-Optimal Best First Search. 
 
@@ -341,11 +349,15 @@ _/ICAPS17/_ */(採択率33%)/* Exploration Among and Within Plateaus in Greedy B
 
 *KEPS17* *(採択率60%)* Classical Planning in Deep Latent Space: From Unlabeled Images ...
 
+---------
+
+応用研究、基礎研究 共に経験あり
+
 ** 業績1: 査読付き国際学会 ICAPS14 */(採択率33%)/* *(IHI共同研究)*
 
  [[png:assemble-icaps14]]
 
-** 業績2: 査読付き国際学会 ICAPS15 */(採択率33%)/*
+** 業績2: 査読付き国際学会 ICAPS15 */(採択率33%)/*             :スキップ予定:
 
  [[png:assemble-keps14-icaps15]]
 
@@ -353,18 +365,17 @@ _/ICAPS17/_ */(採択率33%)/* Exploration Among and Within Plateaus in Greedy B
 
  [[png:aaai16]]
 
-** 業績4: 査読付き論文誌 JAIR */(採択率12%)/*                      :スキップ予定:
+** 業績4: 査読付き論文誌 JAIR */(採択率12%)/*                  :スキップ予定:
 
  [[png:jair17]]
 
-** 業績5: 査読付き国際学会 ICAPS17 */(採択率33%)/*                 :スキップ予定:
+** 業績5: 査読付き国際学会 ICAPS17 */(採択率33%)/*             :スキップ予定:
 
  [[png:icaps17]]
 
-** 業績6: 査読付き国際学会 IJCAI17 */(採択率25%)/*
+** 業績6: 査読付き国際学会 IJCAI17 */(採択率25%)/* *(IBM共同研究)*
 
  [[png:ijcai17]]
-
 
 * 産業技術総合研究所で行いたい研究
 
@@ -444,6 +455,46 @@ Neural-Symbolic複合システム
 
 [[png:machines/3]]
 
+　
+
+** 知的機械を作る上で深層学習の果たす役割
+
+[[png:machines/4]]
+
+#+begin_alignright
+深層学習でカバーできない部分は?
+#+end_alignright
+
+* 記号的AI
+
+#+begin_container-fluid
+#+begin_row-fluid
+#+begin_span7
+#+begin_larger
++ 論理による推論 :: 命題論理, 一階述語論理, 時制論理, ベイズ論理 etc
++ 組合せ爆発 :: 有限のシンボルでも発生
++ 正しさと最適性の理論保証が必要なミッションクリティカルシステム :: 
+     製造システム、運送 (時間=お金)
+
+     人工衛星 (有限の燃料)
+
+     間違った解は許されない
++ 推論過程を説明可能なシステム :: 
+     レスキュー・宇宙船 (人間の安全)
++ アルゴリズム :: 木探索、グラフ探索、分枝限定法
+#+end_larger
+
+# [[sjpg:martian]]
+
+#+end_span7
+#+begin_span5
+
+[[sjpg:gravity-m]]
+
+#+end_span5
+#+end_row-fluid
+#+end_container-fluid
+
 ** Q. 深層学習と 記号的AI はどう違う?
 
  A. レイヤが違う
@@ -515,8 +566,9 @@ AlphaGo = Subsymbolic (NNによる評価関数) + Symbolic (MCTSによる探索)
 DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 様々な Atari Game につかえる汎用フレームワーク (Invader, Packman…) だが
-+ RLのActing: 学習したpolicyに従ってgreedyに行動
-+ Atariゲームは *脊髄反射で生き残ることが可能* → *複雑な論理思考はいらない!*
++ 強化学習は 学習結果に盲目に従う
++ Atariゲームは *脊髄反射で生き残ることが可能*
++ → *複雑な論理思考はいらない!*
   
 # 実際 *Sokoban など論理思考ゲームでは性能が悪い* ↔ 倉庫番ソルバ
 
@@ -524,75 +576,95 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
  [[png:lecun]]
 
+* 業績7: 査読付きワークショップ KEPS (採択率60%)
+
+　
+
+[[png:keps17-1a]]
+
 ** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
- [[png:keps17-1a]]
+　
 
-*** 業績7: 査読付きワークショップ KEPS (採択率60%)
+[[png:keps17-1b]]
 
- [[png:keps17-1b]]
+** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
-*** 業績7: 査読付きワークショップ KEPS (採択率60%)
+[[png:keps17]]
 
- [[png:keps17]]
+** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
-*** 業績7: 査読付きワークショップ KEPS (採択率60%)
+[[png:keps17-2]]
 
- [[png:keps17-2]]
+** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
-*** 業績7: 査読付きワークショップ KEPS (採択率60%)                 :noexport:
+[[png:keps17-3]]
 
-  [[png:keps17]]
+** 
 
-*** Gumbel-Softmax                                                 :noexport:
+#+begin_xlarge
+つまり
+#+end_xlarge
 
- [[png:sae/state-ae]]
+20年来の問題である
 
-*** 業績7: 査読付きワークショップ KEPS (採択率60%)
+#+begin_xlarge
+#+begin_center
+深層学習と記号的AIを融合させる
+#+end_center
+#+begin_alignright
+プロトタイプが出来た!
+#+end_alignright
+#+end_xlarge
 
- [[png:keps17-3]]
+#+begin_note
+シンボルグラウンディング問題
+#+end_note
 
 * 今後の研究計画
 
 [[png:keps17-4]]
 
-* 産業応用: *記号的推論により様々な分野にブレークスルーをもたらす*
+* 産業応用: *記号的推論により様々な分野にブレークスルー*
 
 #+begin_xlarge
-ピックアップロボ以上の産業用ロボ
+定形流れ作業以上の産業用ロボ
 #+end_xlarge
 
 #+BEGIN_container-fluid
 #+BEGIN_row-fluid
-#+BEGIN_span6
-+ 画像 → 論理表現 → 記号的推論 → 行動
+#+BEGIN_span8
++ カメラ → 論理表現 → 記号的推論 → 行動
 
-+ 動的な環境や故障、命令にも *ラインを停止させず* 自動対応
+  + 動的な環境や故障、命令
+
+  + *ラインを停止させず* 自動対応
 
   + 自律性のないロボには不可能
-#+END_span6
-#+BEGIN_span6
+#+END_span8
+#+BEGIN_span4
 [[sgif:dummy]]
-#+END_span6
+
+[[sgif:dummy2]]
+#+END_span4
 #+END_row-fluid
 #+END_container-fluid
 
-* 産業応用: *記号的推論により様々な分野にブレークスルーをもたらす*
+* 産業応用: *記号的推論により様々な分野にブレークスルー*
 
 #+begin_xlarge
-人工無能以上のチャットボット
+人工無能以上の対話ボット
 #+end_xlarge
 
 #+BEGIN_container-fluid
 #+BEGIN_row-fluid
 #+BEGIN_span6
-+ 従来型チャットボット: 人工無能
-
-  + (ニューラルであれルールベースであれ) 反射的応答 = 論理を持たない
-
++ 人工無能 : 従来型対話ボットの総称
+  + Apple Siri (ルールベース)
+  + Microsoft りんな (ニューラル)
+  + 反射的応答 = 論理を持たない
 + テキスト → 論理表現 → 記号的推論 → 返答
   + 論理に基づき *思考する* ボット
-
 #+END_span6
 #+BEGIN_span6
 [[sjpg:hal-speaking]]
@@ -684,7 +756,6 @@ Action Segmentation problem がある
 #+END_span5
 #+END_row-fluid
 #+END_container-fluid
-
 
 
 
@@ -809,7 +880,6 @@ Action Segmentation problem がある
  #+END_NOTE
   
 
-
 ** 古典プランニングを研究する意義は?
 
  [[png:classical-meaning]]
@@ -822,6 +892,14 @@ Action Segmentation problem がある
   + 人が与えるゴールについての倫理的問題 (→ 兵器使用)
 + 価値判断は与えられる入力の中にある = 使用者の価値観/データのバイアスを反映
 + 悪用の問題はある。しかし、自分としては、災害救助ロボットなど、人道的な応用を目指している
+
+** Gumbel-Softmax
+
+ [[png:keps17]]
+
+*** Gumbel-Softmax
+
+ [[png:sae/state-ae]]
 
 ** ディープラーニング関連・LatPlan実装
 
