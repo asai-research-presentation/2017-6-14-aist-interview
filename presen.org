@@ -787,10 +787,10 @@ Action Segmentation problem がある
  #+END_center
 
 
- #+BEGIN_container-fluid
- #+BEGIN_row-fluid
- #+BEGIN_span7
- #+BEGIN_QUOTE
+ #+begin_container-fluid
+ #+begin_row-fluid
+ #+begin_span7
+ #+begin_quote
  *条件* : 実行に必要な条件を表す命題
 
  　(clear *?X*) : 積み木 *?X* の上が空
@@ -802,29 +802,31 @@ Action Segmentation problem がある
  　(on *?X* *?Y*) を *追加* : *?Y* の上は *?X*
 
  　(clear *?Y*) を *削除*
- #+END_QUOTE
- #+END_span7
- #+BEGIN_span5
- #+BEGIN_SRC lisp
- (:action move
-  :parameters (?X ?Y)
-  :preconditions
-    (and (clear ?X)   ; (1)
-         (clear ?Y))  ; (2)
+ #+end_quote
+ #+end_span7
+ #+begin_span5
 
-  :effect
-    (and (on ?X ?Y)   ; (3)
-         (not         ; (4)
-          (clear ?Y))))
- #+END_SRC
- #+BEGIN_alignright
- #+BEGIN_larger
+ # #+begin_src lisp
+ # (:action move
+ #  :parameters (?X ?Y)
+ #  :preconditions
+ #    (and (clear ?X)   ; (1)
+ #         (clear ?Y))  ; (2)
+ #  :effect
+ #    (and (on ?X ?Y)   ; (3)
+ #         (not         ; (4)
+ #          (clear ?Y))))
+ # #+end_src
+
+
+ #+begin_alignright
+ #+begin_larger
  モデリング言語 *PDDL* で記述
- #+END_larger
- #+END_alignright
- #+END_span5
- #+END_row-fluid
- #+END_container-fluid
+ #+end_larger
+ #+end_alignright
+ #+end_span5
+ #+end_row-fluid
+ #+end_container-fluid
 
 *** *PDDL* : Planning Domain Description Language                  :noexport:
 
@@ -875,9 +877,9 @@ Action Segmentation problem がある
  # #+END_row-fluid
  # #+END_container-fluid
 
- #+BEGIN_NOTE
+ #+BEGIN_note
  *1 [Helmert, 2006] [Richter, 2010]
- #+END_NOTE
+ #+END_note
   
 
 ** 古典プランニングを研究する意義は?
@@ -935,15 +937,16 @@ Keras + TensorFlow
 
  ハードの問題ではなく、 根本的なソフトウェア技術、 *探索技術* が未発達だった
 
- | 第五世代                  | 現在                                |
- |---------------------------+-------------------------------------|
- | 後方全探索+バックトラック | *前方ヒューリスティック探索*        |
- | Prologベース              | C/C++で高度に最適化されたプログラム |
- |                           | State packing, 決定木, mutex...     |
+ | 第五世代                      | 現在                                |
+ |-------------------------------+-------------------------------------|
+ | 後方 *全探索* +バックトラック | *前方ヒューリスティック探索*        |
+ |                               | 枝刈りで指数爆発を抑える            |
+ | Prologベース                  | C/C++で高度に最適化されたプログラム |
+ |                               | State packing, 決定木, mutex...     |
 
  今はベンチマーク問題 *1104問* のうち 5分で *800問* 前後解ける
 
- 仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けないだろう*
+ 仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けない*
 
 ** Explicit Graph と Implicit Graph との違い
 
@@ -981,9 +984,9 @@ Keras + TensorFlow
 
  # 秋葉さんのボスがいるかもしれない
 
- #+BEGIN_NOTE
+ #+BEGIN_note
  Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
- #+END_NOTE
+ #+END_note
 
 ** 似たような研究は誰がやっていますか どこでやられていますか
 
