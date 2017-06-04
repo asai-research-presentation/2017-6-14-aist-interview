@@ -16,7 +16,7 @@
    width="554.40002"
    height="455.39999"
    viewBox="0 0 554.40002 455.39999"
-   sodipodi:docname="deeplearning3.svg">
+   sodipodi:docname="3.svg">
   <metadata
      id="metadata3412">
     <rdf:RDF>
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,11 +71,11 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1440"
-     inkscape:window-height="819"
+     inkscape:window-height="817"
      id="namedview3408"
      showgrid="false"
      inkscape:zoom="1.4492754"
-     inkscape:cx="193.13905"
+     inkscape:cx="194.51905"
      inkscape:cy="207.28817"
      inkscape:window-x="768"
      inkscape:window-y="25"
@@ -88,15 +88,14 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <image
-       sodipodi:absref="/home/guicho/repos/presentations/2017-1-30-latent/img/static/deeplearning.jpg"
-       xlink:href="static/deeplearning.jpg"
-       style="opacity:0.272"
-       y="3.8964845e-06"
-       x="0"
-       id="image3414"
-       preserveAspectRatio="none"
+       xlink:href="../static/deeplearning.jpg"
+       width="554.40002"
        height="455.39999"
-       width="554.40002" />
+       preserveAspectRatio="none"
+       id="image3414"
+       x="0"
+       y="3.8964845e-06"
+       style="opacity:0.272" />
   </g>
   <g
      inkscape:groupmode="layer"

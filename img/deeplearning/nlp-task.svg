@@ -72,8 +72,7 @@
      id="layer1"
      transform="translate(-64.075874,-513.20865)">
     <image
-       sodipodi:absref="/home/guicho/repos/presentations/2017-1-30-latent/img/static/prediction.png"
-       xlink:href="static/prediction.png"
+       xlink:href="../static/prediction.png"
        width="223.71072"
        height="113.14285"
        preserveAspectRatio="none"
@@ -81,8 +80,7 @@
        x="120.07764"
        y="720.43524" />
     <image
-       sodipodi:absref="/home/guicho/repos/presentations/2017-1-30-latent/img/static/translate.png"
-       xlink:href="static/translate.png"
+       xlink:href="../static/translate.png"
        width="353.66925"
        height="145.45682"
        preserveAspectRatio="none"
@@ -90,8 +88,7 @@
        x="64.075874"
        y="558.53552" />
     <image
-       sodipodi:absref="/home/guicho/repos/presentations/2017-1-30-latent/img/static/youtube.png"
-       xlink:href="static/youtube.png"
+       xlink:href="../static/youtube.png"
        y="606.13525"
        x="391.21875"
        id="image4434"

@@ -75,8 +75,7 @@
        id="g4290"
        transform="matrix(0.5945183,0,0,0.5945183,108.27631,240.01729)">
       <image
-         sodipodi:absref="/home/guicho/repos/presentations/2017-1-30-latent/img/static/mnist.png"
-         xlink:href="static/mnist.png"
+         xlink:href="../static/mnist.png"
          width="220.97455"
          height="165.73091"
          preserveAspectRatio="none"
@@ -163,8 +162,7 @@
        id="g4297"
        transform="matrix(0.5945183,0,0,0.5945183,-38.872295,356.24051)">
       <image
-         sodipodi:absref="/home/guicho/repos/presentations/2017-1-30-latent/img/static/ilsvrc.png"
-         xlink:href="static/ilsvrc.png"
+         xlink:href="../static/ilsvrc.png"
          transform="matrix(0.75496301,0,0,0.75496301,-126.23278,132.68814)"
          clip-path="url(#clipPath3353)"
          width="1168.75"
