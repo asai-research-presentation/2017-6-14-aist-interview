@@ -767,6 +767,7 @@ Action Segmentation problem がある
 
  #+BEGIN_larger
  非古典的なさまざまな拡張
+
  #+BEGIN_alignright
  (並列アクション,POMDP,HTN... どのAIの教科書にものっている)
  #+END_alignright
@@ -975,7 +976,7 @@ Keras + TensorFlow
 
  3x3x3のルービックキューブ: 4.32 x 10^19 = 4 エクサバイト
 
- 4x4x4のルービックキューブ: 7.40 x 10^45 > 10^24 ゼタバイト
+ 4x4x4のルービックキューブ: 7.40 x 10^45 ＞ 10^24 ゼタバイト
 
  5x5x5のルービックキューブ: 2.83 x 10^74
  #+END_span8
@@ -1017,22 +1018,17 @@ Keras + TensorFlow
 SATソルバ, ASP(解集合)ソルバ, CPソルバ系
 推論系 -- logic and reasoning
 
-+ 田中 哲朗先生 (総合文化研究科)
-+ 鍋島英知先生 (山梨大)
++ 田中 哲朗先生 (総合文化研究科), 鍋島英知先生 (山梨大), 田村直之先生, 平山勝利先生 (神戸大), 田沼先生 (東工大)
 + 井上克己先生 (NII) --- Lemma Reusing for SAT based Planning and Scheduling (ICAPS10)
-+ 田村直之先生, 平山勝利先生 (神戸大)
-+ 田沼先生
 
 AAMAS マルチエージェント, CSP
 + 九大 横尾誠先生
 
 ERATO: 同じくグラフ探索をやっているが、explicit graph
-+ 河原林健一先生 (NII)
-+ 秋葉先生
++ 河原林健一先生 (NII), 秋葉先生
 
 ゲーム系
-+ 岸本先生 (東大将棋)
-+ 金子先生 (ゲーム)
++ 岸本先生 (探索), 金子先生 (ゲーム)
 
 ----
 
