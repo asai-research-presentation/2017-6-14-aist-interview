@@ -1,0 +1,1093 @@
+\begin{outline-text-1}
+
+
+\begin{center}
+浅井 政太郎 東京大学 総合文化研究科 \textbf{\emph{学振DC2}}
+\end{center}
+
+\textbf{発表要旨}
+
+これまでの研究業績
+
+　Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains※1. \textbf{ICAPS14}.
+
+　Solving Large-Scale Planning Problems by Decomposition and Macro Generation※1. \textbf{ICAPS15}.
+
+　Tiebreaking Strategies for A* Search: How to Explore the Final Frontier※1. \textbf{AAAI16}. \textbf{\emph{(JSAI 学生奨励賞)}}
+
+　Tie-Breaking Strategies for Cost-Optimal Best First Search※1. \textbf{JAIR 58 (2017): 67-121}.
+
+　Exploration Among and Within Plateaus in Greedy Best-First Search※1. \textbf{ICAPS17}.
+
+　Efficient Optimal Search under Expensive Edge Cost Computation※2. \textbf{IJCAI17}.
+
+　Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back)※1. \textbf{KEPS17}.
+
+今後の研究計画, 研究成果の産業応用への抱負
+
+\begin{smaller}
+※1 Masataro Asai, Alex Fukunaga
+
+※2 Masataro Asai, Akihiro Kishimoto, Adi Botea, Radu Marinescu, Elizabeth Daly M, and Spyros Kotoulas
+\end{smaller}
+\end{outline-text-1}
+
+\section{背景 -- 自律機械とは?}
+\label{sec:orgheadline19}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\includegraphics{img/astro/1.png}
+\end{span6}
+\begin{span6}
+\includegraphics{img/rescue/1.png}
+\end{span6}
+\end{row-fluid}
+\begin{row-fluid}
+\begin{span12}
+\begin{xlarge}
+　
+\end{xlarge}
+\end{span12}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsection{誰?}
+\label{sec:orgheadline8}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\includegraphics{img/astro/1.png}
+\end{span6}
+\begin{span6}
+\includegraphics{img/rescue/1.png}
+\end{span6}
+\end{row-fluid}
+\begin{row-fluid}
+\begin{span12}
+\begin{xlarge}
+　
+\end{xlarge}
+\end{span12}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsubsection{誰?}
+\label{sec:orgheadline1}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\includegraphics{img/astro/2.png}
+\end{span6}
+\begin{span6}
+\includegraphics{img/rescue/1.png}
+\end{span6}
+\end{row-fluid}
+\begin{row-fluid}
+\begin{span12}
+\begin{xlarge}
+　
+\end{xlarge}
+\end{span12}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsubsection{誰?}
+\label{sec:orgheadline2}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\includegraphics{img/astro/final.png}
+\end{span6}
+\begin{span6}
+\includegraphics{img/rescue/1.png}
+\end{span6}
+\end{row-fluid}
+\begin{row-fluid}
+\begin{span12}
+\begin{xlarge}
+　
+\end{xlarge}
+\end{span12}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsubsection{誰?}
+\label{sec:orgheadline3}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\includegraphics{img/astro/final.png}
+\end{span6}
+\begin{span6}
+\includegraphics{img/rescue/2.png}
+\end{span6}
+\end{row-fluid}
+\begin{row-fluid}
+\begin{span12}
+\begin{xlarge}
+　
+\end{xlarge}
+\end{span12}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsubsection{誰?}
+\label{sec:orgheadline4}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\includegraphics{img/astro/final.png}
+\end{span6}
+\begin{span6}
+\includegraphics{img/rescue/3.png}
+\end{span6}
+\end{row-fluid}
+\begin{row-fluid}
+\begin{span12}
+\begin{xlarge}
+　
+\end{xlarge}
+\end{span12}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsubsection{誰?}
+\label{sec:orgheadline5}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\includegraphics{img/astro/final.png}
+\end{span6}
+\begin{span6}
+\includegraphics{img/rescue/final.png}
+\end{span6}
+\end{row-fluid}
+\begin{row-fluid}
+\begin{span12}
+\begin{xlarge}
+　
+\end{xlarge}
+\end{span12}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsubsection{誰?}
+\label{sec:orgheadline6}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\includegraphics{img/astro/final.png}
+\end{span6}
+\begin{span6}
+\includegraphics{img/rescue/final.png}
+\end{span6}
+\end{row-fluid}
+\begin{row-fluid}
+\begin{span12}
+\begin{xlarge}
+\textbf{AI研究者の夢=}
+\end{xlarge}
+\end{span12}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsubsection{誰?}
+\label{sec:orgheadline7}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\includegraphics{img/rescue/final2.png}
+\end{span6}
+\begin{span6}
+\includegraphics{img/rescue/final3.png}
+\end{span6}
+\end{row-fluid}
+\begin{row-fluid}
+\begin{span12}
+\begin{xlarge}
+\textbf{AI研究者の夢=} \textbf{\emph{自律行動機械}}
+\end{xlarge}
+\end{span12}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsection{なぜ自律機械? 社会的意義 --- 例えば、操縦士が足りない!}
+\label{sec:orgheadline10}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span2}
+\includegraphics{img/rescue.png}
+\includegraphics{img/rescue.png}
+\includegraphics{img/rescue.png}
+\includegraphics{img/silent.png}
+\end{span2}
+\begin{span10}
+\includegraphics{img/static/tsunami.jpg}
+\end{span10}
+\end{row-fluid}
+\end{container-fluid}
+
+\begin{larger}
+\begin{alignright}
+\begin{itemize}
+\item そのままでは役に立たない!
+\end{itemize}
+\end{alignright}
+\end{larger}
+
+\subsubsection{「人」は簡単に増やせない -- Human Resource and Training}
+\label{sec:orgheadline9}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span4}
+\includegraphics{img/rescue/1.png}
+\end{span4}
+\begin{span8}
+
+
+\begin{description}
+\item[{✘ \emph{時間} がかかる}] 訓練に ＞100時間, \textbf{必要な時だけ増やす} のは不可能
+\item[{✘ \emph{￥￥￥￥} がかかる}] 訓練官、訓練場所、訓練用具
+\item[{✘ 技術は \emph{維持が重要}}] 定期的な再訓練、長期的コスト、さらなるマニー
+\item[{✘ 平時は \emph{無駄} な技術}] 普段は意味がない -- 無駄なマニー!
+\end{description}
+\end{span8}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsection{知的機械の「クラス」}
+\label{sec:orgheadline14}
+
+\subsubsection{知的機械の「クラス」}
+\label{sec:orgheadline11}
+
+\includegraphics{img/machines/1.png}
+
+\subsubsection{知的機械の「クラス」}
+\label{sec:orgheadline12}
+
+\includegraphics{img/machines/2.png}
+
+\subsubsection{目的達成型機械}
+\label{sec:orgheadline13}
+
+反射的に動くロボットでは \textbf{複雑なゴールを設定できない}
+
+\begin{quote}
+\textbf{瓦礫} に埋もれた \textbf{骨折・出血} している被災者を \textbf{なるべく早く} 病院に運ぶ。
+\end{quote}
+\begin{quote}
+\textbf{救急車} を先に呼んでおき、 \textbf{患者を傷つけない} ように, \textbf{素早く} , \textbf{瓦礫} を \textbf{崩
+れないよう} に \textbf{どけて}, \textbf{止血} し, \textbf{当て木} し, \textbf{担架に乗せ} て, ちょうどきた
+\textbf{救急車} に \textbf{隊員と協力} して運び入れる。
+\end{quote}
+
+\begin{alignright}
+\begin{xlarge}
+\begin{itemize}
+\item → 目的達成型の知能が必要
+\end{itemize}
+\end{xlarge}
+\end{alignright}
+
+\subsection{目的達成型知能のための自動プランナ (≠ モータ制御)}
+\label{sec:orgheadline17}
+
+\includegraphics{img/planning/1.png}
+
+\subsubsection{目的達成型知能のための自動プランナ (≠ モータ制御)}
+\label{sec:orgheadline15}
+
+\includegraphics{img/planning/2.png}
+
+\subsubsection{目的達成型知能のための自動プランナ (≠ モータ制御)}
+\label{sec:orgheadline16}
+
+\includegraphics{img/planning/final.png}
+
+\subsection{プランニング(自動行動計画)分野の位置づけ}
+\label{sec:orgheadline18}
+
+\includegraphics{img/planning2.png}
+
+\section{査読論文実績 (抜粋)}
+\label{sec:orgheadline26}
+
+\begin{center}
+\textbf{\emph{AAAI}}, \textbf{\emph{IJCAI}}: AI一般の1st-tier, \uline{\emph{ICAPS}}: プランニング専門の1st-tier, \textbf{JAIR}: トップジャーナル
+\end{center}
+
+\rule{\linewidth}{0.5pt}
+
+\uline{\emph{ICAPS14}} \textbf{\emph{(採択率33\%)}} \textbf{(IHI共同研究)} Fully Automated Cyclic Planning for \ldots{}
+
+\uline{\emph{ICAPS15}} \textbf{\emph{(採択率33\%)}} Solving Large-Scale Planning Problems by Decomposition \ldots{}
+
+\textbf{\emph{AAAI16}} \textbf{\emph{(採択率26\%)}} \textbf{(JSAI 学生奨励賞)} Tiebreaking Strategies for A* Search: \ldots{}
+
+\textbf{JAIR17} \textbf{\emph{(採択率12\%)}} Tie-Breaking Strategies for Cost-Optimal Best First Search. 
+
+\uline{\emph{ICAPS17}} \textbf{\emph{(採択率33\%)}} Exploration Among and Within Plateaus in Greedy Best-First Search. 
+
+\textbf{\emph{IJCAI17}} \textbf{\emph{(採択率25\%)}} \textbf{(IBM Research 応用研究)} Efficient Optimal Search under \ldots{}
+
+\textbf{KEPS17} \textbf{(採択率60\%)} Classical Planning in Deep Latent Space: From Unlabeled Images \ldots{}
+
+\rule{\linewidth}{0.5pt}
+
+応用研究、基礎研究 共に経験あり
+
+\subsection{業績1: 査読付き国際学会 ICAPS14 \textbf{\emph{(採択率33\%)}} \textbf{(IHI共同研究)}}
+\label{sec:orgheadline20}
+
+\includegraphics{img/assemble-icaps14.png}
+
+\subsection[業績2: 査読付き国際学会 ICAPS15 \textbf{\emph{(採択率33\%)}}]{業績2: 査読付き国際学会 ICAPS15 \textbf{\emph{(採択率33\%)}}\hfill{}\textsc{スキップ予定}}
+\label{sec:orgheadline21}
+
+\includegraphics{img/assemble-keps14-icaps15.png}
+
+\subsection{業績3: 査読付き国際学会 AAAI16 \textbf{\emph{(採択率26\%)}}}
+\label{sec:orgheadline22}
+
+\includegraphics{img/aaai16.png}
+
+\subsection[業績4: 査読付き論文誌 JAIR \textbf{\emph{(採択率12\%)}}]{業績4: 査読付き論文誌 JAIR \textbf{\emph{(採択率12\%)}}\hfill{}\textsc{スキップ予定}}
+\label{sec:orgheadline23}
+
+\includegraphics{img/jair17.png}
+
+\subsection[業績5: 査読付き国際学会 ICAPS17 \textbf{\emph{(採択率33\%)}}]{業績5: 査読付き国際学会 ICAPS17 \textbf{\emph{(採択率33\%)}}\hfill{}\textsc{スキップ予定}}
+\label{sec:orgheadline24}
+
+\includegraphics{img/icaps17.png}
+
+\subsection{業績6: 査読付き国際学会 IJCAI17 \textbf{\emph{(採択率25\%)}} \textbf{(IBM共同研究)}}
+\label{sec:orgheadline25}
+
+\includegraphics{img/ijcai17.png}
+
+\section{産業技術総合研究所で行いたい研究}
+\label{sec:orgheadline27}
+
+\begin{xlarge}
+Neural-Symbolic複合システム
+\end{xlarge}
+による
+\begin{xlarge}
+\begin{center}
+次世代AIシステム
+\end{center}
+\begin{alignright}
+の研究
+\end{alignright}
+\end{xlarge}
+
+\section{深層学習}
+\label{sec:orgheadline33}
+
+とてもはやっている
+
+　
+
+　
+
+\includegraphics{img/deeplearning/1.png}
+
+\subsection{認知タスクで人間に匹敵する精度}
+\label{sec:orgheadline28}
+
+\includegraphics{img/deeplearning/image-task.png}
+
+\subsection{認知タスクで人間に匹敵する精度}
+\label{sec:orgheadline29}
+
+\includegraphics{img/deeplearning/nlp-task.png}
+
+\subsection{ニューラルネットの役割}
+\label{sec:orgheadline30}
+
+\begin{center}
+「直感的な」問題を解く \textbf{関数} を学習すること
+\end{center}
+
+\begin{itemize}
+\item 求めるべき関数 \$y\^{}*=f\^{}*(x)\$
+
+\begin{center}
+\begin{tabular}{lll}
+タスク & 入力x & 出力y\\
+\hline
+画像分類 & 画像 & ラベル(車、ネコ、猿・・・)\\
+翻訳 & 文章(日) & 文章(英)\\
+未来予測 & フレーム列 & 次のフレーム\\
+\end{tabular}
+\end{center}
+
+\item NNが表す関数　 \$y=f(x)\$
+
+\item 学習 ≡ 誤差 \$||y-y\^{}*||\$を最小化する最適化問題
+
+\begin{itemize}
+\item 一言で言えば \textbf{関数近似機} (\textbf{銀の弾ではない})
+\end{itemize}
+\end{itemize}
+
+\subsection{知的機械を作る上で深層学習の果たす役割}
+\label{sec:orgheadline31}
+
+\includegraphics{img/machines/3.png}
+
+　
+
+\subsection{知的機械を作る上で深層学習の果たす役割}
+\label{sec:orgheadline32}
+
+\includegraphics{img/machines/4.png}
+
+\begin{alignright}
+深層学習でカバーできない部分は?
+\end{alignright}
+
+\section{記号的AI}
+\label{sec:orgheadline37}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span7}
+\begin{larger}
+\begin{description}
+\item[{論理による推論}] 命題論理, 一階述語論理, 時制論理, ベイズ論理 etc
+\item[{組合せ爆発}] 有限のシンボルでも発生
+\item[{正しさと最適性の理論保証が必要なミッションクリティカルシステム}] 製造システム、運送 (時間=お金)
+
+人工衛星 (有限の燃料)
+
+間違った解は許されない
+\item[{推論過程を説明可能なシステム}] レスキュー・宇宙船 (人間の安全)
+\item[{アルゴリズム}] 木探索、グラフ探索、分枝限定法
+\end{description}
+\end{larger}
+\end{span7}
+\begin{span5}
+
+
+\includegraphics{img/static/gravity-m.jpg}
+\end{span5}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsection{Q. 深層学習と 記号的AI はどう違う?}
+\label{sec:orgheadline34}
+
+A. レイヤが違う
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\textbf{機械学習・Neural Networks} == 関数近似
+
+for \textbf{認識・反射}
+\begin{itemize}
+\item 入力 は \textbf{Subsymbolic} (連続値)
+
+画像、音声、非構造化テキスト:
+\item \textbf{感覚的知能}:
+
+　 \textbf{\emph{反応}, \emph{直後} の行動の決定}
+\begin{smaller}
+\textbf{パブロフの犬} : 餌を認知→よだれ
+
+\textbf{自動運転} : 赤信号,人 → 止まる.
+
+\textbf{翻訳} : 文章 → 文章
+
+\textbf{囲碁局面の評価関数} : 局面 → 勝率
+\end{smaller}
+\begin{larger}
+☺ 効率よく 1-to-1 mapping
+
+☹ 単純作業
+\end{larger}
+\end{itemize}
+\end{span6}
+\begin{span6}
+\textbf{推論・探索}
+
+for \textbf{プランニング・ゲーム・定理証明}
+\begin{itemize}
+\item 入出力は \textbf{Symbolic}
+
+論理 オブジェクト ルール
+\item \textbf{論理・推論による知能:}
+
+　 \textbf{\emph{未来に渡る} 戦略の決定}
+
+　 (戦略 = 行動の \textbf{列や木})
+\begin{smaller}
+\textbf{レスキューロボ} : ゴール = 被災者生存
+
+\textbf{証明器} : ゴール = QED
+
+\textbf{コンパイラ} : 命令列の生成
+
+\textbf{囲碁,将棋} : ゴール = 勝利
+\end{smaller}
+\begin{larger}
+☺ 順序制約+複雑な作業
+\end{larger}
+\end{itemize}
+\end{span6}
+\end{row-fluid}
+\end{container-fluid}
+
+\begin{itemize}
+\item AlphaGo = Subsymbolic (DLNNによる評価関数) + Symbolic (MCTSによる探索)
+\end{itemize}
+
+\subsection{既存の有名システム}
+\label{sec:orgheadline35}
+
+AlphaGo = Subsymbolic (NNによる評価関数) + Symbolic (MCTSによる探索)
+\begin{itemize}
+\item ただし \textbf{ドメイン依存} -- 囲碁に特化, "マス目"や"石"といった概念をハードコード
+\item \textbf{膨大な棋譜が必要} --- 運用データがない環境(e.g.火星)には適用不能
+\item \textbf{\emph{人って模範解答がないと行動できませんか?}} \textbf{真の自律機械は前例無しでも行動可能}
+\end{itemize}
+
+DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
+
+様々な Atari Game につかえる汎用フレームワーク (Invader, Packman…) だが
+\begin{itemize}
+\item 強化学習は 学習結果に盲目に従う
+\item Atariゲームは \textbf{脊髄反射で生き残ることが可能}
+\item → \textbf{複雑な論理思考はいらない!}
+\end{itemize}
+
+\subsection{記号的AIによる論理推論の重要性}
+\label{sec:orgheadline36}
+
+\includegraphics{img/lecun.png}
+
+\section{業績7: 査読付きワークショップ KEPS (採択率60\%)}
+\label{sec:orgheadline43}
+
+\includegraphics{img/keps17-1a.png}
+
+\subsection{業績7: 査読付きワークショップ KEPS (採択率60\%)}
+\label{sec:orgheadline38}
+
+\includegraphics{img/keps17-1b.png}
+
+\subsection{業績7: 査読付きワークショップ KEPS (採択率60\%)}
+\label{sec:orgheadline39}
+
+\includegraphics{img/keps17.png}
+
+\subsection{業績7: 査読付きワークショップ KEPS (採択率60\%)}
+\label{sec:orgheadline40}
+
+\includegraphics{img/keps17-2.png}
+
+\subsection{業績7: 査読付きワークショップ KEPS (採択率60\%)}
+\label{sec:orgheadline41}
+
+\includegraphics{img/keps17-3.png}
+
+\subsection{}
+\label{sec:orgheadline42}
+
+\begin{xlarge}
+つまり
+\end{xlarge}
+
+20年来の問題である
+
+\begin{xlarge}
+\begin{center}
+深層学習と記号的AIを融合させる
+\end{center}
+\begin{alignright}
+プロトタイプが出来た!
+\end{alignright}
+\end{xlarge}
+
+\begin{note}
+シンボルグラウンディング問題
+\end{note}
+
+\section{今後の研究計画}
+\label{sec:orgheadline44}
+
+\includegraphics{img/keps17-4.png}
+
+\section{産業応用: \textbf{記号的推論により様々な分野にブレークスルー}}
+\label{sec:orgheadline45}
+
+\begin{xlarge}
+定形流れ作業以上の産業用ロボ
+\end{xlarge}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span8}
+\begin{itemize}
+\item カメラ → 論理表現 → 記号的推論 → 行動
+
+\begin{itemize}
+\item 動的な環境や故障、命令
+
+\item \textbf{ラインを停止させず} 自動対応
+
+\item 自律性のないロボには不可能
+\end{itemize}
+\end{itemize}
+\end{span8}
+\begin{span4}
+\url{img/static/dummy.gif}
+
+\url{img/static/dummy2.gif}
+\end{span4}
+\end{row-fluid}
+\end{container-fluid}
+
+\section{産業応用: \textbf{記号的推論により様々な分野にブレークスルー}}
+\label{sec:orgheadline46}
+
+\begin{xlarge}
+人工無能以上の対話ボット
+\end{xlarge}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span6}
+\begin{itemize}
+\item 人工無能 : 従来型対話ボットの総称
+\begin{itemize}
+\item Apple Siri (ルールベース)
+\item Microsoft りんな (ニューラル)
+\item 反射的応答 = 論理を持たない
+\end{itemize}
+\item テキスト → 論理表現 → 記号的推論 → 返答
+\begin{itemize}
+\item 論理に基づき \textbf{思考する} ボット
+\end{itemize}
+\end{itemize}
+\end{span6}
+\begin{span6}
+\includegraphics{img/static/hal-speaking.jpg}
+\end{span6}
+\end{row-fluid}
+\end{container-fluid}
+
+\section{まとめ}
+\label{sec:orgheadline47}
+
+\begin{smaller}
+\begin{enumerate}
+\item \textbf{難関国際会議(33\%)} Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In ICAPS2014.
+\begin{enumerate}
+\item 任意の問題から1種類の繰り返し構造を自動で検出
+\item \textbf{工場での製造スケジューリング (x1000 高速化, 探索空間 10\(^{\text{6}}\) → 10\(^{\text{274}}\))}
+\end{enumerate}
+\item \textbf{難関国際会議(33\%)} Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In ICAPS2015.
+\begin{enumerate}
+\item 複数の繰り返し構造をより柔軟・汎用に組み合わせる手法
+\item \textbf{ベンチマークセット全体で高速化 (x3-4 高速化, 探索空間 10\(^{\text{7}}\) → 10\(^{\text{28}}\))}
+\end{enumerate}
+\item \textbf{難関国際会議(26\%)} Tiebreaking Strategies for A* Search: How to Explore the Final Frontier. In AAAI-2016. (JSAI 学生奨励賞)
+\begin{enumerate}
+\item コストゼロの辺がグラフ探索に引き起こす問題を解決 \textbf{(探索空間 10\(^{\text{6}}\) → 10\(^{\text{88}}\))}
+\end{enumerate}
+\item \textbf{難関論文誌(12\%)}   Tie-Breaking Strategies for Cost-Optimal Best First Search. Journal of Artificial Intelligence Research 58 (2017): 67-121.
+\begin{enumerate}
+\item (3.) に加え タイブレーキング と 非最適コスト探索の関連性を指摘, さらに性能向上
+\end{enumerate}
+\item \textbf{難関国際会議(33\%)} Exploration Among and Within Plateaus in Greedy Best-First Search. In ICAPS2017.
+\begin{enumerate}
+\item 非最適コスト探索をフラクタルを用いて改善
+\item プラトー内均一化とプラトー間均一化の直交性を実証
+\end{enumerate}
+\item \textbf{難関国際会議(25\%)} Efficient Optimal Search under Expensive Edge Cost Computation. In IJCAI-2017.
+\begin{enumerate}
+\item 辺コストの動的計算が必要な問題に対して高速な最適アルゴリズムDEA*
+\end{enumerate}
+\item \textbf{国際ワークショップ(60\%)} Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back).
+Knowledge Engineering for Planning and Scheduling (KEPS) Workshop
+\begin{enumerate}
+\item 画像から命題を自動生成して記号的AIで組合せ最適化問題を解き、画像で出力するシステム
+\end{enumerate}
+\end{enumerate}
+\end{smaller}
+
+\section{付録}
+\label{sec:orgheadline67}
+
+\begin{expanded}
+\startcontents[level-1]
+\printcontents[level-1]{}{0}{\setcounter{tocdepth}{2}}
+\end{expanded}
+
+\subsection{既存システムとの違い (追加)}
+\label{sec:orgheadline48}
+
+\emph{NNで 直接問題を解くシステム}
+
+TSP [Hopfield and Tank, 1985], NeuroSolver [Bieszczad and Pagurek, 1998]
+
+--- NNで解くが、入力はシンボリック (それぞれのニューロンが人の与えた状態変数に対応)
+
+--- 完全性、最適性などの保証なし
+
+\emph{NNを認識でなく探索の枝刈りの中で使うシステム}
+
+AlphaGo [Sievers 16], [Arfaee et al., 2011], [Satzger and Kramer, 2013]
+
+--- LatPlan は NNを探索の外で使う
+
+\subsection{Learning from Observation との違い}
+\label{sec:orgheadline49}
+
+主にロボットの経路探索 (ローレベル制御) [Argall et al., 2009]
+
+ボードゲームの学習だが「マス目」など強い仮定 [Barbu et al., 2010; Kaiser, 2012; Kirk and Laird, 2016]
+
+Action Segmentation problem がある
+
+--- 「映像の観察」を中心とするので、いつアクションが始まる/終わるのか解らない
+
+--- LatPlan には関係なし
+
+\subsection{AIプランニングの \textbf{\emph{Killer App}}}
+\label{sec:orgheadline50}
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span7}
+\begin{larger}
+\begin{description}
+\item[{人が高価or不可能な作業}] 原発, 宇宙空間, 火星, 深海
+\item[{正しさと最適性の理論保証が必要なミッションクリティカルシステム}] 製造システム、運送 (時間=お金)
+
+人工衛星 (燃料使いきれば運用終了)
+
+間違った解は許されない
+\item[{思考過程を説明可能なシステム}] レスキュー・宇宙船 (人間の安全がかかっている)
+\end{description}
+\end{larger}
+\end{span7}
+\begin{span5}
+
+
+\includegraphics{img/static/gravity-m.jpg}
+\end{span5}
+\end{row-fluid}
+\end{container-fluid}
+
+
+
+
+\subsection{古典プランニング問題 (決定的,完全情報) -- Blocksworld}
+\label{sec:orgheadline53}
+
+\includegraphics{img/plan.png}
+\begin{larger}
+非古典的なさまざまな拡張
+
+\begin{alignright}
+(並列アクション,POMDP,HTN\ldots{} どのAIの教科書にものっている)
+\end{alignright}
+\end{larger}
+
+\subsubsection{アクション = 条件付き状態遷移}
+\label{sec:orgheadline51}
+
+\begin{center}
+\begin{xlarge}
+アクション (move ?X ?Y)
+\end{xlarge}
+\end{center}
+
+\begin{center}
+\textbf{?X}, \textbf{?Y} : 変数。 値 \textbf{BLOCK-A}, \textbf{BLOCK-B} などを適用して使う
+
+\textbf{条件} と \textbf{効果} で構成される
+\end{center}
+
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span7}
+\begin{quote}
+\textbf{条件} : 実行に必要な条件を表す命題
+
+　(clear \textbf{?X}) : 積み木 \textbf{?X} の上が空
+
+　(clear \textbf{?Y}) : 積み木 \textbf{?Y} の上に空
+
+\textbf{効果} : 前後の状態の \textbf{差分} を表す命題
+
+　(on \textbf{?X} \textbf{?Y}) を \textbf{追加} : \textbf{?Y} の上は \textbf{?X}
+
+　(clear \textbf{?Y}) を \textbf{削除}
+\end{quote}
+\end{span7}
+\begin{span5}
+
+
+\begin{alignright}
+\begin{larger}
+モデリング言語 \textbf{PDDL} で記述
+\end{larger}
+\end{alignright}
+\end{span5}
+\end{row-fluid}
+\end{container-fluid}
+
+\subsubsection{プランニング = グラフ探索}
+\label{sec:orgheadline52}
+
+\textbf{ノード} : 状態 = 命題の集合 ⇒ \texttt{(on A B)}, \texttt{(clear A)} など
+
+\textbf{辺}     : アクション ⇒ \texttt{(move A B)} 等
+
+\includegraphics{img/graph.png}
+
+\begin{note}
+*1 [Helmert, 2006] [Richter, 2010]
+\end{note}
+
+
+\subsection{古典プランニングを研究する意義は?}
+\label{sec:orgheadline54}
+
+\includegraphics{img/classical-meaning.png}
+
+\subsection{AIの倫理について}
+\label{sec:orgheadline55}
+
+\begin{itemize}
+\item 研究内容は 漠然とした「AI」のうち \textbf{グラフ探索} の研究
+\item AIの目的はプランナのゴールで定義される
+\begin{itemize}
+\item AI自体は善悪の判断を行わない
+\item 人が与えるゴールについての倫理的問題 (→ 兵器使用)
+\end{itemize}
+\item 価値判断は与えられる入力の中にある = 使用者の価値観/データのバイアスを反映
+\item 悪用の問題はある。しかし、自分としては、災害救助ロボットなど、人道的な応用を目指している
+\end{itemize}
+
+\subsection{Gumbel-Softmax}
+\label{sec:orgheadline57}
+
+\includegraphics{img/keps17.png}
+
+\subsubsection{Gumbel-Softmax}
+\label{sec:orgheadline56}
+
+\includegraphics{img/sae/state-ae.png}
+
+\subsection{ディープラーニング関連・LatPlan実装}
+\label{sec:orgheadline58}
+
+詳しくは論文を
+
+Keras + TensorFlow
+
+1764(42x42)
+
+[→FC(4000,ReLu)→Batchnorm→Dropout(0.4)] × 2
+
+→FC(49,GumbelSoftmax) (variational loss)
+
+[→FC(4000,ReLu)→Batchnorm→Dropout(0.4)] × 2
+
+→1764(42x42) (loss: Binary crossentropy)
+
+　
+
+\begin{description}
+\item[{なぜ全結合??}] 論文の主題は \textbf{SAEで命題を作る方針がそもそもうまく行くかどうか}
+
+\textbf{→余計な要素を省いて限りなくシンプルに}
+
+\item[{8-パズルでの訓練}] 可能な全状態 (362880) 中 \textbf{12000 枚} で訓練 → 汎化能力あり
+
+Adam optimizer (learning rate:0.001)
+\end{description}
+
+\subsection{第五世代コンピュータとの違いは?}
+\label{sec:orgheadline59}
+
+第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
+
+ハードの問題ではなく、 根本的なソフトウェア技術、 \textbf{探索技術} が未発達だった
+
+\begin{center}
+\begin{tabular}{ll}
+第五世代 & 現在\\
+\hline
+後方 \textbf{全探索} +バックトラック & \textbf{前方ヒューリスティック探索}\\
+ & 枝刈りで指数爆発を抑える\\
+Prologベース & C/C++で高度に最適化されたプログラム\\
+ & State packing, 決定木, mutex\ldots{}\\
+\end{tabular}
+\end{center}
+
+今はベンチマーク問題 \textbf{1104問} のうち 5分で \textbf{800問} 前後解ける
+
+仮に \textbf{当時のソフトウェア} を \textbf{現在のハードウェア} で動かしたとしても、 \textbf{100問も解けない}
+
+\subsection{Explicit Graph と Implicit Graph との違い}
+\label{sec:orgheadline60}
+
+
+\begin{container-fluid}
+\begin{row-fluid}
+\begin{span4}
+\textbf{カーナビ、ソーシャルグラフなど} : Explicit Graph Search
+
+グラフ全体がメモリ(〜数ペタバイト)または二次記憶(〜数ゼタバイト)に収まる
+
+参考: 2012年の全世界のデジタルデータ: 数ゼタバイト (1ZB = 10\(^{\text{21}}\) バイト)
+
+AI and Web の分野, Social graph の解析など
+\end{span4}
+\begin{span8}
+\textbf{プランニングにおける探索グラフ} : Implicit Graph Search
+
+地球に存在する全計算資源を集めても二次記憶に入らない
+
+グラフのノード数は状態変数に対して \textbf{指数的に増加}
+
+動的メモリ確保+優れた枝刈りをしないと問題が解けない
+
+探索空間サイズの例:
+
+3x3x3のルービックキューブ: 4.32 x 10\(^{\text{19}}\) = 4 エクサバイト
+
+4x4x4のルービックキューブ: 7.40 x 10\(^{\text{45}}\) ＞ 10\(^{\text{24}}\) ゼタバイト
+
+5x5x5のルービックキューブ: 2.83 x 10\(^{\text{74}}\)
+\end{span8}
+\end{row-fluid}
+\end{container-fluid}
+
+\begin{note}
+Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
+\end{note}
+
+\subsection{似たような研究は誰がやっていますか どこでやられていますか}
+\label{sec:orgheadline61}
+
+\textbf{ICAPS}, \textbf{SoCS} : 例年200人-300人の参加者を集めており大変盛況, 
+
+\textbf{AAAI}, \textbf{IJCAI} : プランニングに関する論文は例年数十本採択 Proceedingsの一つの章
+
+\textbf{JAIR}, \textbf{AIJ} : 論文誌でもプランニングの論文は多い (JAIR Volume 54: 12本中 2本 がプランニング論文)
+
+\textbf{主な研究室}:
+
+MIT CSAIL (Brian Williams), Carnegie-Mellon, 
+
+NASA (NASA Ames および NASA/Caltech JPL のそれぞれに20名以上の研究者), 欧州宇宙機関(ESA)
+
+King's College London, U. Freiburg, U. Bazel, U. Toronto, U. Ben-Gurion
+
+指導教員は NASA JPL AI Lab の元メンバー
+
+\subsection{国内で誰が似たようなことをやっているか}
+\label{sec:orgheadline62}
+
+\textbf{この専門分野をやっている人は少ない}
+
+石田 亨先生 (京都大学) --- 以前は日本のA*系の探索手法の代表者, Richard Korf と共著, いまはやっていない
+
+岸本先生 (探索) (東工大 → IBM Research Ireland)
+
+少し離れているが似ている研究というと
+
+\begin{itemize}
+\item SATソルバ, ASP(解集合)ソルバ, CPソルバ系, 推論系 -- logic and reasoning :
+田中 哲朗先生 (総合文化研究科), 鍋島英知先生 (山梨大), 田村直之先生, 平山勝利先生 (神戸大), 田沼先生 (東工大)
+\item 井上克己先生 (NII) --- Lemma Reusing for SAT based Planning and Scheduling (ICAPS10)
+\item AAMAS マルチエージェント, CSP : 九大 横尾誠先生
+\item ERATO (同じくグラフ探索をやっているが、explicit graph) : 河原林健一先生 (NII), 秋葉先生
+\item ゲーム系 金子先生 (総合文化研究科)
+\end{itemize}
+
+事情: 自分の指導教官(Alex Fukunaga)がアメリカから飛んできた、もともと日本にいなかった
+
+Richard Korf --- Alex Fukunaga --- 浅井 政太郎
+
+\subsection{汎用性を失わずに解く?}
+\label{sec:orgheadline63}
+
+\textbf{No Free Lunch 定理}: 最適化アルゴリズムの性能は \textbf{全問題の平均を取れば} 全て同じ
+
+Q. NFL定理のもとで「汎用性を失わずに高速に解く」というのは不可能?
+
+A. NFL定理は確かにそのように主張するが、プランニング分野の意味する「汎用性」は
+
+\textbf{実問題(人間にとって有意義な問題の集合)} における汎用性である。
+
+\begin{center}
+全プランニング問題の集合 ⊇ 人間にとって有意義な問題の集合
+\end{center}
+
+従って、 \textbf{全問題の平均を取れば} という前提が成り立たない。
+
+\subsection{その研究は\ldots{}}
+\label{sec:orgheadline64}
+
+\begin{center}
+\begin{tabular}{lllllll}
+ & 重要度 & 評価 & オリジナリティ & 過去のインパクト & 未来のインパクト & 動機\\
+\hline
+ACP &  & 発表した & ループの概念を検出 & 大規模問題 & 産業応用 & 人間プログラマでは追いつかない\\
+ &  & 難関学会 &  &  &  & \\
+\hline
+CAP &  & 難関学会 & 問題分割手法 & 大規模問題 & 産業応用 & より一般化したい\\
+ &  & 発表した & 柔軟な統合手法 & それまでの分割系の手法より &  & \\
+ &  &  &  & 広範囲に分割 &  & \\
+\hline
+AAAI16 &  & AAAI査読者: & 同コストのノードの分類 & 70年代からの定説を覆す & 広範なグラフ探索問題 & 下界以外で改善したかった\\
+ &  & 2/3 人に絶賛 &  & 通常と異なる方法で性能改善 & 基礎技術 & \\
+ &  & (+ JSAI学生奨励賞) &  & コスト0は実応用によく使われる &  & \\
+\hline
+IJCAI17 &  & IJCAI査読者: & 辺コストが未知のドメイン &  &  & 医療福祉での実問題\\
+ &  & 明確な動悸,十分な実験 & という問題設定 &  &  & 全ての辺を計算できない\\
+\hline
+KEPS17 &  & IJCAI査読者: & 画像から自動で命題を生成 & ニューラルは記号と相容れない & ニューラル・記号複合システム & \\
+ &  & 「重要な方向性」 &  & シンボルグラウンディング &  & \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{HTN と ICAPS-15 の違い}
+\label{sec:orgheadline65}
+
+HTNは人間が問題分割を行う
+人件費を考えると非常にコストパフォーマンスが悪い
+→ 自動で問題分割
+
+\subsection{Q\&A}
+\label{sec:orgheadline66}
+
+\begin{itemize}
+\item Q. 探索空間の比較について、なぜ「以前」の数字がスライドによって変わるの?
+\item A. 論文の中で使った実験設定が異なるからです。
+\end{itemize}
+\stopcontents[level-1]

@@ -1,0 +1,2265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-06-05 月 11:27 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title>研究テーマ: Neural-Symbolic複合システムによる 次世代AIシステムの研究</title>
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.loupe.min.js"></script>
+<script type="text/javascript" src="js/jgestures/jgestures.min.js"></script>
+<script type="text/javascript" src="js/code.js"></script>
+<script type="text/javascript" src="MathJax/MathJax.js"></script>
+<script type="text/javascript" src="js/mathjaxconf.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">研究テーマ: Neural-Symbolic複合システムによる 次世代AIシステムの研究</h1>
+<div class="outline-text-1">
+<p>
+
+</p>
+
+<div class="org-center">
+<p>
+浅井 政太郎 東京大学 総合文化研究科 <b><i>学振DC2</i></b>
+</p>
+</div>
+
+<p>
+<b>発表要旨</b>
+</p>
+
+<p>
+これまでの研究業績
+</p>
+
+<p>
+　Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains※1. <b>ICAPS14</b>.
+</p>
+
+<p>
+　Solving Large-Scale Planning Problems by Decomposition and Macro Generation※1. <b>ICAPS15</b>.
+</p>
+
+<p>
+　Tiebreaking Strategies for A* Search: How to Explore the Final Frontier※1. <b>AAAI16</b>. <b><i>(JSAI 学生奨励賞)</i></b>
+</p>
+
+<p>
+　Tie-Breaking Strategies for Cost-Optimal Best First Search※1. <b>JAIR 58 (2017): 67-121</b>.
+</p>
+
+<p>
+　Exploration Among and Within Plateaus in Greedy Best-First Search※1. <b>ICAPS17</b>.
+</p>
+
+<p>
+　Efficient Optimal Search under Expensive Edge Cost Computation※2. <b>IJCAI17</b>.
+</p>
+
+<p>
+　Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back)※1. <b>KEPS17</b>.
+</p>
+
+<p>
+今後の研究計画, 研究成果の産業応用への抱負
+</p>
+
+<div class="smaller">
+<p>
+※1 Masataro Asai, Alex Fukunaga
+</p>
+
+<p>
+※2 Masataro Asai, Akihiro Kishimoto, Adi Botea, Radu Marinescu, Elizabeth Daly M, and Spyros Kotoulas
+</p>
+
+</div>
+
+</div>
+
+<div id="outline-container-orgheadline15" class="outline-2">
+<h2 id="orgheadline15"><span class="section-number-2">1</span> 背景 &#x2013; 自律機械とは?</h2>
+<div class="outline-text-2" id="text-1">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/astro/1.png" alt="1.png" />
+</p>
+</div>
+
+</div>
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/1.png" alt="1.png" />
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="xlarge">
+<p>
+　
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div id="outline-container-orgheadline8" class="outline-3">
+<h3 id="orgheadline8"><span class="section-number-3">1.1</span> 誰?</h3>
+<div class="outline-text-3" id="text-1-1">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/astro/1.png" alt="1.png" />
+</p>
+</div>
+
+</div>
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/1.png" alt="1.png" />
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="xlarge">
+<p>
+　
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div id="outline-container-orgheadline1" class="outline-4">
+<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> 誰?</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/astro/2.png" alt="2.png" />
+</p>
+</div>
+
+</div>
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/1.png" alt="1.png" />
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="xlarge">
+<p>
+　
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline2" class="outline-4">
+<h4 id="orgheadline2"><span class="section-number-4">1.1.2</span> 誰?</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/astro/final.png" alt="final.png" />
+</p>
+</div>
+
+</div>
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/1.png" alt="1.png" />
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="xlarge">
+<p>
+　
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline3" class="outline-4">
+<h4 id="orgheadline3"><span class="section-number-4">1.1.3</span> 誰?</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/astro/final.png" alt="final.png" />
+</p>
+</div>
+
+</div>
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/2.png" alt="2.png" />
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="xlarge">
+<p>
+　
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline4" class="outline-4">
+<h4 id="orgheadline4"><span class="section-number-4">1.1.4</span> 誰?</h4>
+<div class="outline-text-4" id="text-1-1-4">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/astro/final.png" alt="final.png" />
+</p>
+</div>
+
+</div>
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/3.png" alt="3.png" />
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="xlarge">
+<p>
+　
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline5" class="outline-4">
+<h4 id="orgheadline5"><span class="section-number-4">1.1.5</span> 誰?</h4>
+<div class="outline-text-4" id="text-1-1-5">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/astro/final.png" alt="final.png" />
+</p>
+</div>
+
+</div>
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/final.png" alt="final.png" />
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="xlarge">
+<p>
+　
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline6" class="outline-4">
+<h4 id="orgheadline6"><span class="section-number-4">1.1.6</span> 誰?</h4>
+<div class="outline-text-4" id="text-1-1-6">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/astro/final.png" alt="final.png" />
+</p>
+</div>
+
+</div>
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/final.png" alt="final.png" />
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="xlarge">
+<p>
+<b>AI研究者の夢=</b>
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline7" class="outline-4">
+<h4 id="orgheadline7"><span class="section-number-4">1.1.7</span> 誰?</h4>
+<div class="outline-text-4" id="text-1-1-7">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/final2.png" alt="final2.png" />
+</p>
+</div>
+
+</div>
+<div class="span6">
+
+<div class="figure">
+<p><img src="img/rescue/final3.png" alt="final3.png" />
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="xlarge">
+<p>
+<b>AI研究者の夢=</b> <b><i>自律行動機械</i></b>
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline10" class="outline-3">
+<h3 id="orgheadline10"><span class="section-number-3">1.2</span> なぜ自律機械? 社会的意義 &#x2014; 例えば、操縦士が足りない!</h3>
+<div class="outline-text-3" id="text-1-2">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span2">
+<p>
+<img src="img/rescue.png" alt="rescue.png" />
+<img src="img/rescue.png" alt="rescue.png" />
+<img src="img/rescue.png" alt="rescue.png" />
+<img src="img/silent.png" alt="silent.png" />
+</p>
+
+</div>
+<div class="span10">
+
+<div class="figure">
+<p><img src="img/static/tsunami.jpg" alt="tsunami.jpg" />
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="larger">
+<div class="alignright">
+<ul class="org-ul">
+<li>そのままでは役に立たない!</li>
+</ul>
+
+</div>
+
+</div>
+</div>
+
+<div id="outline-container-orgheadline9" class="outline-4">
+<h4 id="orgheadline9"><span class="section-number-4">1.2.1</span> 「人」は簡単に増やせない &#x2013; Human Resource and Training</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span4">
+
+<div class="figure">
+<p><img src="img/rescue/1.png" alt="1.png" />
+</p>
+</div>
+
+</div>
+<div class="span8">
+<p>
+
+</p>
+
+<dl class="org-dl">
+<dt>✘ <i>時間</i> がかかる</dt><dd>訓練に ＞100時間, <b>必要な時だけ増やす</b> のは不可能</dd>
+<dt>✘ <i>￥￥￥￥</i> がかかる</dt><dd>訓練官、訓練場所、訓練用具</dd>
+<dt>✘ 技術は <i>維持が重要</i></dt><dd>定期的な再訓練、長期的コスト、さらなるマニー</dd>
+<dt>✘ 平時は <i>無駄</i> な技術</dt><dd>普段は意味がない &#x2013; 無駄なマニー!</dd>
+</dl>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline14" class="outline-3">
+<h3 id="orgheadline14"><span class="section-number-3">1.3</span> 知的機械の「クラス」</h3>
+<div class="outline-text-3" id="text-1-3">
+</div><div id="outline-container-orgheadline11" class="outline-4">
+<h4 id="orgheadline11"><span class="section-number-4">1.3.1</span> 知的機械の「クラス」</h4>
+<div class="outline-text-4" id="text-1-3-1">
+
+<div class="figure">
+<p><img src="img/machines/1.png" alt="1.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline12" class="outline-4">
+<h4 id="orgheadline12"><span class="section-number-4">1.3.2</span> 知的機械の「クラス」</h4>
+<div class="outline-text-4" id="text-1-3-2">
+
+<div class="figure">
+<p><img src="img/machines/2.png" alt="2.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline13" class="outline-4">
+<h4 id="orgheadline13"><span class="section-number-4">1.3.3</span> 目的達成型機械</h4>
+<div class="outline-text-4" id="text-1-3-3">
+<p>
+反射的に動くロボットでは <b>複雑なゴールを設定できない</b>
+</p>
+
+<blockquote>
+<p>
+<b>瓦礫</b> に埋もれた <b>骨折・出血</b> している被災者を <b>なるべく早く</b> 病院に運ぶ。
+</p>
+</blockquote>
+<blockquote>
+<p>
+<b>救急車</b> を先に呼んでおき、 <b>患者を傷つけない</b> ように, <b>素早く</b> , <b>瓦礫</b> を <b>崩
+れないよう</b> に <b>どけて</b>, <b>止血</b> し, <b>当て木</b> し, <b>担架に乗せ</b> て, ちょうどきた
+<b>救急車</b> に <b>隊員と協力</b> して運び入れる。
+</p>
+</blockquote>
+
+<div class="alignright">
+<div class="xlarge">
+<ul class="org-ul">
+<li>→ 目的達成型の知能が必要</li>
+</ul>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline20" class="outline-2">
+<h2 id="orgheadline20"><span class="section-number-2">2</span> 目的達成型知能のための自動プランナ (≠ モータ制御)</h2>
+<div class="outline-text-2" id="text-2">
+
+<div class="figure">
+<p><img src="img/planning/1.png" alt="1.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline16" class="outline-3">
+<h3 id="orgheadline16"><span class="section-number-3">2.1</span> 目的達成型知能のための自動プランナ (≠ モータ制御)</h3>
+<div class="outline-text-3" id="text-2-1">
+
+<div class="figure">
+<p><img src="img/planning/2.png" alt="2.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline17" class="outline-3">
+<h3 id="orgheadline17"><span class="section-number-3">2.2</span> 目的達成型知能のための自動プランナ (≠ モータ制御)</h3>
+<div class="outline-text-3" id="text-2-2">
+
+<div class="figure">
+<p><img src="img/planning/final.png" alt="final.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline18" class="outline-3">
+<h3 id="orgheadline18"><span class="section-number-3">2.3</span> Xerox PARC Printer: <b><i>Hypermoduler</i></b> Systems</h3>
+<div class="outline-text-3" id="text-2-3">
+
+<div class="figure">
+<p><img src="img/static/xerox.png" alt="xerox.png" />
+</p>
+</div>
+
+<div class="note">
+<p>
+Crawford, Lara S., et al. "On-Line Reconfigurable Machines." AI Magazine 34.3 (2013): 73-88.
+</p>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline19" class="outline-3">
+<h3 id="orgheadline19"><span class="section-number-3">2.4</span> プランニング(自動行動計画)分野の位置づけ</h3>
+<div class="outline-text-3" id="text-2-4">
+
+<div class="figure">
+<p><img src="img/planning2.png" alt="planning2.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline27" class="outline-2">
+<h2 id="orgheadline27"><span class="section-number-2">3</span> 査読論文実績 (抜粋)</h2>
+<div class="outline-text-2" id="text-3">
+<div class="org-center">
+<p>
+<b><i>AAAI</i></b>, <b><i>IJCAI</i></b>: AI一般の1st-tier, <span class="underline"><i>ICAPS</i></span>: プランニング専門の1st-tier, <b>JAIR</b>: トップジャーナル
+</p>
+</div>
+
+<hr  />
+
+<p>
+<span class="underline"><i>ICAPS14</i></span> <b><i>(採択率33%)</i></b> <b>(IHI共同研究)</b> Fully Automated Cyclic Planning for &#x2026;
+</p>
+
+<p>
+<span class="underline"><i>ICAPS15</i></span> <b><i>(採択率33%)</i></b> Solving Large-Scale Planning Problems by Decomposition &#x2026;
+</p>
+
+<p>
+<b><i>AAAI16</i></b> <b><i>(採択率26%)</i></b> <b>(JSAI 学生奨励賞)</b> Tiebreaking Strategies for A* Search: &#x2026;
+</p>
+
+<p>
+<b>JAIR17</b> <b><i>(採択率12%)</i></b> Tie-Breaking Strategies for Cost-Optimal Best First Search. 
+</p>
+
+<p>
+<span class="underline"><i>ICAPS17</i></span> <b><i>(採択率33%)</i></b> Exploration Among and Within Plateaus in Greedy Best-First Search. 
+</p>
+
+<p>
+<b><i>IJCAI17</i></b> <b><i>(採択率25%)</i></b> <b>(IBM Research 応用研究)</b> Efficient Optimal Search under &#x2026;
+</p>
+
+<p>
+<b>KEPS17</b> <b>(採択率60%)</b> Classical Planning in Deep Latent Space: From Unlabeled Images &#x2026;
+</p>
+
+<hr  />
+
+<p>
+応用研究、基礎研究 共に経験あり
+</p>
+</div>
+
+<div id="outline-container-orgheadline21" class="outline-3">
+<h3 id="orgheadline21"><span class="section-number-3">3.1</span> 業績1: 査読付き国際学会 ICAPS14 <b><i>(採択率33%)</i></b> <b>(IHI共同研究)</b></h3>
+<div class="outline-text-3" id="text-3-1">
+
+<div class="figure">
+<p><img src="img/assemble-icaps14.png" alt="assemble-icaps14.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline22" class="outline-3">
+<h3 id="orgheadline22"><span class="section-number-3">3.2</span> 業績2: 査読付き国際学会 ICAPS15 <b><i>(採択率33%)</i></b>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="______">スキップ予定</span></span></h3>
+<div class="outline-text-3" id="text-3-2">
+
+<div class="figure">
+<p><img src="img/assemble-keps14-icaps15.png" alt="assemble-keps14-icaps15.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline23" class="outline-3">
+<h3 id="orgheadline23"><span class="section-number-3">3.3</span> 業績3: 査読付き国際学会 AAAI16 <b><i>(採択率26%)</i></b></h3>
+<div class="outline-text-3" id="text-3-3">
+
+<div class="figure">
+<p><img src="img/aaai16.png" alt="aaai16.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline24" class="outline-3">
+<h3 id="orgheadline24"><span class="section-number-3">3.4</span> 業績4: 査読付き論文誌 JAIR <b><i>(採択率12%)</i></b>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="______">スキップ予定</span></span></h3>
+<div class="outline-text-3" id="text-3-4">
+
+<div class="figure">
+<p><img src="img/jair17.png" alt="jair17.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline25" class="outline-3">
+<h3 id="orgheadline25"><span class="section-number-3">3.5</span> 業績5: 査読付き国際学会 ICAPS17 <b><i>(採択率33%)</i></b>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="______">スキップ予定</span></span></h3>
+<div class="outline-text-3" id="text-3-5">
+
+<div class="figure">
+<p><img src="img/icaps17.png" alt="icaps17.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline26" class="outline-3">
+<h3 id="orgheadline26"><span class="section-number-3">3.6</span> 業績6: 査読付き国際学会 IJCAI17 <b><i>(採択率25%)</i></b> <b>(IBM共同研究)</b></h3>
+<div class="outline-text-3" id="text-3-6">
+
+<div class="figure">
+<p><img src="img/ijcai17.png" alt="ijcai17.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline28" class="outline-2">
+<h2 id="orgheadline28"><span class="section-number-2">4</span> 産業技術総合研究所で行いたい研究</h2>
+<div class="outline-text-2" id="text-4">
+<div class="xlarge">
+<p>
+Neural-Symbolic複合システム
+</p>
+
+</div>
+<p>
+による
+</p>
+<div class="xlarge">
+<div class="org-center">
+<p>
+次世代AIシステム
+</p>
+</div>
+<div class="alignright">
+<p>
+の研究
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline34" class="outline-2">
+<h2 id="orgheadline34"><span class="section-number-2">5</span> 深層学習</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+とてもはやっている
+</p>
+
+<p>
+　
+</p>
+
+<p>
+　
+</p>
+
+
+<div class="figure">
+<p><img src="img/deeplearning/1.png" alt="1.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline29" class="outline-3">
+<h3 id="orgheadline29"><span class="section-number-3">5.1</span> 認知タスクで人間に匹敵する精度</h3>
+<div class="outline-text-3" id="text-5-1">
+
+<div class="figure">
+<p><img src="img/deeplearning/image-task.png" alt="image-task.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline30" class="outline-3">
+<h3 id="orgheadline30"><span class="section-number-3">5.2</span> 認知タスクで人間に匹敵する精度</h3>
+<div class="outline-text-3" id="text-5-2">
+
+<div class="figure">
+<p><img src="img/deeplearning/nlp-task.png" alt="nlp-task.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline31" class="outline-3">
+<h3 id="orgheadline31"><span class="section-number-3">5.3</span> ニューラルネットの役割</h3>
+<div class="outline-text-3" id="text-5-3">
+<div class="org-center">
+<p>
+「直感的な」問題を解く <b>関数</b> を学習すること
+</p>
+</div>
+
+<ul class="org-ul">
+<li><p>
+求めるべき関数 $y^*=f^*(x)$
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">タスク</th>
+<th scope="col" class="org-left">入力x</th>
+<th scope="col" class="org-left">出力y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">画像分類</td>
+<td class="org-left">画像</td>
+<td class="org-left">ラベル(車、ネコ、猿・・・)</td>
+</tr>
+
+<tr>
+<td class="org-left">翻訳</td>
+<td class="org-left">文章(日)</td>
+<td class="org-left">文章(英)</td>
+</tr>
+
+<tr>
+<td class="org-left">未来予測</td>
+<td class="org-left">フレーム列</td>
+<td class="org-left">次のフレーム</td>
+</tr>
+</tbody>
+</table></li>
+
+<li>NNが表す関数　 $y=f(x)$</li>
+
+<li>学習 ≡ 誤差 $||y-y^*||$を最小化する最適化問題 &#x2014; <b>関数近似機</b> (<b>銀の弾ではない</b>)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline32" class="outline-3">
+<h3 id="orgheadline32"><span class="section-number-3">5.4</span> 知的機械を作る上で深層学習の果たす役割</h3>
+<div class="outline-text-3" id="text-5-4">
+
+<div class="figure">
+<p><img src="img/machines/3.png" alt="3.png" />
+</p>
+</div>
+
+<p>
+　
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline33" class="outline-3">
+<h3 id="orgheadline33"><span class="section-number-3">5.5</span> 知的機械を作る上で深層学習の果たす役割</h3>
+<div class="outline-text-3" id="text-5-5">
+
+<div class="figure">
+<p><img src="img/machines/4.png" alt="4.png" />
+</p>
+</div>
+
+<div class="alignright">
+<ul class="org-ul">
+<li>深層学習でカバーできない部分には 記号的AIが必要</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline38" class="outline-2">
+<h2 id="orgheadline38"><span class="section-number-2">6</span> 深層学習でカバーできない部分: 私の研究してきた記号的AI</h2>
+<div class="outline-text-2" id="text-6">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span7">
+<dl class="org-dl">
+<dt>手段: 論理による推論</dt><dd>命題, 一階述語, 時制論理, ベイズ論理 etc</dd>
+<dt>記号(シンボル)</dt><dd>命題や述語の <b><i>識別子</i></b></dd>
+<dt>問題: 組合せ爆発</dt><dd>有限のシンボルでも発生</dd>
+<dt>アルゴリズム</dt><dd>木/グラフ探索、動的計画、分枝限定</dd>
+<dt>特徴: 完全性, 健全性, 最適性の理論保証</dt><dd>製造システム、運送 (時間=お金)、人工衛星 (有限の燃料)、
+間違った解が許されないミッションクリティカルシステム</dd>
+<dt>特徴: 推論過程を説明可能</dt><dd>レスキュー・宇宙船 (人間の安全)</dd>
+</dl>
+
+</div>
+<div class="span5">
+<p>
+
+</p>
+
+
+<div class="figure">
+<p><img src="img/static/gravity-m.jpg" alt="gravity-m.jpg" />
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div id="outline-container-orgheadline35" class="outline-3">
+<h3 id="orgheadline35"><span class="section-number-3">6.1</span> Q. 深層学習と 記号的AI はどう違う?</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+A. レイヤが違う
+</p>
+
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span6">
+<p>
+<b>機械学習・Neural Networks</b> == 関数近似
+</p>
+
+<p>
+for <b>認識・反射</b>
+</p>
+<ul class="org-ul">
+<li><p>
+入力 は <b>Subsymbolic</b> (連続値)
+</p>
+
+<p>
+画像、音声、非構造化テキスト: 
+</p></li>
+<li><p>
+<b>感覚的知能</b>:
+</p>
+
+<p>
+　 <b><i>反応</i>, <i>直後</i> の行動の決定</b>
+</p>
+<div class="smaller">
+<p>
+<b>パブロフの犬</b> : 餌を認知→よだれ
+</p>
+
+<p>
+<b>自動運転</b> : 赤信号,人 → 止まる.
+</p>
+
+<p>
+<b>翻訳</b> : 文章 → 文章
+</p>
+
+<p>
+<b>囲碁局面の評価関数</b> : 局面 → 勝率
+</p>
+
+</div>
+<div class="larger">
+<p>
+☺ 効率よく 1-to-1 mapping
+</p>
+
+<p>
+☹ 単純作業
+</p>
+
+</div></li>
+</ul>
+
+</div>
+<div class="span6">
+<p>
+<b>推論・探索</b>
+</p>
+
+<p>
+for <b>プランニング・ゲーム・定理証明</b>
+</p>
+<ul class="org-ul">
+<li><p>
+入出力は <b>Symbolic</b>
+</p>
+
+<p>
+論理 オブジェクト ルール
+</p></li>
+<li><p>
+<b>論理・推論による知能:</b>
+</p>
+
+<p>
+　 <b><i>未来に渡る</i> 戦略の決定</b>
+</p>
+
+<p>
+　 (戦略 = 行動の <b>列や木</b>)
+</p>
+<div class="smaller">
+<p>
+<b>レスキューロボ</b> : ゴール = 被災者生存
+</p>
+
+<p>
+<b>証明器</b> : ゴール = QED
+</p>
+
+<p>
+<b>コンパイラ</b> : 命令列の生成
+</p>
+
+<p>
+<b>囲碁,将棋</b> : ゴール = 勝利
+</p>
+
+</div>
+<div class="larger">
+<p>
+☺ 順序制約+複雑な作業
+</p>
+
+</div></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<ul class="org-ul">
+<li>AlphaGo = Subsymbolic (DLNNによる評価関数) + Symbolic (MCTSによる探索)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline36" class="outline-3">
+<h3 id="orgheadline36"><span class="section-number-3">6.2</span> 既存の有名システム</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+AlphaGo = Subsymbolic (NNによる評価関数) + Symbolic (MCTSによる探索)
+</p>
+<ul class="org-ul">
+<li>ただし <b>ドメイン依存</b> &#x2013; 囲碁に特化, "マス目"や"石"といった概念をハードコード</li>
+<li><b>膨大な棋譜が必要</b> &#x2014; 運用データがない環境(e.g.火星)には適用不能</li>
+<li><b><i>人って模範解答がないと行動できませんか?</i></b> <b>真の自律機械は前例無しでも行動可能</b></li>
+</ul>
+
+<p>
+DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
+</p>
+
+<p>
+様々な Atari Game につかえる汎用フレームワーク (Invader, Packman…) だが
+</p>
+<ul class="org-ul">
+<li>強化学習は 学習結果に盲目に従う</li>
+<li>Atariゲームは <b>脊髄反射で生き残ることが可能</b></li>
+<li>→ <b>複雑な論理思考は実現できていない</b></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline37" class="outline-3">
+<h3 id="orgheadline37"><span class="section-number-3">6.3</span> 記号的AIによる論理推論の重要性</h3>
+<div class="outline-text-3" id="text-6-3">
+
+<div class="figure">
+<p><img src="img/lecun.png" alt="lecun.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline44" class="outline-2">
+<h2 id="orgheadline44"><span class="section-number-2">7</span> 業績7: 査読付きワークショップ KEPS (採択率60%)</h2>
+<div class="outline-text-2" id="text-7">
+
+<div class="figure">
+<p><img src="img/keps17-1a.png" alt="keps17-1a.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline39" class="outline-3">
+<h3 id="orgheadline39"><span class="section-number-3">7.1</span> 業績7: 査読付きワークショップ KEPS (採択率60%)</h3>
+<div class="outline-text-3" id="text-7-1">
+
+<div class="figure">
+<p><img src="img/keps17-1b.png" alt="keps17-1b.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline40" class="outline-3">
+<h3 id="orgheadline40"><span class="section-number-3">7.2</span> 業績7: 査読付きワークショップ KEPS (採択率60%)</h3>
+<div class="outline-text-3" id="text-7-2">
+
+<div class="figure">
+<p><img src="img/keps17.png" alt="keps17.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline41" class="outline-3">
+<h3 id="orgheadline41"><span class="section-number-3">7.3</span> 業績7: 査読付きワークショップ KEPS (採択率60%)</h3>
+<div class="outline-text-3" id="text-7-3">
+
+<div class="figure">
+<p><img src="img/keps17-2.png" alt="keps17-2.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline42" class="outline-3">
+<h3 id="orgheadline42"><span class="section-number-3">7.4</span> 業績7: 査読付きワークショップ KEPS (採択率60%)</h3>
+<div class="outline-text-3" id="text-7-4">
+
+<div class="figure">
+<p><img src="img/keps17-3.png" alt="keps17-3.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline43" class="outline-3">
+<h3 id="orgheadline43"><span class="section-number-3">7.5</span> </h3>
+<div class="outline-text-3" id="text-7-5">
+<div class="xlarge">
+<p>
+つまり
+</p>
+
+</div>
+
+<p>
+20年来の問題である
+</p>
+
+<div class="xlarge">
+<div class="org-center">
+<p>
+深層学習と記号的AIを融合させる
+</p>
+</div>
+<div class="alignright">
+<p>
+プロトタイプが出来た!
+</p>
+
+</div>
+
+</div>
+
+<div class="note">
+<p>
+シンボルグラウンディング問題
+</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline45" class="outline-2">
+<h2 id="orgheadline45"><span class="section-number-2">8</span> 今後の研究計画</h2>
+<div class="outline-text-2" id="text-8">
+
+<div class="figure">
+<p><img src="img/keps17-4.png" alt="keps17-4.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline46" class="outline-2">
+<h2 id="orgheadline46"><span class="section-number-2">9</span> 産業応用: <b>深層学習+記号的推論 = ブレークスルー</b></h2>
+<div class="outline-text-2" id="text-9">
+<div class="xlarge">
+<p>
+定形流れ作業以上の産業用ロボ
+</p>
+
+</div>
+
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span8">
+<ul class="org-ul">
+<li>カメラ → <b>論理表現 → 記号的推論</b> → 行動
+
+<ul class="org-ul">
+<li>動的な環境や故障、命令</li>
+
+<li><b>ラインを停止させず</b> 自動対応</li>
+
+<li>自律性のないロボには不可能</li>
+</ul></li>
+</ul>
+
+</div>
+<div class="span4">
+
+<div class="figure">
+<p><img src="img/static/dummy.gif" alt="dummy.gif" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="img/static/dummy2.gif" alt="dummy2.gif" />
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline47" class="outline-2">
+<h2 id="orgheadline47"><span class="section-number-2">10</span> 産業応用: <b>深層学習+記号的推論 = ブレークスルー</b></h2>
+<div class="outline-text-2" id="text-10">
+<div class="xlarge">
+<p>
+人工無能以上の対話ボット
+</p>
+
+</div>
+
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span7">
+<ul class="org-ul">
+<li>人工無能 : 従来型対話ボットの総称
+<ul class="org-ul">
+<li>反射的応答 = 論理を持たない</li>
+<li>Apple Siri (人の書いた返答データベース)</li>
+<li>Microsoft りんな (学習した返答ルール)</li>
+</ul></li>
+<li>テキスト → <b>論理表現 → 記号的推論</b> → 返答
+<ul class="org-ul">
+<li>論理に基づき <b>思考する</b> ボットへ</li>
+</ul></li>
+</ul>
+
+</div>
+<div class="span5">
+
+<div class="figure">
+<p><img src="img/static/hal-speaking.jpg" alt="hal-speaking.jpg" />
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline48" class="outline-2">
+<h2 id="orgheadline48"><span class="section-number-2">11</span> まとめ</h2>
+<div class="outline-text-2" id="text-11">
+<div class="smaller">
+<ol class="org-ol">
+<li><b>難関国際会議(33%)</b> Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains. In ICAPS2014.
+<ol class="org-ol">
+<li>任意の問題から1種類の繰り返し構造を自動で検出</li>
+<li><b>工場での製造スケジューリング (x1000 高速化, 探索空間 10<sup>6</sup> → 10<sup>274</sup>)</b></li>
+</ol></li>
+<li><b>難関国際会議(33%)</b> Solving Large-Scale Planning Problems by Decomposition and Macro Generation. In ICAPS2015.
+<ol class="org-ol">
+<li>複数の繰り返し構造をより柔軟・汎用に組み合わせる手法</li>
+<li><b>ベンチマークセット全体で高速化 (x3-4 高速化, 探索空間 10<sup>7</sup> → 10<sup>28</sup>)</b></li>
+</ol></li>
+<li><b>難関国際会議(26%)</b> Tiebreaking Strategies for A* Search: How to Explore the Final Frontier. In AAAI-2016. (JSAI 学生奨励賞)
+<ol class="org-ol">
+<li>コストゼロの辺がグラフ探索に引き起こす問題を解決 <b>(探索空間 10<sup>6</sup> → 10<sup>88</sup>)</b></li>
+</ol></li>
+<li><b>難関論文誌(12%)</b>   Tie-Breaking Strategies for Cost-Optimal Best First Search. Journal of Artificial Intelligence Research 58 (2017): 67-121.
+<ol class="org-ol">
+<li>(3.) に加え タイブレーキング と 非最適コスト探索の関連性を指摘, さらに性能向上</li>
+</ol></li>
+<li><b>難関国際会議(33%)</b> Exploration Among and Within Plateaus in Greedy Best-First Search. In ICAPS2017.
+<ol class="org-ol">
+<li>非最適コスト探索をフラクタルを用いて改善</li>
+<li>プラトー内均一化とプラトー間均一化の直交性を実証</li>
+</ol></li>
+<li><b>難関国際会議(25%)</b> Efficient Optimal Search under Expensive Edge Cost Computation. In IJCAI-2017.
+<ol class="org-ol">
+<li>辺コストの動的計算が必要な問題に対して高速な最適アルゴリズムDEA*</li>
+</ol></li>
+<li><b>国際ワークショップ(60%)</b> Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back).
+Knowledge Engineering for Planning and Scheduling (KEPS) Workshop
+<ol class="org-ol">
+<li>画像から命題を自動生成して記号的AIで組合せ最適化問題を解き、画像で出力するシステム</li>
+</ol></li>
+</ol>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline68" class="outline-2">
+<h2 id="orgheadline68"><span class="section-number-2">12</span> 付録</h2>
+<div class="outline-text-2" id="text-12">
+<div class="expanded">
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline49">12.1. 既存システムとの違い (追加)</a></li>
+<li><a href="#orgheadline50">12.2. Learning from Observation との違い</a></li>
+<li><a href="#orgheadline51">12.3. AIプランニングの <b><i>Killer App</i></b></a></li>
+<li><a href="#orgheadline52">12.4. 古典プランニング問題 (決定的,完全情報) &#x2013; Blocksworld</a></li>
+<li><a href="#orgheadline53">12.5. 古典プランニングを研究する意義は?</a></li>
+<li><a href="#orgheadline54">12.6. AIの倫理について</a></li>
+<li><a href="#orgheadline55">12.7. Gumbel-Softmax</a></li>
+<li><a href="#orgheadline56">12.8. ディープラーニング関連・LatPlan実装</a></li>
+<li><a href="#orgheadline57">12.9. 第五世代コンピュータとの違いは?</a></li>
+<li><a href="#orgheadline58">12.10. Explicit Graph と Implicit Graph との違い</a></li>
+<li><a href="#orgheadline59">12.11. 似たような研究は誰がやっているか</a></li>
+<li><a href="#orgheadline60">12.12. 国内で誰が似たようなことをやっているか</a></li>
+<li><a href="#orgheadline61">12.13. 汎用性を失わずに解く?</a></li>
+<li><a href="#orgheadline62">12.14. その研究は&#x2026;</a></li>
+<li><a href="#orgheadline63">12.15. HTN と ICAPS-15 の違い</a></li>
+<li><a href="#orgheadline64">12.16. Q&amp;A</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="outline-container-orgheadline49" class="outline-3">
+<h3 id="orgheadline49"><span class="section-number-3">12.1</span> 既存システムとの違い (追加)</h3>
+<div class="outline-text-3" id="text-12-1">
+<p>
+<b>NNで 直接問題を解くシステム</b>
+</p>
+
+<ul class="org-ul">
+<li>TSP [Hopfield and Tank, 1985], NeuroSolver [Bieszczad and Pagurek, 1998], Neural Turing Machine [Graves <i>et. al.</i>, 2014]
+<ul class="org-ul">
+<li>NNで解くが、入力はシンボリック (ニューロンが人の与えた状態変数に対応)</li>
+<li>完全性、最適性などの保証なし</li>
+</ul></li>
+</ul>
+
+<p>
+<b>NNを認識でなく探索中の枝刈り用に使うシステム</b>
+</p>
+
+<ul class="org-ul">
+<li>AlphaGo [Sievers 16], Rubik Cube [Arfaee et al., 2011], Planning [Satzger and Kramer, 2013]
+<ul class="org-ul">
+<li>LatPlan は NNを探索の外で使う</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline50" class="outline-3">
+<h3 id="orgheadline50"><span class="section-number-3">12.2</span> Learning from Observation との違い</h3>
+<div class="outline-text-3" id="text-12-2">
+<p>
+主にロボットの経路探索 (ローレベル制御) [Argall et al., 2009]
+</p>
+
+<p>
+ボードゲームの学習だが「マス目」など強い仮定 [Barbu et al., 2010; Kaiser, 2012; Kirk and Laird, 2016]
+</p>
+
+<p>
+Action Segmentation problem がある
+</p>
+
+<ul class="org-ul">
+<li>「映像の観察」を中心とするので、いつアクションが始まる/終わるのか解らない</li>
+
+<li>LatPlan には関係なし</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline51" class="outline-3">
+<h3 id="orgheadline51"><span class="section-number-3">12.3</span> AIプランニングの <b><i>Killer App</i></b></h3>
+<div class="outline-text-3" id="text-12-3">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span7">
+<div class="larger">
+<dl class="org-dl">
+<dt>人が高価or不可能な作業</dt><dd>原発, 宇宙空間, 火星, 深海</dd>
+<dt>正しさと最適性の理論保証が必要なミッションクリティカルシステム</dt><dd><p>
+     製造システム、運送 (時間=お金)
+</p>
+
+<p>
+人工衛星 (燃料使いきれば運用終了)
+</p>
+
+<p>
+間違った解は許されない
+</p></dd>
+<dt>思考過程を説明可能なシステム</dt><dd>レスキュー・宇宙船 (人間の安全がかかっている)</dd>
+</dl>
+
+</div>
+
+</div>
+<div class="span5">
+<p>
+
+</p>
+
+
+<div class="figure">
+<p><img src="img/static/gravity-m.jpg" alt="gravity-m.jpg" />
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-orgheadline52" class="outline-3">
+<h3 id="orgheadline52"><span class="section-number-3">12.4</span> 古典プランニング問題 (決定的,完全情報) &#x2013; Blocksworld</h3>
+<div class="outline-text-3" id="text-12-4">
+<embed src="img/plan.svg" type="image/svg+xml"  />
+
+<div class="larger">
+<p>
+非古典的なさまざまな拡張
+</p>
+
+<div class="alignright">
+<p>
+(並列アクション,POMDP,HTN&#x2026; どのAIの教科書にものっている)
+</p>
+
+</div>
+
+</div>
+</div>
+
+<div id="outline-container-orgheadline65" class="outline-4">
+<h4 id="orgheadline65"><span class="section-number-4">12.4.1</span> アクション = 条件付き状態遷移</h4>
+<div class="outline-text-4" id="text-12-4-1">
+<div class="org-center">
+<div class="xlarge">
+<p>
+アクション (move ?X ?Y)
+</p>
+
+</div>
+</div>
+
+<div class="org-center">
+<p>
+<b>?X</b>, <b>?Y</b> : 変数。 値 <b>BLOCK-A</b>, <b>BLOCK-B</b> などを適用して使う
+</p>
+
+<p>
+<b>条件</b> と <b>効果</b> で構成される
+</p>
+</div>
+
+
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span7">
+<blockquote>
+<p>
+<b>条件</b> : 実行に必要な条件を表す命題
+</p>
+
+<p>
+　(clear <b>?X</b>) : 積み木 <b>?X</b> の上が空
+</p>
+
+<p>
+　(clear <b>?Y</b>) : 積み木 <b>?Y</b> の上に空
+</p>
+
+<p>
+<b>効果</b> : 前後の状態の <b>差分</b> を表す命題
+</p>
+
+<p>
+　(on <b>?X</b> <b>?Y</b>) を <b>追加</b> : <b>?Y</b> の上は <b>?X</b>
+</p>
+
+<p>
+　(clear <b>?Y</b>) を <b>削除</b>
+</p>
+</blockquote>
+
+</div>
+<div class="span5">
+<p>
+
+</p>
+
+<div class="alignright">
+<div class="larger">
+<p>
+モデリング言語 <b>PDDL</b> で記述
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline66" class="outline-4">
+<h4 id="orgheadline66"><span class="section-number-4">12.4.2</span> プランニング = グラフ探索</h4>
+<div class="outline-text-4" id="text-12-4-2">
+<p>
+<b>ノード</b> : 状態 = 命題の集合 ⇒ <code>(on A B)</code>, <code>(clear A)</code> など
+</p>
+
+<p>
+<b>辺</b>     : アクション ⇒ <code>(move A B)</code> 等
+</p>
+
+
+<div class="figure">
+<p><img src="img/graph.png" alt="graph.png" />
+</p>
+</div>
+
+<div class="note">
+<p>
+*1 [Helmert, 2006] [Richter, 2010]
+</p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline53" class="outline-3">
+<h3 id="orgheadline53"><span class="section-number-3">12.5</span> 古典プランニングを研究する意義は?</h3>
+<div class="outline-text-3" id="text-12-5">
+
+<div class="figure">
+<p><img src="img/classical-meaning.png" alt="classical-meaning.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline54" class="outline-3">
+<h3 id="orgheadline54"><span class="section-number-3">12.6</span> AIの倫理について</h3>
+<div class="outline-text-3" id="text-12-6">
+<ul class="org-ul">
+<li>研究内容は 漠然とした「AI」のうち <b>グラフ探索</b> の研究</li>
+<li>AIの目的はプランナのゴールで定義される
+<ul class="org-ul">
+<li>AI自体は善悪の判断を行わない</li>
+<li>人が与えるゴールについての倫理的問題 (→ 兵器使用)</li>
+</ul></li>
+<li>価値判断は与えられる入力の中にある = 使用者の価値観/データのバイアスを反映</li>
+<li>悪用の問題はある。しかし、自分としては、災害救助ロボットなど、人道的な応用を目指している</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline55" class="outline-3">
+<h3 id="orgheadline55"><span class="section-number-3">12.7</span> Gumbel-Softmax</h3>
+<div class="outline-text-3" id="text-12-7">
+
+<div class="figure">
+<p><img src="img/keps17.png" alt="keps17.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline67" class="outline-4">
+<h4 id="orgheadline67"><span class="section-number-4">12.7.1</span> Gumbel-Softmax</h4>
+<div class="outline-text-4" id="text-12-7-1">
+
+<div class="figure">
+<p><img src="img/sae/state-ae.png" alt="state-ae.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline56" class="outline-3">
+<h3 id="orgheadline56"><span class="section-number-3">12.8</span> ディープラーニング関連・LatPlan実装</h3>
+<div class="outline-text-3" id="text-12-8">
+<p>
+詳しくは論文を
+</p>
+
+<p>
+Keras + TensorFlow
+</p>
+
+<p>
+1764(42x42)
+</p>
+
+<p>
+[→FC(4000,ReLu)→Batchnorm→Dropout(0.4)] × 2
+</p>
+
+<p>
+→FC(49,GumbelSoftmax) (variational loss)
+</p>
+
+<p>
+[→FC(4000,ReLu)→Batchnorm→Dropout(0.4)] × 2
+</p>
+
+<p>
+→1764(42x42) (loss: Binary crossentropy)
+</p>
+
+<p>
+　
+</p>
+
+<dl class="org-dl">
+<dt>なぜ全結合??</dt><dd><p>
+             論文の主題は <b>SAEで命題を作る方針がそもそもうまく行くかどうか</b>
+</p>
+
+<p>
+<b>→余計な要素を省いて限りなくシンプルに</b>
+</p></dd>
+
+<dt>8-パズルでの訓練</dt><dd><p>
+               可能な全状態 (362880) 中 <b>12000 枚</b> で訓練 → 汎化能力あり
+</p>
+
+<p>
+Adam optimizer (learning rate:0.001)
+</p></dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orgheadline57" class="outline-3">
+<h3 id="orgheadline57"><span class="section-number-3">12.9</span> 第五世代コンピュータとの違いは?</h3>
+<div class="outline-text-3" id="text-12-9">
+<p>
+第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
+</p>
+
+<p>
+ハードの問題ではなく、 根本的なソフトウェア技術、 <b>探索技術</b> が未発達だった
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">第五世代</th>
+<th scope="col" class="org-left">現在</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">後方 <b>全探索</b> +バックトラック</td>
+<td class="org-left"><b>前方ヒューリスティック探索</b></td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">枝刈りで指数爆発を抑える</td>
+</tr>
+
+<tr>
+<td class="org-left">Prologベース</td>
+<td class="org-left">C/C++で高度に最適化されたプログラム</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">State packing, 決定木, mutex&#x2026;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+今はベンチマーク問題 <b>1104問</b> のうち 5分で <b>800問</b> 前後解ける
+</p>
+
+<p>
+仮に <b>当時のソフトウェア</b> を <b>現在のハードウェア</b> で動かしたとしても、 <b>100問も解けない</b>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline58" class="outline-3">
+<h3 id="orgheadline58"><span class="section-number-3">12.10</span> Explicit Graph と Implicit Graph との違い</h3>
+<div class="outline-text-3" id="text-12-10">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span4">
+<p>
+<b>カーナビ、ソーシャルグラフなど</b> : Explicit Graph
+</p>
+
+<p>
+グラフ全体がメモリ(〜数ペタバイト)または二次記憶(〜数ゼタバイト)に収まる
+</p>
+
+<p>
+参考: 2012年の全世界のデジタルデータ: 数ZB (1ZB = 10<sup>21</sup> バイト)
+</p>
+
+<p>
+AI and Web, social graph
+</p>
+
+</div>
+<div class="span8">
+<p>
+<b>プランニングにおける探索グラフ</b> : Implicit Graph
+</p>
+
+<p>
+地球上の全計算資源を集めても二次記憶に入らない
+</p>
+
+<p>
+グラフのノード数は状態変数に対して <b>指数的に増加</b>
+</p>
+
+<p>
+動的メモリ確保+優れた枝刈りをしないと問題が解けない
+</p>
+
+<p>
+探索空間サイズの例:
+</p>
+
+<p>
+3x3x3のルービックキューブ: 4.32 x 10<sup>19</sup> = 4 EB
+</p>
+
+<p>
+4x4x4のルービックキューブ: 7.40 x 10<sup>45</sup> ＞ 10<sup>24</sup> ZB
+</p>
+
+<p>
+5x5x5のルービックキューブ: 2.83 x 10<sup>74</sup>
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="note">
+<p>
+Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
+</p>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline59" class="outline-3">
+<h3 id="orgheadline59"><span class="section-number-3">12.11</span> 似たような研究は誰がやっているか</h3>
+<div class="outline-text-3" id="text-12-11">
+<p>
+<b>ICAPS</b>, <b>SoCS</b> : 例年200人-300人の参加者を集めており大変盛況, 
+</p>
+
+<p>
+<b>AAAI</b>, <b>IJCAI</b> : プランニングに関する論文は例年数十本採択 Proceedingsの一つの章
+</p>
+
+<p>
+<b>JAIR</b>, <b>AIJ</b> (トップジャーナル) : 同様に多い (JAIR Volume 54: 12本中 2本 がプランニング)
+</p>
+
+<p>
+<b>主な研究室</b>:
+</p>
+
+<p>
+MIT CSAIL (Brian Williams), Carnegie-Mellon, 
+</p>
+
+<p>
+NASA (NASA Ames および NASA/Caltech JPL のそれぞれに20名以上の研究者)
+</p>
+
+<p>
+欧州宇宙機関(ESA)
+</p>
+
+<p>
+King's College London, U. Freiburg, U. Bazel, U. Toronto, U. Ben-Gurion
+</p>
+
+<p>
+指導教員は NASA JPL AI Lab の元メンバー
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline60" class="outline-3">
+<h3 id="orgheadline60"><span class="section-number-3">12.12</span> 国内で誰が似たようなことをやっているか</h3>
+<div class="outline-text-3" id="text-12-12">
+<p>
+<b>この専門分野をやっている人はほぼいない</b>
+</p>
+
+<p>
+石田 亨先生 (京都大学) &#x2014; 以前は日本のA*系の探索手法の代表者, R. E. Korf と共著
+</p>
+
+<ul class="org-ul">
+<li>R.E. Korf &#x2014; Alex Fukunaga &#x2014; 浅井 政太郎</li>
+</ul>
+
+<p>
+岸本先生 (探索) (東工大 → IBM Research Ireland)
+</p>
+
+<p>
+少し離れているが似ている研究というと
+</p>
+
+<ul class="org-ul">
+<li>SATソルバ, ASP(解集合)ソルバ, CPソルバ系, 推論系 &#x2013; logic and reasoning :
+田中 哲朗先生 (総合文化研究科), 鍋島英知先生 (山梨大), 田村直之先生, 平山勝利先生 (神戸大), 田沼先生 (東工大)</li>
+<li>井上克己先生 (NII) &#x2014; Lemma Reusing for SAT based Planning and Scheduling (ICAPS10)</li>
+<li>AAMAS マルチエージェント, CSP : 横尾誠先生 (九大)</li>
+<li>ERATO グラフ探索(explicit graph)系, 大規模知識処理系 : 河原林健一先生 (NII), 秋葉先生, 湊先生(北海道)</li>
+<li>ゲーム系 金子先生 (総合文化研究科)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline61" class="outline-3">
+<h3 id="orgheadline61"><span class="section-number-3">12.13</span> 汎用性を失わずに解く?</h3>
+<div class="outline-text-3" id="text-12-13">
+<p>
+<b>No Free Lunch 定理</b>: 最適化アルゴリズムの性能は <b>全問題の平均を取れば</b> 全て同じ
+</p>
+
+<p>
+Q. NFL定理のもとで「汎用性を失わずに高速に解く」というのは不可能?
+</p>
+
+<p>
+A. NFL定理は確かにそのように主張するが、プランニング分野の意味する「汎用性」は
+</p>
+
+<p>
+<b>実問題(人間にとって有意義な問題の集合)</b> における汎用性である。
+</p>
+
+<div class="org-center">
+<p>
+全プランニング問題の集合 ⊇ 人間にとって有意義な問題の集合
+</p>
+</div>
+
+<p>
+従って、 <b>全問題の平均を取れば</b> という前提が成り立たない。
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline62" class="outline-3">
+<h3 id="orgheadline62"><span class="section-number-3">12.14</span> その研究は&#x2026;</h3>
+<div class="outline-text-3" id="text-12-14">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">重要度</th>
+<th scope="col" class="org-left">評価</th>
+<th scope="col" class="org-left">オリジナリティ</th>
+<th scope="col" class="org-left">過去のインパクト</th>
+<th scope="col" class="org-left">未来のインパクト</th>
+<th scope="col" class="org-left">動機</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">ACP</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">発表した</td>
+<td class="org-left">ループの概念を検出</td>
+<td class="org-left">大規模問題</td>
+<td class="org-left">産業応用</td>
+<td class="org-left">人間プログラマでは追いつかない</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">難関学会</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">CAP</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">難関学会</td>
+<td class="org-left">問題分割手法</td>
+<td class="org-left">大規模問題</td>
+<td class="org-left">産業応用</td>
+<td class="org-left">より一般化したい</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">発表した</td>
+<td class="org-left">柔軟な統合手法</td>
+<td class="org-left">それまでの分割系の手法より</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">広範囲に分割</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">AAAI16</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">AAAI査読者:</td>
+<td class="org-left">同コストのノードの分類</td>
+<td class="org-left">70年代からの定説を覆す</td>
+<td class="org-left">広範なグラフ探索問題</td>
+<td class="org-left">下界以外で改善したかった</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2/3 人に絶賛</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">通常と異なる方法で性能改善</td>
+<td class="org-left">基礎技術</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">(+ JSAI学生奨励賞)</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">コスト0は実応用によく使われる</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">IJCAI17</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">IJCAI査読者:</td>
+<td class="org-left">辺コストが未知のドメイン</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">医療福祉での実問題</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">明確な動悸,十分な実験</td>
+<td class="org-left">という問題設定</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">全ての辺を計算できない</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">KEPS17</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">IJCAI査読者:</td>
+<td class="org-left">画像から自動で命題を生成</td>
+<td class="org-left">ニューラルは記号と相容れない</td>
+<td class="org-left">ニューラル・記号複合システム</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">「重要な方向性」</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">シンボルグラウンディング</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgheadline63" class="outline-3">
+<h3 id="orgheadline63"><span class="section-number-3">12.15</span> HTN と ICAPS-15 の違い</h3>
+<div class="outline-text-3" id="text-12-15">
+<p>
+HTNは人間が問題分割を行う
+人件費を考えると非常にコストパフォーマンスが悪い
+→ 自動で問題分割
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline64" class="outline-3">
+<h3 id="orgheadline64"><span class="section-number-3">12.16</span> Q&amp;A</h3>
+<div class="outline-text-3" id="text-12-16">
+<ul class="org-ul">
+<li>Q. 探索空間の比較について、なぜ「以前」の数字がスライドによって変わるの?</li>
+<li>A. 論文の中で使った実験設定が異なるからです。</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2017-06-05 月 11:27</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
