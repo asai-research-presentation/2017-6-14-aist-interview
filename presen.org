@@ -310,17 +310,25 @@
 #+end_xlarge
 #+end_alignright
 
-** 目的達成型知能のための自動プランナ (≠ モータ制御)
+* 目的達成型知能のための自動プランナ (≠ モータ制御)
 
  [[png:planning/1]]
 
-*** 目的達成型知能のための自動プランナ (≠ モータ制御)
+** 目的達成型知能のための自動プランナ (≠ モータ制御)
 
-  [[png:planning/2]]
+ [[png:planning/2]]
 
-*** 目的達成型知能のための自動プランナ (≠ モータ制御)
+** 目的達成型知能のための自動プランナ (≠ モータ制御)
 
-  [[png:planning/final]]
+ [[png:planning/final]]
+
+** Xerox PARC Printer: */Hypermoduler/* Systems
+
+[[spng:xerox]]
+
+#+begin_note
+Crawford, Lara S., et al. "On-Line Reconfigurable Machines." AI Magazine 34.3 (2013): 73-88.
+#+end_note
 
 ** プランニング(自動行動計画)分野の位置づけ
 
@@ -446,9 +454,7 @@ Neural-Symbolic複合システム
 
 + NNが表す関数　 $y=f(x)$
 
-+ 学習 ≡ 誤差 $||y-y^*||$ を最小化する最適化問題
-
-  + 一言で言えば *関数近似機* (*銀の弾ではない*)
++ 学習 ≡ 誤差 $||y-y^*||$ を最小化する最適化問題 --- *関数近似機* (*銀の弾ではない*)
 
 ** 知的機械を作る上で深層学習の果たす役割
 
