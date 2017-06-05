@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="921"
-   height="644.52209"
-   viewBox="0 0 921.00002 644.52211"
+   height="630.52209"
+   viewBox="0 0 921.00002 630.52211"
    id="svg4467"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -363,16 +363,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="498.85568"
-     inkscape:cy="243.65582"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="418.04348"
+     inkscape:cy="263.12931"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="817"
-     inkscape:window-x="768"
-     inkscape:window-y="25"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
      inkscape:window-maximized="1"
      units="px"
      fit-margin-top="0"
@@ -3859,7 +3859,7 @@
              y="598.37494">h=h*</tspan></text>
         <text
            xml:space="preserve"
-           style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.25px;line-height:98.00000191%;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP Bold';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:98.00000191%;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            x="178.56549"
            y="547.75708"
            id="text17956"
@@ -3969,7 +3969,7 @@
     </g>
     <g
        id="g27884"
-       transform="matrix(0.59010243,0,0,0.59010243,141.59003,380.26342)">
+       transform="matrix(0.59010243,0,0,0.59010243,141.59003,368.26342)">
       <image
          width="312.57617"
          height="221.18336"
@@ -4016,22 +4016,22 @@
     <text
        sodipodi:linespacing="125%"
        id="text7944"
-       y="666.14996"
+       y="654.14996"
        x="503.23645"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.91431427px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.91192818;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        xml:space="preserve"><tspan
-         y="666.14996"
+         y="654.14996"
          x="503.23645"
          id="tspan7946"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Heavy'"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Heavy'"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
    id="tspan8057">発見2.</tspan> ボンドパーコレーション(BIP)</tspan><tspan
-         y="693.54285"
+         y="681.54285"
          x="503.23645"
          sodipodi:role="line"
          id="tspan8055">フラクタルを使った均一化手法</tspan><tspan
-         y="720.93573"
+         y="708.93573"
          x="503.23645"
          sodipodi:role="line"
          id="tspan8063">→ 性能向上の理由: 探索木の幅を削減</tspan></text>
@@ -4367,8 +4367,8 @@
          x="25.944649"
          sodipodi:role="line"
          id="tspan7934"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Heavy'"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Heavy'"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
    id="tspan7932">発見1. </tspan>2つの直行した均一化方法がある。</tspan><tspan
          y="683.70105"
          x="25.944649"
@@ -4377,35 +4377,32 @@
          y="711.09393"
          x="25.944649"
          sodipodi:role="line"
-         id="tspan7938">→ <tspan
-   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';fill:#ff0000"
-   id="tspan7940">プラトー間</tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-   id="tspan9077">均一化</tspan>と <tspan
-   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';fill:#ff0000"
-   id="tspan7942">プラトー内</tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
-   id="tspan9079">均一化</tspan></tspan><tspan
+         id="tspan7938"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c'">→ <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c';fill:#ff0000"
+   id="tspan7940">プラトー間</tspan>均一化と <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c';fill:#ff0000"
+   id="tspan7942">プラトー内</tspan>均一化</tspan><tspan
          y="738.48682"
          x="25.944649"
          sodipodi:role="line"
          id="tspan7948"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'">→同じ均一化手法を二通りに利用出来る</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c'">→同じ均一化手法を二通りに利用出来る</tspan><tspan
          y="765.87976"
          x="25.944649"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.91431427px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c'"
          id="tspan8329">→直行だから同時利用してOK! → 性能向上</tspan></text>
     <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.74050713px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c';text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:end;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        x="923.32336"
-       y="899.69409"
+       y="887.69409"
        id="text8065"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="923.32336"
-         y="899.69409"
+         y="887.69409"
          id="tspan8069">制限時間内で解けた問題数: 192 → <tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
    id="tspan8071">237.7</tspan></tspan></text>
@@ -4450,19 +4447,19 @@
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.08812332px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        x="730.01434"
-       y="921.52386"
+       y="909.52386"
        id="text8311"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="730.01434"
-         y="921.52386"
+         y="909.52386"
          id="tspan8337">参考: [Xie et. al. 2014] 深さ均一化 223.9</tspan><tspan
          sodipodi:role="line"
          x="730.01434"
-         y="946.63403"
+         y="934.63403"
          id="tspan8335" /></text>
     <g
-       transform="matrix(1.768005,0,0,-1.3098088,709.80743,873.41768)"
+       transform="matrix(1.768005,0,0,-1.3098088,709.80743,861.41768)"
        inkscape:label="p20-intra"
        id="g8347">
       <g
@@ -5023,57 +5020,57 @@
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.14404106px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        x="785.29736"
-       y="758.6842"
+       y="746.6842"
        id="text8999"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9001"
          x="785.29736"
-         y="758.6842">ベースライン</tspan></text>
+         y="746.6842">ベースライン</tspan></text>
     <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.14404106px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        x="784.01477"
-       y="791.03638"
+       y="779.03638"
        id="text9003"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9005"
          x="784.01477"
-         y="791.03638">深さ均一</tspan></text>
+         y="779.03638">深さ均一</tspan></text>
     <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.14404106px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        x="778.00928"
-       y="825.47137"
+       y="813.47137"
        id="text9023"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9025"
          x="778.00928"
-         y="825.47137">BIP</tspan></text>
+         y="813.47137">BIP</tspan></text>
     <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.08812332px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        x="440.95102"
-       y="959.93536"
+       y="945.93536"
        id="text9083"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="440.95102"
-         y="959.93536"
+         y="945.93536"
          id="tspan9110">1. 未知の均一化アルゴリズムに汎用に適用できる法則</tspan><tspan
          sodipodi:role="line"
          x="440.95102"
-         y="985.04553"
-         id="tspan9087">2. フラクタルを用いてより良い探索が出来る可能性</tspan></text>
+         y="971.04553"
+         id="tspan9087">2. フラクタルを用いてより良い探索が出来る</tspan></text>
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:3.54402018;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
        id="rect8139-8"
        width="507.01236"
        height="68.201111"
        x="431.56512"
-       y="933.63226"
+       y="919.63226"
        rx="9.2672834"
        ry="11.98679" />
   </g>
