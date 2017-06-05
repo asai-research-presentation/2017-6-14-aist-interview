@@ -107,15 +107,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="817"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="0.44874541"
      inkscape:cx="738.65991"
      inkscape:cy="382.13369"
-     inkscape:window-x="768"
-     inkscape:window-y="25"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
      inkscape:window-maximized="1"
      inkscape:current-layer="g10"
      inkscape:snap-global="false" /><g
@@ -567,5 +567,7 @@
          sodipodi:role="line"
          x="40.886059"
          y="-255.0239"
-         id="tspan4275"> 推論技術を組合せないといけない。</tspan></text>
+         id="tspan4275"> <tspan
+   style="fill:#ff0000"
+   id="tspan3784">思考</tspan>を組合せないといけない。</tspan></text>
 </g></svg>

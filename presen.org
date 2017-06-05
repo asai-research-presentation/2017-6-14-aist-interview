@@ -467,27 +467,23 @@ Neural-Symbolic複合システム
 [[png:machines/4]]
 
 #+begin_alignright
-深層学習でカバーできない部分は?
++ 深層学習でカバーできない部分には 記号的AIが必要
 #+end_alignright
 
-* 記号的AI
+* 深層学習でカバーできない部分: 私の研究してきた記号的AI
 
 #+begin_container-fluid
 #+begin_row-fluid
 #+begin_span7
-#+begin_larger
-+ 論理による推論 :: 命題論理, 一階述語論理, 時制論理, ベイズ論理 etc
-+ 組合せ爆発 :: 有限のシンボルでも発生
-+ 正しさと最適性の理論保証が必要なミッションクリティカルシステム :: 
-     製造システム、運送 (時間=お金)
-
-     人工衛星 (有限の燃料)
-
-     間違った解は許されない
-+ 推論過程を説明可能なシステム :: 
++ 手段: 論理による推論 :: 命題, 一階述語, 時制論理, ベイズ論理 etc
++ 記号(シンボル) :: 命題や述語の */識別子/*
++ 問題: 組合せ爆発 :: 有限のシンボルでも発生
++ アルゴリズム :: 木/グラフ探索、動的計画、分枝限定
++ 特徴: 完全性, 健全性, 最適性の理論保証 :: 
+     製造システム、運送 (時間=お金)、人工衛星 (有限の燃料)、
+     間違った解が許されないミッションクリティカルシステム
++ 特徴: 推論過程を説明可能 :: 
      レスキュー・宇宙船 (人間の安全)
-+ アルゴリズム :: 木探索、グラフ探索、分枝限定法
-#+end_larger
 
 # [[sjpg:martian]]
 
@@ -573,7 +569,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 様々な Atari Game につかえる汎用フレームワーク (Invader, Packman…) だが
 + 強化学習は 学習結果に盲目に従う
 + Atariゲームは *脊髄反射で生き残ることが可能*
-+ → *複雑な論理思考はいらない!*
++ → *複雑な論理思考は実現できていない*
   
 # 実際 *Sokoban など論理思考ゲームでは性能が悪い* ↔ 倉庫番ソルバ
 
@@ -626,7 +622,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 [[png:keps17-4]]
 
-* 産業応用: *記号的推論により様々な分野にブレークスルー*
+* 産業応用: *深層学習+記号的推論 = ブレークスルー*
 
 #+begin_xlarge
 定形流れ作業以上の産業用ロボ
@@ -635,7 +631,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+BEGIN_container-fluid
 #+BEGIN_row-fluid
 #+BEGIN_span8
-+ カメラ → 論理表現 → 記号的推論 → 行動
++ カメラ → *論理表現 → 記号的推論* → 行動
 
   + 動的な環境や故障、命令
 
@@ -651,7 +647,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+END_row-fluid
 #+END_container-fluid
 
-* 産業応用: *記号的推論により様々な分野にブレークスルー*
+* 産業応用: *深層学習+記号的推論 = ブレークスルー*
 
 #+begin_xlarge
 人工無能以上の対話ボット
@@ -659,17 +655,17 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 #+BEGIN_container-fluid
 #+BEGIN_row-fluid
-#+BEGIN_span6
+#+BEGIN_span7
 + 人工無能 : 従来型対話ボットの総称
-  + Apple Siri (ルールベース)
-  + Microsoft りんな (ニューラル)
   + 反射的応答 = 論理を持たない
-+ テキスト → 論理表現 → 記号的推論 → 返答
-  + 論理に基づき *思考する* ボット
-#+END_span6
-#+BEGIN_span6
+  + Apple Siri (人の書いた返答データベース)
+  + Microsoft りんな (学習した返答ルール)
++ テキスト → *論理表現 → 記号的推論* → 返答
+  + 論理に基づき *思考する* ボットへ
+#+END_span7
+#+BEGIN_span5
 [[sjpg:hal-speaking]]
-#+END_span6
+#+END_span5
 #+END_row-fluid
 #+END_container-fluid
 
@@ -704,19 +700,16 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 ** 既存システムとの違い (追加)
 
-/NNで 直接問題を解くシステム/
+*NNで 直接問題を解くシステム*
 
-TSP [Hopfield and Tank, 1985], NeuroSolver [Bieszczad and Pagurek, 1998]
++ TSP [Hopfield and Tank, 1985], NeuroSolver [Bieszczad and Pagurek, 1998], Neural Turing Machine [Graves /et. al./, 2014]
+  + NNで解くが、入力はシンボリック (ニューロンが人の与えた状態変数に対応)
+  + 完全性、最適性などの保証なし
 
---- NNで解くが、入力はシンボリック (それぞれのニューロンが人の与えた状態変数に対応)
+*NNを認識でなく探索中の枝刈り用に使うシステム*
 
---- 完全性、最適性などの保証なし
-
-/NNを認識でなく探索の枝刈りの中で使うシステム/
-
-AlphaGo [Sievers 16], [Arfaee et al., 2011], [Satzger and Kramer, 2013]
-
---- LatPlan は NNを探索の外で使う
++ AlphaGo [Sievers 16], Rubik Cube [Arfaee et al., 2011], Planning [Satzger and Kramer, 2013]
+  + LatPlan は NNを探索の外で使う
 
 ** Learning from Observation との違い
 
@@ -726,9 +719,9 @@ AlphaGo [Sievers 16], [Arfaee et al., 2011], [Satzger and Kramer, 2013]
 
 Action Segmentation problem がある
 
---- 「映像の観察」を中心とするので、いつアクションが始まる/終わるのか解らない
++ 「映像の観察」を中心とするので、いつアクションが始まる/終わるのか解らない
 
---- LatPlan には関係なし
++ LatPlan には関係なし
 
 ** AIプランニングの */Killer App/*
 
@@ -956,18 +949,18 @@ Keras + TensorFlow
  #+BEGIN_container-fluid
  #+BEGIN_row-fluid
  #+BEGIN_span4
- *カーナビ、ソーシャルグラフなど* : Explicit Graph Search
+ *カーナビ、ソーシャルグラフなど* : Explicit Graph
 
  グラフ全体がメモリ(〜数ペタバイト)または二次記憶(〜数ゼタバイト)に収まる
 
- 参考: 2012年の全世界のデジタルデータ: 数ゼタバイト (1ZB = 10^21 バイト)
+ 参考: 2012年の全世界のデジタルデータ: 数ZB (1ZB = 10^21 バイト)
 
- AI and Web の分野, Social graph の解析など
+ AI and Web, social graph
  #+END_span4
  #+BEGIN_span8
- *プランニングにおける探索グラフ* : Implicit Graph Search
+ *プランニングにおける探索グラフ* : Implicit Graph
 
- 地球に存在する全計算資源を集めても二次記憶に入らない
+ 地球上の全計算資源を集めても二次記憶に入らない
 
  グラフのノード数は状態変数に対して *指数的に増加*
 
@@ -975,9 +968,9 @@ Keras + TensorFlow
 
  探索空間サイズの例:
 
- 3x3x3のルービックキューブ: 4.32 x 10^19 = 4 エクサバイト
+ 3x3x3のルービックキューブ: 4.32 x 10^19 = 4 EB
 
- 4x4x4のルービックキューブ: 7.40 x 10^45 ＞ 10^24 ゼタバイト
+ 4x4x4のルービックキューブ: 7.40 x 10^45 ＞ 10^24 ZB
 
  5x5x5のルービックキューブ: 2.83 x 10^74
  #+END_span8
@@ -990,19 +983,21 @@ Keras + TensorFlow
  Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
  #+END_note
 
-** 似たような研究は誰がやっていますか どこでやられていますか
+** 似たような研究は誰がやっているか
 
  *ICAPS*, *SoCS* : 例年200人-300人の参加者を集めており大変盛況, 
 
  *AAAI*, *IJCAI* : プランニングに関する論文は例年数十本採択 Proceedingsの一つの章
 
- *JAIR*, *AIJ* : 論文誌でもプランニングの論文は多い (JAIR Volume 54: 12本中 2本 がプランニング論文)
+ *JAIR*, *AIJ* (トップジャーナル) : 同様に多い (JAIR Volume 54: 12本中 2本 がプランニング)
 
  *主な研究室*:
 
  MIT CSAIL (Brian Williams), Carnegie-Mellon, 
 
- NASA (NASA Ames および NASA/Caltech JPL のそれぞれに20名以上の研究者), 欧州宇宙機関(ESA)
+ NASA (NASA Ames および NASA/Caltech JPL のそれぞれに20名以上の研究者)
+
+ 欧州宇宙機関(ESA)
 
  King's College London, U. Freiburg, U. Bazel, U. Toronto, U. Ben-Gurion
 
@@ -1010,9 +1005,11 @@ Keras + TensorFlow
 
 ** 国内で誰が似たようなことをやっているか
 
-*この専門分野をやっている人は少ない*
+*この専門分野をやっている人はほぼいない*
 
-石田 亨先生 (京都大学) --- 以前は日本のA*系の探索手法の代表者, Richard Korf と共著, いまはやっていない
+石田 亨先生 (京都大学) --- 以前は日本のA*系の探索手法の代表者, R. E. Korf と共著
+
++ R.E. Korf --- Alex Fukunaga --- 浅井 政太郎
 
 岸本先生 (探索) (東工大 → IBM Research Ireland)
 
@@ -1021,13 +1018,9 @@ Keras + TensorFlow
 + SATソルバ, ASP(解集合)ソルバ, CPソルバ系, 推論系 -- logic and reasoning :
   田中 哲朗先生 (総合文化研究科), 鍋島英知先生 (山梨大), 田村直之先生, 平山勝利先生 (神戸大), 田沼先生 (東工大)
 + 井上克己先生 (NII) --- Lemma Reusing for SAT based Planning and Scheduling (ICAPS10)
-+ AAMAS マルチエージェント, CSP : 九大 横尾誠先生
-+ ERATO (同じくグラフ探索をやっているが、explicit graph) : 河原林健一先生 (NII), 秋葉先生
++ AAMAS マルチエージェント, CSP : 横尾誠先生 (九大)
++ ERATO グラフ探索(explicit graph)系, 大規模知識処理系 : 河原林健一先生 (NII), 秋葉先生, 湊先生(北海道)
 + ゲーム系 金子先生 (総合文化研究科)
-
-事情: 自分の指導教官(Alex Fukunaga)がアメリカから飛んできた、もともと日本にいなかった
-
-Richard Korf --- Alex Fukunaga --- 浅井 政太郎
 
 ** 汎用性を失わずに解く?
 
