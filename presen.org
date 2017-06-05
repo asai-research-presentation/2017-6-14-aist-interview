@@ -324,7 +324,7 @@
 
 ** Xerox PARC Printer: */Hypermoduler/* Systems
 
-[[spng:xerox]]
+[[png:xerox]]
 
 #+begin_note
 Crawford, Lara S., et al. "On-Line Reconfigurable Machines." AI Magazine 34.3 (2013): 73-88.
