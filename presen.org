@@ -202,7 +202,7 @@
  #+END_row-fluid
   #+END_container-fluid
 
-*** 誰?
+*** 誰?                                                            :noexport:
 
   #+BEGIN_container-fluid
   #+BEGIN_row-fluid
@@ -222,7 +222,7 @@
  #+END_row-fluid
   #+END_container-fluid
 
-*** 誰?
+*** 誰?                                                            :noexport:
 
   #+BEGIN_container-fluid
   #+BEGIN_row-fluid
@@ -280,37 +280,6 @@
  #+end_span8
  #+end_row-fluid
  #+end_container-fluid
-
-** 知的機械の「クラス」
-
-*** 知的機械の「クラス」
-
-[[png:machines/1]]
-
-*** 知的機械の「クラス」
-
-[[png:machines/2]]
-
-*** 目的達成型機械
-
-反射的に動くロボットでは *複雑なゴールを設定できない*
-
-#+begin_quote
-*瓦礫* に埋もれた *骨折・出血* している被災者を *なるべく早く* 病院に運ぶ。
-#+end_quote
-#+begin_quote
-*救急車* を先に呼んでおき、 *患者を傷つけない* ように, *素早く* , *瓦礫* を *崩
-れないよう* に *どけて*, *止血* し, *当て木* し, *担架に乗せ* て, ちょうどきた
-*救急車* に *隊員と協力* して運び入れる。
-#+end_quote
-
-#+begin_alignright
-#+begin_xlarge
-+ → 目的達成/熟慮型の知能が必要
-#+end_xlarge
-
-熟慮: deliberation の訳
-#+end_alignright
 
 * 目的達成型知能のための自動プランナ (≠ モータ制御)
 
@@ -430,7 +399,7 @@ Neural-Symbolic複合システム
 
 [[png:deeplearning/image-task]]
 
-** ニューラルネットの役割
+** ニューラルネットの役割                                          :noexport:
 
 #+begin_center
 「直感的な」問題を解く *関数* を学習すること
@@ -447,6 +416,38 @@ Neural-Symbolic複合システム
 + NNが表す関数　 $y=f(x)$
 
 + 学習 ≡ 誤差 $||y-y^*||$ を最小化する最適化問題 --- *関数近似機* (*銀の弾ではない*)
+
+** 知的機械を作る上で深層学習の果たす役割
+
+*** 知的機械を作る上で深層学習の果たす役割
+
+[[png:machines/1]]
+
+*** 知的機械を作る上で深層学習の果たす役割
+
+[[png:machines/2]]
+
+*** 目的達成型機械                                                 :noexport:
+
+反射的に動くロボットでは *複雑なゴールを設定できない*
+
+#+begin_quote
+*瓦礫* に埋もれた *骨折・出血* している被災者を *なるべく早く* 病院に運ぶ。
+#+end_quote
+#+begin_quote
+*救急車* を先に呼んでおき、 *患者を傷つけない* ように, *素早く* , *瓦礫* を *崩
+れないよう* に *どけて*, *止血* し, *当て木* し, *担架に乗せ* て, ちょうどきた
+*救急車* に *隊員と協力* して運び入れる。
+#+end_quote
+
+#+begin_alignright
+#+begin_xlarge
++ → 目的達成/熟慮型の知能が必要
+#+end_xlarge
+
+熟慮: deliberation の訳
+#+end_alignright
+
 
 ** 知的機械を作る上で深層学習の果たす役割
 

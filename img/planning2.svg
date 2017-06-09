@@ -107,7 +107,7 @@
     </marker>
     <path
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.60360307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#Arrow1Lend);enable-background:accumulate"
-       d="M 142.79637,504.16851 263.67916,479.50049"
+       d="M 0,0 263.67916,479.50049"
        id="path5489"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -115,7 +115,7 @@
        inkscape:connection-start="#path4162-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.60360307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 125.9739,588.00005 3.8286,-70.86566"
+       d="M 0,0 0,0"
        id="path4629"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -153,7 +153,7 @@
     </marker>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.60360307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 22.538353,511.02762 92.437577,82.29265"
+       d="M 0,0 0,0"
        id="path4631"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -281,16 +281,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="518.93077"
-     inkscape:cy="338.5799"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="555.6206"
+     inkscape:cy="322.66157"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="703"
-     inkscape:window-x="0"
-     inkscape:window-y="20"
+     inkscape:window-width="1440"
+     inkscape:window-height="817"
+     inkscape:window-x="768"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:snap-center="true"
@@ -309,7 +309,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -616,8 +616,8 @@
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.2190001;marker:none;enable-background:accumulate"
        id="rect5216"
-       width="296.96411"
-       height="269.59399"
+       width="279.96411"
+       height="199.59399"
        x="718.52478"
        y="237.47858"
        rx="6.4182005"
@@ -644,26 +644,7 @@
          id="tspan5254"
          x="1382"
          y="686" /></text>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot5280"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="translate(-19.78052,-115.51472)"><flowRegion
-         id="flowRegion5282"><rect
-           id="rect5284"
-           width="281.11835"
-           height="273.80713"
-           x="748.11896"
-           y="363.53491"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
-         id="flowPara5298"><flowSpan
-   id="flowSpan11842"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-align:start;writing-mode:lr-tb;text-anchor:start">プランニングの</flowSpan>主要国際会議:</flowPara><flowPara
-         id="flowPara11844">　International Conference on Automatd Planning and Scheduling (ICAPS) (1994-), </flowPara><flowPara
-         id="flowPara12797">　および AAAI, IJCAI</flowPara><flowPara
-         id="flowPara12799" /><flowPara
-         id="flowPara5294">主要研究グループ: MIT CSAIL, CMU, NASA/Caltech JPL, NASA Ames, 欧州宇宙機関(ESA)など</flowPara><flowPara
-         id="flowPara5296" /></flowRoot>    <text
+    <text
        sodipodi:linespacing="125%"
        id="text5543"
        y="148.15375"
@@ -801,7 +782,7 @@
        id="path4162-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.78299999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker4880)"
-       d="m 31.938681,539.87314 91.507569,2.37054"
+       d="m 32.15218,537.87867 91.18427,2.36217"
        id="path4623"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -811,7 +792,7 @@
        inkscape:connection-end-point="d4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.78299999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 131.38236,623.85796 3.8286,-70.86565"
+       d="m 131.27464,623.85181 3.82856,-70.86488"
        id="path3238"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -821,7 +802,7 @@
        inkscape:connection-start="#path4162-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.78299999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 27.946812,546.88553 92.437578,82.29266"
+       d="m 29.007226,545.82957 92.303194,82.17302"
        id="path3240"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -831,7 +812,7 @@
        inkscape:connection-end-point="d4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.78299999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
-       d="m 218.1331,630.89776 -75.12428,6.33228"
+       d="m 217.80571,628.92536 -74.80414,6.30529"
        id="path4635"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -905,7 +886,7 @@
          style="font-size:14px">move(部屋B,部屋C)</tspan></text>
     <path
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.78299999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#Arrow1Lend);enable-background:accumulate"
-       d="m 143.84873,550.02923 76.28685,70.54112"
+       d="m 144.90959,549.01018 76.1591,70.423"
        id="path5487"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -915,7 +896,7 @@
        inkscape:connection-end-point="d4" />
     <path
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.78299999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:url(#marker4980);enable-background:accumulate"
-       d="m 147.80661,543.73083 95.65514,9.28376"
+       d="m 148.13407,541.99216 95.32768,11.02243"
        id="path3262"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -975,7 +956,7 @@
          y="453.46448">グラフ探索</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5110)"
-       d="m 235.06026,616.42521 17.83505,-49.41358"
+       d="m 234.4279,616.17722 17.82245,-49.37867"
        id="path5108"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -1003,5 +984,20 @@
          x="-116.44365"
          y="448.47101"
          id="tspan5259">プランニングの主な手法:</tspan></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5674"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:27.5px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.49000001px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;"
+       transform="translate(-132.59154,-179.14208)"><flowRegion
+         id="flowRegion5676"><rect
+           id="rect5678"
+           width="270"
+           height="159"
+           x="865"
+           y="440.20288"
+           style="color:#000000;font-size:27.5px;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" /></flowRegion><flowPara
+         id="flowPara5680"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';letter-spacing:0px;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-size:27.5px;">主要研究グループ: MIT CSAIL, CMU, NASA/Caltech JPL, NASA Ames, 欧州宇宙機関(ESA)など</flowPara><flowPara
+         id="flowPara5682"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';letter-spacing:0px;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-size:27.5px;" /></flowRoot>  </g>
 </svg>
