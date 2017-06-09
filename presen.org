@@ -403,12 +403,6 @@ Neural-Symbolic複合システム
 
 * 深層学習
 
-とてもはやっている
-
-　
-
-　
-
 [[png:deeplearning/1]]
 
 ** 深層学習                                            :noexport:
@@ -587,7 +581,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 [[png:keps17]]
 
-** 業績7: 査読付きワークショップ KEPS (採択率60%)
+** 業績7: 査読付きワークショップ KEPS (採択率60%)                  :noexport:
 
 [[png:keps17-2]]
 
@@ -595,7 +589,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 [[png:keps17-3]]
 
-**                                                                 :noexport:
+** -                                                               :noexport:
 
 #+begin_xlarge
 つまり
@@ -616,11 +610,11 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 シンボルグラウンディング問題
 #+end_note
 
-* 今後の研究計画                                                   :noexport:
+* 今後の目標: このシステムを様々に拡張
 
 [[png:keps17-4]]
 
-* 産業応用: *深層学習+記号的推論 = ブレークスルー*                 :noexport:
+* 産業応用: *深層学習+記号的推論 = ブレークスルー*
 
 #+begin_xlarge
 定形流れ作業以上の産業用ロボ
@@ -645,7 +639,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+END_row-fluid
 #+END_container-fluid
 
-* 産業応用: *深層学習+記号的推論 = ブレークスルー*                 :noexport:
+* 産業応用: *深層学習+記号的推論 = ブレークスルー*
 
 #+begin_xlarge
 人工無能以上の対話ボット
