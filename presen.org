@@ -436,10 +436,6 @@ Neural-Symbolic複合システム
 
 [[png:deeplearning/image-task]]
 
-** 認知タスクで人間に匹敵する精度
-
-[[png:deeplearning/nlp-task]]
-
 ** ニューラルネットの役割
 
 #+begin_center
@@ -469,10 +465,10 @@ Neural-Symbolic複合システム
 [[png:machines/4]]
 
 #+begin_alignright
-+ 深層学習でカバーできない部分には 記号的AIが必要
++ 深層学習でカバーできない部分には 記号的AI(プランニング)が必要
 #+end_alignright
 
-* 深層学習でカバーできない部分: 私の研究してきた記号的AI
+* 深層学習でカバーできない部分: 私の研究してきた記号的AI           :noexport:
 
 #+begin_container-fluid
 #+begin_row-fluid
@@ -575,9 +571,9 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
   
 # 実際 *Sokoban など論理思考ゲームでは性能が悪い* ↔ 倉庫番ソルバ
 
-** 記号的AIによる論理推論の重要性
+* 記号的AIによる論理推論の重要性
 
- [[png:lecun]]
+[[png:lecun]]
 
 * 業績7: 査読付きワークショップ KEPS (採択率60%)
 
@@ -595,11 +591,11 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 [[png:keps17-2]]
 
-** 業績7: 査読付きワークショップ KEPS (採択率60%)
+** 業績7: 査読付きワークショップ KEPS (採択率60%)                  :noexport:
 
 [[png:keps17-3]]
 
-** 
+**                                                                 :noexport:
 
 #+begin_xlarge
 つまり
@@ -620,11 +616,11 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 シンボルグラウンディング問題
 #+end_note
 
-* 今後の研究計画
+* 今後の研究計画                                                   :noexport:
 
 [[png:keps17-4]]
 
-* 産業応用: *深層学習+記号的推論 = ブレークスルー*
+* 産業応用: *深層学習+記号的推論 = ブレークスルー*                 :noexport:
 
 #+begin_xlarge
 定形流れ作業以上の産業用ロボ
@@ -649,7 +645,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+END_row-fluid
 #+END_container-fluid
 
-* 産業応用: *深層学習+記号的推論 = ブレークスルー*
+* 産業応用: *深層学習+記号的推論 = ブレークスルー*                 :noexport:
 
 #+begin_xlarge
 人工無能以上の対話ボット
