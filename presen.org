@@ -306,8 +306,10 @@
 
 #+begin_alignright
 #+begin_xlarge
-+ → 目的達成型の知能が必要
++ → 目的達成型, 熟慮型の知能が必要
 #+end_xlarge
+
+熟慮: deliberation の訳
 #+end_alignright
 
 * 目的達成型知能のための自動プランナ (≠ モータ制御)
