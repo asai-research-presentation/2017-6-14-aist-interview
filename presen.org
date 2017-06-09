@@ -306,7 +306,7 @@
 
 #+begin_alignright
 #+begin_xlarge
-+ → 目的達成型, 熟慮型の知能が必要
++ → 目的達成/熟慮型の知能が必要
 #+end_xlarge
 
 熟慮: deliberation の訳
