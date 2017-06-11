@@ -521,7 +521,6 @@ Neural-Symbolic複合システム
 
 [[png:deeplearning/3]]
 
-
 ** 認知タスクで人間に匹敵する精度                                  :noexport:
 
 [[png:deeplearning/image-task]]
@@ -691,6 +690,67 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 + → *複雑な論理思考は実現できていない*
   
 # 実際 *Sokoban など論理思考ゲームでは性能が悪い* ↔ 倉庫番ソルバ
+
+* Q. 深層学習と 記号的AI はどう違う?
+
+ A. レイヤが違う
+
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span6
+ *機械学習・Neural Networks* == 関数近似
+ 
+ for *認識・反射*
+ + 入力 は *Subsymbolic* (連続値)
+   
+   画像、音声、非構造化テキスト: 
+ + *感覚的知能*:
+   
+   　 */反応/, /直後/ の行動の決定*
+   #+BEGIN_smaller
+   *パブロフの犬* : 餌を認知→よだれ
+
+   *自動運転* : 赤信号,人 → 止まる.
+
+   *翻訳* : 文章 → 文章
+
+   *囲碁局面の評価関数* : 局面 → 勝率
+   #+END_smaller
+   #+BEGIN_larger
+   ☺ 効率よく 1-to-1 mapping
+   
+   ☹ 単純作業
+   #+END_larger
+ #+END_span6
+ #+BEGIN_span6
+ *推論・探索*
+
+ for *プランニング・ゲーム・定理証明*
+ + 入出力は *Symbolic*
+   
+   論理 オブジェクト ルール
+ + *論理・推論による知能:*
+
+   　 */未来に渡る/ 戦略の決定*
+   
+   　 (戦略 = 行動の *列や木*)
+   #+BEGIN_smaller
+   *レスキューロボ* : ゴール = 被災者生存
+
+   *証明器* : ゴール = QED
+
+   *コンパイラ* : 命令列の生成
+   
+   *囲碁,将棋* : ゴール = 勝利
+   #+END_smaller
+   #+BEGIN_larger
+   ☺ 順序制約+複雑な作業
+   #+END_larger
+ #+END_span6
+ #+END_row-fluid
+ #+END_container-fluid
+
++ AlphaGo = Subsymbolic (DLNNによる評価関数) + Symbolic (MCTSによる探索)
 
 * 記号的AIによる論理推論の重要性
 
