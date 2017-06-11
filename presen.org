@@ -293,6 +293,131 @@
 
  [[png:planning/final]]
 
+** 古典プランニング問題 (決定的,完全情報) -- Blocksworld
+
+ #+LaTeX: \includegraphics{img/plan.png}
+ #+HTML: <embed src="img/plan.svg" type="image/svg+xml"  />
+
+ #+BEGIN_larger
+ 非古典的なさまざまな拡張
+
+ #+BEGIN_alignright
+ (並列アクション,POMDP,HTN... どのAIの教科書にものっている)
+ #+END_alignright
+ #+END_larger
+
+*** アクション = 条件付き状態遷移
+
+ #+BEGIN_center
+ #+BEGIN_xlarge
+ アクション (move ?X ?Y)
+ #+END_xlarge
+ #+END_center
+
+ #+BEGIN_center
+ *?X*, *?Y* : 変数。 値 *BLOCK-A*, *BLOCK-B* などを適用して使う
+
+ *条件* と *効果* で構成される
+ #+END_center
+
+
+ #+begin_container-fluid
+ #+begin_row-fluid
+ #+begin_span7
+ #+begin_quote
+ *条件* : 実行に必要な条件を表す命題
+
+ 　(clear *?X*) : 積み木 *?X* の上が空
+
+ 　(clear *?Y*) : 積み木 *?Y* の上に空
+
+ *効果* : 前後の状態の *差分* を表す命題
+
+ 　(on *?X* *?Y*) を *追加* : *?Y* の上は *?X*
+
+ 　(clear *?Y*) を *削除*
+ #+end_quote
+ #+end_span7
+ #+begin_span5
+
+ # #+begin_src lisp
+ # (:action move
+ #  :parameters (?X ?Y)
+ #  :preconditions
+ #    (and (clear ?X)   ; (1)
+ #         (clear ?Y))  ; (2)
+ #  :effect
+ #    (and (on ?X ?Y)   ; (3)
+ #         (not         ; (4)
+ #          (clear ?Y))))
+ # #+end_src
+
+
+ #+begin_alignright
+ #+begin_larger
+ モデリング言語 *PDDL* で記述
+ #+end_larger
+ #+end_alignright
+ #+end_span5
+ #+end_row-fluid
+ #+end_container-fluid
+
+*** *PDDL* : Planning Domain Description Language                  :noexport:
+
+ International Planning Competition で使われている入力形式
+
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span2
+
+ #+END_span2
+ #+BEGIN_span8
+ #+BEGIN_SRC lisp
+ (:action move
+  :parameters (?X ?Y)
+  :preconditions
+    (and (clear ?X)   ; (1)
+         (clear ?Y))  ; (2)
+
+  :effect
+    (and (on ?X ?Y)   ; (3)
+         (not         ; (4)
+          (clear ?Y))))
+ #+END_SRC
+ #+END_span8
+ #+BEGIN_span2
+
+ #+END_span2
+ #+END_row-fluid
+ #+END_container-fluid
+
+*** プランニング = グラフ探索
+
+ *ノード* : 状態 = 命題の集合 ⇒ =(on A B)=, =(clear A)= など
+
+ *辺*     : アクション ⇒ =(move A B)= 等
+
+ [[png:graph]]
+
+ # #+BEGIN_container-fluid
+ # #+BEGIN_row-fluid
+ # #+BEGIN_span6
+ # # + ヒューリスティック探索 A*
+ # # + State-of-the-Art *1
+ # #+END_span6
+ # #+BEGIN_span6
+ # # #+attr_html: :width 50%
+ # #+END_span6
+ # #+END_row-fluid
+ # #+END_container-fluid
+
+ #+BEGIN_note
+ *1 [Helmert, 2006] [Richter, 2010]
+ #+END_note
+  
+
+
+
 ** Xerox PARC Printer: */Hypermoduler/* Systems
 
 [[png:xerox]]
@@ -417,7 +542,7 @@ Neural-Symbolic複合システム
 
 + 学習 ≡ 誤差 $||y-y^*||$ を最小化する最適化問題 --- *関数近似機* (*銀の弾ではない*)
 
-** 知的機械を作る上で深層学習の果たす役割
+** 知的機械を作る上で深層学習の果たす役割                          :noexport:
 
 *** 知的機械を作る上で深層学習の果たす役割
 
@@ -448,20 +573,19 @@ Neural-Symbolic複合システム
 熟慮: deliberation の訳
 #+end_alignright
 
+*** 知的機械を作る上で深層学習の果たす役割
 
-** 知的機械を作る上で深層学習の果たす役割
+ [[png:machines/3]]
 
-[[png:machines/3]]
+ 　
 
-　
+*** 知的機械を作る上で深層学習の果たす役割
 
-** 知的機械を作る上で深層学習の果たす役割
+ [[png:machines/4]]
 
-[[png:machines/4]]
-
-#+begin_alignright
-+ 深層学習でカバーできない部分には 記号的AI(プランニング)が必要
-#+end_alignright
+ #+begin_alignright
+ + 深層学習でカバーできない部分には 記号的AI(プランニング)が必要
+ #+end_alignright
 
 * 深層学習でカバーできない部分: 私の研究してきた記号的AI           :noexport:
 
@@ -615,7 +739,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 [[png:keps17-4]]
 
-* 産業応用: *深層学習+記号的推論 = ブレークスルー*
+* 産業応用: *深層学習+記号的推論 = ブレークスルー*                 :noexport:
 
 #+begin_xlarge
 定形流れ作業以上の産業用ロボ
@@ -640,7 +764,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+END_row-fluid
 #+END_container-fluid
 
-* 産業応用: *深層学習+記号的推論 = ブレークスルー*
+* 産業応用: *深層学習+記号的推論 = ブレークスルー*                 :noexport:
 
 #+begin_xlarge
 人工無能以上の対話ボット
@@ -691,250 +815,38 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+TOC: headlines 1 local
 #+END_expanded
 
-** 既存システムとの違い (追加)
+** その研究は...
 
-*NNで 直接問題を解くシステム*
-
-+ TSP [Hopfield and Tank, 1985], NeuroSolver [Bieszczad and Pagurek, 1998], Neural Turing Machine [Graves /et. al./, 2014]
-  + NNで解くが、入力はシンボリック (ニューロンが人の与えた状態変数に対応)
-  + 完全性、最適性などの保証なし
-
-*NNを認識でなく探索中の枝刈り用に使うシステム*
-
-+ AlphaGo [Sievers 16], Rubik Cube [Arfaee et al., 2011], Planning [Satzger and Kramer, 2013]
-  + LatPlan は NNを探索の外で使う
-
-** Learning from Observation との違い
-
-主にロボットの経路探索 (ローレベル制御) [Argall et al., 2009]
-
-ボードゲームの学習だが「マス目」など強い仮定 [Barbu et al., 2010; Kaiser, 2012; Kirk and Laird, 2016]
-
-Action Segmentation problem がある
-
-+ 「映像の観察」を中心とするので、いつアクションが始まる/終わるのか解らない
-
-+ LatPlan には関係なし
-
-** AIプランニングの */Killer App/*
-
-#+BEGIN_container-fluid
-#+BEGIN_row-fluid
-#+BEGIN_span7
-#+BEGIN_larger
-+ 人が高価or不可能な作業 :: 原発, 宇宙空間, 火星, 深海
-+ 正しさと最適性の理論保証が必要なミッションクリティカルシステム :: 
-     製造システム、運送 (時間=お金)
-
-     人工衛星 (燃料使いきれば運用終了)
-
-     間違った解は許されない
-+ 思考過程を説明可能なシステム :: 
-     レスキュー・宇宙船 (人間の安全がかかっている)
-#+END_larger
-
-# [[sjpg:martian]]
-
-#+END_span7
-#+BEGIN_span5
-
-[[sjpg:gravity-m]]
-
-#+END_span5
-#+END_row-fluid
-#+END_container-fluid
+ # + オリジナリティは idea について。 だからテクニカル
+ # ループの概念を検出する
+ # 
+ # + インパクトは user の話について。 だからapplication
+ # ループをけんすつしようという考え自体がプランニング業界で新た
+ #   + 過去ー現在のインパクト
+ #   + 未来のインパクト
 
 
-
-
-** 古典プランニング問題 (決定的,完全情報) -- Blocksworld
-
- #+LaTeX: \includegraphics{img/plan.png}
- #+HTML: <embed src="img/plan.svg" type="image/svg+xml"  />
-
- #+BEGIN_larger
- 非古典的なさまざまな拡張
-
- #+BEGIN_alignright
- (並列アクション,POMDP,HTN... どのAIの教科書にものっている)
- #+END_alignright
- #+END_larger
-
-*** アクション = 条件付き状態遷移
-
- #+BEGIN_center
- #+BEGIN_xlarge
- アクション (move ?X ?Y)
- #+END_xlarge
- #+END_center
-
- #+BEGIN_center
- *?X*, *?Y* : 変数。 値 *BLOCK-A*, *BLOCK-B* などを適用して使う
-
- *条件* と *効果* で構成される
- #+END_center
-
-
- #+begin_container-fluid
- #+begin_row-fluid
- #+begin_span7
- #+begin_quote
- *条件* : 実行に必要な条件を表す命題
-
- 　(clear *?X*) : 積み木 *?X* の上が空
-
- 　(clear *?Y*) : 積み木 *?Y* の上に空
-
- *効果* : 前後の状態の *差分* を表す命題
-
- 　(on *?X* *?Y*) を *追加* : *?Y* の上は *?X*
-
- 　(clear *?Y*) を *削除*
- #+end_quote
- #+end_span7
- #+begin_span5
-
- # #+begin_src lisp
- # (:action move
- #  :parameters (?X ?Y)
- #  :preconditions
- #    (and (clear ?X)   ; (1)
- #         (clear ?Y))  ; (2)
- #  :effect
- #    (and (on ?X ?Y)   ; (3)
- #         (not         ; (4)
- #          (clear ?Y))))
- # #+end_src
-
-
- #+begin_alignright
- #+begin_larger
- モデリング言語 *PDDL* で記述
- #+end_larger
- #+end_alignright
- #+end_span5
- #+end_row-fluid
- #+end_container-fluid
-
-*** *PDDL* : Planning Domain Description Language                  :noexport:
-
- International Planning Competition で使われている入力形式
-
- #+BEGIN_container-fluid
- #+BEGIN_row-fluid
- #+BEGIN_span2
-
- #+END_span2
- #+BEGIN_span8
- #+BEGIN_SRC lisp
- (:action move
-  :parameters (?X ?Y)
-  :preconditions
-    (and (clear ?X)   ; (1)
-         (clear ?Y))  ; (2)
-
-  :effect
-    (and (on ?X ?Y)   ; (3)
-         (not         ; (4)
-          (clear ?Y))))
- #+END_SRC
- #+END_span8
- #+BEGIN_span2
-
- #+END_span2
- #+END_row-fluid
- #+END_container-fluid
-
-*** プランニング = グラフ探索
-
- *ノード* : 状態 = 命題の集合 ⇒ =(on A B)=, =(clear A)= など
-
- *辺*     : アクション ⇒ =(move A B)= 等
-
- [[png:graph]]
-
- # #+BEGIN_container-fluid
- # #+BEGIN_row-fluid
- # #+BEGIN_span6
- # # + ヒューリスティック探索 A*
- # # + State-of-the-Art *1
- # #+END_span6
- # #+BEGIN_span6
- # # #+attr_html: :width 50%
- # #+END_span6
- # #+END_row-fluid
- # #+END_container-fluid
-
- #+BEGIN_note
- *1 [Helmert, 2006] [Richter, 2010]
- #+END_note
-  
+#+begin_smaller
+ |          | 評価                   | オリジナリティ           | 過去のインパクト             | 未来のインパクト              | 動機                           |
+ |----------+------------------------+--------------------------+------------------------------+-------------------------------+--------------------------------|
+ | ACP      | 難関学会               | ループの概念を検出       | 超大規模問題に初めてタックル | 産業応用                      | 人間プログラマでは追いつかない |
+ |----------+------------------------+--------------------------+------------------------------+-------------------------------+--------------------------------|
+ | CAP      | 難関学会               | 問題分割統合手法         | より汎用                     | 産業応用                      | より一般化したい               |
+ |----------+------------------------+--------------------------+------------------------------+-------------------------------+--------------------------------|
+ | AAAI16   | 査読者2/3 人に絶賛     | 同コストのノードの分類   | 70年代からの定説を覆す       | コスト0は実応用によく使われる | 下界以外で改善したかった       |
+ | ・JAIR17 | (+ JSAI学生奨励賞)     |                          | 通常と異なる方法で性能改善   | 基礎技術                      |                                |
+ |----------+------------------------+--------------------------+------------------------------+-------------------------------+--------------------------------|
+ | IJCAI17  | 難関学会               | 問題設定(辺コストが未知) |                              | 医療福祉での実問題            | 全ての辺を計算できない         |
+ |----------+------------------------+--------------------------+------------------------------+-------------------------------+--------------------------------|
+ | ICAPS17  | 難関学会               | 均一化手法の整理・高速化 |                              |                               | 理解したい/性能向上            |
+ |----------+------------------------+--------------------------+------------------------------+-------------------------------+--------------------------------|
+ | KEPS17   | 査読者「重要な方向性」 | 画像から自動で命題を生成 | シンボルグラウンディング     | ニューラル・記号複合システム  | 記号システムの適用範囲の拡大   |
+ |----------+------------------------+--------------------------+------------------------------+-------------------------------+--------------------------------|
+#+end_smaller
 
 ** 古典プランニングを研究する意義は?
 
  [[png:classical-meaning]]
-
-** AIの倫理について
-  
-+ 研究内容は 漠然とした「AI」のうち *グラフ探索* の研究
-+ AIの目的はプランナのゴールで定義される
-  + AI自体は善悪の判断を行わない
-  + 人が与えるゴールについての倫理的問題 (→ 兵器使用)
-+ 価値判断は与えられる入力の中にある = 使用者の価値観/データのバイアスを反映
-+ 悪用の問題はある。しかし、自分としては、災害救助ロボットなど、人道的な応用を目指している
-
-** Gumbel-Softmax
-
- [[png:keps17]]
-
-*** Gumbel-Softmax
-
- [[png:sae/state-ae]]
-
-** ディープラーニング関連・LatPlan実装
-
-詳しくは論文を
-
-Keras + TensorFlow
-
-  1764(42x42)
-
-  [→FC(4000,ReLu)→Batchnorm→Dropout(0.4)] × 2
-
-  →FC(49,GumbelSoftmax) (variational loss)
-
-  [→FC(4000,ReLu)→Batchnorm→Dropout(0.4)] × 2
-
-  →1764(42x42) (loss: Binary crossentropy)
-
-　
-
-+ なぜ全結合?? ::
-             論文の主題は *SAEで命題を作る方針がそもそもうまく行くかどうか*
-             
-             *→余計な要素を省いて限りなくシンプルに*
-             
-+ 8-パズルでの訓練 ::
-               可能な全状態 (362880) 中 *12000 枚* で訓練 → 汎化能力あり
-               
-               Adam optimizer (learning rate:0.001)
-
-** 第五世代コンピュータとの違いは?
-
- 第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
-
- ハードの問題ではなく、 根本的なソフトウェア技術、 *探索技術* が未発達だった
-
- | 第五世代                      | 現在                                |
- |-------------------------------+-------------------------------------|
- | 後方 *全探索* +バックトラック | *前方ヒューリスティック探索*        |
- |                               | 枝刈りで指数爆発を抑える            |
- | Prologベース                  | C/C++で高度に最適化されたプログラム |
- |                               | State packing, 決定木, mutex...     |
-
- 今はベンチマーク問題 *1104問* のうち 5分で *800問* 前後解ける
-
- 仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けない*
 
 ** Explicit Graph と Implicit Graph との違い
 
@@ -975,6 +887,23 @@ Keras + TensorFlow
  #+BEGIN_note
  Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
  #+END_note
+
+** 第五世代コンピュータとの違いは?
+
+ 第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
+
+ ハードの問題ではなく、 根本的なソフトウェア技術、 *探索技術* が未発達だった
+
+ | 第五世代                      | 現在                                |
+ |-------------------------------+-------------------------------------|
+ | 後方 *全探索* +バックトラック | *前方ヒューリスティック探索*        |
+ |                               | 枝刈りで指数爆発を抑える            |
+ | Prologベース                  | C/C++で高度に最適化されたプログラム |
+ |                               | State packing, 決定木, mutex...     |
+
+ 今はベンチマーク問題 *1104問* のうち 5分で *800問* 前後解ける
+
+ 仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けない*
 
 ** 似たような研究は誰がやっているか
 
@@ -1031,44 +960,113 @@ Keras + TensorFlow
 
  従って、 *全問題の平均を取れば* という前提が成り立たない。
 
-** その研究は...
+** AIの倫理について
+  
++ 研究内容は 漠然とした「AI」のうち *グラフ探索* の研究
++ AIの目的はプランナのゴールで定義される
+  + AI自体は善悪の判断を行わない
+  + 人が与えるゴールについての倫理的問題 (→ 兵器使用)
++ 価値判断は与えられる入力の中にある = 使用者の価値観/データのバイアスを反映
++ 悪用の問題はある。しかし、自分としては、災害救助ロボットなど、人道的な応用を目指している
 
- # + オリジナリティは idea について。 だからテクニカル
- # ループの概念を検出する
- # 
- # + インパクトは user の話について。 だからapplication
- # ループをけんすつしようという考え自体がプランニング業界で新た
- #   + 過去ー現在のインパクト
- #   + 未来のインパクト
+** LatPlan 関連
 
+*** AIプランニングの */Killer App/*
 
- |         | 重要度 | 評価                  | オリジナリティ           | 過去のインパクト              | 未来のインパクト             | 動機                           |
- |---------+--------+-----------------------+--------------------------+-------------------------------+------------------------------+--------------------------------|
- | ACP     |        | 発表した              | ループの概念を検出       | 大規模問題                    | 産業応用                     | 人間プログラマでは追いつかない |
- |         |        | 難関学会              |                          |                               |                              |                                |
- |---------+--------+-----------------------+--------------------------+-------------------------------+------------------------------+--------------------------------|
- | CAP     |        | 難関学会              | 問題分割手法             | 大規模問題                    | 産業応用                     | より一般化したい               |
- |         |        | 発表した              | 柔軟な統合手法           | それまでの分割系の手法より    |                              |                                |
- |         |        |                       |                          | 広範囲に分割                  |                              |                                |
- |---------+--------+-----------------------+--------------------------+-------------------------------+------------------------------+--------------------------------|
- | AAAI16  |        | AAAI査読者:           | 同コストのノードの分類   | 70年代からの定説を覆す        | 広範なグラフ探索問題         | 下界以外で改善したかった       |
- |         |        | 2/3 人に絶賛          |                          | 通常と異なる方法で性能改善    | 基礎技術                     |                                |
- |         |        | (+ JSAI学生奨励賞)    |                          | コスト0は実応用によく使われる |                              |                                |
- |---------+--------+-----------------------+--------------------------+-------------------------------+------------------------------+--------------------------------|
- | IJCAI17 |        | IJCAI査読者:          | 辺コストが未知のドメイン |                               |                              | 医療福祉での実問題             |
- |         |        | 明確な動悸,十分な実験 | という問題設定           |                               |                              | 全ての辺を計算できない         |
- |---------+--------+-----------------------+--------------------------+-------------------------------+------------------------------+--------------------------------|
- | KEPS17  |        | IJCAI査読者:          | 画像から自動で命題を生成 | ニューラルは記号と相容れない  | ニューラル・記号複合システム |                                |
- |         |        | 「重要な方向性」      |                          | シンボルグラウンディング      |                              |                                |
- |---------+--------+-----------------------+--------------------------+-------------------------------+------------------------------+--------------------------------|
+ #+BEGIN_container-fluid
+ #+BEGIN_row-fluid
+ #+BEGIN_span7
+ #+BEGIN_larger
+ + 人が高価or不可能な作業 :: 原発, 宇宙空間, 火星, 深海
+ + 正しさと最適性の理論保証が必要なミッションクリティカルシステム :: 
+      製造システム、運送 (時間=お金)
 
-** HTN と ICAPS-15 の違い
+      人工衛星 (燃料使いきれば運用終了)
+
+      間違った解は許されない
+ + 思考過程を説明可能なシステム :: 
+      レスキュー・宇宙船 (人間の安全がかかっている)
+ #+END_larger
+
+ # [[sjpg:martian]]
+
+ #+END_span7
+ #+BEGIN_span5
+
+ [[sjpg:gravity-m]]
+
+ #+END_span5
+ #+END_row-fluid
+ #+END_container-fluid
+
+*** 既存システムとの違い (追加)
+
+ *NNで 直接問題を解くシステム*
+
+ + TSP [Hopfield and Tank, 1985], NeuroSolver [Bieszczad and Pagurek, 1998], Neural Turing Machine [Graves /et. al./, 2014]
+   + NNで解くが、入力はシンボリック (ニューロンが人の与えた状態変数に対応)
+   + 完全性、最適性などの保証なし
+
+ *NNを認識でなく探索中の枝刈り用に使うシステム*
+
+ + AlphaGo [Sievers 16], Rubik Cube [Arfaee et al., 2011], Planning [Satzger and Kramer, 2013]
+   + LatPlan は NNを探索の外で使う
+
+*** Learning from Observation との違い
+
+ 主にロボットの経路探索 (ローレベル制御) [Argall et al., 2009]
+
+ ボードゲームの学習だが「マス目」など強い仮定 [Barbu et al., 2010; Kaiser, 2012; Kirk and Laird, 2016]
+
+ Action Segmentation problem がある
+
+ + 「映像の観察」を中心とするので、いつアクションが始まる/終わるのか解らない
+
+ + LatPlan には関係なし
+
+*** Gumbel-Softmax
+
+  [[png:keps17]]
+
+**** Gumbel-Softmax
+
+  [[png:sae/state-ae]]
+
+*** ディープラーニング関連・LatPlan実装
+
+ 詳しくは論文を
+
+ Keras + TensorFlow
+
+   1764(42x42)
+
+   [→FC(4000,ReLu)→Batchnorm→Dropout(0.4)] × 2
+
+   →FC(49,GumbelSoftmax) (variational loss)
+
+   [→FC(4000,ReLu)→Batchnorm→Dropout(0.4)] × 2
+
+   →1764(42x42) (loss: Binary crossentropy)
+
+ 　
+
+ + なぜ全結合?? ::
+              論文の主題は *SAEで命題を作る方針がそもそもうまく行くかどうか*
+             
+              *→余計な要素を省いて限りなくシンプルに*
+             
+ + 8-パズルでの訓練 ::
+                可能な全状態 (362880) 中 *12000 枚* で訓練 → 汎化能力あり
+               
+                Adam optimizer (learning rate:0.001)
+
+** HTN と ICAPS-15 の違い                                          :noexport:
 
  HTNは人間が問題分割を行う
  人件費を考えると非常にコストパフォーマンスが悪い
  → 自動で問題分割
 
-** Q&A
+** Q&A                                                             :noexport:
 
  + Q. 探索空間の比較について、なぜ「以前」の数字がスライドによって変わるの?
  + A. 論文の中で使った実験設定が異なるからです。
