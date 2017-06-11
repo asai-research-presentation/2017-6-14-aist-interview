@@ -764,7 +764,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+END_row-fluid
 #+END_container-fluid
 
-* 産業応用: *深層学習+記号的推論 = ブレークスルー*                 :noexport:
+* 産業応用: *深層学習+記号的推論 = ブレークスルー*
 
 #+begin_xlarge
 人工無能以上の対話ボット
