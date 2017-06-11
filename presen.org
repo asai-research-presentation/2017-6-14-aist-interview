@@ -497,7 +497,9 @@ Neural-Symbolic複合システム
 
 * 深層学習
 
-[[png:deeplearning/1]]
+[[png:deeplearning/image-task]]
+
+# [[png:deeplearning/1]]
 
 ** 深層学習                                            :noexport:
 
@@ -520,7 +522,7 @@ Neural-Symbolic複合システム
 [[png:deeplearning/3]]
 
 
-** 認知タスクで人間に匹敵する精度
+** 認知タスクで人間に匹敵する精度                                  :noexport:
 
 [[png:deeplearning/image-task]]
 
@@ -897,7 +899,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
  | 第五世代                      | 現在                                |
  |-------------------------------+-------------------------------------|
  | 後方 *全探索* +バックトラック | *前方ヒューリスティック探索*        |
- |                               | 枝刈りで指数爆発を抑える            |
+ | 問題ごとに手書きのcutで枝刈り | 汎用下界関数                        |
  | Prologベース                  | C/C++で高度に最適化されたプログラム |
  |                               | State packing, 決定木, mutex...     |
 
