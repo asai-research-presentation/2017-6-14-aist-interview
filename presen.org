@@ -695,6 +695,10 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 [[png:keps17-4]]
 
+** 長期目標: パラダイムシフト
+
+[[png:keps17-5]]
+
 ** 産業応用: *深層学習+記号的推論 = ブレークスルー*                :noexport:
 
 #+begin_xlarge
@@ -742,7 +746,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+END_row-fluid
 #+END_container-fluid
 
-* 長期目標 / めざす研究者像
+* めざす研究者像
 
 #+begin_larger
 *分野の創始者 / 1000以上のcitationをもつ重要な発見の著者*
