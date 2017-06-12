@@ -1,4 +1,4 @@
-#+title: 研究テーマ: Neural-Symbolic複合システムによる 次世代AIシステムの研究
+#+title: これまでの研究業績と今後の抱負
 #+author: 
 #+include: "head.org"
 #+LINK: img file:img/%s
@@ -37,7 +37,7 @@
 
 *発表要旨*
 
-これまでの研究業績
+  背景
 
 　Fully Automated Cyclic Planning for Large-Scale Manufacturing Domains※1. *ICAPS14*.
 
@@ -53,7 +53,7 @@
 
 　Classical Planning in Deep Latent Space: From Unlabeled Images to PDDL (and back)※1. *KEPS17*.
 
-今後の研究計画, 研究成果の産業応用への抱負
+  今後の研究計画
 
 #+BEGIN_smaller
 ※1 Masataro Asai, Alex Fukunaga
