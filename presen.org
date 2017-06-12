@@ -281,9 +281,9 @@
  #+end_row-fluid
  #+end_container-fluid
 
-* 目的達成型知能のための自動プランナ (≠ モータ制御)
+** 目的達成型知能のための自動プランナ (≠ モータ制御)
 
- [[png:planning/1]]
+  [[png:planning/1]]
 
 ** 目的達成型知能のための自動プランナ (≠ モータ制御)
 
@@ -495,13 +495,13 @@ Neural-Symbolic複合システム
 #+END_alignright
 #+END_xlarge
 
-* 深層学習
+** 深層学習
 
 [[png:deeplearning/image-task]]
 
 # [[png:deeplearning/1]]
 
-** 深層学習                                            :noexport:
+** 深層学習                                                        :noexport:
 
 とてもはやっている
 
@@ -511,7 +511,7 @@ Neural-Symbolic複合システム
 
 [[png:deeplearning/2]]
 
-** 深層学習                                            :noexport:
+** 深層学習                                                        :noexport:
 
 とてもはやっている
 
@@ -543,7 +543,7 @@ Neural-Symbolic複合システム
 
 + 学習 ≡ 誤差 $||y-y^*||$ を最小化する最適化問題 --- *関数近似機* (*銀の弾ではない*)
 
-* 深層学習でカバーできない部分: 私の研究してきた記号的AI           :noexport:
+** 深層学習でカバーできない部分: 私の研究してきた記号的AI          :noexport:
 
 #+begin_container-fluid
 #+begin_row-fluid
@@ -630,7 +630,7 @@ Neural-Symbolic複合システム
 
 + AlphaGo = Subsymbolic (DLNNによる評価関数) + Symbolic (MCTSによる探索)
 
-** 既存の有名システム
+** 既存の有名システム                                              :noexport:
 
 AlphaGo = Subsymbolic (NNによる評価関数) + Symbolic (MCTSによる探索)
 + ただし *ドメイン依存* -- 囲碁に特化, "マス目"や"石"といった概念をハードコード
@@ -646,92 +646,31 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
   
 # 実際 *Sokoban など論理思考ゲームでは性能が悪い* ↔ 倉庫番ソルバ
 
-* Q. 深層学習と 記号的AI はどう違う?
-
- A. レイヤが違う
-
- #+BEGIN_container-fluid
- #+BEGIN_row-fluid
- #+BEGIN_span6
- *機械学習・Neural Networks* == 関数近似
- 
- for *認識・反射*
- + 入力 は *Subsymbolic* (連続値)
-   
-   画像、音声、非構造化テキスト: 
- + *感覚的知能*:
-   
-   　 */反応/, /直後/ の行動の決定*
-   #+BEGIN_smaller
-   *パブロフの犬* : 餌を認知→よだれ
-
-   *自動運転* : 赤信号,人 → 止まる.
-
-   *翻訳* : 文章 → 文章
-
-   *囲碁局面の評価関数* : 局面 → 勝率
-   #+END_smaller
-   #+BEGIN_larger
-   ☺ 効率よく 1-to-1 mapping
-   
-   ☹ 単純作業
-   #+END_larger
- #+END_span6
- #+BEGIN_span6
- *推論・探索*
-
- for *プランニング・ゲーム・定理証明*
- + 入出力は *Symbolic*
-   
-   論理 オブジェクト ルール
- + *論理・推論による知能:*
-
-   　 */未来に渡る/ 戦略の決定*
-   
-   　 (戦略 = 行動の *列や木*)
-   #+BEGIN_smaller
-   *レスキューロボ* : ゴール = 被災者生存
-
-   *証明器* : ゴール = QED
-
-   *コンパイラ* : 命令列の生成
-   
-   *囲碁,将棋* : ゴール = 勝利
-   #+END_smaller
-   #+BEGIN_larger
-   ☺ 順序制約+複雑な作業
-   #+END_larger
- #+END_span6
- #+END_row-fluid
- #+END_container-fluid
-
-+ AlphaGo = Subsymbolic (DLNNによる評価関数) + Symbolic (MCTSによる探索)
-
-* 記号的AIによる論理推論の重要性
+** 記号的AIによる論理推論の重要性
 
 [[png:lecun]]
 
-* 業績7: 査読付きワークショップ KEPS (採択率60%)
+** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
 [[png:keps17-1a]]
 
-** 業績7: 査読付きワークショップ KEPS (採択率60%)
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
 [[png:keps17-1b]]
 
-** 業績7: 査読付きワークショップ KEPS (採択率60%)
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)
 
 [[png:keps17]]
 
-** 業績7: 査読付きワークショップ KEPS (採択率60%)                  :noexport:
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)                 :noexport:
 
 [[png:keps17-2]]
 
-** 業績7: 査読付きワークショップ KEPS (採択率60%)                  :noexport:
+*** 業績7: 査読付きワークショップ KEPS (採択率60%)                 :noexport:
 
 [[png:keps17-3]]
 
-** -                                                               :noexport:
+*** -                                                              :noexport:
 
 #+begin_xlarge
 つまり
@@ -752,11 +691,11 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 シンボルグラウンディング問題
 #+end_note
 
-* 短期目標: このシステムを様々に拡張
+** 短期目標: このシステムを様々に拡張
 
 [[png:keps17-4]]
 
-* 産業応用: *深層学習+記号的推論 = ブレークスルー*                 :noexport:
+** 産業応用: *深層学習+記号的推論 = ブレークスルー*                :noexport:
 
 #+begin_xlarge
 定形流れ作業以上の産業用ロボ
@@ -781,7 +720,7 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+END_row-fluid
 #+END_container-fluid
 
-* 産業応用: *深層学習+記号的推論 = ブレークスルー*
+** 産業応用: *深層学習+記号的推論 = ブレークスルー*
 
 #+begin_xlarge
 人工無能以上の対話ボット
@@ -805,11 +744,14 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 
 * 長期目標 / めざす研究者像
 
-分野の創始者 / 1000以上のcitationをもつ重要な発見
+#+begin_larger
+*分野の創始者 / 1000以上のcitationをもつ重要な発見の著者*
 
-知能の真に難しい所: 論理である。
-
-知能の実用化に難しい所: 現実の理解。
++ 10年後に AIMA (AIの超有名な教科書) に乗る内容
++ いま興味・関心がある分野とは限らない
+  + やりたいことはいくらでもある (進化計算/SAT/学習/知識表現/HCI)
++ 今の自分は小粒研究者 → 本物の一流ビッグネームへ。
+#+end_larger
 
 # これからの抱負については、
 # 短期的な抱負：今後３～５年の間に実施する具体的な内容
@@ -820,7 +762,6 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 # 産総研ベンチャーという支援制度もあります。
 # どんな分野で、といったイメージがありましたら
 # 補足説明用のスライドをご用意いただくと良いと思います。
-
 
 * まとめ
 
@@ -851,7 +792,8 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 #+TOC: headlines 1 local
 #+END_expanded
 
-** その研究は...
+** 既存研究について
+*** その研究は...
 
  # + オリジナリティは idea について。 だからテクニカル
  # ループの概念を検出する
@@ -880,88 +822,88 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
  |----------+------------------------+--------------------------+------------------------------+-------------------------------+--------------------------------|
 #+end_smaller
 
-** 古典プランニングを研究する意義は?
+*** 古典プランニングを研究する意義は?
 
- [[png:classical-meaning]]
+  [[png:classical-meaning]]
 
-** Explicit Graph と Implicit Graph との違い
+*** Explicit Graph と Implicit Graph との違い
 
 
- #+BEGIN_container-fluid
- #+BEGIN_row-fluid
- #+BEGIN_span4
- *カーナビ、ソーシャルグラフなど* : Explicit Graph
+  #+BEGIN_container-fluid
+  #+BEGIN_row-fluid
+  #+BEGIN_span4
+  *カーナビ、ソーシャルグラフなど* : Explicit Graph
 
- グラフ全体がメモリ(〜数ペタバイト)または二次記憶(〜数ゼタバイト)に収まる
+  グラフ全体がメモリ(〜数ペタバイト)または二次記憶(〜数ゼタバイト)に収まる
 
- 参考: 2012年の全世界のデジタルデータ: 数ZB (1ZB = 10^21 バイト)
+  参考: 2012年の全世界のデジタルデータ: 数ZB (1ZB = 10^21 バイト)
 
- AI and Web, social graph
- #+END_span4
- #+BEGIN_span8
- *プランニングにおける探索グラフ* : Implicit Graph
+  AI and Web, social graph
+  #+END_span4
+  #+BEGIN_span8
+  *プランニングにおける探索グラフ* : Implicit Graph
 
- 地球上の全計算資源を集めても二次記憶に入らない
+  地球上の全計算資源を集めても二次記憶に入らない
 
- グラフのノード数は状態変数に対して *指数的に増加*
+  グラフのノード数は状態変数に対して *指数的に増加*
 
- 動的メモリ確保+優れた枝刈りをしないと問題が解けない
+  動的メモリ確保+優れた枝刈りをしないと問題が解けない
 
- 探索空間サイズの例:
+  探索空間サイズの例:
 
- 3x3x3のルービックキューブ: 4.32 x 10^19 = 4 EB
+  3x3x3のルービックキューブ: 4.32 x 10^19 = 4 EB
 
- 4x4x4のルービックキューブ: 7.40 x 10^45 ＞ 10^24 ZB
+  4x4x4のルービックキューブ: 7.40 x 10^45 ＞ 10^24 ZB
 
- 5x5x5のルービックキューブ: 2.83 x 10^74
- #+END_span8
- #+END_row-fluid
- #+END_container-fluid
+  5x5x5のルービックキューブ: 2.83 x 10^74
+  #+END_span8
+  #+END_row-fluid
+  #+END_container-fluid
 
- # 秋葉さんのボスがいるかもしれない
+  # 秋葉さんのボスがいるかもしれない
 
- #+BEGIN_note
- Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
- #+END_note
+  #+BEGIN_note
+  Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
+  #+END_note
 
-** 第五世代コンピュータとの違いは?
+*** 第五世代コンピュータとの違いは?
 
- 第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
+  第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
 
- ハードの問題ではなく、 根本的なソフトウェア技術、 *探索技術* が未発達だった
+  ハードの問題ではなく、 根本的なソフトウェア技術、 *探索技術* が未発達だった
 
- | 第五世代                      | 現在                                |
- |-------------------------------+-------------------------------------|
- | 後方 *全探索* +バックトラック | *前方ヒューリスティック探索*        |
- | 問題ごとに手書きのcutで枝刈り | 汎用下界関数                        |
- | Prologベース                  | C/C++で高度に最適化されたプログラム |
- |                               | State packing, 決定木, mutex...     |
+  | 第五世代                      | 現在                                |
+  |-------------------------------+-------------------------------------|
+  | 後方 *全探索* +バックトラック | *前方ヒューリスティック探索*        |
+  | 問題ごとに手書きのcutで枝刈り | 汎用下界関数                        |
+  | Prologベース                  | C/C++で高度に最適化されたプログラム |
+  |                               | State packing, 決定木, mutex...     |
 
- 今はベンチマーク問題 *1104問* のうち 5分で *800問* 前後解ける
+  今はベンチマーク問題 *1104問* のうち 5分で *800問* 前後解ける
 
- 仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けない*
+  仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けない*
 
-** 似たような研究は誰がやっているか
+*** 似たような研究は誰がやっているか
 
- *ICAPS*, *SoCS* : 例年200人-300人の参加者を集めており大変盛況, 
+  *ICAPS*, *SoCS* : 例年200人-300人の参加者を集めており大変盛況, 
 
- *AAAI*, *IJCAI* : プランニングに関する論文は例年数十本採択 Proceedingsの一つの章
+  *AAAI*, *IJCAI* : プランニングに関する論文は例年数十本採択 Proceedingsの一つの章
 
- *JAIR*, *AIJ* (トップジャーナル) : 同様に多い (JAIR Volume 54: 12本中 2本 がプランニング)
+  *JAIR*, *AIJ* (トップジャーナル) : 同様に多い (JAIR Volume 54: 12本中 2本 がプランニング)
 
- *主な研究室*:
+  *主な研究室*:
 
- MIT CSAIL (Brian Williams), Carnegie-Mellon, 
+  MIT CSAIL (Brian Williams), Carnegie-Mellon, 
 
- NASA (NASA Ames および NASA/Caltech JPL のそれぞれに20名以上の研究者)
+  NASA (NASA Ames および NASA/Caltech JPL のそれぞれに20名以上の研究者)
 
- 欧州宇宙機関(ESA)
+  欧州宇宙機関(ESA)
 
- King's College London, U. Freiburg, U. Bazel, U. Toronto, U. Ben-Gurion
+  King's College London, U. Freiburg, U. Bazel, U. Toronto, U. Ben-Gurion
 
- 指導教員は NASA JPL AI Lab の元メンバー
+  指導教員は NASA JPL AI Lab の元メンバー
 
-** 国内で誰が似たようなことをやっているか
+*** 国内で誰が似たようなことをやっているか
 
 *この専門分野をやっている人はほぼいない*
 
@@ -980,21 +922,21 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
 + ERATO グラフ探索(explicit graph)系, 大規模知識処理系 : 河原林健一先生 (NII), 秋葉先生, 湊先生(北海道)
 + ゲーム系 金子先生 (総合文化研究科)
 
-** 汎用性を失わずに解く?
+*** 汎用性を失わずに解く?
 
- *No Free Lunch 定理*: 最適化アルゴリズムの性能は *全問題の平均を取れば* 全て同じ
+  *No Free Lunch 定理*: 最適化アルゴリズムの性能は *全問題の平均を取れば* 全て同じ
 
- Q. NFL定理のもとで「汎用性を失わずに高速に解く」というのは不可能?
+  Q. NFL定理のもとで「汎用性を失わずに高速に解く」というのは不可能?
 
- A. NFL定理は確かにそのように主張するが、プランニング分野の意味する「汎用性」は
+  A. NFL定理は確かにそのように主張するが、プランニング分野の意味する「汎用性」は
 
- *実問題(人間にとって有意義な問題の集合)* における汎用性である。
+  *実問題(人間にとって有意義な問題の集合)* における汎用性である。
 
- #+BEGIN_center
- 全プランニング問題の集合 ⊇ 人間にとって有意義な問題の集合
- #+END_center
+  #+BEGIN_center
+  全プランニング問題の集合 ⊇ 人間にとって有意義な問題の集合
+  #+END_center
 
- 従って、 *全問題の平均を取れば* という前提が成り立たない。
+  従って、 *全問題の平均を取れば* という前提が成り立たない。
 
 ** AIの倫理について
   
@@ -1004,6 +946,29 @@ DQN = Subsymbolic (DLNN) + 強化学習 (DLNN)
   + 人が与えるゴールについての倫理的問題 (→ 兵器使用)
 + 価値判断は与えられる入力の中にある = 使用者の価値観/データのバイアスを反映
 + 悪用の問題はある。しかし、自分としては、災害救助ロボットなど、人道的な応用を目指している
+
+** ベンチャー?
+
+ベンチャーで大切なのは *顧客* *速さ* *アイディア*
+
+何を *やらない* か:
+
++ 研究目的のベンチャー /if all you have is a hammer, everything looks like a nail/
++ 請け負い / スモールビジネス (国内ベンチャーの多く)
++ 多目的の複雑な製品 / 過剰サービス ()
+
+おそらく生活に密接した自動エージェント
+
+** ライフワーク: 人はより自由に創作/研究できるべきである
+
+上記の目標を達成したらの話
+
++ 人/機械 は、 *ひとつの課題でキャッシュを有効利用* すると *最大パフォーマンス*
++ 今でさえ distraction が多すぎる (プレゼン準備, 事務書類, 論文締め切り)
++ プレゼン、論文 は *知の伝播/蓄積* のために必要だが、 *研究の本質* ではない
++ プレゼン、論文の形式記述化と自動生成
+  + *主張を適切な順序で並べるプランニング問題*
+  + 現代の研究活動で最も「時給単価が高い人間の手作業」を要する分野
 
 ** LatPlan 関連
 
