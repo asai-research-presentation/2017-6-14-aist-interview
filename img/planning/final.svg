@@ -141,8 +141,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.91088174"
-     inkscape:cx="534.98201"
-     inkscape:cy="411.92761"
+     inkscape:cx="315.05529"
+     inkscape:cy="348.49798"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -161,7 +161,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -341,7 +341,7 @@
    style="font-style:normal;font-size:25.36434937px;-inkscape-font-specification:'M+ 2c Bold';text-align:center;text-anchor:middle"
    id="tspan3190">プラン</tspan></tspan></text>
     <image
-       y="122.1614"
+       y="148.55521"
        x="565.1604"
        id="image5907"
        xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAC9AQsDASIA AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3 ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3 uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDyCSoG NTyVA1MRGaaTTjTTQAhptLSGgAooooASiiigAooooAKKKKACm06m0CCiiigAooooAKKKKACiiigA ooooAdRRRQAUopKUUDHCnCminCgCZKnqBKmoAJagap5KhagCI02nmmGgBppKcaaaAEpaKKAEoooo AKKKKACikxTwP46AGYpK+lG+EOjan8OrK2gt0g1j7Kki3a9XlKgkNzyCTj2r5yuLd7ed4ZUZZY2K OrdQwOCD9CKtxXRkRlfcgop1NqCgooooAKKKKACiiigAooooAdRRSg/59Oc8fl+tACUopKUUDHCn Cm04UATJU9QJVigBslQtU0lQtQBEabTjTTQAlNNOpKAEooooAKSlooAKKKKAAVLGKjFSRmgD7K8F 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 "
@@ -349,26 +349,21 @@
        width="150.01791" />
     <text
        xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:27.5px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;enable-background:accumulate"
-       x="720.51562"
-       y="127.71562"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16.25px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="722.23163"
+       y="185.26883"
        id="text5910"
        sodipodi:linespacing="115%"><tspan
          sodipodi:role="line"
-         x="720.51562"
-         y="127.71562"
+         x="722.23163"
+         y="185.26883"
          id="tspan5914"
-         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:27.5px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Bold';text-align:start;text-anchor:start;fill:#000000">Deep Space 1</tspan><tspan
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16.25px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate">Deep Space 1</tspan><tspan
          sodipodi:role="line"
-         x="720.51562"
-         y="159.34062"
-         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:27.5px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Bold';text-align:start;text-anchor:start;fill:#000000"
-         id="tspan5619">(Muscettola</tspan><tspan
-         sodipodi:role="line"
-         x="720.51562"
-         y="190.96562"
-         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:27.5px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Bold';text-align:start;text-anchor:start;fill:#000000"
-         id="tspan3929"> et al. '98)</tspan></text>
+         x="722.23163"
+         y="203.95633"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16.25px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="tspan3929">(Muscettola et al. '98)</tspan></text>
     <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
@@ -559,16 +554,16 @@
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;marker:none;enable-background:accumulate"
        x="723.5636"
-       y="37.185928"
+       y="25.109718"
        id="text3564"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3566"
          x="723.5636"
-         y="37.185928">プランニングの</tspan><tspan
+         y="25.109718">プランニングの</tspan><tspan
          sodipodi:role="line"
          x="723.5636"
-         y="87.185928"
+         y="75.109718"
          id="tspan3568">応用実績</tspan></text>
     <text
        xml:space="preserve"
@@ -650,20 +645,86 @@
          id="tspan4268" /></text>
     <text
        xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:27.5px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Bold';text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.49000001px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:end;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="783.09326"
-       y="256.97058"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16.25px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:end;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="750.96667"
+       y="274.9584"
        id="text5916"
        sodipodi:linespacing="115%"><tspan
          sodipodi:role="line"
-         x="782.60327"
-         y="256.97058"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:27.5px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Bold';text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.49000001px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:end;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         x="750.96667"
+         y="274.9584"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16.25px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:end;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          id="tspan5609">Mars Exploration Rover</tspan><tspan
          sodipodi:role="line"
-         x="782.60327"
-         y="288.59558"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:27.5px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Bold';text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.49000001px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:end;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         x="750.96667"
+         y="293.64587"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16.25px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:end;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          id="tspan5613">(Bresina et al. '05)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.5px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="595.67102"
+       y="114.43433"
+       id="text4537"
+       sodipodi:linespacing="115%"><tspan
+         sodipodi:role="line"
+         id="tspan4539"
+         x="595.67102"
+         y="114.43433">衛星/探査機の自動運行</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;"
+       x="770.46606"
+       y="388.0733"
+       id="text4561"
+       sodipodi:linespacing="115%"><tspan
+         sodipodi:role="line"
+         id="tspan4563"
+         x="770.46606"
+         y="388.0733">(クラッキング)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="625.323"
+       y="329.07541"
+       id="text4565"
+       sodipodi:linespacing="115%"><tspan
+         sodipodi:role="line"
+         id="tspan4567"
+         x="625.323"
+         y="329.07541">(企業名)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16.25px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.49000001px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="592.37286"
+       y="140.43736"
+       id="text4587"
+       sodipodi:linespacing="115%"><tspan
+         sodipodi:role="line"
+         x="592.37286"
+         y="140.43736"
+         id="tspan4593">通信に光速でも20分かかる</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16.25px;line-height:114.99999762%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.49000001px;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="753.21088"
+       y="161.71115"
+       id="text4597"
+       sodipodi:linespacing="115%"><tspan
+         sodipodi:role="line"
+         id="tspan4599"
+         x="753.21088"
+         y="161.71115">→自律対処が必要</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;line-height:125%;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#2d2d2d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="288.73123"
+       y="402.38928"
+       id="text4272"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4274"
+         x="288.73123"
+         y="402.38928">(STRIPS)</tspan></text>
   </g>
 </svg>
